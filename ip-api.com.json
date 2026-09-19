@@ -1,0 +1,89 @@
+{
+  "url": "https://ip-api.com",
+  "canonicalURL": "https://ip-api.com",
+  "httpStatus": 200,
+  "timestamp": "2026-09-19T07:33:49.571Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": false,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 12,
+  "uniqueDomains": 3,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 2
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://ip-api.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "ip-api.com",
+        "ip": "208.95.112.1",
+        "hostname": "ip-api.com",
+        "city": "Royal Pines",
+        "region": "North Carolina",
+        "country": "US",
+        "loc": "35.4835,-82.5207",
+        "org": "AS53334 Total Uptime Technologies, LLC",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://k587l6ds6zuugl5b62jwctjqw7sgzv91.edns.ip-api.com/json?lang=en",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "k587l6ds6zuugl5b62jwctjqw7sgzv91.edns.ip-api.com",
+        "ip": "85.10.196.124",
+        "hostname": "edns.ip-api.com",
+        "city": "Nuremberg",
+        "region": "Bavaria",
+        "country": "DE",
+        "loc": "49.4542,11.0775",
+        "org": "AS24940 Hetzner Online GmbH",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/cloud"
+    },
+    {
+      "originalUrl": "https://demo.ip-api.com/json/?fields=66842623&lang=en",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "demo.ip-api.com",
+        "ip": "208.95.112.1",
+        "hostname": "ip-api.com",
+        "city": "Royal Pines",
+        "region": "North Carolina",
+        "country": "US",
+        "loc": "35.4835,-82.5207",
+        "org": "AS53334 Total Uptime Technologies, LLC",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/direct"
+    }
+  ]
+}

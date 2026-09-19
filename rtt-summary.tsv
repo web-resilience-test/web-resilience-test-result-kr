@@ -1,0 +1,13 @@
+metric	count	denominator	percent
+successful_sites	152		
+raw_http_requests	22649		
+domain_observations	2498		
+sites_with_rtt_fallback	116	successful_sites	76.3%
+rtt_fallback_observations	692	domain_observations	27.7%
+rtt_measured_observations	504	rtt_fallback_observations	72.8%
+rtt_failed_observations	188	rtt_fallback_observations	27.2%
+rtt_below_15ms	11	rtt_measured_observations	2.2%
+rtt_at_or_above_15ms	493	rtt_measured_observations	97.8%
+unique_rtt_domains	271		
+unique_rtt_ips	338		
+sites_stable_across_10_15_20ms	152	successful_sites	100.0%

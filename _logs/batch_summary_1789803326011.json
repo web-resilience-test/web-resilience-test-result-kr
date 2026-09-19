@@ -1,0 +1,4088 @@
+{
+  "timestamp": "2026-09-19T07:35:26.011Z",
+  "argument": "node batch-test.js --limit 200 --start-from 0 --cache false --adblock-url 'https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt' top-traffic-list-korea/merged_lists_kr.json",
+  "options": {
+    "testListPath": "top-traffic-list-korea/merged_lists_kr.json",
+    "limit": 200,
+    "startFrom": 0,
+    "delayMs": 1000,
+    "concurrency": 4,
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": false,
+    "timeout": 120000,
+    "cleanResults": false
+  },
+  "statistics": {
+    "total": 200,
+    "success": 152,
+    "failed": 0,
+    "testErrors": 48,
+    "skipped": 0
+  },
+  "results": [
+    {
+      "website": "chatgpt.com",
+      "url": "https://chatgpt.com",
+      "rank": {
+        "ahrefs": 3,
+        "cloudflare": 11,
+        "similarweb": 10,
+        "semrush": 5
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "naver.com",
+      "url": "https://naver.com",
+      "rank": {
+        "ahrefs": 2,
+        "cloudflare": 3,
+        "similarweb": 2,
+        "semrush": 3
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 11
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "google.com",
+      "url": "https://google.com",
+      "rank": {
+        "ahrefs": 6,
+        "cloudflare": 1,
+        "similarweb": 1,
+        "semrush": 2
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "instagram.com",
+      "url": "https://instagram.com",
+      "rank": {
+        "ahrefs": 5,
+        "cloudflare": 18,
+        "similarweb": 12,
+        "semrush": 6
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "facebook.com",
+      "url": "https://facebook.com",
+      "rank": {
+        "ahrefs": 24,
+        "cloudflare": 6,
+        "similarweb": 36,
+        "semrush": 11
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "youtube.com",
+      "url": "https://youtube.com",
+      "rank": {
+        "ahrefs": 4,
+        "cloudflare": 17,
+        "similarweb": 3,
+        "semrush": 1
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 7,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tistory.com",
+      "url": "https://tistory.com",
+      "rank": {
+        "ahrefs": 9,
+        "similarweb": 14,
+        "semrush": 10
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "daum.net",
+      "url": "https://daum.net",
+      "rank": {
+        "ahrefs": 10,
+        "cloudflare": 35,
+        "similarweb": 7
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 15
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "coupang.com",
+      "url": "https://coupang.com",
+      "rank": {
+        "ahrefs": 18,
+        "cloudflare": 38,
+        "similarweb": 6
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ssg.com",
+      "url": "https://ssg.com",
+      "rank": {
+        "ahrefs": 93,
+        "cloudflare": 80,
+        "similarweb": 35,
+        "semrush": 92
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 22,
+          "direct": 16
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "x.com",
+      "url": "https://x.com",
+      "rank": {
+        "ahrefs": 20,
+        "similarweb": 23,
+        "semrush": 4
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "openai.com",
+      "url": "https://openai.com",
+      "rank": {
+        "ahrefs": 15,
+        "cloudflare": 13,
+        "semrush": 40
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "aliexpress.com",
+      "url": "https://aliexpress.com",
+      "rank": {
+        "ahrefs": 37,
+        "similarweb": 18,
+        "semrush": 16
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 18,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 20,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "nate.com",
+      "url": "https://nate.com",
+      "rank": {
+        "ahrefs": 43,
+        "similarweb": 16,
+        "semrush": 22
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 10,
+          "direct": 13
+        },
+        "foreign": {
+          "cloud": 5,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "gmarket.co.kr",
+      "url": "https://gmarket.co.kr",
+      "rank": {
+        "tranco": 5751,
+        "cloudflare": 32,
+        "similarweb": 30,
+        "semrush": 28
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 19
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "kakao.com",
+      "url": "https://kakao.com",
+      "rank": {
+        "ahrefs": 73,
+        "cloudflare": 15,
+        "similarweb": 9
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "inven.co.kr",
+      "url": "https://inven.co.kr",
+      "rank": {
+        "tranco": 1449,
+        "ahrefs": 42,
+        "similarweb": 29,
+        "semrush": 13
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 11
+        },
+        "foreign": {
+          "cloud": 9,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "wikipedia.org",
+      "url": "https://wikipedia.org",
+      "rank": {
+        "ahrefs": 7,
+        "similarweb": 43,
+        "semrush": 55
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "apple.com",
+      "url": "https://apple.com",
+      "rank": {
+        "ahrefs": 14,
+        "cloudflare": 9,
+        "semrush": 97
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "google.co.kr",
+      "url": "https://google.co.kr",
+      "rank": {
+        "tranco": 5276,
+        "cloudflare": 25,
+        "similarweb": 45,
+        "semrush": 45
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "nexon.com",
+      "url": "https://nexon.com",
+      "rank": {
+        "ahrefs": 63,
+        "similarweb": 34,
+        "semrush": 15
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 11,
+          "direct": 6
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "netflix.com",
+      "url": "https://netflix.com",
+      "rank": {
+        "ahrefs": 48,
+        "similarweb": 28,
+        "semrush": 37
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 9,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 7,
+          "direct": 6
+        }
+      }
+    },
+    {
+      "website": "donga.com",
+      "url": "https://donga.com",
+      "rank": {
+        "ahrefs": 83,
+        "similarweb": 19,
+        "semrush": 20
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 7,
+          "direct": 3
+        }
+      }
+    },
+    {
+      "website": "samsung.com",
+      "url": "https://samsung.com",
+      "rank": {
+        "ahrefs": 62,
+        "similarweb": 22,
+        "semrush": 46
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 14,
+          "direct": 9
+        },
+        "foreign": {
+          "cloud": 13,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "chosun.com",
+      "url": "https://chosun.com",
+      "rank": {
+        "ahrefs": 41,
+        "similarweb": 46,
+        "semrush": 43
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 15,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 10,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "theqoo.net",
+      "url": "https://theqoo.net",
+      "rank": {
+        "ahrefs": 95,
+        "similarweb": 17,
+        "semrush": 31
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "sooplive.com",
+      "url": "https://sooplive.com",
+      "rank": {
+        "ahrefs": 75,
+        "similarweb": 25,
+        "semrush": 44
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "danawa.com",
+      "url": "https://danawa.com",
+      "rank": {
+        "ahrefs": 26,
+        "similarweb": 38,
+        "semrush": 76
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 11,
+          "direct": 13
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "claude.ai",
+      "url": "https://claude.ai",
+      "rank": {
+        "ahrefs": 58,
+        "similarweb": 41,
+        "semrush": 47
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "tiktok.com",
+      "url": "https://tiktok.com",
+      "rank": {
+        "ahrefs": 21,
+        "cloudflare": 70,
+        "semrush": 59
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "11st.co.kr",
+      "url": "https://11st.co.kr",
+      "rank": {
+        "tranco": 14548,
+        "cloudflare": 34,
+        "similarweb": 49,
+        "semrush": 87
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "github.com",
+      "url": "https://github.com",
+      "rank": {
+        "ahrefs": 55,
+        "cloudflare": 63,
+        "semrush": 69
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "dcinside.com",
+      "url": "https://dcinside.com",
+      "rank": {
+        "ahrefs": 8,
+        "similarweb": 4
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 5,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "clien.net",
+      "url": "https://clien.net",
+      "rank": {
+        "ahrefs": 68,
+        "similarweb": 42,
+        "semrush": 73
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 13,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 13,
+          "direct": 5
+        }
+      }
+    },
+    {
+      "website": "namu.wiki",
+      "url": "https://namu.wiki",
+      "rank": {
+        "ahrefs": 1,
+        "similarweb": 5
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 10,
+          "direct": 5
+        }
+      }
+    },
+    {
+      "website": "fmkorea.com",
+      "url": "https://fmkorea.com",
+      "rank": {
+        "ahrefs": 25,
+        "similarweb": 11
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "microsoft.com",
+      "url": "https://microsoft.com",
+      "rank": {
+        "ahrefs": 23,
+        "cloudflare": 5
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 11,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 16,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "reddit.com",
+      "url": "https://reddit.com",
+      "rank": {
+        "ahrefs": 16,
+        "semrush": 18
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 14,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "arca.live",
+      "url": "https://arca.live",
+      "rank": {
+        "ahrefs": 28,
+        "similarweb": 20
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "bing.com",
+      "url": "https://bing.com",
+      "rank": {
+        "cloudflare": 20,
+        "semrush": 39
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "newtoki1.org",
+      "url": "https://newtoki1.org",
+      "rank": {
+        "ahrefs": 19,
+        "semrush": 41
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "temu.com",
+      "url": "https://temu.com",
+      "rank": {
+        "similarweb": 27,
+        "semrush": 34
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "tvmon1.com",
+      "url": "https://tvmon1.com",
+      "rank": {
+        "ahrefs": 57,
+        "semrush": 21
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "cloudflare.com",
+      "url": "https://cloudflare.com",
+      "rank": {
+        "ahrefs": 69,
+        "cloudflare": 10
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "msn.com",
+      "url": "https://msn.com",
+      "rank": {
+        "cloudflare": 53,
+        "semrush": 12
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 21,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 14,
+          "direct": 3
+        }
+      }
+    },
+    {
+      "website": "ppomppu.co.kr",
+      "url": "https://ppomppu.co.kr",
+      "rank": {
+        "tranco": 1859,
+        "similarweb": 31,
+        "semrush": 35
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "op.gg",
+      "url": "https://op.gg",
+      "rank": {
+        "ahrefs": 13,
+        "semrush": 68
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 11,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "buzzvil.com",
+      "url": "https://buzzvil.com",
+      "rank": {
+        "similarweb": 47,
+        "semrush": 32
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "dhlottery.co.kr",
+      "url": "https://dhlottery.co.kr",
+      "rank": {
+        "tranco": 12242,
+        "similarweb": 40,
+        "semrush": 49
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "pinterest.com",
+      "url": "https://pinterest.com",
+      "rank": {
+        "ahrefs": 22,
+        "semrush": 67
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "lotteon.com",
+      "url": "https://lotteon.com",
+      "rank": {
+        "similarweb": 33,
+        "semrush": 64
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 13,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 9,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "toss.im",
+      "url": "https://toss.im",
+      "rank": {
+        "cloudflare": 24,
+        "semrush": 89
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ruliweb.com",
+      "url": "https://ruliweb.com",
+      "rank": {
+        "ahrefs": 97,
+        "similarweb": 26
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 9
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "oliveyoung.co.kr",
+      "url": "https://oliveyoung.co.kr",
+      "rank": {
+        "tranco": 28122,
+        "similarweb": 39,
+        "semrush": 72
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 23,
+          "direct": 14
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "kurly.com",
+      "url": "https://kurly.com",
+      "rank": {
+        "similarweb": 32,
+        "semrush": 91
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 13,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "anilife.app",
+      "url": "https://anilife.app",
+      "rank": {
+        "ahrefs": 67,
+        "semrush": 66
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.anilife.app/\nCall log:\n\u001b[2m  - navigating to \"https://www.anilife.app/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "discord.com",
+      "url": "https://discord.com",
+      "rank": {
+        "ahrefs": 49,
+        "semrush": 83
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "weather.go.kr",
+      "url": "https://weather.go.kr",
+      "rank": {
+        "tranco": 31844,
+        "ahrefs": 45,
+        "similarweb": 37,
+        "semrush": 75
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "googleapis.com",
+      "url": "https://googleapis.com",
+      "rank": {
+        "cloudflare": 2
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "gstatic.com",
+      "url": "https://gstatic.com",
+      "rank": {
+        "cloudflare": 4
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "appier.net",
+      "url": "https://appier.net",
+      "rank": {
+        "cloudflare": 85,
+        "semrush": 24
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 20,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "doubleclick.net",
+      "url": "https://doubleclick.net",
+      "rank": {
+        "cloudflare": 8
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "trip.com",
+      "url": "https://trip.com",
+      "rank": {
+        "ahrefs": 82,
+        "semrush": 74
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 16
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "enrtx.com",
+      "url": "https://enrtx.com",
+      "rank": {
+        "semrush": 8
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.enrtx.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.enrtx.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "news.naver.com",
+      "url": "https://news.naver.com",
+      "rank": {
+        "similarweb": 8
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "missav123.com",
+      "url": "https://missav123.com",
+      "rank": {
+        "semrush": 9
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.missav123.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.missav123.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "canva.com",
+      "url": "https://canva.com",
+      "rank": {
+        "ahrefs": 11
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "googlevideo.com",
+      "url": "https://googlevideo.com",
+      "rank": {
+        "cloudflare": 12
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "blacktoonurl.org",
+      "url": "https://blacktoonurl.org",
+      "rank": {
+        "ahrefs": 12
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "gemini.google.com",
+      "url": "https://gemini.google.com",
+      "rank": {
+        "similarweb": 13
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 9,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "yasyadong02.tv",
+      "url": "https://yasyadong02.tv",
+      "rank": {
+        "semrush": 14
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "map.naver.com",
+      "url": "https://map.naver.com",
+      "rank": {
+        "similarweb": 15
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 10
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "criteo.com",
+      "url": "https://criteo.com",
+      "rank": {
+        "cloudflare": 14
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 37,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 15,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "av19t.com",
+      "url": "https://av19t.com",
+      "rank": {
+        "semrush": 17
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "amazonaws.com",
+      "url": "https://amazonaws.com",
+      "rank": {
+        "cloudflare": 16
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 15,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "googletagmanager.com",
+      "url": "https://googletagmanager.com",
+      "rank": {
+        "cloudflare": 19
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "kissjav.li",
+      "url": "https://kissjav.li",
+      "rank": {
+        "semrush": 19
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.kissjav.li/\nCall log:\n\u001b[2m  - navigating to \"https://www.kissjav.li/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "akadns.net",
+      "url": "https://akadns.net",
+      "rank": {
+        "cloudflare": 21
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akadns.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akadns.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "investing.com",
+      "url": "https://investing.com",
+      "rank": {
+        "ahrefs": 17
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 27,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 13,
+          "direct": 3
+        }
+      }
+    },
+    {
+      "website": "sports.naver.com",
+      "url": "https://sports.naver.com",
+      "rank": {
+        "similarweb": 21
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 12
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "pstatic.net",
+      "url": "https://pstatic.net",
+      "rank": {
+        "cloudflare": 7
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.pstatic.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.pstatic.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "kakaocdn.net",
+      "url": "https://kakaocdn.net",
+      "rank": {
+        "cloudflare": 22
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "abr.ge",
+      "url": "https://abr.ge",
+      "rank": {
+        "semrush": 23
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "googlesyndication.com",
+      "url": "https://googlesyndication.com",
+      "rank": {
+        "cloudflare": 23
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "pornhub.com",
+      "url": "https://pornhub.com",
+      "rank": {
+        "semrush": 25
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.pornhub.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.pornhub.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "apple-dns.net",
+      "url": "https://apple-dns.net",
+      "rank": {
+        "cloudflare": 26
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.apple-dns.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.apple-dns.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "aaplimg.com",
+      "url": "https://aaplimg.com",
+      "rank": {
+        "cloudflare": 27
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.aaplimg.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.aaplimg.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "dogdrip.net",
+      "url": "https://dogdrip.net",
+      "rank": {
+        "semrush": 26
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 5,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "kone.gg",
+      "url": "https://kone.gg",
+      "rank": {
+        "semrush": 27
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "roblox.com",
+      "url": "https://roblox.com",
+      "rank": {
+        "ahrefs": 27
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 6
+        }
+      }
+    },
+    {
+      "website": "cloudflare-dns.com",
+      "url": "https://cloudflare-dns.com",
+      "rank": {
+        "cloudflare": 28
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "weather.com",
+      "url": "https://weather.com",
+      "rank": {
+        "semrush": 7
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 84,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 86,
+          "direct": 64
+        }
+      }
+    },
+    {
+      "website": "news.nate.com",
+      "url": "https://news.nate.com",
+      "rank": {
+        "similarweb": 24
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 9,
+          "direct": 9
+        },
+        "foreign": {
+          "cloud": 10,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "facebook.net",
+      "url": "https://facebook.net",
+      "rank": {
+        "cloudflare": 29
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.facebook.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.facebook.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "blacktoon418.com",
+      "url": "https://blacktoon418.com",
+      "rank": {
+        "semrush": 29
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.blacktoon418.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.blacktoon418.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googleusercontent.com",
+      "url": "https://googleusercontent.com",
+      "rank": {
+        "cloudflare": 30
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "adobe.com",
+      "url": "https://adobe.com",
+      "rank": {
+        "ahrefs": 30
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "gvt2.com",
+      "url": "https://gvt2.com",
+      "rank": {
+        "cloudflare": 31
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gvt2.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.gvt2.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "gmarket.com",
+      "url": "https://gmarket.com",
+      "rank": {
+        "semrush": 30
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 7,
+          "direct": 19
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "icloud.com",
+      "url": "https://icloud.com",
+      "rank": {
+        "cloudflare": 33
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "jobkorea.co.kr",
+      "url": "https://jobkorea.co.kr",
+      "rank": {
+        "tranco": 23494,
+        "ahrefs": 32
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tvwiki1.org",
+      "url": "https://tvwiki1.org",
+      "rank": {
+        "ahrefs": 29
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "twidouga.net",
+      "url": "https://twidouga.net",
+      "rank": {
+        "semrush": 33
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "lolchess.gg",
+      "url": "https://lolchess.gg",
+      "rank": {
+        "ahrefs": 31
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 31,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 14,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "주소랜드.com",
+      "url": "https://주소랜드.com",
+      "rank": {
+        "ahrefs": 35
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "adison.co",
+      "url": "https://adison.co",
+      "rank": {
+        "semrush": 36
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "gvt1.com",
+      "url": "https://gvt1.com",
+      "rank": {
+        "cloudflare": 36
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gvt1.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.gvt1.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "coupangcdn.com",
+      "url": "https://coupangcdn.com",
+      "rank": {
+        "cloudflare": 37
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.coupangcdn.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.coupangcdn.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "go.link",
+      "url": "https://go.link",
+      "rank": {
+        "semrush": 38
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "amazon.com",
+      "url": "https://amazon.com",
+      "rank": {
+        "ahrefs": 36
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "akamai.net",
+      "url": "https://akamai.net",
+      "rank": {
+        "cloudflare": 39
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akamai.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akamai.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "deeplol.gg",
+      "url": "https://deeplol.gg",
+      "rank": {
+        "ahrefs": 34
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 57,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 57,
+          "direct": 45
+        }
+      }
+    },
+    {
+      "website": "notion.com",
+      "url": "https://notion.com",
+      "rank": {
+        "ahrefs": 38
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "ytimg.com",
+      "url": "https://ytimg.com",
+      "rank": {
+        "cloudflare": 40
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ytimg.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.ytimg.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "alphasquare.co.kr",
+      "url": "https://alphasquare.co.kr",
+      "rank": {
+        "tranco": 200065,
+        "ahrefs": 39
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "app-analytics-services.com",
+      "url": "https://app-analytics-services.com",
+      "rank": {
+        "cloudflare": 41
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.app-analytics-services.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.app-analytics-services.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "fbcdn.net",
+      "url": "https://fbcdn.net",
+      "rank": {
+        "cloudflare": 42
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "nimi.wiki",
+      "url": "https://nimi.wiki",
+      "rank": {
+        "semrush": 42
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "google-analytics.com",
+      "url": "https://google-analytics.com",
+      "rank": {
+        "cloudflare": 43
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "hulk24.com",
+      "url": "https://hulk24.com",
+      "rank": {
+        "ahrefs": 44
+      },
+      "status": "error",
+      "errorReason": "HTTP 403 Error",
+      "errorDetails": {
+        "message": "HTTP 403 ",
+        "statusCode": "403"
+      }
+    },
+    {
+      "website": "weather.naver.com",
+      "url": "https://weather.naver.com",
+      "rank": {
+        "similarweb": 44
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tving.com",
+      "url": "https://tving.com",
+      "rank": {
+        "ahrefs": 40
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 19,
+          "direct": 11
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "app-measurement.com",
+      "url": "https://app-measurement.com",
+      "rank": {
+        "cloudflare": 45
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.app-measurement.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.app-measurement.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "011st.com",
+      "url": "https://011st.com",
+      "rank": {
+        "cloudflare": 46
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "kyobobook.co.kr",
+      "url": "https://kyobobook.co.kr",
+      "rank": {
+        "tranco": 35529,
+        "ahrefs": 46
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "office.com",
+      "url": "https://office.com",
+      "rank": {
+        "cloudflare": 44
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 11,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "saramin.co.kr",
+      "url": "https://saramin.co.kr",
+      "rank": {
+        "tranco": 18869,
+        "ahrefs": 47
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tiktokv.com",
+      "url": "https://tiktokv.com",
+      "rank": {
+        "cloudflare": 47
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "appsflyersdk.com",
+      "url": "https://appsflyersdk.com",
+      "rank": {
+        "cloudflare": 48
+      },
+      "status": "error",
+      "errorReason": "HTTP 403 Error",
+      "errorDetails": {
+        "message": "HTTP 403 ",
+        "statusCode": "403"
+      }
+    },
+    {
+      "website": "akamaiedge.net",
+      "url": "https://akamaiedge.net",
+      "rank": {
+        "cloudflare": 49
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akamaiedge.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akamaiedge.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "map.kakao.com",
+      "url": "https://map.kakao.com",
+      "rank": {
+        "similarweb": 48
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "cafe24.com",
+      "url": "https://cafe24.com",
+      "rank": {
+        "similarweb": 50
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "k-hentai.org",
+      "url": "https://k-hentai.org",
+      "rank": {
+        "semrush": 50
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.k-hentai.org/\nCall log:\n\u001b[2m  - navigating to \"https://www.k-hentai.org/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "야코레드바로가기.com",
+      "url": "https://야코레드바로가기.com",
+      "rank": {
+        "ahrefs": 50
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "avsee.ru",
+      "url": "https://avsee.ru",
+      "rank": {
+        "semrush": 48
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.avsee.ru/\nCall log:\n\u001b[2m  - navigating to \"https://www.avsee.ru/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "avsee.is",
+      "url": "https://avsee.is",
+      "rank": {
+        "semrush": 51
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.avsee.is/\nCall log:\n\u001b[2m  - navigating to \"https://www.avsee.is/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "live.com",
+      "url": "https://live.com",
+      "rank": {
+        "cloudflare": 51
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tossinvest.com",
+      "url": "https://tossinvest.com",
+      "rank": {
+        "ahrefs": 51
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "avdbs.com",
+      "url": "https://avdbs.com",
+      "rank": {
+        "semrush": 52
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "sentry.io",
+      "url": "https://sentry.io",
+      "rank": {
+        "cloudflare": 52
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "nara-speller.co.kr",
+      "url": "https://nara-speller.co.kr",
+      "rank": {
+        "tranco": 280467,
+        "ahrefs": 52
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 11
+        }
+      }
+    },
+    {
+      "website": "yandex.com",
+      "url": "https://yandex.com",
+      "rank": {
+        "semrush": 53
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "wise.com",
+      "url": "https://wise.com",
+      "rank": {
+        "ahrefs": 53
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 10,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 7,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "humoruniv.com",
+      "url": "https://humoruniv.com",
+      "rank": {
+        "semrush": 54
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 5
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "adtrafficquality.google",
+      "url": "https://adtrafficquality.google",
+      "rank": {
+        "cloudflare": 54
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "cloudfront.net",
+      "url": "https://cloudfront.net",
+      "rank": {
+        "cloudflare": 55
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cloudfront.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.cloudfront.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "korean.net",
+      "url": "https://korean.net",
+      "rank": {
+        "ahrefs": 54
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "glamov.com",
+      "url": "https://glamov.com",
+      "rank": {
+        "semrush": 56
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ikasa.com.pl",
+      "url": "https://ikasa.com.pl",
+      "rank": {
+        "ahrefs": 56
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "run.app",
+      "url": "https://run.app",
+      "rank": {
+        "cloudflare": 56
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "navercorp.com",
+      "url": "https://navercorp.com",
+      "rank": {
+        "cloudflare": 57
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 8
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "njavtv.com",
+      "url": "https://njavtv.com",
+      "rank": {
+        "semrush": 57
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.njavtv.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.njavtv.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "statsigapi.net",
+      "url": "https://statsigapi.net",
+      "rank": {
+        "cloudflare": 58
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.statsigapi.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.statsigapi.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "cdninstagram.com",
+      "url": "https://cdninstagram.com",
+      "rank": {
+        "cloudflare": 59
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cdninstagram.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.cdninstagram.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "yamimoto.com",
+      "url": "https://yamimoto.com",
+      "rank": {
+        "ahrefs": 33
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_TIMED_OUT",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.yamimoto.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.yamimoto.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "auction.co.kr",
+      "url": "https://auction.co.kr",
+      "rank": {
+        "tranco": 16024,
+        "cloudflare": 50
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 19
+        },
+        "foreign": {
+          "cloud": 3,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ohou.se",
+      "url": "https://ohou.se",
+      "rank": {
+        "semrush": 58
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 25,
+          "direct": 15
+        },
+        "foreign": {
+          "cloud": 10,
+          "direct": 3
+        }
+      }
+    },
+    {
+      "website": "brunch.co.kr",
+      "url": "https://brunch.co.kr",
+      "rank": {
+        "tranco": 30003,
+        "ahrefs": 60
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 7
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "perplexity.ai",
+      "url": "https://perplexity.ai",
+      "rank": {
+        "ahrefs": 59
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ipify.org",
+      "url": "https://ipify.org",
+      "rank": {
+        "cloudflare": 61
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 20,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 5,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "spotv24.com",
+      "url": "https://spotv24.com",
+      "rank": {
+        "semrush": 61
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.spotv24.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.spotv24.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "kgirls.net",
+      "url": "https://kgirls.net",
+      "rank": {
+        "semrush": 60
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 9,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 11,
+          "direct": 4
+        }
+      }
+    },
+    {
+      "website": "deepai.org",
+      "url": "https://deepai.org",
+      "rank": {
+        "ahrefs": 61
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 13,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 6,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "pubmatic.com",
+      "url": "https://pubmatic.com",
+      "rank": {
+        "cloudflare": 60
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 13,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "xvideos.com",
+      "url": "https://xvideos.com",
+      "rank": {
+        "semrush": 62
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.xvideos.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.xvideos.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "tckopke.com",
+      "url": "https://tckopke.com",
+      "rank": {
+        "semrush": 63
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "a14c.com",
+      "url": "https://a14c.com",
+      "rank": {
+        "ahrefs": 65
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.a14c.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.a14c.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "ilovepdf.com",
+      "url": "https://ilovepdf.com",
+      "rank": {
+        "ahrefs": 64
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "clarity.ms",
+      "url": "https://clarity.ms",
+      "rank": {
+        "cloudflare": 64
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "rubiconproject.com",
+      "url": "https://rubiconproject.com",
+      "rank": {
+        "cloudflare": 66
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "zeta-ai.io",
+      "url": "https://zeta-ai.io",
+      "rank": {
+        "semrush": 65
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 8,
+          "direct": 3
+        }
+      }
+    },
+    {
+      "website": "여기여주소.net",
+      "url": "https://여기여주소.net",
+      "rank": {
+        "ahrefs": 66
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ipinfo.io",
+      "url": "https://ipinfo.io",
+      "rank": {
+        "cloudflare": 67
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 3,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "ahnlab.com",
+      "url": "https://ahnlab.com",
+      "rank": {
+        "cloudflare": 65
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 5,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "edgesuite.net",
+      "url": "https://edgesuite.net",
+      "rank": {
+        "cloudflare": 69
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.edgesuite.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.edgesuite.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "adnxs.com",
+      "url": "https://adnxs.com",
+      "rank": {
+        "cloudflare": 68
+      },
+      "status": "error",
+      "errorReason": "ERR_CONNECTION_REFUSED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_REFUSED at https://www.adnxs.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.adnxs.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "lawtalknews.co.kr",
+      "url": "https://lawtalknews.co.kr",
+      "rank": {
+        "tranco": 601704,
+        "ahrefs": 71
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "pawchive.pw",
+      "url": "https://pawchive.pw",
+      "rank": {
+        "semrush": 70
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "accuweather.com",
+      "url": "https://accuweather.com",
+      "rank": {
+        "ahrefs": 70
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 2,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "unpkg.com",
+      "url": "https://unpkg.com",
+      "rank": {
+        "cloudflare": 71
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 1,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "daumcdn.net",
+      "url": "https://daumcdn.net",
+      "rank": {
+        "cloudflare": 72
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.daumcdn.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.daumcdn.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "yogiyo.co.kr",
+      "url": "https://yogiyo.co.kr",
+      "rank": {
+        "tranco": 78720,
+        "semrush": 71
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 4,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "tiktokcdn.com",
+      "url": "https://tiktokcdn.com",
+      "rank": {
+        "cloudflare": 73
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tiktokcdn.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktokcdn.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "cloud.microsoft",
+      "url": "https://cloud.microsoft",
+      "rank": {
+        "cloudflare": 74
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 4,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 9,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "hyundai.com",
+      "url": "https://hyundai.com",
+      "rank": {
+        "ahrefs": 74
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 5,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 10,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "yna.co.kr",
+      "url": "https://yna.co.kr",
+      "rank": {
+        "tranco": 7417,
+        "ahrefs": 72
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 19
+        },
+        "foreign": {
+          "cloud": 7,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "ggpht.com",
+      "url": "https://ggpht.com",
+      "rank": {
+        "cloudflare": 75
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ggpht.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.ggpht.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "ip-api.com",
+      "url": "https://ip-api.com",
+      "rank": {
+        "cloudflare": 76
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 0,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 2
+        }
+      }
+    },
+    {
+      "website": "blacktoon420.com",
+      "url": "https://blacktoon420.com",
+      "rank": {
+        "semrush": 77
+      },
+      "status": "error",
+      "errorReason": "HTTP 451 Error",
+      "errorDetails": {
+        "message": "HTTP 451 ",
+        "statusCode": "451"
+      }
+    },
+    {
+      "website": "poki.com",
+      "url": "https://poki.com",
+      "rank": {
+        "ahrefs": 76
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 0,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "criteo.net",
+      "url": "https://criteo.net",
+      "rank": {
+        "cloudflare": 77
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.criteo.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.criteo.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googleadservices.com",
+      "url": "https://googleadservices.com",
+      "rank": {
+        "cloudflare": 78
+      },
+      "status": "error",
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "topgirl.co",
+      "url": "https://topgirl.co",
+      "rank": {
+        "semrush": 78
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.topgirl.co/\nCall log:\n\u001b[2m  - navigating to \"https://www.topgirl.co/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "postype.com",
+      "url": "https://postype.com",
+      "rank": {
+        "ahrefs": 77
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 1
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    },
+    {
+      "website": "interpark.com",
+      "url": "https://interpark.com",
+      "rank": {
+        "ahrefs": 79
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 12,
+          "direct": 4
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "kgslb.com",
+      "url": "https://kgslb.com",
+      "rank": {
+        "cloudflare": 62
+      },
+      "status": "error",
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kgslb.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.kgslb.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "주소킹바로가기.net",
+      "url": "https://주소킹바로가기.net",
+      "rank": {
+        "ahrefs": 78
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "flashscore.co.kr",
+      "url": "https://flashscore.co.kr",
+      "rank": {
+        "tranco": 95300,
+        "ahrefs": 80
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 6,
+          "direct": 0
+        },
+        "foreign": {
+          "cloud": 1,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "fastly.net",
+      "url": "https://fastly.net",
+      "rank": {
+        "cloudflare": 79
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 20,
+          "direct": 2
+        },
+        "foreign": {
+          "cloud": 9,
+          "direct": 1
+        }
+      }
+    },
+    {
+      "website": "lge.co.kr",
+      "url": "https://lge.co.kr",
+      "rank": {
+        "tranco": 54405,
+        "semrush": 79
+      },
+      "status": "success",
+      "result": {
+        "domestic": {
+          "cloud": 8,
+          "direct": 3
+        },
+        "foreign": {
+          "cloud": 2,
+          "direct": 0
+        }
+      }
+    }
+  ],
+  "errorSites": [
+    {
+      "website": "anilife.app",
+      "url": "https://anilife.app",
+      "rank": {
+        "ahrefs": 67,
+        "semrush": 66
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.anilife.app/\nCall log:\n\u001b[2m  - navigating to \"https://www.anilife.app/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googleapis.com",
+      "url": "https://googleapis.com",
+      "rank": {
+        "cloudflare": 2
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "gstatic.com",
+      "url": "https://gstatic.com",
+      "rank": {
+        "cloudflare": 4
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "enrtx.com",
+      "url": "https://enrtx.com",
+      "rank": {
+        "semrush": 8
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.enrtx.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.enrtx.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "missav123.com",
+      "url": "https://missav123.com",
+      "rank": {
+        "semrush": 9
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.missav123.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.missav123.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googletagmanager.com",
+      "url": "https://googletagmanager.com",
+      "rank": {
+        "cloudflare": 19
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "kissjav.li",
+      "url": "https://kissjav.li",
+      "rank": {
+        "semrush": 19
+      },
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.kissjav.li/\nCall log:\n\u001b[2m  - navigating to \"https://www.kissjav.li/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "akadns.net",
+      "url": "https://akadns.net",
+      "rank": {
+        "cloudflare": 21
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akadns.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akadns.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "pstatic.net",
+      "url": "https://pstatic.net",
+      "rank": {
+        "cloudflare": 7
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.pstatic.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.pstatic.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "pornhub.com",
+      "url": "https://pornhub.com",
+      "rank": {
+        "semrush": 25
+      },
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.pornhub.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.pornhub.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "apple-dns.net",
+      "url": "https://apple-dns.net",
+      "rank": {
+        "cloudflare": 26
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.apple-dns.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.apple-dns.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "aaplimg.com",
+      "url": "https://aaplimg.com",
+      "rank": {
+        "cloudflare": 27
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.aaplimg.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.aaplimg.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "facebook.net",
+      "url": "https://facebook.net",
+      "rank": {
+        "cloudflare": 29
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.facebook.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.facebook.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "blacktoon418.com",
+      "url": "https://blacktoon418.com",
+      "rank": {
+        "semrush": 29
+      },
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.blacktoon418.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.blacktoon418.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googleusercontent.com",
+      "url": "https://googleusercontent.com",
+      "rank": {
+        "cloudflare": 30
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "gvt2.com",
+      "url": "https://gvt2.com",
+      "rank": {
+        "cloudflare": 31
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gvt2.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.gvt2.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "gvt1.com",
+      "url": "https://gvt1.com",
+      "rank": {
+        "cloudflare": 36
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gvt1.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.gvt1.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "coupangcdn.com",
+      "url": "https://coupangcdn.com",
+      "rank": {
+        "cloudflare": 37
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.coupangcdn.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.coupangcdn.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "go.link",
+      "url": "https://go.link",
+      "rank": {
+        "semrush": 38
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "akamai.net",
+      "url": "https://akamai.net",
+      "rank": {
+        "cloudflare": 39
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akamai.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akamai.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "ytimg.com",
+      "url": "https://ytimg.com",
+      "rank": {
+        "cloudflare": 40
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ytimg.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.ytimg.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "app-analytics-services.com",
+      "url": "https://app-analytics-services.com",
+      "rank": {
+        "cloudflare": 41
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.app-analytics-services.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.app-analytics-services.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "hulk24.com",
+      "url": "https://hulk24.com",
+      "rank": {
+        "ahrefs": 44
+      },
+      "errorReason": "HTTP 403 Error",
+      "errorDetails": {
+        "message": "HTTP 403 ",
+        "statusCode": "403"
+      }
+    },
+    {
+      "website": "app-measurement.com",
+      "url": "https://app-measurement.com",
+      "rank": {
+        "cloudflare": 45
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.app-measurement.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.app-measurement.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "appsflyersdk.com",
+      "url": "https://appsflyersdk.com",
+      "rank": {
+        "cloudflare": 48
+      },
+      "errorReason": "HTTP 403 Error",
+      "errorDetails": {
+        "message": "HTTP 403 ",
+        "statusCode": "403"
+      }
+    },
+    {
+      "website": "akamaiedge.net",
+      "url": "https://akamaiedge.net",
+      "rank": {
+        "cloudflare": 49
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akamaiedge.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.akamaiedge.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "k-hentai.org",
+      "url": "https://k-hentai.org",
+      "rank": {
+        "semrush": 50
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.k-hentai.org/\nCall log:\n\u001b[2m  - navigating to \"https://www.k-hentai.org/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "avsee.ru",
+      "url": "https://avsee.ru",
+      "rank": {
+        "semrush": 48
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.avsee.ru/\nCall log:\n\u001b[2m  - navigating to \"https://www.avsee.ru/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "avsee.is",
+      "url": "https://avsee.is",
+      "rank": {
+        "semrush": 51
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.avsee.is/\nCall log:\n\u001b[2m  - navigating to \"https://www.avsee.is/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "cloudfront.net",
+      "url": "https://cloudfront.net",
+      "rank": {
+        "cloudflare": 55
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cloudfront.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.cloudfront.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "run.app",
+      "url": "https://run.app",
+      "rank": {
+        "cloudflare": 56
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "njavtv.com",
+      "url": "https://njavtv.com",
+      "rank": {
+        "semrush": 57
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.njavtv.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.njavtv.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "statsigapi.net",
+      "url": "https://statsigapi.net",
+      "rank": {
+        "cloudflare": 58
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.statsigapi.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.statsigapi.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "cdninstagram.com",
+      "url": "https://cdninstagram.com",
+      "rank": {
+        "cloudflare": 59
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cdninstagram.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.cdninstagram.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "yamimoto.com",
+      "url": "https://yamimoto.com",
+      "rank": {
+        "ahrefs": 33
+      },
+      "errorReason": "ERR_CONNECTION_TIMED_OUT",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_TIMED_OUT at https://www.yamimoto.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.yamimoto.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "spotv24.com",
+      "url": "https://spotv24.com",
+      "rank": {
+        "semrush": 61
+      },
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.spotv24.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.spotv24.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "xvideos.com",
+      "url": "https://xvideos.com",
+      "rank": {
+        "semrush": 62
+      },
+      "errorReason": "ERR_CONNECTION_RESET",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.xvideos.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.xvideos.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "a14c.com",
+      "url": "https://a14c.com",
+      "rank": {
+        "ahrefs": 65
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.a14c.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.a14c.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "edgesuite.net",
+      "url": "https://edgesuite.net",
+      "rank": {
+        "cloudflare": 69
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.edgesuite.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.edgesuite.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "adnxs.com",
+      "url": "https://adnxs.com",
+      "rank": {
+        "cloudflare": 68
+      },
+      "errorReason": "ERR_CONNECTION_REFUSED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_CONNECTION_REFUSED at https://www.adnxs.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.adnxs.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "daumcdn.net",
+      "url": "https://daumcdn.net",
+      "rank": {
+        "cloudflare": 72
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.daumcdn.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.daumcdn.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "tiktokcdn.com",
+      "url": "https://tiktokcdn.com",
+      "rank": {
+        "cloudflare": 73
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tiktokcdn.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.tiktokcdn.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "ggpht.com",
+      "url": "https://ggpht.com",
+      "rank": {
+        "cloudflare": 75
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ggpht.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.ggpht.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "blacktoon420.com",
+      "url": "https://blacktoon420.com",
+      "rank": {
+        "semrush": 77
+      },
+      "errorReason": "HTTP 451 Error",
+      "errorDetails": {
+        "message": "HTTP 451 ",
+        "statusCode": "451"
+      }
+    },
+    {
+      "website": "criteo.net",
+      "url": "https://criteo.net",
+      "rank": {
+        "cloudflare": 77
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.criteo.net/\nCall log:\n\u001b[2m  - navigating to \"https://www.criteo.net/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "googleadservices.com",
+      "url": "https://googleadservices.com",
+      "rank": {
+        "cloudflare": 78
+      },
+      "errorReason": "HTTP 404 Error",
+      "errorDetails": {
+        "message": "HTTP 404 ",
+        "statusCode": "404"
+      }
+    },
+    {
+      "website": "topgirl.co",
+      "url": "https://topgirl.co",
+      "rank": {
+        "semrush": 78
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.topgirl.co/\nCall log:\n\u001b[2m  - navigating to \"https://www.topgirl.co/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    },
+    {
+      "website": "kgslb.com",
+      "url": "https://kgslb.com",
+      "rank": {
+        "cloudflare": 62
+      },
+      "errorReason": "ERR_NAME_NOT_RESOLVED",
+      "errorDetails": {
+        "message": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kgslb.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.kgslb.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+        "statusCode": null
+      }
+    }
+  ]
+}
