@@ -1,10 +1,22 @@
-Test result dataset for [web-resilience-test](https://github.com/irvin/web-resilience-test).
+# web-resilience-test-result-kr
+
+Test result dataset for [web-resilience-test-kr](https://github.com/web-resilience-test/web-resilience-test-kr), covering South Korean websites selected from the Korean traffic-ranking sources.
+
+The repository stores per-site JSON result files and generated TSV summaries. The existing result files and generated summaries have been cleared so the Seoul FTO hackathon can collect a new Korean dataset.
+
+## Data layout
+
+- `<domain>.json` — result data for one tested website
+- `_error/` — records for sites whose test failed
+- `*.tsv` — generated aggregate statistics
+
+The test runner and the Korean target list are maintained in the [web-resilience-test-kr](https://github.com/web-resilience-test/web-resilience-test-kr) repository.
 
 ## License
 
-This project is licensed under [CC BY-NC-ND 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/) during the ISIF research period (through December 31, 2026). After that date, data and scripts will be released into the Public Domain. For uses beyond CC BY-NC-ND 4.0 restrictions during the research period, contact Irvin Chen (Open Culture Foundation; ORCID: [https://orcid.org/0009-0002-1059-7130](https://orcid.org/0009-0002-1059-7130)) at irvin@ocf.tw (cc hi@ocf.tw).
+This project is dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/), to the extent permitted by law.
 
-See [LICENSE](LICENSE) for full terms and suggested attribution. See also [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
+See [LICENSE](LICENSE) for the dedication and legal-code link. See also [`CITATION.cff`](CITATION.cff) for machine-readable citation metadata.
 
 ## Acknowledgements
 
