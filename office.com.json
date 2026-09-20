@@ -2,14 +2,14 @@
   "url": "https://office.com",
   "canonicalURL": "https://m365.cloud.microsoft/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:31:07.650Z",
+  "timestamp": "2026-09-20T00:50:48.013Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,15 +24,15 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 52,
-  "uniqueDomains": 14,
+  "requestCount": 49,
+  "uniqueDomains": 12,
   "test_results": {
     "domestic": {
-      "cloud": 3,
+      "cloud": 2,
       "direct": 0
     },
     "foreign": {
-      "cloud": 11,
+      "cloud": 10,
       "direct": 0
     }
   },
@@ -52,11 +52,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 1A74252AA95041A890B5E17364A3707B Ref B: TYO01EDGE3919 Ref C: 2026-09-19T07:30:53Z",
-        "rtt": 33.674,
+        "x-msedge-ref": "Ref A: F2BEBD35B1F24675B67B578AE0CCAAA7 Ref B: TYO01EDGE3006 Ref C: 2026-09-20T00:50:35Z",
+        "rtt": 36.61,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "13.107.6.156",
           "prefix": "13.107.6.0/24",
           "anycast": true,
@@ -78,36 +78,15 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.office.com",
-        "ip": "13.107.6.156",
-        "city": "Redmond",
-        "region": "Washington",
-        "country": "US",
-        "loc": "47.6740,-122.1215",
-        "org": "AS8068 Microsoft Corporation",
-        "timezone": "America/Los_Angeles"
+        "ip": "23.103.239.95",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "Asia/Seoul"
       },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "x-msedge-ref": "Ref A: E6D89D83CBAA4529B34972A67B172D99 Ref B: TYO01EDGE3919 Ref C: 2026-09-19T07:30:53Z",
-        "rtt": 36.359,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "13.107.6.156",
-          "prefix": "13.107.6.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            8068
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 18,
-          "location_count": 18
-        }
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://m365.cloud.microsoft/",
@@ -124,11 +103,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 98F323549ADE48A5949387CF2AF8C9B8 Ref B: TYO01EDGE3113 Ref C: 2026-09-19T07:30:54Z",
-        "rtt": 35.581,
+        "x-msedge-ref": "MIRA: 0540a70b-09d9-a273-f572-64b1e5ab5f07 SL2P216CA0078 2026-09-20T00:50:35.581Z",
+        "rtt": 36.116,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "13.107.6.156",
           "prefix": "13.107.6.0/24",
           "anycast": true,
@@ -150,8 +129,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "res.cdn.office.net",
-        "ip": "23.214.22.37",
-        "hostname": "a23-214-22-37.deploy.static.akamaitechnologies.com",
+        "ip": "23.34.172.166",
+        "hostname": "a23-34-172-166.deploy.static.akamaitechnologies.com",
         "city": "Hillsboro",
         "region": "Oregon",
         "country": "US",
@@ -161,12 +140,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 115.039,
+        "rtt": 122.504,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "23.214.22.37",
-          "prefix": "23.214.22.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "23.34.172.166",
+          "prefix": "23.34.172.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -179,7 +158,7 @@
       }
     },
     {
-      "originalUrl": "https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231",
+      "originalUrl": "https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/korean/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/4f-460e79/ae-f1ac0c?ver=2.0&_cf=02242021_3231",
       "type": "stylesheet",
       "ipinfo": {
         "domain": "www.microsoft.com",
@@ -199,24 +178,24 @@
       "type": "image",
       "ipinfo": {
         "domain": "uhf.microsoft.com",
-        "ip": "23.59.15.230",
-        "hostname": "a23-59-15-230.deploy.static.akamaitechnologies.com",
-        "city": "Ibaraki",
-        "region": "Osaka",
+        "ip": "23.36.104.49",
+        "hostname": "a23-36-104-49.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.8164,135.5683",
+        "loc": "35.6895,139.6917",
         "org": "AS16625 Akamai Technologies, Inc.",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20251104T020621Z-17dcbcf885f84pn4hC1OSAnn0w000000029g00000000q8g3",
-        "rtt": 41.62,
+        "x-azure-ref": "20251104T020621Z-r18f5df8b774v2jchC1TYOb9040000000n1g00000000yuww",
+        "rtt": 42.823,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "23.59.15.230",
-          "prefix": "23.59.15.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "23.36.104.49",
+          "prefix": "23.36.104.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -229,7 +208,7 @@
       }
     },
     {
-      "originalUrl": "https://mem.gfx.ms/meversion?partner=office&market=en-us&uhf=1",
+      "originalUrl": "https://mem.gfx.ms/meversion?partner=office&market=ko-kr&uhf=1",
       "type": "script",
       "ipinfo": {
         "domain": "mem.gfx.ms",
@@ -243,12 +222,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T073054Z-1764d94df4687wpkhC1SEL1q5s0000001ttg0000000018gm",
+        "x-azure-ref": "20260920T005036Z-1764d94df46gngm2hC1SELgken0000000pgg000000007nuh",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "13.107.246.74",
           "prefix": "13.107.246.0/24",
           "anycast": true,
@@ -260,8 +239,8 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 40,
-          "location_count": 40
+          "site_count": 32,
+          "location_count": 32
         }
       }
     },
@@ -280,10 +259,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 69.019,
+        "rtt": 77.452,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "57.155.120.218",
           "prefix": "57.155.120.0/24",
           "anycast": false,
@@ -302,8 +281,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "c.s-microsoft.com",
-        "ip": "23.47.147.131",
-        "hostname": "a23-47-147-131.deploy.static.akamaitechnologies.com",
+        "ip": "184.27.209.222",
+        "hostname": "a184-27-209-222.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -313,12 +292,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 46.56,
+        "rtt": 43.519,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.47.147.131",
-          "prefix": "23.47.147.0/24",
+          "queried_ip": "184.27.209.222",
+          "prefix": "184.27.209.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -345,12 +324,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T073055Z-1764d94df46c5nb8hC1SELsfzg0000002hyg000000002n0x",
+        "x-azure-ref": "20260920T005036Z-15559d97d99hhc4xhC1SELfh2n0000002vf000000000cg9u",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -382,12 +361,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T073055Z-1764d94df46pdpj9hC1SELkh4w00000016t000000000bckc",
+        "x-azure-ref": "20260920T005036Z-15559d97d99jnrcjhC1SELgcs00000000h8000000000k8vp",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.135",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -405,69 +384,11 @@
       }
     },
     {
-      "originalUrl": "https://config.edge.skype.com/config/v1/CHILL/0.0.14?disableexperiments=true&disablerollouts=false&Audience=Production&Platform=Web&environment=prod&agent=ChillUnauthenticated-Copilot-Pages&Application=Unauthenticated-Copilot-Pages&version=unknown&language=en-US",
+      "originalUrl": "https://i.clarity.ms/collect",
       "type": "xhr",
       "ipinfo": {
-        "domain": "config.edge.skype.com",
-        "ip": "52.123.254.212",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://admin.microsoft.com/admin/api/uxversion?bldVer=v1&locale=en&hostingapp=host-floodgate-websdk",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "admin.microsoft.com",
-        "ip": "150.171.73.13",
-        "city": "Redmond",
-        "region": "Washington",
-        "country": "US",
-        "loc": "47.6740,-122.1215",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "x-msedge-ref": "Ref A: FD084EA478CF4BB2B3A9E5D5A93793CC Ref B: SEL221051503033 Ref C: 2026-09-19T07:30:55Z",
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "150.171.73.13",
-          "prefix": "150.171.73.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            8075
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 38,
-          "location_count": 38,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://e.clarity.ms/collect",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "e.clarity.ms",
-        "ip": "20.57.85.160",
+        "domain": "i.clarity.ms",
+        "ip": "4.153.72.49",
         "city": "Boydton",
         "region": "Virginia",
         "country": "US",
@@ -477,12 +398,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 176.567,
+        "rtt": 185.795,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "20.57.85.160",
-          "prefix": "20.57.85.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "4.153.72.49",
+          "prefix": "4.153.72.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

@@ -2,14 +2,14 @@
   "url": "https://discord.com",
   "canonicalURL": "https://discord.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:28:08.465Z",
+  "timestamp": "2026-09-20T00:44:41.783Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 140,
+  "requestCount": 124,
   "uniqueDomains": 10,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "discord.com",
-        "ip": "162.159.128.233",
+        "ip": "162.159.136.232",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df139c54ea9d-ICN",
+        "cf-ray": "a3dccd7519e76d95-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df141c28ebec-ICN",
+        "cf-ray": "a3dccd75d8cdaa88-ICN",
         "detection_method": "header"
       }
     },
@@ -82,8 +82,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "ajax.googleapis.com",
-        "ip": "142.251.23.95",
-        "hostname": "rl-in-f95.1e100.net",
+        "ip": "142.250.23.95",
+        "hostname": "zj-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -93,12 +93,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.26,
+        "rtt": 42.168,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.23.95",
-          "prefix": "142.251.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.95",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -115,7 +115,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.localizeapi.com",
-        "ip": "104.18.0.42",
+        "ip": "104.18.1.42",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -126,7 +126,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df141e5bfd11-ICN",
+        "cf-ray": "a3dccd75fae34e17-ICN",
         "x-amz-cf-pop": "DEN53-P2",
         "detection_method": "header"
       }
@@ -136,8 +136,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "d3e54v103j8qbb.cloudfront.net",
-        "ip": "18.244.65.108",
-        "hostname": "server-18-244-65-108.icn57.r.cloudfront.net",
+        "ip": "18.244.65.223",
+        "hostname": "server-18-244-65-223.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -163,7 +163,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df167ace38d5-ICN",
+        "cf-ray": "a3dccd7b0e7698ff-ICN",
         "detection_method": "header"
       }
     },
@@ -172,8 +172,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.250.23.95",
-        "hostname": "zj-in-f95.1e100.net",
+        "ip": "172.217.221.95",
+        "hostname": "yunrtaa-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -183,12 +183,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.093,
+        "rtt": 46.471,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "142.250.23.95",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "172.217.221.95",
+          "prefix": "172.217.221.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -205,7 +205,7 @@
       "type": "media",
       "ipinfo": {
         "domain": "cdn.discordapp.com",
-        "ip": "162.159.129.233",
+        "ip": "162.159.134.233",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -216,7 +216,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df16dbed30f7-ICN",
+        "cf-ray": "a3dccd796f3befdd-ICN",
         "detection_method": "header"
       }
     },
@@ -225,8 +225,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -236,12 +236,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.286,
+        "rtt": 41.45,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -269,7 +269,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df17dd7bea99-ICN",
+        "cf-ray": "a3dccd816ae1e9ff-ICN",
         "detection_method": "header"
       }
     }

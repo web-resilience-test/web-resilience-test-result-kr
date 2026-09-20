@@ -2,14 +2,14 @@
   "url": "https://pawchive.pw",
   "canonicalURL": "https://pawchive.pw",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:24.517Z",
+  "timestamp": "2026-09-20T00:46:29.105Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "pawchive.pw",
-        "ip": "172.67.146.57",
+        "ip": "104.21.95.170",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -52,13 +52,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3d6e6d85c20398e-LAX",
+        "cf-ray": "a3dcd02afcbd7d12-SJC",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.67.146.57",
-          "prefix": "172.67.146.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "104.21.95.170",
+          "prefix": "104.21.95.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -68,8 +68,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 59,
-          "location_count": 59,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",

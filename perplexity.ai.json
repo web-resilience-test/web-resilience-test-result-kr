@@ -2,14 +2,14 @@
   "url": "https://perplexity.ai",
   "canonicalURL": "https://www.perplexity.ai/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:32:40.716Z",
+  "timestamp": "2026-09-20T00:51:42.229Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e58cdda7bcf1-ICN",
+        "cf-ray": "a3dcd783f854dd08-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e58d7a27ea96-ICN",
+        "cf-ray": "a3dcd7849bc8eaaa-ICN",
         "detection_method": "header"
       }
     },
@@ -82,26 +82,6 @@
       "type": "font",
       "ipinfo": {
         "domain": "frontend-cdn.perplexity.ai",
-        "ip": "104.18.27.48",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3d6e58dff9d924b-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://r2cdn.perplexity.ai/js/count/0.1.0/loader.min.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "r2cdn.perplexity.ai",
         "ip": "104.18.26.48",
         "city": "San Francisco",
         "region": "California",
@@ -113,15 +93,15 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e58df8c4d1e5-ICN",
+        "cf-ray": "a3dcd7853e23eaad-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://pplx-next-static-public.perplexity.ai/_spa/assets/index.html__v2-DlK8RklH.js",
+      "originalUrl": "https://r2cdn.perplexity.ai/js/count/0.1.0/loader.min.js",
       "type": "script",
       "ipinfo": {
-        "domain": "pplx-next-static-public.perplexity.ai",
+        "domain": "r2cdn.perplexity.ai",
         "ip": "104.18.27.48",
         "city": "San Francisco",
         "region": "California",
@@ -133,7 +113,27 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e58decbad1e7-ICN",
+        "cf-ray": "a3dcd7855b2aabdd-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://pplx-next-static-public.perplexity.ai/_spa/assets/index.html__v2-Cw_Raz6Q.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "pplx-next-static-public.perplexity.ai",
+        "ip": "104.18.26.48",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dcd785296fd1ed-ICN",
         "detection_method": "header"
       }
     },
@@ -142,8 +142,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "edge.perplexity.ai",
-        "ip": "52.207.33.77",
-        "hostname": "ec2-52-207-33-77.compute-1.amazonaws.com",
+        "ip": "3.209.103.80",
+        "hostname": "ec2-3-209-103-80.compute-1.amazonaws.com",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -158,8 +158,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "52.207.33.77",
-          "prefix": "52.207.33.0/24",
+          "queried_ip": "3.209.103.80",
+          "prefix": "3.209.103.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -187,7 +187,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e58def51e9f9-ICN",
+        "cf-ray": "a3dcd7851aabaa66-ICN",
         "detection_method": "header"
       }
     },
@@ -207,7 +207,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e5948e06ea96-ICN",
+        "cf-ray": "a3dcd7876990eaaa-ICN",
         "detection_method": "header"
       }
     },
@@ -216,8 +216,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "accounts.google.com",
-        "ip": "142.251.169.84",
-        "hostname": "rx-in-f84.1e100.net",
+        "ip": "192.178.230.84",
+        "hostname": "yunrtab-in-f84.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -227,12 +227,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.229,
+        "rtt": 37.33,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.169.84",
-          "prefix": "142.251.169.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "192.178.230.84",
+          "prefix": "192.178.230.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -245,7 +245,7 @@
       }
     },
     {
-      "originalUrl": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub4ecf63e3fd1ad28de1a9027c01181601&dd-evp-origin-version=7.1.0&dd-evp-origin=browser&dd-request-id=3c1dbf8d-e7c4-46a6-998b-db8be34ff66c&dd-evp-encoding=deflate&batch_time=1789803148878&_dd.api=fetch",
+      "originalUrl": "https://browser-intake-datadoghq.com/api/v2/rum?ddsource=browser&dd-api-key=pub4ecf63e3fd1ad28de1a9027c01181601&dd-evp-origin-version=7.1.0&dd-evp-origin=browser&dd-request-id=5ada861e-bef1-4973-bf67-02e3c7e20377&dd-evp-encoding=deflate&batch_time=1789865488842&_dd.api=fetch",
       "type": "fetch",
       "ipinfo": {
         "domain": "browser-intake-datadoghq.com",
@@ -309,10 +309,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.529,
+        "rtt": 36.628,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.23.139",
           "prefix": "142.251.23.0/24",
           "anycast": false,

@@ -2,14 +2,14 @@
   "url": "https://kone.gg",
   "canonicalURL": "https://kone.gg/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:42.781Z",
+  "timestamp": "2026-09-20T00:45:11.696Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,9 +22,9 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "168.126.63.1"
   },
-  "requestCount": 132,
+  "requestCount": 124,
   "uniqueDomains": 3,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "kone.gg",
-        "ip": "172.66.43.58",
+        "ip": "172.66.40.198",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e1790a39eaaf-ICN",
+        "cf-ray": "a3dcce4f6e29d1e9-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e17b8e375871-ICN",
+        "cf-ray": "a3dcce51fb23ea0f-ICN",
         "detection_method": "header"
       }
     },
@@ -95,7 +95,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "172.66.40.198",
           "prefix": "172.66.40.0/24",
           "anycast": true,

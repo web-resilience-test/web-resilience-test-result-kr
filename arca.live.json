@@ -2,14 +2,14 @@
   "url": "https://arca.live",
   "canonicalURL": "https://arca.live",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:10.994Z",
+  "timestamp": "2026-09-20T00:43:52.845Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -52,11 +52,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3d6ddc2cbe729da-FUK",
+        "cf-ray": "a3dccc616d2629d9-FUK",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.20.22.254",
           "prefix": "104.20.22.0/24",
           "anycast": true,
@@ -68,8 +68,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 65,
+          "location_count": 65,
           "kr_locations": [
             {
               "city": "Seoul",

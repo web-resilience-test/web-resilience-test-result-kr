@@ -1,15 +1,15 @@
 {
   "url": "https://notion.com",
-  "canonicalURL": "https://www.notion.com/",
+  "canonicalURL": "https://www.notion.com/ko",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:30:40.494Z",
+  "timestamp": "2026-09-20T00:50:24.585Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,16 +24,16 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 175,
-  "uniqueDomains": 11,
+  "requestCount": 159,
+  "uniqueDomains": 9,
   "test_results": {
     "domestic": {
       "cloud": 4,
       "direct": 0
     },
     "foreign": {
-      "cloud": 3,
-      "direct": 4
+      "cloud": 2,
+      "direct": 3
     }
   },
   "domainDetails": [
@@ -57,7 +57,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.notion.com",
-        "ip": "208.103.161.16",
+        "ip": "208.103.161.1",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -68,12 +68,12 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://images.ctfassets.net/spoqsaf9291f/6gu2Rybt4VdhS2GEEA99PO/ac0fedd553b2f541fde79cdda05271cc/OpenAI.svg",
+      "originalUrl": "https://images.ctfassets.net/spoqsaf9291f/4rgEt412qGXbc9SEiHi5gB/d6b271169561c67a6093d8d1da540bd4/gs-global.svg",
       "type": "image",
       "ipinfo": {
         "domain": "images.ctfassets.net",
-        "ip": "52.85.128.60",
-        "hostname": "server-52-85-128-60.icn53.r.cloudfront.net",
+        "ip": "52.85.128.8",
+        "hostname": "server-52-85-128-8.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -89,7 +89,7 @@
       }
     },
     {
-      "originalUrl": "https://videos.ctfassets.net/spoqsaf9291f/1EL7UZIXfcqngxsNSbL8tR/291f61f56f29dd8e788deaec8561d882/web-homepage-hero-1920x1200_final.mp4",
+      "originalUrl": "https://videos.ctfassets.net/spoqsaf9291f/1EL7UZIXfcqngxsNSbL8tR/6c7f313514217e8e5277461131a16396/Homepage_Hero_1920x1200_ko-KR_v003_desktop_final.mp4",
       "type": "media",
       "ipinfo": {
         "domain": "videos.ctfassets.net",
@@ -109,8 +109,8 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "http-inputs-notion.splunkcloud.com",
-        "ip": "34.228.45.57",
-        "hostname": "ec2-34-228-45-57.compute-1.amazonaws.com",
+        "ip": "18.214.252.60",
+        "hostname": "ec2-18-214-252-60.compute-1.amazonaws.com",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -124,9 +124,9 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "34.228.45.57",
-          "prefix": "34.228.45.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "18.214.252.60",
+          "prefix": "18.214.252.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -139,11 +139,11 @@
       }
     },
     {
-      "originalUrl": "https://exp.notion.com/v1/rgstr?k=client-s6Y93M3p0RmBJw5frXEOlhKqhMBorcrPSgGLI66gKnq&st=javascript-client-react&sv=3.33.3&t=1789803028585&sid=bc09b8f3-fd7c-477b-b25d-7c9f4b468cdb&ec=1",
+      "originalUrl": "https://exp.notion.com/v1/rgstr?k=client-s6Y93M3p0RmBJw5frXEOlhKqhMBorcrPSgGLI66gKnq&st=javascript-client-react&sv=3.33.3&t=1789865414140&sid=26f1e100-a44d-4a71-ac84-5a601a23fca4&ec=1",
       "type": "fetch",
       "ipinfo": {
         "domain": "exp.notion.com",
-        "ip": "208.103.161.1",
+        "ip": "208.103.161.16",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -152,59 +152,6 @@
         "timezone": "America/Los_Angeles"
       },
       "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://transcend-cdn.com/cm/a36a42ad-3a71-444f-9e8a-b19950129dc6/airgap.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "transcend-cdn.com",
-        "ip": "104.18.40.238",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3d6e2a21b14329c-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://accounts.google.com/gsi/client",
-      "type": "script",
-      "ipinfo": {
-        "domain": "accounts.google.com",
-        "ip": "192.178.226.84",
-        "hostname": "lcnrts-in-f84.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 38.269,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "192.178.226.84",
-          "prefix": "192.178.226.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
     },
     {
       "originalUrl": "https://o324374.ingest.sentry.io/api/4506742283763712/envelope/?sentry_version=7&sentry_key=d9ffc21a5ef88a093f955a60ac273d9a&sentry_client=sentry.javascript.nextjs%2F10.43.0",
@@ -225,7 +172,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.160.81.0",
           "prefix": "34.160.81.0/24",
           "anycast": true,
@@ -237,8 +184,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -250,12 +197,54 @@
       }
     },
     {
-      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-MTWKTL4",
+      "originalUrl": "https://transcend-cdn.com/cm/a36a42ad-3a71-444f-9e8a-b19950129dc6/airgap.js",
       "type": "script",
       "ipinfo": {
-        "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
+        "domain": "transcend-cdn.com",
+        "ip": "104.18.40.238",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.18.40.238",
+          "prefix": "104.18.40.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 74,
+          "location_count": 74,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://accounts.google.com/gsi/client",
+      "type": "script",
+      "ipinfo": {
+        "domain": "accounts.google.com",
+        "ip": "192.178.226.84",
+        "hostname": "lcnrts-in-f84.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -265,12 +254,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.535,
+        "rtt": 43.425,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "192.178.226.84",
+          "prefix": "192.178.226.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -281,21 +270,6 @@
           "location_count": 0
         }
       }
-    },
-    {
-      "originalUrl": "https://app.notion.com/api/v3/generateOnetapNonce",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "app.notion.com",
-        "ip": "208.103.161.16",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7509,-122.4153",
-        "org": "AS33191 Notion Labs, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/direct"
     }
   ]
 }

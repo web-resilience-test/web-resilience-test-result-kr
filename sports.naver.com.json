@@ -2,14 +2,14 @@
   "url": "https://sports.naver.com",
   "canonicalURL": "https://sports.naver.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:27.225Z",
+  "timestamp": "2026-09-20T00:49:20.700Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 172,
+  "requestCount": 131,
   "uniqueDomains": 12,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "sports.naver.com",
-        "ip": "110.93.159.42",
+        "ip": "210.89.168.65",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -57,7 +57,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "m.sports.naver.com",
-        "ip": "210.89.168.73",
+        "ip": "202.179.180.83",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -72,22 +72,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "ssl.pstatic.net",
-        "ip": "125.209.254.14",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS23576 NAVER Cloud Corp.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://nam.veta.naver.com/nac/1",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "nam.veta.naver.com",
-        "ip": "61.247.192.232",
+        "ip": "125.209.254.17",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -102,7 +87,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api-gw.sports.naver.com",
-        "ip": "117.52.137.151",
+        "ip": "175.158.5.172",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -132,7 +117,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "proxy-gateway.sports.naver.com",
-        "ip": "210.89.168.49",
+        "ip": "210.89.168.35",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -143,11 +128,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://collector.sports.naver.com/custom?customType=sports_ad_render&package=SHOME&sponsor=%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EA%B3%B5%EC%9A%A9&account=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%95%BC%EA%B5%AC%20%EA%B0%99%EC%9D%B4%EB%B3%B4%EA%B8%B0%20|%20%EC%8A%A4%ED%83%AF%EC%BA%90%EC%8A%A4%ED%84%B0&contents=ad_contents_section_side_banner&_time1789802961219",
+      "originalUrl": "https://collector.sports.naver.com/custom?customType=sports_ad_render&package=SHOME&sponsor=%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EA%B3%B5%EC%9A%A9&account=%EC%95%84%EC%8B%9C%EC%95%88%EA%B2%8C%EC%9E%84%20%EC%95%BC%EA%B5%AC%20%EA%B0%99%EC%9D%B4%EB%B3%B4%EA%B8%B0%20|%20%EC%8A%A4%ED%83%AF%EC%BA%90%EC%8A%A4%ED%84%B0&contents=ad_contents_section_side_banner&_time1789865358049",
       "type": "image",
       "ipinfo": {
         "domain": "collector.sports.naver.com",
-        "ip": "125.209.233.29",
+        "ip": "125.209.233.21",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -162,27 +147,12 @@
       "type": "image",
       "ipinfo": {
         "domain": "sports-phinf.pstatic.net",
-        "ip": "61.247.197.75",
+        "ip": "125.209.254.14",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
         "org": "AS23576 NAVER Cloud Corp.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://dthumb-phinf.pstatic.net/?src=%22http%3A%2F%2Fimgnews.naver.net%2Fimage%2F081%2F2026%2F09%2F19%2F0003681809_001_20260919070213356.png%22&type=nf1160_652&service=sports",
-      "type": "image",
-      "ipinfo": {
-        "domain": "dthumb-phinf.pstatic.net",
-        "ip": "183.110.248.80",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -204,11 +174,41 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F144%2F2026%2F09%2F18%2F0001139130_001_20260918205812187.jpeg&type=fc140_140_q75",
+      "originalUrl": "https://dthumb-phinf.pstatic.net/?src=%22https%3A%2F%2Fimgnews.pstatic.net%2Fimage%2Fupload%2Fspubs%2FyQG0000139%2Fprofile%2F2025%2F06%2F06%2Fprofile_001655249.jpg%22&type=f78_78&service=sports",
+      "type": "image",
+      "ipinfo": {
+        "domain": "dthumb-phinf.pstatic.net",
+        "ip": "116.125.28.151",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F410%2F2026%2F09%2F20%2F0001140632_001_20260920074709017.png&type=fc140_140_q75",
       "type": "image",
       "ipinfo": {
         "domain": "search.pstatic.net",
         "ip": "125.209.254.19",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/gfp/v1?u=p_sports_branding&xdid=p_sports_branding&p=calp%3Ahome%2Clocation%3Ahome%2Cda_dom_id%3Ap_sports_branding&an=m.sports.naver.com&c=https%3A%2F%2Fm.sports.naver.com%2Findex&sn=web&sv=3.10.7&nt=0&iv=40e8683f-a1b5-4d1a-ab3a-9cb6b5dadfe2&ivt=0&sa=0&rui=1853005194&br=0&sua=%7B%22browsers%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%5B%22153%22%2C%220%22%2C%228010%22%2C%2212%22%5D%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%5B%228%22%2C%220%22%2C%220%22%2C%220%22%5D%7D%5D%2C%22platform%22%3A%7B%22brand%22%3A%22macOS%22%2C%22version%22%3A%5B%2210_15_7%22%5D%7D%2C%22mobile%22%3A0%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22model%22%3A%22%22%7D",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "nam.veta.naver.com",
+        "ip": "210.89.168.51",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

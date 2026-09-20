@@ -2,14 +2,14 @@
   "url": "https://kurly.com",
   "canonicalURL": "https://www.kurly.com/main",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:28:04.065Z",
+  "timestamp": "2026-09-20T00:46:21.409Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,11 +24,11 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 68,
-  "uniqueDomains": 16,
+  "requestCount": 54,
+  "uniqueDomains": 15,
   "test_results": {
     "domestic": {
-      "cloud": 13,
+      "cloud": 12,
       "direct": 2
     },
     "foreign": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "kurly.com",
-        "ip": "54.116.229.70",
-        "hostname": "ec2-54-116-229-70.ap-northeast-2.compute.amazonaws.com",
+        "ip": "3.37.190.202",
+        "hostname": "ec2-3-37-190-202.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -74,12 +74,12 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "res.kurly.com",
-        "ip": "23.67.53.217",
-        "hostname": "a23-67-53-217.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.53.228.25",
+        "hostname": "a23-53-228-25.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "36.1750,127.7764",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -104,7 +104,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.160.81.0",
           "prefix": "34.160.81.0/24",
           "anycast": true,
@@ -116,8 +116,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -174,10 +174,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 75.817,
+        "rtt": 67.776,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "57.155.120.218",
           "prefix": "57.155.120.0/24",
           "anycast": false,
@@ -196,8 +196,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "websdk.appsflyersdk.com",
-        "ip": "52.85.128.45",
-        "hostname": "server-52-85-128-45.icn53.r.cloudfront.net",
+        "ip": "52.85.128.40",
+        "hostname": "server-52-85-128-40.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -230,7 +230,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.155.119",
           "prefix": "142.251.155.0/24",
           "anycast": true,
@@ -275,24 +275,42 @@
       "type": "script",
       "ipinfo": {
         "domain": "karrot-pixel.business.daangn.com",
-        "ip": "54.230.62.33",
-        "hostname": "server-54-230-62-33.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "ip": "52.85.128.20",
+        "hostname": "server-52-85-128-20.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
+        "timezone": "America/New_York"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "rtt": 6.01,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "52.85.128.20",
+          "prefix": "52.85.128.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
     },
     {
       "originalUrl": "https://static.toss.im/lex/v1.js",
       "type": "script",
       "ipinfo": {
         "domain": "static.toss.im",
-        "ip": "3.168.167.122",
-        "hostname": "server-3-168-167-122.icn57.r.cloudfront.net",
+        "ip": "18.67.51.126",
+        "hostname": "server-18-67-51-126.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -307,7 +325,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "wcs.naver.net",
-        "ip": "125.209.254.13",
+        "ip": "61.247.197.73",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -322,8 +340,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "auth.kurly.com",
-        "ip": "18.244.60.24",
-        "hostname": "server-18-244-60-24.icn57.r.cloudfront.net",
+        "ip": "18.244.60.110",
+        "hostname": "server-18-244-60-110.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -348,22 +366,6 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://api.kurly.com/v1/mypage/asks/confirm/kakao",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "api.kurly.com",
-        "ip": "54.230.62.124",
-        "hostname": "server-54-230-62-124.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
     }
   ]
 }

@@ -2,14 +2,14 @@
   "url": "https://abr.ge",
   "canonicalURL": "https://www.airbridge.io/ko",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:32.240Z",
+  "timestamp": "2026-09-20T00:49:33.382Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -42,16 +42,21 @@
       "type": "document",
       "ipinfo": {
         "domain": "abr.ge",
-        "ip": "54.230.62.25",
-        "hostname": "server-54-230-62-25.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "ip": "52.85.128.12",
+        "hostname": "server-52-85-128-12.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
+        "timezone": "America/New_York"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
     },
     {
       "originalUrl": "https://airbridge.io/",
@@ -71,7 +76,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "216.150.1.1",
           "prefix": "216.150.1.0/24",
           "anycast": true,
@@ -100,7 +105,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.airbridge.io",
-        "ip": "216.150.1.65",
+        "ip": "216.150.1.129",
         "city": "Walnut",
         "region": "California",
         "country": "US",
@@ -114,7 +119,7 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "216.150.1.65",
+          "queried_ip": "216.150.1.129",
           "prefix": "216.150.1.0/24",
           "anycast": true,
           "confidence": "confident",
@@ -153,7 +158,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e12f1f41efdd-ICN",
+        "cf-ray": "a3dcd4a77f9efd11-ICN",
         "x-served-by": "cache-fra-eddf8230218-FRA, cache-nrt-rjtf7700047-NRT",
         "detection_method": "header"
       }
@@ -177,7 +182,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.160.81.0",
           "prefix": "34.160.81.0/24",
           "anycast": true,
@@ -189,8 +194,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -206,8 +211,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.amplitude.com",
-        "ip": "13.225.117.45",
-        "hostname": "server-13-225-117-45.icn80.r.cloudfront.net",
+        "ip": "13.225.117.121",
+        "hostname": "server-13-225-117-121.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -222,8 +227,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
+        "ip": "142.250.23.97",
+        "hostname": "zj-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -233,12 +238,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.153,
+        "rtt": 46.012,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.97",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -271,23 +276,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "snap.licdn.com",
-        "ip": "23.35.111.41",
-        "hostname": "a23-35-111-41.deploy.static.akamaitechnologies.com",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "23.195.90.65",
+        "hostname": "a23-195-90-65.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.091,
+        "rtt": 52.473,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.35.111.41",
-          "prefix": "23.35.111.0/24",
+          "queried_ip": "23.195.90.65",
+          "prefix": "23.195.90.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -319,7 +324,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "t1.daumcdn.net",
-        "ip": "211.231.116.39",
+        "ip": "211.56.100.231",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

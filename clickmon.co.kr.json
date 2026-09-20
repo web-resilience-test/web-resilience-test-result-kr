@@ -1,0 +1,222 @@
+{
+  "url": "https://clickmon.co.kr",
+  "canonicalURL": "https://www.clickmon.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:50:59.442Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 119,
+  "uniqueDomains": 9,
+  "test_results": {
+    "domestic": {
+      "cloud": 1,
+      "direct": 7
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://clickmon.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "clickmon.co.kr",
+        "ip": "116.122.157.237",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.clickmon.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.clickmon.co.kr",
+        "ip": "116.122.157.237",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.251.23.95",
+        "hostname": "rl-in-f95.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.119,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.95",
+          "prefix": "142.251.23.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://use.fontawesome.com/releases/v5.0.9/css/all.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "use.fontawesome.com",
+        "ip": "104.21.27.152",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3dd2ea6ea512ed5-LAX",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.21.27.152",
+          "prefix": "104.21.27.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 59,
+          "location_count": 59,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ssl.daumcdn.net",
+        "ip": "121.53.92.10",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS18160 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/kakaomapweb/roughmap/place/prod/2851f17d_1789535060426/roughmapLander.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "211.56.100.231",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://mts.kakaocdn.net/api/v1/tile/PNGSD02/v23_bkf12/latest/6/247/116.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "mts.kakaocdn.net",
+        "ip": "211.249.250.38",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS7625 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t1.daumcdn.net/localimg/localimages/07/2018/pc/map/marker_map01.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "t1.daumcdn.net",
+        "ip": "211.56.100.225",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://stat.tiara.daum.net/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.0%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%7D%2C%22common%22%3A%7B%22svcdomain%22%3A%22place.map.kakao.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fwww.clickmon.co.kr%2Fhome_new%2Fcm_map.php%22%2C%22referrer%22%3A%22https%3A%2F%2Fwww.clickmon.co.kr%2Fhome_new%2F%22%2C%22section%22%3A%22roughmap%22%2C%22page%22%3A%22%EC%95%BD%EB%8F%84%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-FCA4TafJMBRj_260920105058106%22%2C%22tsid%22%3A%22w-FCA4TafJMBRj_260920105058106%22%2C%22uuid%22%3A%22w-ZmKTyAJA3VfE_260920430811031%22%2C%22suid%22%3A%22w-ZmKTyAJA3VfE_260920430811031%22%2C%22isuid%22%3A%22w-GP9I852bBNjU_260920592508629%22%2C%22client_timestamp%22%3A1789869058107%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22%EC%95%BD%EB%8F%84_%EB%85%B8%EC%B6%9C%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22cdn%22%3A%222851f17d_1789535060426%22%2C%22phase%22%3A%22prod%22%2C%22roughmap_key%22%3A%222358t%22%2C%22created%22%3A%221606293259195%22%2C%22loader%22%3A%22dmaps%22%7D%7D",
+      "type": "image",
+      "ipinfo": {
+        "domain": "stat.tiara.daum.net",
+        "ip": "211.183.223.17",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS7625 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

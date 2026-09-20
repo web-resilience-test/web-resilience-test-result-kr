@@ -1,0 +1,153 @@
+{
+  "url": "https://www.kosaf.go.kr/",
+  "canonicalURL": "https://www.kosaf.go.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:48:56.950Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 95,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 3
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.kosaf.go.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.kosaf.go.kr",
+        "ip": "114.70.96.110",
+        "hostname": "sso.kosaf.go.kr",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45408 KOSAF",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://static.kosaf.go.kr/www/css/main_202408/reset.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "static.kosaf.go.kr",
+        "ip": "139.150.249.139",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9286 KINX",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://dstatic.kosaf.go.kr/jsp/include/ko.imageDown.jsp?file=2b403983-8a17-4712-8d83-2ad91e9a9a21_1789721927183",
+      "type": "image",
+      "ipinfo": {
+        "domain": "dstatic.kosaf.go.kr",
+        "ip": "139.150.249.11",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9286 KINX",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-CX8Q22S9LM",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.23.97",
+        "hostname": "zj-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.664,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.97",
+          "prefix": "142.250.23.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-CX8Q22S9LM&gtm=45je69g1v9200600945za200zd9200600945xf1&_p=1789868935303&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=384361915.1789868935&frm=0&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789868935&sct=1&seg=0&dl=https%3A%2F%2Fwww.kosaf.go.kr%2Fko%2Fmain.do&dr=https%3A%2F%2Fwww.kosaf.go.kr%2F&dt=%ED%95%9C%EA%B5%AD%EC%9E%A5%ED%95%99%EC%9E%AC%EB%8B%A8&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=982",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.21.138",
+        "hostname": "zh-in-f138.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.33,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.138",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

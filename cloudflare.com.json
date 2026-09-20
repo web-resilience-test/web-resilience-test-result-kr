@@ -2,14 +2,14 @@
   "url": "https://cloudflare.com",
   "canonicalURL": "https://www.cloudflare.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:28.503Z",
+  "timestamp": "2026-09-20T00:45:33.931Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de280e2cea2d-ICN",
+        "cf-ray": "a3dccecf7c53ea92-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de286dd50c1d-ICN",
+        "cf-ray": "a3dcced01af9ea0d-ICN",
         "x-served-by": "marketing-site",
         "detection_method": "header"
       }
@@ -94,7 +94,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de2a7c70eab5-ICN",
+        "cf-ray": "a3dcced1faa5d1e7-ICN",
         "detection_method": "header"
       }
     },
@@ -103,7 +103,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.cloudflareinsights.com",
-        "ip": "104.16.80.73",
+        "ip": "104.16.79.73",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -114,7 +114,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de2a6832aa38-ICN",
+        "cf-ray": "a3dcced1dfa5f45e-ICN",
         "detection_method": "header"
       }
     },
@@ -134,10 +134,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 45.622,
+        "rtt": 42.785,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.250.23.97",
           "prefix": "142.250.23.0/24",
           "anycast": false,
@@ -152,11 +152,11 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=15&frm=0&apvc=1&auid=2039668412.1789802847&dt=Cloudflare%3A%20Build%20for%20the%20agent%20era&tid=DC-9309168&en=page_view&dl=https%3A%2F%2Fwww.cloudflare.com%2F&scrsrc=www.cloudflare.com&rnd=1699708813.1789802847&navt=n&npa=0&gdid=dY2E1Nz.dYWJhMj&_tu=SA&gtm=45c92e69g1v9164255219z8890325950za20kzb890325950zd890325950xecxf4&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847435&tft=1789802846761&tfd=1447&gap.gtb=2&tids=DC-9309168&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=18&frm=0&apvc=1&auid=1839500242.1789865133&dt=Cloudflare%3A%20Build%20for%20the%20agent%20era&tid=DC-9973066&en=page_view&dl=https%3A%2F%2Fwww.cloudflare.com%2F&scrsrc=www.cloudflare.com&rnd=1481597879.1789865133&navt=n&npa=0&gdid=dY2E1Nz.dYWJhMj&_tu=SA&gtm=45c92e69g1v9190778491z8890325950za20kzb890325950zd890325950xecxf4&gcs=G111&gcd=13r3r3r3r5l1&dma=0&tag_exp=115616986~115938466~115938469~117776796~118131808~118897920~118897930~120213116~120385422~120469145~120469153~120474863~120847435&tft=1789865132700&tfd=1422&gap.gtb=2&tids=DC-9973066&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.154.119",
+        "ip": "142.251.151.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -169,9 +169,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.154.119",
-          "prefix": "142.251.154.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.151.119",
+          "prefix": "142.251.151.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,

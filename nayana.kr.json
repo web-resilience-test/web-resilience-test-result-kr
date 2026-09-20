@@ -1,0 +1,136 @@
+{
+  "url": "https://nayana.kr",
+  "canonicalURL": "https://nayana.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:49:00.275Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 28,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 4
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://nayana.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "nayana.kr",
+        "ip": "220.73.173.104",
+        "hostname": "www.nayana.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "http://www.nayana.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.nayana.kr",
+        "ip": "220.73.163.44",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "http://fonts.googleapis.com/earlyaccess/nanumgothic.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.251.24.95",
+        "hostname": "rj-in-f95.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 42.781,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.95",
+          "prefix": "142.251.24.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "http://www.dhrcenter.com/images/logo_setting.gif",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.dhrcenter.com",
+        "ip": "220.73.173.116",
+        "hostname": "nafly.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "http://404.nayana.com/error/403_error.html",
+      "type": "image",
+      "ipinfo": {
+        "domain": "404.nayana.com",
+        "ip": "218.145.71.137",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

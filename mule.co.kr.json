@@ -1,0 +1,326 @@
+{
+  "url": "https://mule.co.kr",
+  "canonicalURL": "https://mule.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T00:58:11.775Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 106,
+  "uniqueDomains": 8,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 4,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://mule.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "mule.co.kr",
+        "ip": "104.20.38.158",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3dce13a9885fcd3-FUK",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.20.38.158",
+          "prefix": "104.20.38.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 65,
+          "location_count": 65,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.mule.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.mule.co.kr",
+        "ip": "172.66.144.173",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3dce13d796119e0-KIX",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.66.144.173",
+          "prefix": "172.66.144.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 66,
+          "location_count": 66,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.mule.co.kr/lib/jquery/jquery-3.7.1.min.js?v=mule.2026.09.14.8599471",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.mule.co.kr",
+        "ip": "104.20.38.158",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3dce1407be5d3eb-KIX",
+        "x-amz-cf-pop": "KIX82-P4",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.20.38.158",
+          "prefix": "104.20.38.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 65,
+          "location_count": 65,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=UA-130265635-1",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 42.246,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.iamport.kr/v1/iamport.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.iamport.kr",
+        "ip": "52.85.128.74",
+        "hostname": "server-52-85-128-74.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/analytics.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.21.102",
+        "hostname": "zh-in-f102.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 41.538,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.102",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-GQEK41EX64&gtm=45je69g1v9116873565za20gxf1&_p=1789865887047&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAIACAC&cid=1520318073.1789865887&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~119791749~120213116~120385422~120469145~120469153&sid=1789865887&sct=1&seg=0&dl=https%3A%2F%2Fwww.mule.co.kr%2F&dt=%EB%AE%AC%20-%20%EC%A4%91%EA%B3%A0%EC%95%85%EA%B8%B0%2C%20%ED%95%A9%EC%A3%BC%EC%8B%A4%2C%20%EA%B0%9C%EC%9D%B8%EB%A0%88%EC%8A%A8%2C%20%EA%B5%AC%EC%9D%B8%EA%B5%AC%EC%A7%81%20%EB%AE%A4%EC%A7%80%EC%85%98%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1945",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.38.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.127,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.38.181",
+          "prefix": "216.239.38.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 15,
+          "location_count": 15
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-GQEK41EX64&cid=1520318073.1789865887&gtm=45je69g1v9116873565za20gxf1&rcb=16&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118897920~118897930~119791749~120213116~120385422~120469145~120469153&z=676386619",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.21.94",
+        "hostname": "zh-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.204,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.94",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+{
+  "url": "https://leagueoflegends.co.kr",
+  "canonicalURL": "https://www.leagueoflegends.com/ko-kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:44:12.210Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.2"
+  },
+  "requestCount": 75,
+  "uniqueDomains": 12,
+  "test_results": {
+    "domestic": {
+      "cloud": 8,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 4,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://leagueoflegends.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "leagueoflegends.co.kr",
+        "ip": "104.16.104.189",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd24770e5d1a63-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.leagueoflegends.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.leagueoflegends.com",
+        "ip": "15.197.167.90",
+        "hostname": "afa7f374f51cc8991.awsglobalaccelerator.com",
+        "city": "Seattle",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6339,-122.3476",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "rtt": 7.105,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "15.197.167.90",
+          "prefix": "15.197.167.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 59,
+          "location_count": 59
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cmp.osano.com/16BZ95S4qp9Kl2gUA/c84de61e-21d7-4a4a-9591-3d3a28fb5b1d/osano.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cmp.osano.com",
+        "ip": "54.230.62.86",
+        "hostname": "server-54-230-62-86.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://dev.visualwebsiteoptimizer.com/j.php?a=774097&u=https%3A%2F%2Fwww.leagueoflegends.com%2Fko-kr%2F&vn=2.1&x=true",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "dev.visualwebsiteoptimizer.com",
+        "ip": "34.107.218.251",
+        "hostname": "251.218.107.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.107.218.251",
+          "prefix": "34.107.218.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-N98J",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 40.316,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm?accountingTag=LoL",
+      "type": "media",
+      "ipinfo": {
+        "domain": "cmsassets.rgpub.io",
+        "ip": "23.11.232.110",
+        "hostname": "a23-11-232-110.deploy.static.akamaitechnologies.com",
+        "city": "Santa Clara",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3541,-121.9552",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-served-by": "radler-868f47c4b-kdgdx",
+        "rtt": 135.916,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.11.232.110",
+          "prefix": "23.11.232.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.rgpub.io/public/live/riotbar/latest/lol-rso-pbe.ko-kr.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.rgpub.io",
+        "ip": "23.34.172.180",
+        "hostname": "a23-34-172-180.deploy.static.akamaitechnologies.com",
+        "city": "Hillsboro",
+        "region": "Oregon",
+        "country": "US",
+        "loc": "45.5229,-122.9898",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 119.124,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.34.172.180",
+          "prefix": "23.34.172.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://lolstatic-a.akamaihd.net/webfonts/live/fonts/beaufort/BeaufortforLOL-BoldItalic.woff",
+      "type": "font",
+      "ipinfo": {
+        "domain": "lolstatic-a.akamaihd.net",
+        "ip": "23.34.172.168",
+        "hostname": "a23-34-172-168.deploy.static.akamaitechnologies.com",
+        "city": "Hillsboro",
+        "region": "Oregon",
+        "country": "US",
+        "loc": "45.5229,-122.9898",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 123.786,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.34.172.168",
+          "prefix": "23.34.172.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.youtube.com/iframe_api",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.youtube.com",
+        "ip": "142.251.150.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.150.4",
+          "prefix": "142.251.150.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://xsso.leagueoflegends.com/xsso",
+      "type": "script",
+      "ipinfo": {
+        "domain": "xsso.leagueoflegends.com",
+        "ip": "104.18.38.160",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd2494bcab30c1-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://lol.secure.dyn.riotcdn.net/channels/public/x/status/kr1.json",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "lol.secure.dyn.riotcdn.net",
+        "ip": "13.225.117.53",
+        "hostname": "server-13-225-117-53.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://auth.riotgames.com/check-session-iframe",
+      "type": "document",
+      "ipinfo": {
+        "domain": "auth.riotgames.com",
+        "ip": "104.16.120.50",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd24954c16d160-ICN",
+        "detection_method": "header"
+      }
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "url": "https://sejong.ac.kr",
+  "canonicalURL": "https://www.sejong.ac.kr/kor/index.do",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:39:00.069Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 154,
+  "uniqueDomains": 10,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 3
+    },
+    "foreign": {
+      "cloud": 3,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://sejong.ac.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sejong.ac.kr",
+        "ip": "210.107.239.136",
+        "hostname": "www.sejong.ac.kr",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9769 Sejong University",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.sejong.ac.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.sejong.ac.kr",
+        "ip": "210.107.239.136",
+        "hostname": "www.sejong.ac.kr",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9769 Sejong University",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.208.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd1cff4ffbdfca-ICN",
+        "x-served-by": "cache-fra-etou8220069-FRA, cache-icn1450022-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-0SZY8E4NNB",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.632,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://biz.veluga.app/js/vg-plugin.js?channelId=685e4839435a9238839715f7",
+      "type": "script",
+      "ipinfo": {
+        "domain": "biz.veluga.app",
+        "ip": "34.160.114.16",
+        "hostname": "16.114.160.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "34.160.114.16",
+          "prefix": "34.160.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 64,
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://use.typekit.net/af/bfec53/0000000000000000774ba003/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3",
+      "type": "font",
+      "ipinfo": {
+        "domain": "use.typekit.net",
+        "ip": "23.192.45.66",
+        "hostname": "a23-192-45-66.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 42.069,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.192.45.66",
+          "prefix": "23.192.45.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-0SZY8E4NNB&gtm=45je69g1v9112251953za200zd9112251953xf1&_p=1789868333911&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&cid=2074297717.1789868334&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789868334&sct=1&seg=0&dl=https%3A%2F%2Fwww.sejong.ac.kr%2Fkor%2Findex.do&dt=%EC%84%B8%EC%A2%85%EB%8C%80%ED%95%99%EA%B5%90&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1172",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.251.24.139",
+        "hostname": "rj-in-f139.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 40.27,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.139",
+          "prefix": "142.251.24.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://32bpbuqp8241.edge.naverncp.com/hls/h3mrptgldeZy6fs571DAmQ__/414d4734-09cf-40d8-9f8b-a5ea427699a9/mp4/414d4734-09cf-40d8-9f8b-a5ea427699a9.mp4/index.m3u8",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "32bpbuqp8241.edge.naverncp.com",
+        "ip": "1.227.196.8",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS38688 GSNeotek",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://api.veluga.app/channel/685e4839435a9238839715f7/info?isWidget=true",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.veluga.app",
+        "ip": "34.160.114.16",
+        "hostname": "16.114.160.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "34.160.114.16",
+          "prefix": "34.160.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 64,
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://storage.googleapis.com/veluga-app/685e4839435a9238839715f7/images/sm/68baaa83b3b3308ca0c54c60.png?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=veluga-app-sa%40veluga-app.iam.gserviceaccount.com%2F20260920%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20260920T013854Z&X-Goog-Expires=43200&X-Goog-SignedHeaders=host&X-Goog-Signature=a32184fc6fe2c78cba5e47b88ae743b26691e4e84a3255203c601617aa4bd1e5fc0c2494aa0ecefcf617254c9702c3bf00e094e807ea1787e95624f00e84fad8e15fc33b411cc6739134d17fe2795834ccd7a7bb0e154ea619b67f6a4224646414f76ff73c52cfb06b33f6268764562dec4d41a20de07e8de75154394aa682293d9bf0d470774f459a42180163e3d2e3a37b6cbde1f4213b84bb8318a609ec3973794404039ba02f93f2af877b12f23e69119945ed82bafcbe138743a2de27d0f3e030152ef2b99aa78b5cff877fc0cec3f58476e67b22e9c8a2c5318e9ae5eb5d86e426c3b8a738008f438c52453c8327793e3cc559d714ebc25e79e6040eb4",
+      "type": "image",
+      "ipinfo": {
+        "domain": "storage.googleapis.com",
+        "ip": "34.128.10.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS396982 Google LLC",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

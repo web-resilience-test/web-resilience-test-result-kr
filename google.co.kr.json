@@ -2,14 +2,14 @@
   "url": "https://google.co.kr",
   "canonicalURL": "https://google.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:19.334Z",
+  "timestamp": "2026-09-20T00:43:15.651Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 24,
+  "requestCount": 26,
   "uniqueDomains": 5,
   "test_results": {
     "domestic": {
@@ -42,23 +42,23 @@
       "type": "document",
       "ipinfo": {
         "domain": "google.co.kr",
-        "ip": "142.251.118.94",
-        "hostname": "tu-in-f94.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.251.24.94",
+        "hostname": "rj-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 44.193,
+        "rtt": 37.096,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.118.94",
-          "prefix": "142.251.118.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.94",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -75,23 +75,23 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "172.217.213.94",
-        "hostname": "hr-in-f94.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.250.21.94",
+        "hostname": "zh-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.146,
+        "rtt": 35.057,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.213.94",
-          "prefix": "172.217.213.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.94",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -121,7 +121,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.153.119",
           "prefix": "142.251.153.0/24",
           "anycast": true,
@@ -133,8 +133,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -150,23 +150,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.gstatic.com",
-        "ip": "172.217.209.94",
-        "hostname": "hq-in-f94.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.250.23.94",
+        "hostname": "zj-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.806,
+        "rtt": 37.347,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.209.94",
-          "prefix": "172.217.209.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.94",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -183,23 +183,23 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "ogads-pa.clients6.google.com",
-        "ip": "172.217.211.95",
-        "hostname": "hs-in-f95.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.251.24.95",
+        "hostname": "rj-in-f95.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 46.871,
+        "rtt": 37.994,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.211.95",
-          "prefix": "172.217.211.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.95",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

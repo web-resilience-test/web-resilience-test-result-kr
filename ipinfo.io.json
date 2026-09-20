@@ -2,14 +2,14 @@
   "url": "https://ipinfo.io",
   "canonicalURL": "https://ipinfo.io/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:17.339Z",
+  "timestamp": "2026-09-20T00:52:17.209Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -56,7 +56,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.117.59.81",
           "prefix": "34.117.59.0/24",
           "anycast": true,
@@ -68,8 +68,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
+          "site_count": 64,
+          "location_count": 64,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -85,7 +85,7 @@
       "type": "font",
       "ipinfo": {
         "domain": "website-cdn.assets.ipinfo.io",
-        "ip": "104.18.23.73",
+        "ip": "104.18.22.73",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -96,7 +96,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e6af0cf6ea95-ICN",
+        "cf-ray": "a3dcd8a74f26ea2d-ICN",
         "detection_method": "header"
       }
     },
@@ -105,8 +105,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "use.typekit.net",
-        "ip": "23.216.153.156",
-        "hostname": "a23-216-153-156.deploy.static.akamaitechnologies.com",
+        "ip": "23.192.45.66",
+        "hostname": "a23-192-45-66.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -116,12 +116,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.291,
+        "rtt": 45.122,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.216.153.156",
-          "prefix": "23.216.153.0/24",
+          "queried_ip": "23.192.45.66",
+          "prefix": "23.192.45.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -138,8 +138,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "p.typekit.net",
-        "ip": "23.216.153.133",
-        "hostname": "a23-216-153-133.deploy.static.akamaitechnologies.com",
+        "ip": "23.192.45.56",
+        "hostname": "a23-192-45-56.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -149,12 +149,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.037,
+        "rtt": 52.685,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "23.216.153.133",
-          "prefix": "23.216.153.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "23.192.45.56",
+          "prefix": "23.192.45.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -178,7 +178,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "api.iconify.design",
-        "ip": "172.67.71.159",
+        "ip": "104.26.13.204",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -192,8 +192,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "172.67.71.159",
-          "prefix": "172.67.71.0/24",
+          "queried_ip": "104.26.13.204",
+          "prefix": "104.26.13.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -203,8 +203,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",

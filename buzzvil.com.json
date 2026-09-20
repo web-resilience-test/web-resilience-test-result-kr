@@ -2,14 +2,14 @@
   "url": "https://buzzvil.com",
   "canonicalURL": "https://buzzvil.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:36.941Z",
+  "timestamp": "2026-09-20T00:45:41.610Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,14 +22,14 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "168.126.63.2"
   },
-  "requestCount": 134,
-  "uniqueDomains": 13,
+  "requestCount": 171,
+  "uniqueDomains": 16,
   "test_results": {
     "domestic": {
-      "cloud": 7,
-      "direct": 3
+      "cloud": 8,
+      "direct": 5
     },
     "foreign": {
       "cloud": 3,
@@ -55,7 +55,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "76.76.21.21",
           "prefix": "76.76.21.0/24",
           "anycast": true,
@@ -67,8 +67,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 57,
-          "location_count": 57,
+          "site_count": 58,
+          "location_count": 58,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -84,7 +84,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.buzzvil.com",
-        "ip": "76.76.21.123",
+        "ip": "66.33.60.129",
         "city": "Walnut",
         "region": "California",
         "country": "US",
@@ -98,8 +98,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "76.76.21.123",
-          "prefix": "76.76.21.0/24",
+          "queried_ip": "66.33.60.129",
+          "prefix": "66.33.60.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -109,8 +109,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 57,
-          "location_count": 57,
+          "site_count": 59,
+          "location_count": 59,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -122,7 +122,7 @@
       }
     },
     {
-      "originalUrl": "https://form.jotform.com/230992312048454",
+      "originalUrl": "https://form.jotform.com/230738798547474",
       "type": "document",
       "ipinfo": {
         "domain": "form.jotform.com",
@@ -140,7 +140,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.102.158.113",
           "prefix": "34.102.158.0/24",
           "anycast": true,
@@ -152,8 +152,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 63,
-          "location_count": 63,
+          "site_count": 64,
+          "location_count": 64,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -180,7 +180,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de46192e80b7-ICN",
+        "cf-ray": "a3dccee9f8e9eaa2-ICN",
         "x-served-by": "cache-fra-etou8220068-FRA, cache-icn1450081-ICN",
         "detection_method": "header"
       }
@@ -190,23 +190,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
+        "ip": "172.217.209.97",
+        "hostname": "hq-in-f97.1e100.net",
+        "city": "Osaka",
+        "region": "Osaka",
         "country": "JP",
-        "loc": "35.6895,139.6917",
+        "loc": "34.6938,135.5011",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.022,
+        "rtt": 38.326,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.209.97",
+          "prefix": "172.217.209.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -235,11 +235,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&ae=g&auid=416240407.1789802851&dt=%EB%B2%84%EC%A6%88%EB%B9%8C%20%7C%20%EC%9D%B8%ED%84%B0%EB%9E%99%EC%85%98%20AI%20agent%EB%A1%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%9D%98%20%EA%B4%91%EA%B3%A0&en=page_view&dl=https%3A%2F%2Fwww.buzzvil.com%2Fen&scrsrc=www.googletagmanager.com&rnd=1880131940.1789802851&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9110825696za200zd9110825696xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~120385422~120469145~120469153~120847433&tft=1789802850623&tfd=698&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=1&ae=g&auid=1963057494.1789865136&dt=%EB%B2%84%EC%A6%88%EB%B9%8C%20%7C%20%EC%9D%B8%ED%84%B0%EB%9E%99%EC%85%98%20AI%20agent%EB%A1%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%9D%98%20%EA%B4%91%EA%B3%A0&en=page_view&dl=https%3A%2F%2Fwww.buzzvil.com%2F&scrsrc=www.googletagmanager.com&rnd=978554169.1789865136&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9110825696za200zd9110825696xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120385422~120469145~120469153~120847435&tft=1789865135948&tfd=629&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.157.119",
+        "ip": "142.251.152.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -252,9 +252,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.157.119",
-          "prefix": "142.251.157.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.152.119",
+          "prefix": "142.251.152.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -277,11 +277,11 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-X05JLV8X2T&gtm=45je69g1v9110855258z89110825696za20gzb9110825696zd9110825696xf1&_p=1789802850179&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=68842160.1789802851&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789802850&sct=1&seg=0&dl=https%3A%2F%2Fwww.buzzvil.com%2Fen&dt=%EB%B2%84%EC%A6%88%EB%B9%8C%20%7C%20%EC%9D%B8%ED%84%B0%EB%9E%99%EC%85%98%20AI%20agent%EB%A1%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%9D%98%20%EA%B4%91%EA%B3%A0&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=808",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-X05JLV8X2T&gtm=45je69g1h1v9110855258z89110825696za20gzb9110825696zd9110825696xf1&_p=1789865135658&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=603855209.1789865136&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789865135&sct=1&seg=0&dl=https%3A%2F%2Fwww.buzzvil.com%2F&dt=%EB%B2%84%EC%A6%88%EB%B9%8C%20%7C%20%EC%9D%B8%ED%84%B0%EB%9E%99%EC%85%98%20AI%20agent%EB%A1%9C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EB%AA%A8%EB%91%90%EA%B0%80%20%EC%82%AC%EB%9E%91%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%9D%98%20%EA%B4%91%EA%B3%A0&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=684",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.32.181",
+        "ip": "216.239.36.181",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -291,12 +291,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.767,
+        "rtt": 39.725,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "216.239.32.181",
-          "prefix": "216.239.32.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.36.181",
+          "prefix": "216.239.36.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -306,18 +306,18 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 9,
+          "site_count": 17,
           "location_count": 9
         }
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-X05JLV8X2T&cid=68842160.1789802851&gtm=45je69g1v9110855258z89110825696za20gzb9110825696zd9110825696xf1&rcb=9&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&z=373306685",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-X05JLV8X2T&cid=603855209.1789865136&gtm=45je69g1h1v9110855258z89110825696za20gzb9110825696zd9110825696xf1&rcb=4&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&z=925599481",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
+        "ip": "142.250.23.94",
+        "hostname": "zj-in-f94.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -327,12 +327,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.893,
+        "rtt": 42.14,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.94",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -361,6 +361,27 @@
       "category": "domestic/direct"
     },
     {
+      "originalUrl": "https://images.ctfassets.net/xvzillsidxgl/79YDzX4tqdqSeNvvyh1l16/670d485ffc3146de7d9d13ec415c0d0e/99bacda2-3aaf-4823-97ab-5688e3dca1fe.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "images.ctfassets.net",
+        "ip": "52.85.128.105",
+        "hostname": "server-52-85-128-105.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
       "originalUrl": "https://cdn.jotfor.ms/stylebuilder/static/form-common.css?v=9c15332",
       "type": "stylesheet",
       "ipinfo": {
@@ -377,48 +398,11 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "rtt": 7.562,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "8.233.166.209",
-          "prefix": "8.233.166.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            396982
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 62,
-          "location_count": 62
-        }
-      }
-    },
-    {
-      "originalUrl": "https://events.jotform.com/form/230992312048454/?ref=https%253A%252F%252Fwww.buzzvil.com%252F&res=1352x878&eventID=1789802853164_230992312048454_Gnm9S2c&loc=undefined",
-      "type": "image",
-      "ipinfo": {
-        "domain": "events.jotform.com",
-        "ip": "34.102.158.113",
-        "hostname": "113.158.102.34.bc.googleusercontent.com",
-        "city": "Kansas City",
-        "region": "Missouri",
-        "country": "US",
-        "loc": "39.0997,-94.5786",
-        "org": "AS396982 Google LLC",
-        "timezone": "America/Chicago"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "34.102.158.113",
-          "prefix": "34.102.158.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "8.233.166.209",
+          "prefix": "8.233.166.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -441,11 +425,84 @@
       }
     },
     {
+      "originalUrl": "https://events.jotform.com/form/230738798547474/?ref=https%253A%252F%252Fwww.buzzvil.com%252F&res=1352x878&eventID=1789865138191_230738798547474_VsEZ7yL&loc=undefined",
+      "type": "image",
+      "ipinfo": {
+        "domain": "events.jotform.com",
+        "ip": "34.102.158.113",
+        "hostname": "113.158.102.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.102.158.113",
+          "prefix": "34.102.158.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 64,
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
       "originalUrl": "https://wcs.naver.net/wcslog.js",
       "type": "script",
       "ipinfo": {
         "domain": "wcs.naver.net",
-        "ip": "61.247.197.73",
+        "ip": "125.209.254.11",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ssl.pstatic.net",
+        "ip": "125.209.254.17",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/nac/2",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "nam.veta.naver.com",
+        "ip": "61.247.194.50",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

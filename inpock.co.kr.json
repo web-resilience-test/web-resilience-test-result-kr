@@ -1,0 +1,126 @@
+{
+  "url": "https://inpock.co.kr",
+  "canonicalURL": "https://www.inpock.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:55:55.765Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 35,
+  "uniqueDomains": 4,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://inpock.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "inpock.co.kr",
+        "ip": "18.67.51.2",
+        "hostname": "server-18-67-51-2.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.inpock.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.inpock.co.kr",
+        "ip": "31.43.161.6",
+        "hostname": "sites.framer.app",
+        "city": "Amsterdam",
+        "region": "North Holland",
+        "country": "NL",
+        "loc": "52.3740,4.8897",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "rtt": 11.752,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "31.43.161.6",
+          "prefix": "31.43.161.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 60,
+          "location_count": 60
+        }
+      }
+    },
+    {
+      "originalUrl": "https://events.framer.com/script?v=2",
+      "type": "script",
+      "ipinfo": {
+        "domain": "events.framer.com",
+        "ip": "3.168.167.3",
+        "hostname": "server-3-168-167-3.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://framerusercontent.com/images/b6Iulu0LpzmWYpSaa8pRZeInA.png?width=654&height=741",
+      "type": "image",
+      "ipinfo": {
+        "domain": "framerusercontent.com",
+        "ip": "18.67.51.115",
+        "hostname": "server-18-67-51-115.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

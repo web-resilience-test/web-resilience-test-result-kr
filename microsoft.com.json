@@ -2,14 +2,14 @@
   "url": "https://microsoft.com",
   "canonicalURL": "https://www.microsoft.com/ko-kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:07.883Z",
+  "timestamp": "2026-09-20T00:45:08.192Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -28,11 +28,11 @@
   "uniqueDomains": 28,
   "test_results": {
     "domestic": {
-      "cloud": 11,
+      "cloud": 10,
       "direct": 1
     },
     "foreign": {
-      "cloud": 16,
+      "cloud": 17,
       "direct": 0
     }
   },
@@ -52,12 +52,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T072653Z-1764d94df46q87vrhC1SELbbuw0000000r3000000000f362",
+        "x-azure-ref": "20260920T004454Z-1764d94df46gngm2hC1SELgken0000000pfg000000007b10",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -110,8 +110,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "c.s-microsoft.com",
-        "ip": "23.47.147.131",
-        "hostname": "a23-47-147-131.deploy.static.akamaitechnologies.com",
+        "ip": "184.31.229.222",
+        "hostname": "a184-31-229-222.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -121,12 +121,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 44.763,
+        "rtt": 37.584,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.47.147.131",
-          "prefix": "23.47.147.0/24",
+          "queried_ip": "184.31.229.222",
+          "prefix": "184.31.229.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -143,24 +143,24 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "uhf.microsoft.com",
-        "ip": "23.1.17.58",
-        "hostname": "a23-1-17-58.deploy.static.akamaitechnologies.com",
-        "city": "Ibaraki",
-        "region": "Osaka",
+        "ip": "23.51.139.87",
+        "hostname": "a23-51-139-87.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.8164,135.5683",
+        "loc": "35.6895,139.6917",
         "org": "AS16625 Akamai Technologies, Inc.",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260910T113649Z-186cdf78b8f79mm9hC1OSAygg0000000152g0000000036m2",
-        "rtt": 41.74,
+        "x-azure-ref": "20260910T113651Z-15749c967dcrqb6hhC1TYO7hx40000000e4g000000007d1b",
+        "rtt": 36.109,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.1.17.58",
-          "prefix": "23.1.17.0/24",
+          "queried_ip": "23.51.139.87",
+          "prefix": "23.51.139.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -203,12 +203,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T072654Z-1764d94df46pxdbnhC1SELp3a00000000xvg00000000hkfw",
+        "x-azure-ref": "20260920T004455Z-1764d94df4687wpkhC1SEL1q5s0000001z0000000000hxx2",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -240,10 +240,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 71.76,
+        "rtt": 68.522,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "57.155.120.218",
           "prefix": "57.155.120.0/24",
           "anycast": false,
@@ -262,7 +262,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "scripts.clarity.ms",
-        "ip": "150.171.110.133",
+        "ip": "150.171.110.135",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -272,13 +272,13 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T072654Z-1764d94df46xwccghC1SELcwss0000002hq0000000001qkc",
+        "x-azure-ref": "20260920T004455Z-1764d94df4687wpkhC1SEL1q5s0000001z5g000000007sz7",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "150.171.110.133",
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
           "prefix": "150.171.110.0/24",
           "anycast": true,
           "confidence": "confident",
@@ -309,10 +309,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 188.793,
+        "rtt": 185.001,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "51.8.44.252",
           "prefix": "51.8.44.0/24",
           "anycast": false,
@@ -341,12 +341,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T072655Z-1764d94df46jkpj6hC1SEL6d940000002hpg000000004auy",
+        "x-azure-ref": "20260920T004455Z-15559d97d99hmvhthC1SEL894w0000002v3g000000008171",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.135",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -368,8 +368,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -379,12 +379,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.931,
+        "rtt": 36.806,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -397,7 +397,7 @@
       }
     },
     {
-      "originalUrl": "https://dpm.demdex.net/id?d_visid_ver=5.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=EA76ADE95776D2EC7F000101%40AdobeOrg&d_nsid=0&ts=1789802815231",
+      "originalUrl": "https://dpm.demdex.net/id?d_visid_ver=5.4.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=EA76ADE95776D2EC7F000101%40AdobeOrg&d_nsid=0&ts=1789865095748",
       "type": "xhr",
       "ipinfo": {
         "domain": "dpm.demdex.net",
@@ -416,7 +416,7 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "35.79.178.132",
           "prefix": "35.79.178.0/24",
           "anycast": false,
@@ -435,7 +435,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "bat.bing.com",
-        "ip": "150.171.27.10",
+        "ip": "150.171.28.10",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -445,13 +445,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 953CD68C335C4E1FA7A7D9492D570E34 Ref B: SEL221051503019 Ref C: 2026-09-19T07:26:55Z",
+        "x-msedge-ref": "Ref A: 81B47EEFFEE44A6C9E2BCD898A16061C Ref B: SEL221051805021 Ref C: 2026-09-20T00:44:55Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "150.171.27.10",
-          "prefix": "150.171.27.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.28.10",
+          "prefix": "150.171.28.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -461,8 +461,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 55,
-          "location_count": 55,
+          "site_count": 53,
+          "location_count": 53,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -474,7 +474,7 @@
       }
     },
     {
-      "originalUrl": "https://www.facebook.com/tr?id=1770559986549030&ev=PixelInitialized&dpo=LDU&dpoco=0&dpost=0&ts=1789802815240",
+      "originalUrl": "https://www.facebook.com/tr?id=1770559986549030&ev=PixelInitialized&dpo=LDU&dpoco=0&dpost=0&ts=1789865095751",
       "type": "image",
       "ipinfo": {
         "domain": "www.facebook.com",
@@ -505,12 +505,12 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dd6c2e6b6995-ICN",
+        "cf-ray": "a3dccdf16936d1d6-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://pixel.everesttech.net/px2/4249?px_evt=t&ev_AdobeAC2_Store_SiteEngagement=0&ev_transid=&ut1=&ut2=ko&ut3=kr&cachebuster=368829812",
+      "originalUrl": "https://pixel.everesttech.net/px2/4249?px_evt=t&ev_AdobeAC2_Store_SiteEngagement=0&ev_transid=&ut1=&ut2=ko&ut3=kr&cachebuster=189234116",
       "type": "image",
       "ipinfo": {
         "domain": "pixel.everesttech.net",
@@ -544,7 +544,7 @@
       }
     },
     {
-      "originalUrl": "https://rtd-tm.everesttech.net/creative2/?advId=168868&pxId=t0CD9q1RAmNeo6rJc0xo&ut1=&ut2=ko&ut3=kr&cachebuster=368829812",
+      "originalUrl": "https://rtd-tm.everesttech.net/creative2/?advId=168868&pxId=t0CD9q1RAmNeo6rJc0xo&ut1=&ut2=ko&ut3=kr&cachebuster=189234116",
       "type": "image",
       "ipinfo": {
         "domain": "rtd-tm.everesttech.net",
@@ -559,97 +559,7 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=10fa57ef-4895-4ab2-872c-8c3613d4f7fb&redirect_uri=https%3A%2F%2Fwww.microsoft.com%2Fcascadeauth%2Faccount%2Fsignin-oidc&response_type=code&prompt=none&scope=openid%20profile%20offline_access&code_challenge=KIgs2zkYbQLMffn3ApYRM5xb0ZJ-A20B97R0IUxsrjw&code_challenge_method=S256&response_mode=form_post&nonce=639253996153229871.YWZhNDEwZjQtZDRhMi00ZDMyLWFhYTktYjkyMGIyZjdiMGI4MjMxNzVlNzYtYTVhNC00YjNmLWI0YmQtNWM0M2NmZDZiNTg0&client_info=1&x-client-brkrver=IDWeb.4.14.1.0&claims=%7B%22compact%22%3A%7B%22name%22%3A%7B%22essential%22%3Atrue%7D%7D%7D&state=CfDJ8D3-29LeNclHm6awBmgkPjkLWFgFtotNwF2n3Xmj4ngO6LNzEbSd4mXQEMr22NpYd7gBcsQDEqJwnfmixd9nqtnqStZTN_2rp_j83wtP0veAJitPanhkeNNLMhGT2KAWlDN4jY3n6xDghWqMZX1yqKK3C6DdjVrw_ixaIMX1fOgkZJHj3fbDH15PtGuP-POXRMoRpd840KDF1IVHlg1eRQvpQnBksEIHgsLlk3oYCmnHhkKat0_eDV-RwQJmJV2ETzXN05FITP-VsGm3EVrndhnMXwVDIvTha6nBGbSfYKH8KzjohWqn9iw8NLfPRMotghClj1hJYsG57sUxMf2vxfJ5t2h6E7JQefH8VLo-KQEX10liw8oQxxUyyHWCThcIEMw3QEiVfLKtb4NsaezBYnI6kcSqa-IV04lzE11GOCJcCRybzvYsmGFZdpKrl1X7-o4SKMBcNOWyYXl97Ny022kJc6tljjQx2ElldcammDIiL5raNxarh7-QESImkXzqV04lduAkJQcDNmqWWX63QrU&x-client-SKU=ID_NET8_0&x-client-ver=8.21.0.0",
-      "type": "document",
-      "ipinfo": {
-        "domain": "login.microsoftonline.com",
-        "ip": "20.190.144.137",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://www.google.com/pagead/1p-user-list/923371515/?guid=ON&script=0&url=www.microsoft.com%2Fko-kr&data=ecomm_pagetype%3Dother&is_vtc=1&cid=CAQS1AEAQM4h3FJprZsHvOxiLEIhEXwUMnkqcHoUCqoHyRQ9xZcg-0avIqg6M2JDbO_350iw_Bepg601Q2ukrTEuzfL_nlOXbtofUA5XiLuGtPVTwtOnoDFOCiBhOT9rCap2RqotTwCGFqI_pGUGULSvXrk2gaFjcmZSSSe8cyJE9Xj3blCf-Yd2mQkOXFeol2SKtrgWLP-UoqPf_Xdj4leZ0CBudPcdVEOp_wOkyVAzPpu_cyAHcvO4EHtCOJidmo47xgMMTbSaP1Bnw4-1mNEHT3yZiYkM6w&random=4199847550",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.com",
-        "ip": "142.251.151.119",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.151.119",
-          "prefix": "142.251.151.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://msftenterprise.sc.omtrdc.net/id?d_visid_ver=5.4.0&d_fieldgroup=A&mcorgid=EA76ADE95776D2EC7F000101%40AdobeOrg&mid=75560524082822637345882813481517002091&cl=34190000&ts=1789802815391",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "msftenterprise.sc.omtrdc.net",
-        "ip": "63.140.50.20",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": null,
-        "detection_method": "rtt",
-        "rtt_error": "timeout",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "63.140.50.20",
-          "prefix": "63.140.50.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=83a8855a16174a2089cd07180f3beacb&version=2.11.8",
+      "originalUrl": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=393f6d412a6d405dad395964da029560&version=2.11.8",
       "type": "xhr",
       "ipinfo": {
         "domain": "target.microsoft.com",
@@ -667,7 +577,7 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "63.140.50.158",
           "prefix": "63.140.50.0/24",
           "anycast": false,
@@ -682,42 +592,26 @@
       }
     },
     {
-      "originalUrl": "https://login.live.com/oauth20_authorize.srf?client_id=10fa57ef-4895-4ab2-872c-8c3613d4f7fb&scope=openid+profile+offline_access&redirect_uri=https%3a%2f%2fwww.microsoft.com%2fcascadeauth%2faccount%2fsignin-oidc&response_type=code&state=CfDJ8D3-29LeNclHm6awBmgkPjkLWFgFtotNwF2n3Xmj4ngO6LNzEbSd4mXQEMr22NpYd7gBcsQDEqJwnfmixd9nqtnqStZTN_2rp_j83wtP0veAJitPanhkeNNLMhGT2KAWlDN4jY3n6xDghWqMZX1yqKK3C6DdjVrw_ixaIMX1fOgkZJHj3fbDH15PtGuP-POXRMoRpd840KDF1IVHlg1eRQvpQnBksEIHgsLlk3oYCmnHhkKat0_eDV-RwQJmJV2ETzXN05FITP-VsGm3EVrndhnMXwVDIvTha6nBGbSfYKH8KzjohWqn9iw8NLfPRMotghClj1hJYsG57sUxMf2vxfJ5t2h6E7JQefH8VLo-KQEX10liw8oQxxUyyHWCThcIEMw3QEiVfLKtb4NsaezBYnI6kcSqa-IV04lzE11GOCJcCRybzvYsmGFZdpKrl1X7-o4SKMBcNOWyYXl97Ny022kJc6tljjQx2ElldcammDIiL5raNxarh7-QESImkXzqV04lduAkJQcDNmqWWX63QrU&response_mode=form_post&nonce=639253996153229871.YWZhNDEwZjQtZDRhMi00ZDMyLWFhYTktYjkyMGIyZjdiMGI4MjMxNzVlNzYtYTVhNC00YjNmLWI0YmQtNWM0M2NmZDZiNTg0&prompt=none&code_challenge=-rmgHIiJozj5KfaN0zqUiSIPu0zFZNbqdt2rQ9_n6So&code_challenge_method=S256&x-client-SKU=ID_NET8_0&x-client-Ver=8.21.0.0&uaid=b509bd33110c47978304e46a17a762cd&msproxy=1&issuer=mso&tenant=consumers&ui_locales=zh-TW&client_info=1&epctrc=DAO17A12s5x4g5KhuhxqNjaieyWuGJbvTy0uy251yZI%3d4%3a1%3aCANARY%3aBzTcocSgHI85J4ST7FHxpfMWc7iIJhg%2f%2fyw8qbbKLQo%3d&epct=PBgABDgEAAAA9VeaV3ywaSLp1O3c4_Et5RXZvU3RzQXJ0aWZhY3RzCAAAAAAA8W4fWEkQ5T9pUxjohKCHyh0kHBHawNxjoBS6-4t5YEAd8xSEY2o_WgMUXIuQDvf1HO6uBLA4S4ZjeoDa83zdY2B4TMWLppPZCTJBxdkJaB4cb-hbI2cR_8PoMqKiM_GdPCCUbEGYmR5AJygDjUNyseTzcRmXjyT1E8rUS2qqIh9FMHL4XaF7KPtw-fiUJ1LlnH47I0czouzV4ynWlBp6kh4rPCm0mx7L385X9pO1KRrA2bEBJZClD3W95DJoTRrtlP0dbutyExsDuE57uYxIFYt2aX0ulmq0H7bs9Is3mUKN9hr7sC-mh8Sl0UhHTbSkvE4SkLvg_7WlvkG1zAf5jdflcp_kYFb6z8zj5UociMv7Sws94ylwhRjvSBX6d_GVKUEhGPPzn-g3aDJOtQgkIZCQLsX0n34YH60fgiJTCr0eyoWdkg7HBhQedAiIpD9cJM7XgtAJEjPHxAVCauuQ77mI7hk_uokStnKIXNvGrCqPnCDg5T6-wKFF1-mjcSdLhIACzfP4S5e64DOJwKPmmgpi5ei9xDjezDkOqaUhz6Tb98KRahmmB1Jchy8VoCptSRldKbJIAMXKZ1kzgCTnuZxPulFwLuCsWJdTac0kgWkhM-L1Jtn0_n2Tvbkff7_TKZN0hWGTE4B_IFHFbaYFBsRXGBtyOlt4KDVmu4_3PAMPbkPSPWDke1FGYw-BertrRdBsiXPY80RSr-G-BuYqzrXpGLFg-t8EOvDXImJ9ecyB5eydv-QzO96N9P1vksH3IAA&jshs=0&claims=%7b%22compact%22%3a%7b%22name%22%3a%7b%22essential%22%3atrue%7d%7d%7d",
+      "originalUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=10fa57ef-4895-4ab2-872c-8c3613d4f7fb&redirect_uri=https%3A%2F%2Fwww.microsoft.com%2Fcascadeauth%2Faccount%2Fsignin-oidc&response_type=code&prompt=none&scope=openid%20profile%20offline_access&code_challenge=ZTODgOTK6M5M_Nvu0zsrU7rRkwn8_Ol-_jICLxljzd8&code_challenge_method=S256&response_mode=form_post&nonce=639254618958133170.MTZlN2FlZWUtNjFmMi00ZjVmLTkxNGUtZGRkMmY1YWE5MTE4YThjODcyZjUtYzIzOC00ZTIzLTg2NDEtYTM2ZGE4NGFlZmNi&client_info=1&x-client-brkrver=IDWeb.4.14.1.0&claims=%7B%22compact%22%3A%7B%22name%22%3A%7B%22essential%22%3Atrue%7D%7D%7D&state=CfDJ8D3-29LeNclHm6awBmgkPjkwrUyuhy5W0_Uc9HKIN41-pmgbC8PBFu95WtQCF19C4sbkCA3pzqpUm44jQW_gufi4vGwPEgs_SnVzBwAcfsZhyJmwaI6D3B9lfxV_-1AOOkYKWQusHCMbc5ItUkLCQF-oKbzE4QebePTdk3XUAJUZ9USC2mJUXIysQ-5ufJO5L-IndQXASmmDnQ7UV3J1Q8GMEeTEIbFOKZ7-t-b3cvY3v7v3cI_3fINvDZZeuNW3zrobG7Uz9RCQrNCzHibU4aauhXVMQ5WZ3W03p7qHuXqwZaMUxla4lkuIKQbYGem8NZc_xwVJ5ewpmo9Lpslao9nGLhe0c4h_H5fUVjXRZAN67PIu-j2gvZiKOw91s89uhixDr28B6A_tZMJnmm08rs9KlPlPgYPg3jGTKh9HnC96zqKUvLmOQp3Vdr8pERAHadcpuUgl35aYfn0oeFT1Jqkvd0HpF7z29GDm6VqVEJtk4yo1vvBjOnAl8Map3KxxezmhbiijiOC_HfQRVhDeV5s&x-client-SKU=ID_NET8_0&x-client-ver=8.21.0.0",
       "type": "document",
       "ipinfo": {
-        "domain": "login.live.com",
-        "ip": "20.190.144.162",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "domain": "login.microsoftonline.com",
+        "ip": "40.126.35.20",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
         "org": "AS8075 Microsoft Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/923371515/?guid=ON&script=0&url=www.microsoft.com%2Fko-kr&data=ecomm_pagetype%3Dother&is_vtc=1&cid=CAQS1AEAQM4h3FJprZsHvOxiLEIhEXwUMnkqcHoUCqoHyRQ9xZcg-0avIqg6M2JDbO_350iw_Bepg601Q2ukrTEuzfL_nlOXbtofUA5XiLuGtPVTwtOnoDFOCiBhOT9rCap2RqotTwCGFqI_pGUGULSvXrk2gaFjcmZSSSe8cyJE9Xj3blCf-Yd2mQkOXFeol2SKtrgWLP-UoqPf_Xdj4leZ0CBudPcdVEOp_wOkyVAzPpu_cyAHcvO4EHtCOJidmo47xgMMTbSaP1Bnw4-1mNEHT3yZiYkM6w&random=4199847550&ipr=y",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Singapore"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 34.625,
+        "rtt": 70.609,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "40.126.35.20",
+          "prefix": "40.126.35.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -730,26 +624,102 @@
       }
     },
     {
-      "originalUrl": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+      "originalUrl": "https://msftenterprise.sc.omtrdc.net/id?d_visid_ver=5.4.0&d_fieldgroup=A&mcorgid=EA76ADE95776D2EC7F000101%40AdobeOrg&mid=70078392932773701918378752599954823676&cl=34190000&ts=1789865095894",
       "type": "xhr",
       "ipinfo": {
-        "domain": "browser.events.data.microsoft.com",
-        "ip": "104.46.162.229",
-        "city": "Melbourne",
-        "region": "Victoria",
-        "country": "AU",
-        "loc": "-37.8140,144.9633",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "Australia/Melbourne"
+        "domain": "msftenterprise.sc.omtrdc.net",
+        "ip": "63.140.50.133",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 146.725,
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "63.140.50.133",
+          "prefix": "63.140.50.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/pagead/1p-user-list/923371515/?guid=ON&script=0&url=www.microsoft.com%2Fko-kr&data=ecomm_pagetype%3Dother&is_vtc=1&cid=CAQS1AEAQM4h3C-D-_yWv9ytnzRs3BQjF8aPCImK2Z8dyy8b0iyk_Hm7AtxdZ6b8Ns2wYIikUP6iMDKKNlbtF8BZwI202cp9v33-H0SawNP6oOk2HLrzxdq8RPQbu7cu5E0Wzt2OFDUWTkxjwkrhq_KtG89cHSeQ1NbRbNQlYPeKhH-0zXjU2xwwzRI8QV0wQQ1kPFpTViV6je7l2lEdONukKMCM4uvImY6G_b1VQ9T8WUPtMegtDdaOH53Q-qb47REd6mdKc2fVlnXVjn_omimqnHhifzJ8sA&random=2809434387",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.154.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.119",
+          "prefix": "142.251.154.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/923371515/?guid=ON&script=0&url=www.microsoft.com%2Fko-kr&data=ecomm_pagetype%3Dother&is_vtc=1&cid=CAQS1AEAQM4h3C-D-_yWv9ytnzRs3BQjF8aPCImK2Z8dyy8b0iyk_Hm7AtxdZ6b8Ns2wYIikUP6iMDKKNlbtF8BZwI202cp9v33-H0SawNP6oOk2HLrzxdq8RPQbu7cu5E0Wzt2OFDUWTkxjwkrhq_KtG89cHSeQ1NbRbNQlYPeKhH-0zXjU2xwwzRI8QV0wQQ1kPFpTViV6je7l2lEdONukKMCM4uvImY6G_b1VQ9T8WUPtMegtDdaOH53Q-qb47REd6mdKc2fVlnXVjn_omimqnHhifzJ8sA&random=2809434387&ipr=y",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.251.23.94",
+        "hostname": "rl-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 36.992,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.46.162.229",
-          "prefix": "104.46.162.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.94",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -777,8 +747,55 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dd6f09196995-ICN",
+        "cf-ray": "a3dccdf3ed88d1d6-ICN",
         "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://login.live.com/oauth20_authorize.srf?client_id=10fa57ef-4895-4ab2-872c-8c3613d4f7fb&scope=openid+profile+offline_access&redirect_uri=https%3a%2f%2fwww.microsoft.com%2fcascadeauth%2faccount%2fsignin-oidc&response_type=code&state=CfDJ8D3-29LeNclHm6awBmgkPjkwrUyuhy5W0_Uc9HKIN41-pmgbC8PBFu95WtQCF19C4sbkCA3pzqpUm44jQW_gufi4vGwPEgs_SnVzBwAcfsZhyJmwaI6D3B9lfxV_-1AOOkYKWQusHCMbc5ItUkLCQF-oKbzE4QebePTdk3XUAJUZ9USC2mJUXIysQ-5ufJO5L-IndQXASmmDnQ7UV3J1Q8GMEeTEIbFOKZ7-t-b3cvY3v7v3cI_3fINvDZZeuNW3zrobG7Uz9RCQrNCzHibU4aauhXVMQ5WZ3W03p7qHuXqwZaMUxla4lkuIKQbYGem8NZc_xwVJ5ewpmo9Lpslao9nGLhe0c4h_H5fUVjXRZAN67PIu-j2gvZiKOw91s89uhixDr28B6A_tZMJnmm08rs9KlPlPgYPg3jGTKh9HnC96zqKUvLmOQp3Vdr8pERAHadcpuUgl35aYfn0oeFT1Jqkvd0HpF7z29GDm6VqVEJtk4yo1vvBjOnAl8Map3KxxezmhbiijiOC_HfQRVhDeV5s&response_mode=form_post&nonce=639254618958133170.MTZlN2FlZWUtNjFmMi00ZjVmLTkxNGUtZGRkMmY1YWE5MTE4YThjODcyZjUtYzIzOC00ZTIzLTg2NDEtYTM2ZGE4NGFlZmNi&prompt=none&code_challenge=mM2dkdJxytneBse69niEOgMTtlkQcgoPVh1vE97ZfI8&code_challenge_method=S256&x-client-SKU=ID_NET8_0&x-client-Ver=8.21.0.0&uaid=258dfa1cdb4e4c5eaffd0678b9d3dd4c&msproxy=1&issuer=mso&tenant=consumers&ui_locales=ko-KR&client_info=1&epctrc=IcnNep%2f%2bkv5HX6y5HGxmbu2m3Iy4Kn57tOCwOBXegDM%3d7%3a1%3aCANARY%3akl1gkfudp84b%2bAdbgJZRsZF4XzzvdXoaQhzLWk1QyTc%3d&epct=PBgABDgEAAAA9VeaV3ywaSLp1O3c4_Et5RXZvU3RzQXJ0aWZhY3RzCAAAAAAACpor22KIRJ3uiZ063d2B5LO1Ym6cKt_UnVtt9IXl9fxck5_C2BXj8uKV3E1yEdjtdejXzloVxojP9QvtccLlt4_Fmf0cw6J33bctCb9rd_z2rNHIpRHB4nSZ-CepQU4v--Mp6df2Si4ooPIJln9TGDT6hHr0mF-H6pXufvMcj_1aqBTR_xHti9SCBmaAMNQza_B9k4ondrqQRpBjGinugrkCL2Xdi2ItfnqmT6NIKbm4Izv0Qg0vXyTB5NR36FiMDbF_kOsjL6HK57yhgLVOm5-lcAe1I22gjbUqJpfICZ9CaWhRMR7MkLgF0JVEd_ynN7LMSDU6kyoT7NE7zkfLoIpbjgGVFiFN9ZYXCnjci02Drcxlhh9HWbRYuklhfeZgQ3KMgL8IPRLrKuHC5peZswsUNS_2l3bHgaXwBWiFsiRAr9AGzXVcGrjxU3e0yEOp_TE56vmHpkfch-HbynP9U9y7hlW44xqrJj2bBjmT-wL2KXU-tsnckozUdC-wxyv8pJ6CUvyvxB_xRhcMkkVPRS9kjY-zs7JlDlD_vZS2a1fsgMIXMXM4UXJDRp96AWXQc9eAfoX7dxDiXisIkPER-W4lsvzvZZoKDk_b7Y0gvUUJRw9GGuAxGvXcw0R64WG5H8oI4RiOI9xRXgmnSZMedltduQtscixgqeb4DX7Jz-q0azIC_tOWjiUfOlCtLBERtGjE6eZNRh4S-Ply6MdM6ARBbuxRgo4mDhPzEKih5PIBGoI9EBS6DA7SRG5AfwZZIAA&jshs=0&claims=%7b%22compact%22%3a%7b%22name%22%3a%7b%22essential%22%3atrue%7d%7d%7d",
+      "type": "document",
+      "ipinfo": {
+        "domain": "login.live.com",
+        "ip": "40.126.16.166",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://browser.events.data.microsoft.com/OneCollector/1.0/?cors=true&content-type=application/x-json-stream&w=0",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "browser.events.data.microsoft.com",
+        "ip": "4.150.223.98",
+        "city": "Des Moines",
+        "region": "Iowa",
+        "country": "US",
+        "loc": "41.6005,-93.6091",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Chicago"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 160.834,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "4.150.223.98",
+          "prefix": "4.150.223.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
       }
     },
     {
@@ -800,7 +817,7 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
@@ -822,8 +839,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdnssl.clicktale.net",
-        "ip": "52.85.128.50",
-        "hostname": "server-52-85-128-50.icn53.r.cloudfront.net",
+        "ip": "52.85.128.29",
+        "hostname": "server-52-85-128-29.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -834,11 +851,11 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "rtt": 7.676,
+        "rtt": 6.44,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "52.85.128.50",
+          "queried_ip": "52.85.128.29",
           "prefix": "52.85.128.0/24",
           "anycast": false,
           "confidence": "not_detected",

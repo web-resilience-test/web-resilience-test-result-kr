@@ -2,14 +2,14 @@
   "url": "https://danawa.com",
   "canonicalURL": "https://danawa.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:42.557Z",
+  "timestamp": "2026-09-20T00:44:21.952Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,9 +22,9 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "168.126.63.2"
   },
-  "requestCount": 403,
+  "requestCount": 387,
   "uniqueDomains": 27,
   "test_results": {
     "domestic": {
@@ -72,7 +72,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.evgnet.com",
-        "ip": "151.101.0.114",
+        "ip": "151.101.128.114",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -83,7 +83,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "x-served-by": "cache-iad-kcgs7200130-IAD, cache-icn1450033-ICN",
+        "x-served-by": "cache-iad-kcgs7200130-IAD, cache-icn1450038-ICN",
         "detection_method": "header"
       }
     },
@@ -92,7 +92,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "ssl.pstatic.net",
-        "ip": "61.247.197.75",
+        "ip": "125.209.254.17",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -107,12 +107,12 @@
       "type": "image",
       "ipinfo": {
         "domain": "img.danawa.com",
-        "ip": "23.67.53.219",
-        "hostname": "a23-67-53-219.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.192.191.200",
+        "hostname": "a23-192-191-200.deploy.static.akamaitechnologies.com",
+        "city": "Seongnam-si",
+        "region": "Gyeonggi-do",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4463,127.1384",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -123,8 +123,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "store.img11.co.kr",
-        "ip": "18.64.8.106",
-        "hostname": "server-18-64-8-106.icn57.r.cloudfront.net",
+        "ip": "18.64.8.119",
+        "hostname": "server-18-64-8-119.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -139,12 +139,12 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.danawa.com",
-        "ip": "23.67.53.200",
-        "hostname": "a23-67-53-200.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.192.191.202",
+        "hostname": "a23-192-191-202.deploy.static.akamaitechnologies.com",
+        "city": "Seongnam-si",
+        "region": "Gyeonggi-do",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4463,127.1384",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -155,7 +155,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "wcs.naver.net",
-        "ip": "125.209.254.11",
+        "ip": "61.247.197.73",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -170,23 +170,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
+        "ip": "142.251.118.97",
+        "hostname": "tu-in-f97.1e100.net",
+        "city": "Osaka",
+        "region": "Osaka",
         "country": "JP",
-        "loc": "35.6895,139.6917",
+        "loc": "34.6938,135.5011",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.716,
+        "rtt": 41.696,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.118.97",
+          "prefix": "142.251.118.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -218,8 +218,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -245,27 +245,72 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://advimg.danawa.com/RealMedia/ads/Creatives/danawa/event_danawa_352366/288x288pineinfo_260917.jpg",
+      "originalUrl": "https://advimg.danawa.com/RealMedia/ads/Creatives/danawa/event_danawa_352366/tryx_260918_288x288.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "advimg.danawa.com",
-        "ip": "23.67.53.217",
-        "hostname": "a23-67-53-217.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.192.191.208",
+        "hostname": "a23-192-191-208.deploy.static.akamaitechnologies.com",
+        "city": "Seongnam-si",
+        "region": "Gyeonggi-do",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4463,127.1384",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
     },
     {
+      "originalUrl": "https://wcs.naver.com/b",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "wcs.naver.com",
+        "ip": "202.179.180.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://insight.danawa.com/InsightTrk/tracker.do?pfno=8203&uuid=ec753c1193cfe26fa21d71afaeac24db_65056&sid=2c0c8f270b4410a2f7bb71afaeac24db_65056&guuid=ec753c1193cfe26fa21d71afaeac24db_65056&expired=1789866856&dr=&XDR=&dt=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94,%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&du=https%3A%2F%2Fdanawa.com%2F&pi=Main&cp=%EB%A9%94%EC%9D%B8_NEW%5E%ED%86%B5%ED%95%A9%EB%A9%94%EC%9D%B8&js=Y&sr=1280x720&scd=30&je=N&tz=9&tye=2026&tmo=9&tda=20&tho=9&tmi=44&tse=16&lng=ko-KR&os=MacIntel&cpu=&vr=5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML,%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36&ck=Y&brsz=1280x720&isnw=Y",
+      "type": "image",
+      "ipinfo": {
+        "domain": "insight.danawa.com",
+        "ip": "119.205.194.17",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/nac/2",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "nam.veta.naver.com",
+        "ip": "210.89.168.48",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
       "originalUrl": "https://mpc-prod-4-1053047382554.us-central1.run.app/events?cee=no",
       "type": "fetch",
       "ipinfo": {
         "domain": "mpc-prod-4-1053047382554.us-central1.run.app",
-        "ip": "34.143.72.2",
+        "ip": "34.143.78.2",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -278,9 +323,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "34.143.72.2",
-          "prefix": "34.143.72.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "34.143.78.2",
+          "prefix": "34.143.78.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -290,8 +335,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
+          "site_count": 61,
+          "location_count": 61,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -303,12 +348,12 @@
       }
     },
     {
-      "originalUrl": "https://www.facebook.com/tr/",
-      "type": "document",
+      "originalUrl": "https://www.facebook.com/tr/?id=1390824249408914&ev=PageView&dl=https%3A%2F%2Fdanawa.com%2F&rl=&if=false&ts=1789865056689&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1789865056685.563957376274093213&eid=ob3_plugin-set_f5eb87adf23682fad822a42f2596bb418230fddb2feee232b54ba3a42fa00f4c&ler=empty&cdl=API_unavailable&pmd[title]=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94%2C%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&pmd[locale]=ko&iss=1&ss=%7B%22page_description%22%3A%5B%7B%22rid%22%3A%221804869730641778%22%2C%22v%22%3A%5B%22%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20-%20%EA%B0%80%EC%A0%84%2C%20%EC%BB%B4%ED%93%A8%ED%84%B0%2C%20%EC%9E%90%EB%8F%99%EC%B0%A8%2C%20%EB%85%B8%ED%8A%B8%EB%B6%81%2C%20%ED%9C%B4%EB%8C%80%ED%8F%B0%2C%20%EA%B2%8C%EC%9E%84%2C%20%EC%95%84%EC%9B%83%EB%8F%84%EC%96%B4%2C%20%EC%83%9D%ED%99%9C%EC%9A%A9%ED%92%88%20%EB%93%B1%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%EC%99%80%20%EC%87%BC%ED%95%91%20%EC%A0%95%EB%B3%B4%20%EC%A0%9C%EA%B3%B5%22%5D%7D%5D%2C%22author%22%3A%5B%7B%22rid%22%3A%2228949301541344446%22%2C%22v%22%3A%5B%22https%3A%2F%2Fwww.danawa.com%22%5D%7D%5D%7D&imft=1&tz=540&it=1789865056609&coo=false&cf=1&expv2[0]=pl0&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=mt0&expv2[46]=ot1&expv2[47]=ep1&rqm=GET",
+      "type": "image",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -319,26 +364,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://nam.veta.naver.com/gfp/v1?u=danawa_Web_pc_native-N725245691&xdid=main-rightbnr&p=da_dom_id%3Amain-rightbnr&an=danawa.com&c=https%3A%2F%2Fdanawa.com%2F&sn=web&sv=3.10.7&nt=0&iv=8ae25a04-c75a-48f0-8dea-e3496f608eb1&ivt=0&sa=0&rui=1608340131&br=0&sua=%7B%22browsers%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%5B%22153%22%2C%220%22%2C%228010%22%2C%2212%22%5D%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%5B%228%22%2C%220%22%2C%220%22%2C%220%22%5D%7D%5D%2C%22platform%22%3A%7B%22brand%22%3A%22macOS%22%2C%22version%22%3A%5B%2210_15_7%22%5D%7D%2C%22mobile%22%3A0%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22model%22%3A%22%22%7D",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "nam.veta.naver.com",
-        "ip": "210.89.168.83",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS23576 NAVER Cloud Corp.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://t.naverads.com/sc2/1/",
       "type": "ping",
       "ipinfo": {
         "domain": "t.naverads.com",
-        "ip": "202.179.180.83",
+        "ip": "125.209.233.30",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -349,11 +379,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-L8D5P2KD8Z&gtm=45je69g1v9105808616z89118142814za20gzb9118142814zd9118142814xf1&_p=1789802795011&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1828423919.1789802796&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789802795&sct=1&seg=0&dl=https%3A%2F%2Fdanawa.com%2F&dt=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94%2C%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&en=page_view&_fv=1&_nsi=1&_ss=1&ep.content_group=%EC%BD%98%ED%85%90%EC%B8%A0%20%EA%B7%B8%EB%A3%B9_%EC%97%86%EC%9D%8C_Hostname&tfd=1134",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-L8D5P2KD8Z&gtm=45je69g1v9105808616z89118142814za20gzb9118142814zd9118142814xf1&_p=1789865056399&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1296090038.1789865057&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~119793974~120213116~120385422~120469145~120469153&sid=1789865056&sct=1&seg=0&dl=https%3A%2F%2Fdanawa.com%2F&dt=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94%2C%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&en=page_view&_fv=1&_nsi=1&_ss=1&ep.content_group=%EC%BD%98%ED%85%90%EC%B8%A0%20%EA%B7%B8%EB%A3%B9_%EC%97%86%EC%9D%8C_Hostname&tfd=787",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.32.181",
+        "ip": "216.239.34.181",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -363,12 +393,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 35.727,
+        "rtt": 40.649,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "216.239.32.181",
-          "prefix": "216.239.32.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.34.181",
+          "prefix": "216.239.34.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -378,33 +408,33 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 9,
-          "location_count": 9
+          "site_count": 17,
+          "location_count": 7
         }
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-L8D5P2KD8Z&cid=1828423919.1789802796&gtm=45je69g1v9105808616z89118142814za20gzb9118142814zd9118142814xf1&rcb=8&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&z=1785044696",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-L8D5P2KD8Z&cid=1296090038.1789865057&gtm=45je69g1v9105808616z89118142814za20gzb9118142814zd9118142814xf1&rcb=15&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~119793974~120213116~120385422~120469145~120469153&z=1749351516",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
+        "ip": "142.251.119.94",
+        "hostname": "tv-in-f94.1e100.net",
+        "city": "Osaka",
+        "region": "Osaka",
         "country": "JP",
-        "loc": "35.6895,139.6917",
+        "loc": "34.6938,135.5011",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 34.267,
+        "rtt": 41.674,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.119.94",
+          "prefix": "142.251.119.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -417,16 +447,58 @@
       }
     },
     {
-      "originalUrl": "https://wcs.naver.com/b",
-      "type": "ping",
+      "originalUrl": "https://www.google.com/rmkt/collect/631507961/?random=1789865057448&cv=11&fst=1789865057448&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9194611872za200zb9118142814zd9118142814xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fdanawa.com%2F&rcb=13&frm=0&tiba=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94%2C%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=355672607.1789865057&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "type": "fetch",
       "ipinfo": {
-        "domain": "wcs.naver.com",
-        "ip": "125.209.233.29",
+        "domain": "www.google.com",
+        "ip": "142.251.156.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.156.119",
+          "prefix": "142.251.156.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://act.ds.kakao.com/match?d=104&uid=_%7C_%7Cdefe8afa6119628e58e644521a0bc44d9fd-43dd",
+      "type": "document",
+      "ipinfo": {
+        "domain": "act.ds.kakao.com",
+        "ip": "121.53.95.98",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS23576 NAVER Cloud Corp.",
+        "org": "AS18160 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -448,22 +520,23 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://insight.danawa.com/InsightTrk/tracker.do?pfno=8203&uuid=5075e809c9441150e3a565cf059ab8d4_02796&sid=f4993c1adf97d1e5228d65cf059ab8d4_02796&guuid=5075e809c9441150e3a565cf059ab8d4_02796&expired=1789804596&dr=&XDR=&dt=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94,%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&du=https%3A%2F%2Fdanawa.com%2F&pi=Main&cp=%EB%A9%94%EC%9D%B8_NEW%5E%ED%86%B5%ED%95%A9%EB%A9%94%EC%9D%B8&js=Y&sr=1280x720&scd=30&je=N&tz=9&tye=2026&tmo=9&tda=19&tho=16&tmi=26&tse=36&lng=zh-TW&os=MacIntel&cpu=&vr=5.0%20(Macintosh;%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML,%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36&ck=Y&brsz=1280x720&isnw=Y",
+      "originalUrl": "https://img.danuri.io/catalog-image/488/413/103/10732aca93f14d2598cbec8955998989.jpg?v=2026092009&shrink=170:170",
       "type": "image",
       "ipinfo": {
-        "domain": "insight.danawa.com",
-        "ip": "119.205.194.17",
-        "city": "Seoul",
-        "region": "Seoul",
+        "domain": "img.danuri.io",
+        "ip": "23.192.191.210",
+        "hostname": "a23-192-191-210.deploy.static.akamaitechnologies.com",
+        "city": "Seongnam-si",
+        "region": "Gyeonggi-do",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "loc": "37.4463,127.1384",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://img1a.coupangcdn.com/image/retail/images/1423721803262108-18b9773d-b5e2-4ccc-b3c7-cb3ed11ad1af.jpg",
+      "originalUrl": "https://img1a.coupangcdn.com/image/retail/images/2026/04/06/11/1/af546841-1a4a-4031-8b2c-a317078cb94e.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "img1a.coupangcdn.com",
@@ -484,89 +557,16 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/rmkt/collect/963914956/?random=1789802796436&cv=11&fst=1789802796436&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9179173142za200zb9118142814zd9118142814xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fdanawa.com%2F&rcb=7&frm=0&tiba=%EB%B9%84%EA%B5%90%ED%95%98%EA%B3%A0%20%EC%9E%98%20%EC%82%AC%EB%8A%94%2C%20%EB%8B%A4%EB%82%98%EC%99%80%20%3A%20%EA%B0%80%EA%B2%A9%EB%B9%84%EA%B5%90%20%EC%82%AC%EC%9D%B4%ED%8A%B8&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=30669164.1789802796&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "www.google.com",
-        "ip": "142.251.157.119",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.157.119",
-          "prefix": "142.251.157.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://cdn.malltail.com/goods_img/GLOBAL/g_shopping_banner_arrow_white.svg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "cdn.malltail.com",
-        "ip": "104.76.96.101",
-        "hostname": "a104-76-96-101.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16625 Akamai Technologies, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://act.ds.kakao.com/match?d=104&uid=_%7C_%7C826148df47b4d2f9-484fec741a0b88ef572-524d",
-      "type": "document",
-      "ipinfo": {
-        "domain": "act.ds.kakao.com",
-        "ip": "211.183.215.4",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS152199 Kakao Corp",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://uxlog-api.danawa.com/uxlog",
       "type": "ping",
       "ipinfo": {
         "domain": "uxlog-api.danawa.com",
-        "ip": "23.67.53.179",
-        "hostname": "a23-67-53-179.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.192.191.209",
+        "hostname": "a23-192-191-209.deploy.static.akamaitechnologies.com",
+        "city": "Seongnam-si",
+        "region": "Gyeonggi-do",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4463,127.1384",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },

@@ -2,14 +2,14 @@
   "url": "https://toss.im",
   "canonicalURL": "https://toss.im",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:55.138Z",
+  "timestamp": "2026-09-20T00:46:00.186Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 95,
+  "requestCount": 58,
   "uniqueDomains": 4,
   "test_results": {
     "domestic": {
@@ -42,11 +42,11 @@
       "type": "document",
       "ipinfo": {
         "domain": "toss.im",
-        "ip": "103.42.60.201",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "103.42.61.201",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4565,126.7052",
         "org": "AS131093 viva republica",
         "timezone": "Asia/Seoul"
       },
@@ -57,8 +57,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "static.toss.im",
-        "ip": "13.225.117.124",
-        "hostname": "server-13-225-117-124.icn80.r.cloudfront.net",
+        "ip": "13.225.117.13",
+        "hostname": "server-13-225-117-13.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -87,7 +87,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.160.81.0",
           "prefix": "34.160.81.0/24",
           "anycast": true,
@@ -99,8 +99,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -116,7 +116,7 @@
       "type": "ping",
       "ipinfo": {
         "domain": "api-public.toss.im",
-        "ip": "117.52.3.226",
+        "ip": "211.115.96.226",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

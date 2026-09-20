@@ -2,14 +2,14 @@
   "url": "https://unpkg.com",
   "canonicalURL": "https://unpkg.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:26.902Z",
+  "timestamp": "2026-09-20T00:52:27.528Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e6ed9a79ea97-ICN",
+        "cf-ray": "a3dcd8ecf96fd1de-ICN",
         "detection_method": "header"
       }
     },
@@ -73,10 +73,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.004,
+        "rtt": 46.133,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.250.21.97",
           "prefix": "142.250.21.0/24",
           "anycast": false,
@@ -95,8 +95,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.251.23.100",
-        "hostname": "rl-in-f100.1e100.net",
+        "ip": "142.251.23.101",
+        "hostname": "rl-in-f101.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -106,11 +106,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.304,
+        "rtt": 40.088,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.23.100",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.101",
           "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",

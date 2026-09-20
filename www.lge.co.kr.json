@@ -2,14 +2,14 @@
   "url": "https://www.lge.co.kr/",
   "canonicalURL": "https://www.lge.co.kr/home",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:35:25.009Z",
+  "timestamp": "2026-09-20T00:48:05.980Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,12 +24,12 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 281,
-  "uniqueDomains": 13,
+  "requestCount": 266,
+  "uniqueDomains": 11,
   "test_results": {
     "domestic": {
-      "cloud": 8,
-      "direct": 3
+      "cloud": 7,
+      "direct": 2
     },
     "foreign": {
       "cloud": 2,
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.lge.co.kr",
-        "ip": "104.94.216.100",
-        "hostname": "a104-94-216-100.deploy.static.akamaitechnologies.com",
+        "ip": "23.60.184.53",
+        "hostname": "a23-60-184-53.deploy.static.akamaitechnologies.com",
         "city": "Yeongdong",
         "region": "North Chungcheong",
         "country": "KR",
@@ -58,8 +58,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.toss.im",
-        "ip": "3.168.167.89",
-        "hostname": "server-3-168-167-89.icn57.r.cloudfront.net",
+        "ip": "3.170.221.89",
+        "hostname": "server-3-170-221-89.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -74,7 +74,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "t1.daumcdn.net",
-        "ip": "211.56.99.152",
+        "ip": "211.231.116.89",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -89,29 +89,24 @@
       "type": "script",
       "ipinfo": {
         "domain": "karrot-pixel.business.daangn.com",
-        "ip": "52.85.128.20",
-        "hostname": "server-52-85-128-20.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
+        "ip": "54.230.62.106",
+        "hostname": "server-54-230-62-106.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://www.googletagmanager.com/gtag/js?id=AW-18124566555",
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
+        "ip": "142.250.23.97",
+        "hostname": "zj-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -121,12 +116,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 52.734,
+        "rtt": 40.345,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.97",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -143,8 +138,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "static.lge.co.kr",
-        "ip": "23.67.53.218",
-        "hostname": "a23-67-53-218.deploy.static.akamaitechnologies.com",
+        "ip": "23.35.218.147",
+        "hostname": "a23-35-218-147.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -171,7 +166,7 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google.com/rmkt/collect/18124566555/?random=1789803321156&cv=11&fst=1789803321156&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9253231247za200zd9253231247xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.lge.co.kr%2Fhome&rcb=4&frm=0&tiba=LGE.COM%20%7C%20LG%EC%A0%84%EC%9E%90&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=836217553.1789803321&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "originalUrl": "https://www.google.com/rmkt/collect/18124566555/?random=1789865283881&cv=11&fst=1789865283881&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9253231247za200zd9253231247xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.lge.co.kr%2Fhome&rcb=8&frm=0&tiba=LGE.COM%20%7C%20LG%EC%A0%84%EC%9E%90&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=636816146.1789865284&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
@@ -188,7 +183,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.150.119",
           "prefix": "142.251.150.0/24",
           "anycast": true,
@@ -232,8 +227,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "apiv2.lge.co.kr",
-        "ip": "104.94.216.100",
-        "hostname": "a104-94-216-100.deploy.static.akamaitechnologies.com",
+        "ip": "23.60.184.53",
+        "hostname": "a23-60-184-53.deploy.static.akamaitechnologies.com",
         "city": "Yeongdong",
         "region": "North Chungcheong",
         "country": "KR",
@@ -244,12 +239,12 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/18124566555/?random=1789803321156&cv=11&fst=1789801200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9253231247za200zd9253231247xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.lge.co.kr%2Fhome&rcb=4&frm=0&tiba=LGE.COM%20%7C%20LG%EC%A0%84%EC%9E%90&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=836217553.1789803321&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3DjML9t9mZnjdapxGcIna8QGp6HVZCQRnsfh2RnLiY5Z1dk0oEYClHXENe2T1huFkckp26SUw6rZkSJi0hjLMRVgdJz6P3OddHim0l3eKznpR5IraDsLvPP-cQJiBgMs7GSFTNYYRjpbswsUGcNlNBlagCRN3Ncxb1pR_vvrWith92SNfI7WeRzmiJYDJJmr3f_QCI_VYcyVnWylphbvioH2GKEXgLseDVZXaYvPz6YNyKg__Km4wPQnb7hbldQzoRE-Wex5TF_cx2VRr8sxzw&random=1018757590&rmt_tld=1&ipr=y",
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/18124566555/?random=1789865283881&cv=11&fst=1789862400000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9253231247za200zd9253231247xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.lge.co.kr%2Fhome&rcb=8&frm=0&tiba=LGE.COM%20%7C%20LG%EC%A0%84%EC%9E%90&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=636816146.1789865284&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3HLFL6OaskPzZOHLK40ye5uXcnOmYAVd0R7n9usAfk2f5KZFlKbrQyg8AvJ-exF9k60H2JXb4aEqwmIrVAPjGF3Mtzs7nx-p15MlHGWUCQ4TvuGTXdPt7uUZnt-0EZGVSf74y9CeiPcBAAT6c8uJEll1V85K93JJRTjr5xYtPjDF9BBLPPok54vgSZXG5yc3Sq0Sy6HUNrbl2aqATXBuVaJFB43Ks25B9qkCHW75oAUJTdiN3B9YHmNb17nKGdIa4QT0s0AuNzMRwSuPx6n9ig&random=3138851392&rmt_tld=1&ipr=y",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
+        "ip": "142.250.21.94",
+        "hostname": "zh-in-f94.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -259,12 +254,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 46.453,
+        "rtt": 42.812,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.94",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -275,38 +270,6 @@
           "location_count": 0
         }
       }
-    },
-    {
-      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS32934 Facebook, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://collect.lge.co.kr/api/v1/track",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "collect.lge.co.kr",
-        "ip": "15.165.145.153",
-        "hostname": "ec2-15-165-145-153.ap-northeast-2.compute.amazonaws.com",
-        "city": "Incheon",
-        "region": "Incheon",
-        "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
     }
   ]
 }

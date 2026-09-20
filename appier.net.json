@@ -2,14 +2,14 @@
   "url": "https://appier.net",
   "canonicalURL": "https://www.appier.com/en/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:28:12.822Z",
+  "timestamp": "2026-09-20T00:46:19.259Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -56,7 +56,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "35.241.60.58",
           "prefix": "35.241.60.0/24",
           "anycast": true,
@@ -85,7 +85,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "appier.com",
-        "ip": "104.20.28.239",
+        "ip": "172.66.158.178",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -95,13 +95,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3d6de873e3629e1-FUK",
+        "cf-ray": "a3dccf770e8c29e5-FUK",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.20.28.239",
-          "prefix": "104.20.28.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "172.66.158.178",
+          "prefix": "172.66.158.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -111,8 +111,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
+          "site_count": 64,
+          "location_count": 64,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -128,7 +128,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.appier.com",
-        "ip": "199.60.103.30",
+        "ip": "199.60.103.226",
         "city": "Cambridge",
         "region": "Massachusetts",
         "country": "US",
@@ -139,7 +139,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de88b965eaa3-ICN",
+        "cf-ray": "a3dccf782fae0dbb-ICN",
         "detection_method": "header"
       }
     },
@@ -148,8 +148,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "192.178.226.95",
-        "hostname": "lcnrts-in-f95.1e100.net",
+        "ip": "142.251.24.95",
+        "hostname": "rj-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -159,12 +159,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.713,
+        "rtt": 43.851,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "192.178.226.95",
-          "prefix": "192.178.226.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.95",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -181,7 +181,7 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "unpkg.com",
-        "ip": "104.18.1.22",
+        "ip": "104.18.0.22",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -192,7 +192,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de8aad2ec38f-ICN",
+        "cf-ray": "a3dccf794cd53953-ICN",
         "detection_method": "header"
       }
     },
@@ -212,7 +212,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea99d7aea99-ICN",
+        "cf-ray": "a3dccf8e1e50aa5f-ICN",
         "x-amz-cf-pop": "HIO52-P5",
         "detection_method": "header"
       }
@@ -233,7 +233,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea99f46ea0c-ICN",
+        "cf-ray": "a3dccf8e0a3a5141-ICN",
         "x-amz-cf-pop": "HIO52-P5",
         "detection_method": "header"
       }
@@ -243,7 +243,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "js-na2.hubspot.com",
-        "ip": "104.17.92.187",
+        "ip": "104.17.91.187",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -254,17 +254,17 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea99dd6d7e0-ICN",
+        "cf-ray": "a3dccf8e1b34ea15-ICN",
         "x-amz-cf-pop": "HIO52-P5",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://js-na2.hs-analytics.net/analytics/1789796100000/9057203.js",
+      "originalUrl": "https://js-na2.hs-analytics.net/analytics/1789860900000/9057203.js",
       "type": "script",
       "ipinfo": {
         "domain": "js-na2.hs-analytics.net",
-        "ip": "104.17.175.201",
+        "ip": "104.16.160.168",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -275,7 +275,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea99c65d1de-ICN",
+        "cf-ray": "a3dccf8e0c6c62a2-ICN",
         "detection_method": "header"
       }
     },
@@ -295,7 +295,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea9ad433086-ICN",
+        "cf-ray": "a3dccf8e0c42ea2c-ICN",
         "detection_method": "header"
       }
     },
@@ -315,7 +315,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea99d0dea25-ICN",
+        "cf-ray": "a3dccf8e0b6e6995-ICN",
         "detection_method": "header"
       }
     },
@@ -324,7 +324,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.youtube.com",
-        "ip": "142.251.152.4",
+        "ip": "142.251.154.4",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -337,9 +337,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.152.4",
-          "prefix": "142.251.152.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.4",
+          "prefix": "142.251.154.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -349,8 +349,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -366,7 +366,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "forms-na2.hscollectedforms.net",
-        "ip": "104.16.111.254",
+        "ip": "104.16.108.254",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -377,7 +377,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea9ee65ea99-ICN",
+        "cf-ray": "a3dccf8ecec4aa5f-ICN",
         "detection_method": "header"
       }
     },
@@ -397,7 +397,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dea9fefad7e0-ICN",
+        "cf-ray": "a3dccf8edcd1ea15-ICN",
         "detection_method": "header"
       }
     },
@@ -417,7 +417,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6deab187a3d69-ICN",
+        "cf-ray": "a3dccf901e0c0c91-ICN",
         "detection_method": "header"
       }
     },
@@ -426,7 +426,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "perf-na2.hsforms.com",
-        "ip": "104.18.80.204",
+        "ip": "104.19.175.188",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -437,7 +437,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6deab48085141-ICN",
+        "cf-ray": "a3dccf901c7f80a1-ICN",
         "detection_method": "header"
       }
     },
@@ -457,7 +457,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6deab4acaea96-ICN",
+        "cf-ray": "a3dccf902e1a326b-ICN",
         "detection_method": "header"
       }
     },
@@ -477,7 +477,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6deabe88fd1ee-ICN",
+        "cf-ray": "a3dccf90d96eea1b-ICN",
         "x-amz-cf-pop": "AMS1-P3",
         "detection_method": "header"
       }
@@ -498,7 +498,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dead6843ea25-ICN",
+        "cf-ray": "a3dccf929e426995-ICN",
         "detection_method": "header"
       }
     },
@@ -507,7 +507,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "static.hsappstatic.net",
-        "ip": "104.17.22.24",
+        "ip": "104.17.23.24",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -518,13 +518,13 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6deadf9dfea25-ICN",
+        "cf-ray": "a3dccf92fce0ea9d-ICN",
         "x-amz-cf-pop": "NRT20-P7",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://track-na2.hubspot.com/__ptq.gif?k=1&sd=1280x720&cd=30-bit&cs=UTF-8&ln=zh-tw&v=1.1&a=9057203&pi=190620094468&ct=standard-page&ccu=https%3A%2F%2Fwww.appier.com%2Fen%2F&cpi=190620094468&lpi=190620094468&lvi=190620094468&lvc=en&pu=https%3A%2F%2Fwww.appier.com%2Fen%2F&t=Appier+%7C+Empowering+Businesses+to+Turn+AI+into+ROI&cts=1789802890070&vi=849283a7cb4503aaa5d98b8ec044bec0&nc=true&ce=false&pt=1&cc=0",
+      "originalUrl": "https://track-na2.hubspot.com/__ptq.gif?k=1&sd=1280x720&cd=30-bit&cs=UTF-8&ln=ko-kr&v=1.1&a=9057203&pi=190620094468&ct=standard-page&ccu=https%3A%2F%2Fwww.appier.com%2Fen%2F&cpi=190620094468&lpi=190620094468&lvi=190620094468&lvc=en&pu=https%3A%2F%2Fwww.appier.com%2Fen%2F&t=Appier+%7C+Empowering+Businesses+to+Turn+AI+into+ROI&cts=1789865177538&vi=b7bcd4438250645c255a12274234ab5f&nc=true&ce=false&pt=1&cc=0",
       "type": "image",
       "ipinfo": {
         "domain": "track-na2.hubspot.com",
@@ -539,7 +539,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6df3facdeea25-ICN",
+        "cf-ray": "a3dccff048c06995-ICN",
         "detection_method": "header"
       }
     }

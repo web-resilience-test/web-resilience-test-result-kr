@@ -2,14 +2,14 @@
   "url": "https://pinterest.com",
   "canonicalURL": "https://www.pinterest.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:40.948Z",
+  "timestamp": "2026-09-20T00:45:47.519Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,17 +22,17 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "168.126.63.2"
   },
-  "requestCount": 141,
-  "uniqueDomains": 12,
+  "requestCount": 61,
+  "uniqueDomains": 5,
   "test_results": {
     "domestic": {
-      "cloud": 8,
+      "cloud": 4,
       "direct": 0
     },
     "foreign": {
-      "cloud": 4,
+      "cloud": 1,
       "direct": 0
     }
   },
@@ -84,118 +84,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.pinterest.com",
-        "ip": "146.75.48.84",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS54113 Fastly, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://s.pinimg.com/webapp/polyfills-2052700f5ec752ab.mjs",
-      "type": "script",
-      "ipinfo": {
-        "domain": "s.pinimg.com",
-        "ip": "23.67.53.218",
-        "hostname": "a23-67-53-218.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://accounts.google.com/gsi/client?hl=zh",
-      "type": "script",
-      "ipinfo": {
-        "domain": "accounts.google.com",
-        "ip": "142.251.169.84",
-        "hostname": "rx-in-f84.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 40.319,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.169.84",
-          "prefix": "142.251.169.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://i1-e.pinimg.com/736x/8c/32/33/8c32334fb2b4fc8941a2abbff9678411.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "i1-e.pinimg.com",
-        "ip": "23.67.53.162",
-        "hostname": "a23-67-53-162.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://i.pinimg.com/originals/07/18/2b/07182b0091c01cd3ff2d4cb80a16e344.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "i.pinimg.com",
-        "ip": "146.75.48.84",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS54113 Fastly, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://ct.pinterest.com/ct.html",
-      "type": "document",
-      "ipinfo": {
-        "domain": "ct.pinterest.com",
-        "ip": "146.75.48.84",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS54113 Fastly, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://okra.pinterest.com/v2/F5675B21-025B-4843-983C-38D86DEB394B/api.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "okra.pinterest.com",
-        "ip": "104.94.217.37",
-        "hostname": "a104-94-217-37.deploy.static.akamaitechnologies.com",
+        "ip": "23.60.185.12",
+        "hostname": "a23-60-185-12.deploy.static.akamaitechnologies.com",
         "city": "Yeongdong",
         "region": "North Chungcheong",
         "country": "KR",
@@ -206,94 +96,43 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.recaptcha.net/recaptcha/enterprise.js?onload=onloadRecaptchaJsCallback&render=6Ldx7ZkUAAAAAF3SZ05DRL2Kdh911tCa3qFP0-0r",
-      "type": "script",
+      "originalUrl": "https://kr.pinterest.com/",
+      "type": "document",
       "ipinfo": {
-        "domain": "www.recaptcha.net",
-        "ip": "142.251.23.94",
-        "hostname": "rl-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 38.159,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.23.94",
-          "prefix": "142.251.23.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://v1.pinimg.com/videos/iht/expMp4/b2/4d/b7/b24db78d77d430e2e14edc84308f4efb_1280w.mp4",
-      "type": "media",
-      "ipinfo": {
-        "domain": "v1.pinimg.com",
-        "ip": "13.225.134.115",
-        "hostname": "server-13-225-134-115.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
+        "domain": "kr.pinterest.com",
+        "ip": "23.60.185.12",
+        "hostname": "a23-60-185-12.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
+        "loc": "36.1750,127.7764",
+        "org": "AS16625 Akamai Technologies, Inc.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.gstatic.com/recaptcha/releases/zqB-6Xpbd3lCIvi7Tr2D0pob/recaptcha__zh_tw.js",
+      "originalUrl": "https://s.pinimg.com/webapp/polyfills-2052700f5ec752ab.mjs",
       "type": "script",
       "ipinfo": {
-        "domain": "www.gstatic.com",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "domain": "s.pinimg.com",
+        "ip": "146.75.48.84",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
       },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 39.967,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
+      "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://google.com/.well-known/web-identity",
-      "type": "other",
+      "originalUrl": "https://accounts.google.com/gsi/client?hl=ko",
+      "type": "script",
       "ipinfo": {
-        "domain": "google.com",
-        "ip": "142.251.23.102",
-        "hostname": "rl-in-f102.1e100.net",
+        "domain": "accounts.google.com",
+        "ip": "192.178.230.84",
+        "hostname": "yunrtab-in-f84.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -303,12 +142,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.078,
+        "rtt": 38.397,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.23.102",
-          "prefix": "142.251.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "192.178.230.84",
+          "prefix": "192.178.230.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

@@ -1,15 +1,15 @@
 {
   "url": "https://openai.com",
-  "canonicalURL": "https://openai.com/zh-Hant/",
+  "canonicalURL": "https://openai.com/ko-KR/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:05.406Z",
+  "timestamp": "2026-09-20T00:44:03.101Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 164,
+  "requestCount": 159,
   "uniqueDomains": 7,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "openai.com",
-        "ip": "172.64.154.211",
+        "ip": "104.18.33.45",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dbd4fe72ea23-ICN",
+        "cf-ray": "a3dccc57ad54d1ef-ICN",
         "detection_method": "header"
       }
     },
@@ -62,7 +62,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.cloudflareinsights.com",
-        "ip": "104.16.79.73",
+        "ip": "104.16.80.73",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -73,16 +73,16 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dbdddaf630b5-ICN",
+        "cf-ray": "a3dccc5cadc330a3-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://cdn.openai.com/common/fonts/openai-sans/v4/zh-hant-v2/OpenAISansTC-Variable-003.woff2",
+      "originalUrl": "https://cdn.openai.com/common/fonts/openai-sans/v4/OpenAISans-Regular.woff2",
       "type": "font",
       "ipinfo": {
         "domain": "cdn.openai.com",
-        "ip": "150.171.110.135",
+        "ip": "150.171.110.133",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -92,13 +92,13 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260919T072551Z-1764d94df46ggsxdhC1SELxzf00000000qg00000000040y9",
+        "x-azure-ref": "20260920T004351Z-15559d97d99rwccqhC1SEL2hdg0000000ya000000000c87p",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "150.171.110.135",
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
           "confidence": "confident",
@@ -119,8 +119,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "images.ctfassets.net",
-        "ip": "52.85.128.105",
-        "hostname": "server-52-85-128-105.icn53.r.cloudfront.net",
+        "ip": "52.85.128.123",
+        "hostname": "server-52-85-128-123.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -140,7 +140,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "chatgpt.com",
-        "ip": "104.18.32.47",
+        "ip": "172.64.155.209",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -151,12 +151,12 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dbdf1aa26d95-ICN",
+        "cf-ray": "a3dccc5ddb510c1d-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://ab.chatgpt.com/v1/initialize?k=client-TkMBNbA46IALRLvxaXzViDknf0Zwj24gHWFC8PedoNI&st=javascript-client&sv=3.33.1&t=1789802751732&sid=4e5467ad-66dd-4ebe-b386-d31fd5f89ff3&se=1",
+      "originalUrl": "https://ab.chatgpt.com/v1/initialize?k=client-TkMBNbA46IALRLvxaXzViDknf0Zwj24gHWFC8PedoNI&st=javascript-client&sv=3.33.1&t=1789865031208&sid=1b5dd06c-b304-4b2b-9917-da16f643459f&se=1",
       "type": "fetch",
       "ipinfo": {
         "domain": "ab.chatgpt.com",
@@ -171,7 +171,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dbdf1c4cd1ed-ICN",
+        "cf-ray": "a3dccc5f8a30ea8b-ICN",
         "detection_method": "header"
       }
     },
@@ -194,7 +194,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.128.128.0",
           "prefix": "34.128.128.0/24",
           "anycast": true,
@@ -206,8 +206,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",

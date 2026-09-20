@@ -1,15 +1,15 @@
 {
   "url": "https://poki.com",
-  "canonicalURL": "https://poki.com/zh",
+  "canonicalURL": "https://poki.com/kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:51.177Z",
+  "timestamp": "2026-09-20T00:46:38.723Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 241,
+  "requestCount": 247,
   "uniqueDomains": 6,
   "test_results": {
     "domestic": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e786d95d7fb4-ICN",
+        "cf-ray": "a3dcd06d4d72ea9d-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e7877914ea19-ICN",
+        "cf-ray": "a3dcd06ddf862916-ICN",
         "detection_method": "header"
       }
     },
@@ -93,7 +93,27 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e7877931ea19-ICN",
+        "cf-ray": "a3dcd06dee98a2b5-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://api.poki.com/quicksearch/categories?site=48&country=KR&device=desktop",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.poki.com",
+        "ip": "104.18.144.9",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dcd06f482252f0-ICN",
         "detection_method": "header"
       }
     },
@@ -141,48 +161,6 @@
       }
     },
     {
-      "originalUrl": "https://api.poki.com/quicksearch/categories?site=73&country=KR&device=desktop",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "api.poki.com",
-        "ip": "104.18.143.9",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.18.143.9",
-          "prefix": "104.18.143.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 75,
-          "location_count": 75,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
       "originalUrl": "https://poki-auth.poki.com/sessions/whoami",
       "type": "xhr",
       "ipinfo": {
@@ -200,7 +178,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.18.144.9",
           "prefix": "104.18.144.0/24",
           "anycast": true,

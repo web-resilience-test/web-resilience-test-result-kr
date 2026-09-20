@@ -1,0 +1,90 @@
+{
+  "url": "https://www.adobe.com",
+  "canonicalURL": "https://www.adobe.com/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T00:45:23.353Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 57,
+  "uniqueDomains": 2,
+  "test_results": {
+    "domestic": {
+      "cloud": 1,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.adobe.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.adobe.com",
+        "ip": "23.53.228.66",
+        "hostname": "a23-53-228-66.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://bfp.adobe.com/bfp/v1/bfp.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "bfp.adobe.com",
+        "ip": "23.34.172.187",
+        "hostname": "a23-34-172-187.deploy.static.akamaitechnologies.com",
+        "city": "Hillsboro",
+        "region": "Oregon",
+        "country": "US",
+        "loc": "45.5229,-122.9898",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 118.938,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.34.172.187",
+          "prefix": "23.34.172.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

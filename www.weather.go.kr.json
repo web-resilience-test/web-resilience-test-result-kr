@@ -2,14 +2,14 @@
   "url": "https://www.weather.go.kr/",
   "canonicalURL": "https://www.weather.go.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:28:08.931Z",
+  "timestamp": "2026-09-20T00:44:53.059Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 239,
+  "requestCount": 213,
   "uniqueDomains": 14,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.weather.go.kr",
-        "ip": "139.150.254.18",
+        "ip": "139.150.252.6",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -83,11 +83,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.kma.go.kr/repositary/sns/sns-config-wnuri.js?ver=202609191627",
+      "originalUrl": "https://www.kma.go.kr/repositary/sns/sns-config-wnuri.js?ver=202609200944",
       "type": "script",
       "ipinfo": {
         "domain": "www.kma.go.kr",
-        "ip": "121.78.33.160",
+        "ip": "139.150.249.11",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -102,7 +102,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "t1.kakaocdn.net",
-        "ip": "211.231.116.89",
+        "ip": "211.56.99.88",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -128,7 +128,7 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://weblog.kma.go.kr/userScript/userScript/UserInfoGet?&url=www.weather.go.kr%2Fw%2Findex.do&ref=&req_type=xml&ua=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36&dc=hjs=rt;%20hdt=260919162800491;%20hss=Y;%20dss=Y;%20_harry_ref%3D%3B%20_harry_url%3Dhttps%253A%2F%2Fwww.weather.go.kr%2Fw%2Findex.do%3B%20_harry_fid%3Dhh115858715%3B%20_harry_hsid%3DA260919162800492384%3B%20_harry_dsid%3DA260919162800492654%3B%20XTVID%3DA260919162800492653%3B%20xloc%3D1280X720%3B%20_harry_lang%3Dzh-TW&xtuid=&httpstatus=200&method=GET&gvhost=",
+      "originalUrl": "https://weblog.kma.go.kr/userScript/userScript/UserInfoGet?&url=www.weather.go.kr%2Fw%2Findex.do&ref=&req_type=xml&ua=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36&dc=hjs=rt;%20hdt=260920094449337;%20hss=Y;%20dss=Y;%20_harry_ref%3D%3B%20_harry_url%3Dhttps%253A%2F%2Fwww.weather.go.kr%2Fw%2Findex.do%3B%20_harry_fid%3Dhh-700262803%3B%20_harry_hsid%3DA260920094449338443%3B%20_harry_dsid%3DA260920094449338817%3B%20XTVID%3DA260920094449338866%3B%20xloc%3D1280X720%3B%20_harry_lang%3Dko-KR&xtuid=&httpstatus=200&method=GET&gvhost=",
       "type": "xhr",
       "ipinfo": {
         "domain": "weblog.kma.go.kr",
@@ -157,10 +157,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.296,
+        "rtt": 39.02,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "216.239.38.60",
           "prefix": "216.239.38.0/24",
           "anycast": true,
@@ -178,11 +178,11 @@
       }
     },
     {
-      "originalUrl": "https://i3.ytimg.com/vi/bns11av7gaM/hqdefault.jpg",
+      "originalUrl": "https://i3.ytimg.com/vi/BKjqBjpmkmU/hqdefault.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "i3.ytimg.com",
-        "ip": "216.239.38.64",
+        "ip": "216.239.36.64",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -192,12 +192,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.309,
+        "rtt": 40.523,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "216.239.38.64",
-          "prefix": "216.239.38.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.36.64",
+          "prefix": "216.239.36.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -207,8 +207,8 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 15,
-          "location_count": 15
+          "site_count": 17,
+          "location_count": 9
         }
       }
     },
@@ -217,18 +217,18 @@
       "type": "image",
       "ipinfo": {
         "domain": "blogthumb.pstatic.net",
-        "ip": "116.120.5.187",
+        "ip": "1.255.62.126",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS38688 GSNeotek",
+        "org": "AS23576 NAVER Cloud Corp.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.youtube.com/embed/bns11av7gaM",
+      "originalUrl": "https://www.youtube.com/embed/BKjqBjpmkmU",
       "type": "document",
       "ipinfo": {
         "domain": "www.youtube.com",
@@ -245,7 +245,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.154.4",
           "prefix": "142.251.154.0/24",
           "anycast": true,
@@ -274,7 +274,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.157.119",
+        "ip": "142.251.151.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -287,9 +287,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.157.119",
-          "prefix": "142.251.157.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.151.119",
+          "prefix": "142.251.151.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -312,12 +312,12 @@
       }
     },
     {
-      "originalUrl": "https://i.ytimg.com/vi/bns11av7gaM/default.jpg",
+      "originalUrl": "https://i.ytimg.com/vi/BKjqBjpmkmU/default.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "i.ytimg.com",
-        "ip": "142.250.21.119",
-        "hostname": "zh-in-f119.1e100.net",
+        "ip": "142.251.24.119",
+        "hostname": "rj-in-f119.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -327,12 +327,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 35.453,
+        "rtt": 40.408,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.119",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.119",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -349,7 +349,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "jnn-pa.googleapis.com",
-        "ip": "172.217.119.4",
+        "ip": "172.217.115.4",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -362,9 +362,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.119.4",
-          "prefix": "172.217.119.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.115.4",
+          "prefix": "172.217.115.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -374,8 +374,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",

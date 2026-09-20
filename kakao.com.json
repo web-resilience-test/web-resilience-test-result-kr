@@ -2,14 +2,14 @@
   "url": "https://kakao.com",
   "canonicalURL": "https://www.kakaocorp.com/page/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:13.617Z",
+  "timestamp": "2026-09-20T00:44:05.493Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,7 +22,7 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "168.126.63.1"
   },
   "requestCount": 65,
   "uniqueDomains": 10,
@@ -57,12 +57,12 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.kakaocorp.com",
-        "ip": "121.53.221.97",
+        "ip": "211.183.211.19",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS18160 Kakao Corp",
+        "org": "AS152199 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -87,7 +87,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "t1.kakaocdn.net",
-        "ip": "211.231.116.89",
+        "ip": "211.56.99.217",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -102,12 +102,12 @@
       "type": "script",
       "ipinfo": {
         "domain": "dkaptcha.kakao.com",
-        "ip": "121.53.222.43",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "211.249.251.58",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS18160 Kakao Corp",
+        "loc": "37.4565,126.7052",
+        "org": "AS7625 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -117,8 +117,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "57.144.188.128",
-        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "ip": "157.240.215.14",
+        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -133,23 +133,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "172.217.211.97",
-        "hostname": "hs-in-f97.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.799,
+        "rtt": 41.145,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.211.97",
-          "prefix": "172.217.211.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -166,8 +166,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "57.144.188.1",
-        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "ip": "157.240.215.35",
+        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -178,27 +178,27 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-E3B64CZSR2&gtm=45je69g1v895727554za200zb9167528120zd9167528120xf1&_p=1789802769254&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEA&ae=a&cid=262049212.1789802770&frm=0&ngs=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789802769&sct=1&seg=0&dl=https%3A%2F%2Fwww.kakaocorp.com%2Fpage%2F&dt=%EC%B9%B4%EC%B9%B4%EC%98%A4&en=scroll&_fv=1&_nsi=1&_ss=1&epn.percent_scrolled=90&tfd=761",
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-E3B64CZSR2&gtm=45je69g1v895727554za200zb9167528120zd9167528120xf1&_p=1789865039804&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AEA&ae=a&cid=1312978202.1789865041&frm=0&ngs=1&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789865040&sct=1&seg=0&dl=https%3A%2F%2Fwww.kakaocorp.com%2Fpage%2F&dt=%EC%B9%B4%EC%B9%B4%EC%98%A4&en=scroll&_fv=1&_nsi=1&_ss=1&epn.percent_scrolled=90&tfd=949",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "172.217.211.139",
-        "hostname": "hs-in-f139.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "142.250.21.101",
+        "hostname": "zh-in-f101.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.391,
+        "rtt": 39.284,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.211.139",
-          "prefix": "172.217.211.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.101",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -211,7 +211,7 @@
       }
     },
     {
-      "originalUrl": "https://stat.tiara.kakaocorp.com/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.2%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22www.kakaocorp.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fwww.kakaocorp.com%2Fpage%2F%22%2C%22title%22%3A%22%EC%B9%B4%EC%B9%B4%EC%98%A4%22%2C%22page%22%3A%22Main%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-TZJ87NMGIJZI_260919162609663%22%2C%22tsid%22%3A%22w-TZJ87NMGIJZI_260919162609663%22%2C%22uuid%22%3A%22w-C53OIClwM18J_260919842133724%22%2C%22suid%22%3A%22w-C53OIClwM18J_260919842133724%22%2C%22isuid%22%3A%22w-YUUZaXXsfLos_260919172088446%22%2C%22client_timestamp%22%3A1789802769920%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22pageMode%22%3A%22light%22%7D%7D",
+      "originalUrl": "https://stat.tiara.kakaocorp.com/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.2%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22www.kakaocorp.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fwww.kakaocorp.com%2Fpage%2F%22%2C%22title%22%3A%22%EC%B9%B4%EC%B9%B4%EC%98%A4%22%2C%22page%22%3A%22Main%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-8TW2ydJ9SgRV_260920094400394%22%2C%22tsid%22%3A%22w-8TW2ydJ9SgRV_260920094400394%22%2C%22uuid%22%3A%22w-480BHXM38SEw_260920668733054%22%2C%22suid%22%3A%22w-480BHXM38SEw_260920668733054%22%2C%22isuid%22%3A%22w-PaYDdwVSLgw0_260920968702236%22%2C%22client_timestamp%22%3A1789865040643%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22pageMode%22%3A%22light%22%7D%7D",
       "type": "image",
       "ipinfo": {
         "domain": "stat.tiara.kakaocorp.com",

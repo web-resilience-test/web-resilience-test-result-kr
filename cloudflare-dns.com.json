@@ -2,14 +2,14 @@
   "url": "https://cloudflare-dns.com",
   "canonicalURL": "https://1.1.1.1/dns/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:46.561Z",
+  "timestamp": "2026-09-20T00:49:39.688Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e18c8d7a80b7-ICN",
+        "cf-ray": "a3dcd4d45a92ea12-ICN",
         "detection_method": "header"
       }
     },
@@ -74,7 +74,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e18ccbfc8b5e-ICN",
+        "cf-ray": "a3dcd4d5096dd1e6-ICN",
         "detection_method": "header"
       }
     },
@@ -83,8 +83,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.250.23.95",
-        "hostname": "zj-in-f95.1e100.net",
+        "ip": "142.251.23.95",
+        "hostname": "rl-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -94,12 +94,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.487,
+        "rtt": 40.421,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.95",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.95",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -116,7 +116,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "embed.cloudflarestream.com",
-        "ip": "104.16.94.114",
+        "ip": "104.16.95.114",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -127,7 +127,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e18d59a4aa84-ICN",
+        "cf-ray": "a3dcd4d5fc5d8b5e-ICN",
         "detection_method": "header"
       }
     },
@@ -149,7 +149,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.18.4.50",
           "prefix": "104.18.4.0/24",
           "anycast": true,
@@ -174,11 +174,11 @@
       }
     },
     {
-      "originalUrl": "https://cloudflarestream.com/92b27227d737a866adc8b0572cf0db89/thumbnails/thumbnail.jpg?height=720",
+      "originalUrl": "https://cloudflarestream.com/b95943849d53350130ba22d039fa6faf/thumbnails/thumbnail.jpg?height=720",
       "type": "image",
       "ipinfo": {
         "domain": "cloudflarestream.com",
-        "ip": "104.16.97.114",
+        "ip": "104.16.94.114",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -192,8 +192,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "104.16.97.114",
-          "prefix": "104.16.97.0/24",
+          "queried_ip": "104.16.94.114",
+          "prefix": "104.16.94.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,

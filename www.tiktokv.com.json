@@ -2,14 +2,14 @@
   "url": "https://www.tiktokv.com/",
   "canonicalURL": "https://www.tiktokv.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:31:09.342Z",
+  "timestamp": "2026-09-20T00:50:45.448Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,11 +24,11 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 103,
-  "uniqueDomains": 7,
+  "requestCount": 7,
+  "uniqueDomains": 4,
   "test_results": {
     "domestic": {
-      "cloud": 6,
+      "cloud": 3,
       "direct": 0
     },
     "foreign": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.tiktokv.com",
-        "ip": "23.67.53.162",
-        "hostname": "a23-67-53-162.deploy.static.akamaitechnologies.com",
+        "ip": "23.35.218.149",
+        "hostname": "a23-35-218-149.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -58,39 +58,39 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.tiktok.com",
-        "ip": "23.67.53.137",
-        "hostname": "a23-67-53-137.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.216.159.219",
+        "hostname": "a23-216-159-219.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "36.1750,127.7764",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok_privacy_protection_framework/loader/1.0.0.951/index.js",
+      "originalUrl": "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/slardar/sdk-pre/browser.web.pre.js",
       "type": "script",
       "ipinfo": {
         "domain": "sf16-website-login.neutral.ttwstatic.com",
-        "ip": "23.210.216.70",
-        "hostname": "a23-210-216-70.deploy.static.akamaitechnologies.com",
-        "city": "Los Angeles",
-        "region": "California",
-        "country": "US",
-        "loc": "34.0522,-118.2437",
+        "ip": "23.192.45.64",
+        "hostname": "a23-192-45-64.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
         "org": "AS20940 Akamai International B.V.",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 134.742,
+        "rtt": 42.99,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "23.210.216.70",
-          "prefix": "23.210.216.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "23.192.45.64",
+          "prefix": "23.192.45.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -103,60 +103,12 @@
       }
     },
     {
-      "originalUrl": "https://mon-sg.tiktokv.com/monitor_web/settings/browser-settings?bid=tiktok_webapp&store=1",
+      "originalUrl": "https://mon.tiktokv.com/monitor_web/settings/browser-settings?bid=slardar_us_waf&store=1",
       "type": "xhr",
-      "ipinfo": {
-        "domain": "mon-sg.tiktokv.com",
-        "ip": "23.43.165.163",
-        "hostname": "a23-43-165-163.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://libraweb-sg.tiktok.com/service/2/abtest_config/",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "libraweb-sg.tiktok.com",
-        "ip": "23.67.53.106",
-        "hostname": "a23-67-53-106.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://mcs-sg.tiktokv.com/v1/list",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "mcs-sg.tiktokv.com",
-        "ip": "23.43.165.144",
-        "hostname": "a23-43-165-144.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://mon.tiktokv.com/monitor_browser/collect/batch/?bid=tiktok_pns_web_runtime",
-      "type": "ping",
       "ipinfo": {
         "domain": "mon.tiktokv.com",
-        "ip": "23.67.53.201",
-        "hostname": "a23-67-53-201.deploy.static.akamaitechnologies.com",
+        "ip": "23.35.218.149",
+        "hostname": "a23-35-218-149.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

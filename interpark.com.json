@@ -2,14 +2,14 @@
   "url": "https://interpark.com",
   "canonicalURL": "https://nol.yanolja.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:34:03.192Z",
+  "timestamp": "2026-09-20T00:52:52.796Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,8 +24,8 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 206,
-  "uniqueDomains": 18,
+  "requestCount": 209,
+  "uniqueDomains": 19,
   "test_results": {
     "domestic": {
       "cloud": 12,
@@ -33,7 +33,7 @@
     },
     "foreign": {
       "cloud": 1,
-      "direct": 1
+      "direct": 2
     }
   },
   "domainDetails": [
@@ -58,8 +58,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "nol.interpark.com",
-        "ip": "13.225.117.88",
-        "hostname": "server-13-225-117-88.icn80.r.cloudfront.net",
+        "ip": "13.225.117.122",
+        "hostname": "server-13-225-117-122.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -85,7 +85,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e7b9ddd73170-ICN",
+        "cf-ray": "a3dcd969cbcf88f8-ICN",
         "detection_method": "header"
       }
     },
@@ -94,24 +94,29 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "assets.yanolja.com",
-        "ip": "3.170.221.96",
-        "hostname": "server-3-170-221-96.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "ip": "52.85.128.42",
+        "hostname": "server-52-85-128-42.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
+        "timezone": "America/New_York"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
     },
     {
       "originalUrl": "https://yaimg.yanolja.com/joy/sunny/static/fonts/pretendard/pretendard-font-chunks.css",
       "type": "stylesheet",
       "ipinfo": {
         "domain": "yaimg.yanolja.com",
-        "ip": "13.225.117.27",
-        "hostname": "server-13-225-117-27.icn80.r.cloudfront.net",
+        "ip": "13.225.117.13",
+        "hostname": "server-13-225-117-13.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -126,8 +131,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "image6.yanolja.com",
-        "ip": "18.64.8.6",
-        "hostname": "server-18-64-8-6.icn57.r.cloudfront.net",
+        "ip": "18.64.8.112",
+        "hostname": "server-18-64-8-112.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -136,6 +141,41 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "type": "script",
+      "ipinfo": {
+        "domain": "static.cloudflareinsights.com",
+        "ip": "104.16.80.73",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dcd96c6d3a16dd-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
+      "type": "image",
+      "ipinfo": {
+        "domain": "ticketimage.interpark.com",
+        "ip": "183.111.129.100",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
@@ -174,7 +214,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "smart-discovery-api.yanolja.com",
-        "ip": "162.159.140.125",
+        "ip": "172.66.0.123",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -185,9 +225,25 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e7bc1f7f3170-ICN",
+        "cf-ray": "a3dcd96ed8fe88f8-ICN",
         "detection_method": "header"
       }
+    },
+    {
+      "originalUrl": "https://dhdfh3vybe18.cloudfront.net/broadcast/yanolja/broadcastCollect/thum/1226887a-890d-431e-bd09-6cbc1b8b5782.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "dhdfh3vybe18.cloudfront.net",
+        "ip": "18.244.65.215",
+        "hostname": "server-18-244-65-215.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://o113486.ingest.us.sentry.io/api/4507734765928448/envelope/?sentry_version=7&sentry_key=a2eef08b4a8698f771814bd627e264bb&sentry_client=sentry.javascript.nextjs%2F9.46.0",
@@ -208,7 +264,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.160.81.0",
           "prefix": "34.160.81.0/24",
           "anycast": true,
@@ -220,8 +276,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -233,32 +289,12 @@
       }
     },
     {
-      "originalUrl": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
-      "type": "script",
-      "ipinfo": {
-        "domain": "static.cloudflareinsights.com",
-        "ip": "104.16.79.73",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3d6e7be08d2ea03-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
       "originalUrl": "https://cognito-identity.ap-northeast-2.amazonaws.com/",
       "type": "fetch",
       "ipinfo": {
         "domain": "cognito-identity.ap-northeast-2.amazonaws.com",
-        "ip": "13.124.71.70",
-        "hostname": "ec2-13-124-71-70.ap-northeast-2.compute.amazonaws.com",
+        "ip": "54.117.31.26",
+        "hostname": "ec2-54-117-31-26.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -289,8 +325,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -300,12 +336,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.485,
+        "rtt": 43.381,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -316,53 +352,6 @@
           "location_count": 0
         }
       }
-    },
-    {
-      "originalUrl": "https://dhdfh3vybe18.cloudfront.net/broadcast/yanolja/broadcastCollect/thum/1226887a-890d-431e-bd09-6cbc1b8b5782.png",
-      "type": "image",
-      "ipinfo": {
-        "domain": "dhdfh3vybe18.cloudfront.net",
-        "ip": "18.244.65.152",
-        "hostname": "server-18-244-65-152.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://kinesis.ap-northeast-2.amazonaws.com/",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "kinesis.ap-northeast-2.amazonaws.com",
-        "ip": "15.164.243.250",
-        "hostname": "ec2-15-164-243-250.ap-northeast-2.compute.amazonaws.com",
-        "city": "Incheon",
-        "region": "Incheon",
-        "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://ticketimage.interpark.com/Play/image/large/26/26013215_p.gif",
-      "type": "image",
-      "ipinfo": {
-        "domain": "ticketimage.interpark.com",
-        "ip": "183.111.129.100",
-        "city": "Incheon",
-        "region": "Incheon",
-        "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS4766 Korea Telecom",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://www.facebook.com/tr/",
@@ -379,6 +368,38 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://kinesis.ap-northeast-2.amazonaws.com/",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "kinesis.ap-northeast-2.amazonaws.com",
+        "ip": "15.164.243.249",
+        "hostname": "ec2-15-164-243-249.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://ams46.creativecdn.com/info?tk=lLmlE0zqwHbyGFrZrLgg1YNz69ZXvpB2orBdVuz_Ta_-P2Vz8PPf9eCf-Y9HBc6_aF6V4AoRjWpYsXqbzgQ1ZwA",
+      "type": "image",
+      "ipinfo": {
+        "domain": "ams46.creativecdn.com",
+        "ip": "185.184.8.120",
+        "hostname": "ip-185-184-8-120.rtbhouse.net",
+        "city": "Lelystad",
+        "region": "Flevoland",
+        "country": "NL",
+        "loc": "52.5083,5.4750",
+        "org": "AS204995 RTB Marketing and Tech Services Ltd",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/direct"
     }
   ]
 }

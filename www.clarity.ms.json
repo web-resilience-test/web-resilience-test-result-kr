@@ -2,14 +2,14 @@
   "url": "https://www.clarity.ms/",
   "canonicalURL": "https://www.clarity.ms/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:32:59.031Z",
+  "timestamp": "2026-09-20T00:51:54.905Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -52,10 +52,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 74.161,
+        "rtt": 70.07,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "57.155.120.218",
           "prefix": "57.155.120.0/24",
           "anycast": false,

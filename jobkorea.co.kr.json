@@ -2,14 +2,14 @@
   "url": "https://jobkorea.co.kr",
   "canonicalURL": "https://www.jobkorea.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:59.157Z",
+  "timestamp": "2026-09-20T00:45:25.843Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,12 +24,12 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 71,
-  "uniqueDomains": 8,
+  "requestCount": 50,
+  "uniqueDomains": 7,
   "test_results": {
     "domestic": {
       "cloud": 3,
-      "direct": 5
+      "direct": 4
     },
     "foreign": {
       "cloud": 0,
@@ -74,8 +74,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "fe-static-cdn.jobkorea.co.kr",
-        "ip": "18.64.8.118",
-        "hostname": "server-18-64-8-118.icn57.r.cloudfront.net",
+        "ip": "18.64.8.46",
+        "hostname": "server-18-64-8-46.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -101,27 +101,12 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://alog2.jobkorea.co.kr/api/4/envelope/?sentry_version=7&sentry_key=7ea339ff76c114add0613283010bfadf&sentry_client=sentry.javascript.nextjs%2F10.44.0",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "alog2.jobkorea.co.kr",
-        "ip": "121.189.48.222",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://cdn-assets.jobkorea.co.kr/images/main-display/job-card-blur-img.png",
       "type": "image",
       "ipinfo": {
         "domain": "cdn-assets.jobkorea.co.kr",
-        "ip": "52.85.128.18",
-        "hostname": "server-52-85-128-18.icn53.r.cloudfront.net",
+        "ip": "52.85.128.3",
+        "hostname": "server-52-85-128-3.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -137,27 +122,11 @@
       }
     },
     {
-      "originalUrl": "https://jk-bff-display-api.jobkorea.co.kr/v1/members/me",
+      "originalUrl": "https://alog2.jobkorea.co.kr/api/4/envelope/?sentry_version=7&sentry_key=7ea339ff76c114add0613283010bfadf&sentry_client=sentry.javascript.nextjs%2F10.44.0",
       "type": "fetch",
       "ipinfo": {
-        "domain": "jk-bff-display-api.jobkorea.co.kr",
-        "ip": "54.230.62.72",
-        "hostname": "server-54-230-62-72.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://file1.jobkorea.co.kr/Banner/TopBnnr/top.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "file1.jobkorea.co.kr",
-        "ip": "121.189.48.150",
+        "domain": "alog2.jobkorea.co.kr",
+        "ip": "121.189.48.222",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -166,6 +135,22 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://jk-bff-display-api.jobkorea.co.kr/v1/members/me",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "jk-bff-display-api.jobkorea.co.kr",
+        "ip": "54.230.62.16",
+        "hostname": "server-54-230-62-16.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
     }
   ]
 }

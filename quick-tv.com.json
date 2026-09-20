@@ -1,0 +1,203 @@
+{
+  "url": "https://quick-tv.com",
+  "canonicalURL": "https://quicksportstv.com/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:19:50.846Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 73,
+  "uniqueDomains": 6,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 2
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://quick-tv.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "quick-tv.com",
+        "ip": "111.92.245.185",
+        "city": "Asagaya-minami",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.7021,139.6375",
+        "org": "AS38638 OnairNet Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://quicksportstv.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "quicksportstv.com",
+        "ip": "111.92.245.185",
+        "city": "Asagaya-minami",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.7021,139.6375",
+        "org": "AS38638 OnairNet Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-6KX6SCBZNP",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.878,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.vchat24.com/widget/vchat.js?v=1789867187",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.vchat24.com",
+        "ip": "104.21.13.168",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3dd01090d0e17d8-SJC",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.21.13.168",
+          "prefix": "104.21.13.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 59,
+          "location_count": 59,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff",
+      "type": "font",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.207.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd01078bda80b7-ICN",
+        "x-served-by": "cache-fra-etou8220118-FRA, cache-icn1450090-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-6KX6SCBZNP&gtm=45je69g1v9139015297za200zd9139015297xf1&_p=1789867188203&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1568908828.1789867189&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789867188&sct=1&seg=0&dl=https%3A%2F%2Fquicksportstv.com%2F&dt=%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84%20%EB%B9%A0%EB%A5%B8%ED%8B%B0%EB%B9%84%20-%20%EC%8B%A4%EC%8B%9C%EA%B0%84%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EC%A4%91%EA%B3%84%20%EB%B9%A0%EB%A5%B8%20%ED%8B%B0%EB%B9%84%2C%20%EB%AC%B4%EB%A3%8C%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84%2C%20%EB%9D%BC%EC%9D%B4%EB%B8%8C%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%20%EC%A4%91%EA%B3%84%2C%20%ED%95%B4%EC%99%B8%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%EC%A4%91%EA%B3%84&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2597",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "216.239.38.178",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 38.808,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.38.178",
+          "prefix": "216.239.38.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 15,
+          "location_count": 15
+        }
+      }
+    }
+  ]
+}

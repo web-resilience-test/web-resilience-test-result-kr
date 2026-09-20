@@ -2,14 +2,14 @@
   "url": "https://x.com",
   "canonicalURL": "https://x.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:25:58.590Z",
+  "timestamp": "2026-09-20T00:42:54.889Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 558,
+  "requestCount": 560,
   "uniqueDomains": 2,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "x.com",
-        "ip": "162.159.140.229",
+        "ip": "172.66.0.227",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6db9d3801fd11-ICN",
+        "cf-ray": "a3dccadf5e6652f0-ICN",
         "x-served-by": "t4_p",
         "detection_method": "header"
       }
@@ -73,11 +73,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-served-by": "t4_a, cache-pdk-kfty8610028-PDK, cache-hhr-khhr2060054-HHR",
-        "rtt": 134.152,
+        "x-served-by": "t4_a, cache-pdk-kfty8610028-PDK, cache-hhr-khhr2060034-HHR",
+        "rtt": 133.165,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "151.101.72.159",
           "prefix": "151.101.72.0/24",
           "anycast": true,

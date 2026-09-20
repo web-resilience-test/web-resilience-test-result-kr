@@ -1,0 +1,200 @@
+{
+  "url": "https://skyscanner.co.kr",
+  "canonicalURL": "https://www.skyscanner.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T00:48:11.094Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 20,
+  "uniqueDomains": 6,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://skyscanner.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "skyscanner.co.kr",
+        "ip": "13.248.155.102",
+        "hostname": "a1354747402ef4483.awsglobalaccelerator.com",
+        "city": "Seattle",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6339,-122.3476",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 22.22,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "13.248.155.102",
+          "prefix": "13.248.155.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 59,
+          "location_count": 59
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.skyscanner.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.skyscanner.co.kr",
+        "ip": "18.244.60.36",
+        "hostname": "server-18-244-60-36.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://content.skyscnr.com/sam-media/36b14fec1814cafc83393227af02b16f.jpg?imbypass=true",
+      "type": "image",
+      "ipinfo": {
+        "domain": "content.skyscnr.com",
+        "ip": "3.168.167.89",
+        "hostname": "server-3-168-167-89.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://js.skyscnr.com/sttc/nx/web-platform/banana/static/js/translations/translation.release.8e6eb5f5cec5a493780d.ko-kr.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js.skyscnr.com",
+        "ip": "13.225.117.53",
+        "hostname": "server-13-225-117-53.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://ift.px-cloud.net/ns?c=f27808d0-b48c-11f1-9c3d-114d38bcf6c8",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "ift.px-cloud.net",
+        "ip": "136.110.101.249",
+        "hostname": "249.101.110.136.bc.googleusercontent.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS396982 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 47.611,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "136.110.101.249",
+          "prefix": "136.110.101.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://js-agent.newrelic.com/nr-spa-1.317.0.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js-agent.newrelic.com",
+        "ip": "162.247.243.39",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7864,-122.3892",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "162.247.243.39",
+          "prefix": "162.247.243.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            54113
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 53,
+          "location_count": 53,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

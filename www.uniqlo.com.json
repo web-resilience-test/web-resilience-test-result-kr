@@ -1,0 +1,402 @@
+{
+  "url": "https://www.uniqlo.com",
+  "canonicalURL": "https://www.uniqlo.com/kr/ko/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T01:23:25.995Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 122,
+  "uniqueDomains": 14,
+  "test_results": {
+    "domestic": {
+      "cloud": 11,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 3,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.uniqlo.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.uniqlo.com",
+        "ip": "104.75.1.162",
+        "hostname": "a104-75-1-162.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://asset.uniqlo.com/g/scripts/queueclient.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "asset.uniqlo.com",
+        "ip": "104.75.1.166",
+        "hostname": "a104-75-1-166.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://im.uniqlo.com/global-cms/spa/res6bb320589b9bed495692ce14a83d36d0fr.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "im.uniqlo.com",
+        "ip": "104.75.1.166",
+        "hostname": "a104-75-1-166.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://assets.queue-it.net/frkr/integrationconfig/javascript/queueclientConfig.js?versionTimestamp=20260920101004",
+      "type": "script",
+      "ipinfo": {
+        "domain": "assets.queue-it.net",
+        "ip": "18.244.60.69",
+        "hostname": "server-18-244-60-69.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-KBMWN8W",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.21.97",
+        "hostname": "zh-in-f97.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 47.819,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.97",
+          "prefix": "142.250.21.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://s.go-mpulse.net/boomerang/SBACX-63GWS-CCBTT-8829Z-6N23N",
+      "type": "script",
+      "ipinfo": {
+        "domain": "s.go-mpulse.net",
+        "ip": "104.75.0.91",
+        "hostname": "a104-75-0-91.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://c.go-mpulse.net/api/config.json?key=SBACX-63GWS-CCBTT-8829Z-6N23N&d=www.uniqlo.com&t=5966225&v=1.815.0&sl=0&si=8d25fb2c-be1a-4c2c-add0-fd460b24e8a2-tln2iw&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=355545",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "c.go-mpulse.net",
+        "ip": "104.94.216.29",
+        "hostname": "a104-94-216-29.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js?did=018f5691-bd21-7410-98df-626cb0ef40fa",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.cookielaw.org",
+        "ip": "104.18.87.42",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd06386c0f3152-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:940498565767:web:a404c0f2ed9a0100929622/webConfig",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebase.googleapis.com",
+        "ip": "172.217.115.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.115.4",
+          "prefix": "172.217.115.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://ets.f5apis.com/2?a=b4910373391bf0d2e2b697c73afb9af32bc6befd&b=A6MeabygAQAAKPkAot93jzoUazpKIurMvKEM4h0bq9raOJVD4WZzMSLh58DxATsPhZyucpSzwH9eCOfvosJeCA==&c=b9e72f60589c0bc851f4aeb03206ff08e8254b30457650dd576ef052e9a130ce",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "ets.f5apis.com",
+        "ip": "136.110.69.160",
+        "hostname": "160.69.110.136.bc.googleusercontent.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS396982 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 41.459,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "136.110.69.160",
+          "prefix": "136.110.69.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://firebaseinstallations.googleapis.com/v1/projects/fr-prd-uew-uq-kr/installations",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebaseinstallations.googleapis.com",
+        "ip": "172.217.117.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.117.4",
+          "prefix": "172.217.117.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "geolocation.onetrust.com",
+        "ip": "104.18.32.137",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dd0640beb2d1e9-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://firebaseremoteconfig.googleapis.com/v1/projects/fr-prd-uew-uq-kr/namespaces/firebase:fetch?key=AIzaSyAH_zO51CkWJMW3rhBacfjP8uRM1yAHi4Q",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebaseremoteconfig.googleapis.com",
+        "ip": "172.217.119.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.119.4",
+          "prefix": "172.217.119.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-855FCN5VCX&gtm=45je69g1v899047392z89130239018za20gzb9130239018zd9130239018xf1&_p=1789867400510&gcs=G100&gcd=13p3p3p3p5l1&npa=1&dma_cps=-&dma=0&gdid=dYWJhMj&_eu=AAAAAGAC&_prs=ok&cid=2025579487.1789867403&frm=0&pscdl=denied&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dl=https%3A%2F%2Fwww.uniqlo.com%2Fkr%2Fko%2F&dt=%2Fkr%2Fko%2F&sid=1789867402&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=2&ep.region=kr&ep.site_language=ko&ep.page_title_web=%EC%97%AC%EC%84%B1%20%EC%9D%98%EB%A5%98%20%20%7C%20%20%EC%9C%A0%EB%8B%88%ED%81%B4%EB%A1%9C%20%EA%B3%B5%EC%8B%9D%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%8A%A4%ED%86%A0%EC%96%B4&ep.site_type=responsive&ep.page_type=home&ep.brand=uq&ep.login_state=not_login&ep.official_webview=false&ep.content_group=home&tfd=3310",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.251.23.102",
+        "hostname": "rl-in-f102.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 40.334,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.102",
+          "prefix": "142.251.23.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

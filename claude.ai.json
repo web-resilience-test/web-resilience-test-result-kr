@@ -2,14 +2,14 @@
   "url": "https://claude.ai",
   "canonicalURL": "https://claude.ai/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:42.807Z",
+  "timestamp": "2026-09-20T00:43:31.026Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,15 +24,15 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 123,
-  "uniqueDomains": 6,
+  "requestCount": 122,
+  "uniqueDomains": 4,
   "test_results": {
     "domestic": {
-      "cloud": 3,
+      "cloud": 2,
       "direct": 0
     },
     "foreign": {
-      "cloud": 1,
+      "cloud": 0,
       "direct": 2
     }
   },
@@ -83,51 +83,8 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6dd0c3a97aa88-ICN",
+        "cf-ray": "a3dccbd8eaedb2de-ICN",
         "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://assets.claude.ai/videos/login-hero-kt3-still-005fec8b.webp",
-      "type": "image",
-      "ipinfo": {
-        "domain": "assets.claude.ai",
-        "ip": "34.120.108.227",
-        "hostname": "227.108.120.34.bc.googleusercontent.com",
-        "city": "Kansas City",
-        "region": "Missouri",
-        "country": "US",
-        "loc": "39.0997,-94.5786",
-        "org": "AS396982 Google LLC",
-        "timezone": "America/Chicago"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "34.120.108.227",
-          "prefix": "34.120.108.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            396982
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
       }
     },
     {
@@ -149,7 +106,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.54.194.141",
           "prefix": "34.54.194.0/24",
           "anycast": true,
@@ -170,39 +127,6 @@
               "id": "GMP"
             }
           ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://accounts.google.com/gsi/client",
-      "type": "script",
-      "ipinfo": {
-        "domain": "accounts.google.com",
-        "ip": "142.251.169.84",
-        "hostname": "rx-in-f84.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 37.421,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.169.84",
-          "prefix": "142.251.169.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
         }
       }
     }

@@ -2,14 +2,14 @@
   "url": "https://googlesyndication.com",
   "canonicalURL": "https://googlesyndication.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:29:34.466Z",
+  "timestamp": "2026-09-20T00:49:36.176Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,7 +22,7 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "168.126.63.1"
   },
   "requestCount": 25,
   "uniqueDomains": 4,
@@ -42,23 +42,23 @@
       "type": "document",
       "ipinfo": {
         "domain": "googlesyndication.com",
-        "ip": "172.217.211.147",
-        "hostname": "hs-in-f147.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "192.178.230.104",
+        "hostname": "yunrtab-in-f104.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.678,
+        "rtt": 42.597,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "172.217.211.147",
-          "prefix": "172.217.211.0/24",
+          "queried_ip": "192.178.230.104",
+          "prefix": "192.178.230.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -75,7 +75,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.150.119",
+        "ip": "142.251.154.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -88,9 +88,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.150.119",
-          "prefix": "142.251.150.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.119",
+          "prefix": "142.251.154.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -117,8 +117,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.gstatic.com",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
+        "ip": "142.250.21.94",
+        "hostname": "zh-in-f94.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -128,12 +128,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.368,
+        "rtt": 41.453,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.94",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -150,8 +150,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "ogads-pa.clients6.google.com",
-        "ip": "142.251.24.95",
-        "hostname": "rj-in-f95.1e100.net",
+        "ip": "142.251.23.95",
+        "hostname": "rl-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -161,12 +161,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.77,
+        "rtt": 43.056,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.24.95",
-          "prefix": "142.251.24.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.95",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

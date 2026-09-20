@@ -2,14 +2,14 @@
   "url": "https://github.com",
   "canonicalURL": "https://github.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:26:47.118Z",
+  "timestamp": "2026-09-20T00:43:37.024Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,11 +24,11 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 132,
-  "uniqueDomains": 3,
+  "requestCount": 150,
+  "uniqueDomains": 4,
   "test_results": {
     "domestic": {
-      "cloud": 2,
+      "cloud": 3,
       "direct": 0
     },
     "foreign": {
@@ -57,7 +57,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "github.githubassets.com",
-        "ip": "185.199.108.215",
+        "ip": "185.199.109.215",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -68,7 +68,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "x-served-by": "cache-iad-kiad7000053-IAD, cache-icn1450091-ICN",
+        "x-served-by": "cache-iad-kiad7000053-IAD, cache-icn1450072-ICN",
         "detection_method": "header"
       }
     },
@@ -77,8 +77,8 @@
       "type": "ping",
       "ipinfo": {
         "domain": "collector.github.com",
-        "ip": "140.82.114.21",
-        "hostname": "lb-140-82-114-21-iad.github.com",
+        "ip": "140.82.113.21",
+        "hostname": "lb-140-82-113-21-iad.github.com",
         "city": "Dulles Town Center",
         "region": "Virginia",
         "country": "US",
@@ -87,6 +87,21 @@
         "timezone": "America/New_York"
       },
       "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://api.github.com/_private/browser/stats",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "api.github.com",
+        "ip": "20.200.245.245",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
     }
   ]
 }

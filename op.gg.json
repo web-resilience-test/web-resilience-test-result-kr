@@ -2,14 +2,14 @@
   "url": "https://op.gg",
   "canonicalURL": "https://op.gg/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:27:36.125Z",
+  "timestamp": "2026-09-20T00:44:19.838Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -22,13 +22,13 @@
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "168.126.63.2"
   },
-  "requestCount": 176,
-  "uniqueDomains": 18,
+  "requestCount": 196,
+  "uniqueDomains": 21,
   "test_results": {
     "domestic": {
-      "cloud": 11,
+      "cloud": 14,
       "direct": 0
     },
     "foreign": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "op.gg",
-        "ip": "13.225.134.94",
-        "hostname": "server-13-225-134-94.icn80.r.cloudfront.net",
+        "ip": "3.168.167.57",
+        "hostname": "server-3-168-167-57.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -73,23 +73,23 @@
       "type": "image",
       "ipinfo": {
         "domain": "s-opgg-kit.op.gg",
-        "ip": "23.214.22.47",
-        "hostname": "a23-214-22-47.deploy.static.akamaitechnologies.com",
-        "city": "Hillsboro",
-        "region": "Oregon",
+        "ip": "23.11.232.110",
+        "hostname": "a23-11-232-110.deploy.static.akamaitechnologies.com",
+        "city": "Santa Clara",
+        "region": "California",
         "country": "US",
-        "loc": "45.5229,-122.9898",
+        "loc": "37.3541,-121.9552",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "America/Los_Angeles"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 118.886,
+        "rtt": 138.057,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.214.22.47",
-          "prefix": "23.214.22.0/24",
+          "queried_ip": "23.11.232.110",
+          "prefix": "23.11.232.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -137,7 +137,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.zdassets.com",
-        "ip": "216.198.54.3",
+        "ip": "216.198.53.3",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -148,7 +148,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de487ab8d946-ICN",
+        "cf-ray": "a3dccce4cd1730fe-ICN",
         "detection_method": "header"
       }
     },
@@ -157,12 +157,12 @@
       "type": "image",
       "ipinfo": {
         "domain": "meta-static.op.gg",
-        "ip": "23.67.53.169",
-        "hostname": "a23-67-53-169.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.53.228.16",
+        "hostname": "a23-53-228-16.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "36.1750,127.7764",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -184,10 +184,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.007,
+        "rtt": 40.798,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.250.21.97",
           "prefix": "142.250.21.0/24",
           "anycast": false,
@@ -217,7 +217,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de4b5a00834c-ICN",
+        "cf-ray": "a3dccce6cf0b38d5-ICN",
         "detection_method": "header"
       }
     },
@@ -226,7 +226,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "js.opgg.beer",
-        "ip": "104.18.9.221",
+        "ip": "104.18.8.221",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -237,7 +237,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de4b78a6d1db-ICN",
+        "cf-ray": "a3dccce72936db80-ICN",
         "x-amz-cf-pop": "ICN80-P4",
         "detection_method": "header"
       }
@@ -258,7 +258,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de4b78a3d1db-ICN",
+        "cf-ray": "a3dccce72caad160-ICN",
         "x-amz-cf-pop": "ICN57-P2",
         "detection_method": "header"
       }
@@ -268,8 +268,8 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "cmp.inmobi.com",
-        "ip": "52.85.128.44",
-        "hostname": "server-52-85-128-44.icn53.r.cloudfront.net",
+        "ip": "52.85.128.78",
+        "hostname": "server-52-85-128-78.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -289,7 +289,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "opggsupport.zendesk.com",
-        "ip": "216.198.53.11",
+        "ip": "216.198.54.11",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -300,16 +300,16 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6de53fafebcc4-ICN",
+        "cf-ray": "a3dcccea38eaea25-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789802851354&cv=11&tid=G-HKZFKE5JEL&fst=1789802851354&fmt=8&en=session_start&gtm=45je69g1v876557428za200zd876557428xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fop.gg%2F&gacid=1811836743.1789802851&frm=0&tiba=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&gtm_ee=1&npa=0&pscdl=noapi&auid=484671503.1789802851&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=2033866544.1789865054&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&en=page_view&dl=https%3A%2F%2Fop.gg%2F&scrsrc=www.googletagmanager.com&rnd=2015737018.1789865054&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9138684160za200zd9138684160xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120412526~120469145~120469153~120847435&tft=1789865053562&tfd=928&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.155.119",
+        "ip": "142.251.152.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -322,9 +322,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.155.119",
-          "prefix": "142.251.155.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.152.119",
+          "prefix": "142.251.152.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -347,7 +347,7 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-HKZFKE5JEL&gtm=45je69g1v876557428za200zd876557428xf1&_p=1789802850895&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1811836743.1789802851&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&gaf=2&_s=1&tag_exp=115938466~115938468~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789802851&sct=1&seg=0&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&tfd=979",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-HKZFKE5JEL&gtm=45je69g1v876557428z89138684160za20gzb9138684160zd9138684160xf1&_p=1789865053096&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=413868713.1789865054&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&sid=1789865053&sct=1&seg=0&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&en=op_click&_fv=1&_nsi=1&_ss=2&ep.op_page_main_category=home&ep.op_page_sub_category=main&ep.op_page_detail_category=&ep.op_page_params=%7B%7D&ep.user_member_id=&ep.op_event=click_op_theme_mode&ep.op_event_section=contents&ep.op_event_value=dark&ep.op_event_params=&ep.op_page_language=en&ep.user_member_plan_ids=&tfd=988",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
@@ -361,10 +361,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.959,
+        "rtt": 40.891,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "216.239.38.181",
           "prefix": "216.239.38.0/24",
           "anycast": true,
@@ -382,27 +382,27 @@
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-HKZFKE5JEL&cid=1811836743.1789802851&gtm=45je69g1v876557428za200zd876557428xf1&rcb=8&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=1422213249",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-HKZFKE5JEL&cid=413868713.1789865054&gtm=45je69g1v876557428z89138684160za20gzb9138684160zd9138684160xf1&rcb=9&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&z=927736431",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
+        "ip": "142.251.118.94",
+        "hostname": "tu-in-f94.1e100.net",
+        "city": "Osaka",
+        "region": "Osaka",
         "country": "JP",
-        "loc": "35.6895,139.6917",
+        "loc": "34.6938,135.5011",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.63,
+        "rtt": 46.374,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.118.94",
+          "prefix": "142.251.118.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -415,12 +415,60 @@
       }
     },
     {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-37HQ1LKWBE&gtm=45je69g1v885917583z89138684160za200zb876557428zd876557428xf1&_p=1789802850895&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1811836743.1789802851&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~120032690~120213116~120385423~120469145~120469153&sid=1789802851&sct=1&seg=0&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&en=page_view&_fv=1&_ss=1&tfd=1164",
+      "originalUrl": "https://opgg-static.akamaized.net/meta/images/opgg-emotes/oddin_n_roong_01.png?image=q_auto:good,w_120&image=q_auto:good,f_webp,w_200&v=1789715151",
+      "type": "image",
+      "ipinfo": {
+        "domain": "opgg-static.akamaized.net",
+        "ip": "23.206.175.107",
+        "hostname": "a23-206-175-107.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://opgg-com-image.akamaized.net/attach/images/20260919052102.0.6524672.jpg?image=w_200,h_200,c_thumb&image=q_auto:good,f_webp,w_200&v=1789715151",
+      "type": "image",
+      "ipinfo": {
+        "domain": "opgg-com-image.akamaized.net",
+        "ip": "23.206.175.211",
+        "hostname": "a23-206-175-211.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://s-qwer.op.gg/images/lol/teams/332_1672191421625.png?image=q_auto:good,f_webp,w_40&v=1789715151",
+      "type": "image",
+      "ipinfo": {
+        "domain": "s-qwer.op.gg",
+        "ip": "23.59.72.16",
+        "hostname": "a23-59-72-16.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-37HQ1LKWBE&gtm=45je69g1v885917583z89138684160za20gzb9138684160zd9138684160xf1&_p=1789865053096&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=413868713.1789865054&frm=0&ngs=1&pscdl=noapi&rcb=7&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789865054&sct=1&seg=0&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&en=page_view&_fv=1&_ss=1&tfd=1846",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.250.21.138",
-        "hostname": "zh-in-f138.1e100.net",
+        "ip": "142.251.24.101",
+        "hostname": "rj-in-f101.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -430,12 +478,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.574,
+        "rtt": 39.501,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "142.250.21.138",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.251.24.101",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -448,7 +496,7 @@
       }
     },
     {
-      "originalUrl": "https://opgg-pdc.our.gg/lolweb/g/collect?v=2&tid=G-HG9DB5ECL8&gtm=45je69g1v9137694734z89138684160za20gzb9138684160zd9138684160xf1&_p=1789802850895&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=434798297&_eu=AAAAAAQ&_fplc=0&cid=1811836743.1789802851&frm=0&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&ur=KR-11&sst.etld=google.co.kr&sst.tft=1789802850895&sst.lpc=124484948&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=115616986~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789802851&sct=1&seg=1&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&_tu=BA&en=page_view&gap.sstd=4&_et=2&tfd=1538&richsstsse",
+      "originalUrl": "https://opgg-pdc.our.gg/lolweb/g/collect?v=2&tid=G-HG9DB5ECL8&gtm=45je69g1v9137694734z89138684160za20gzb9138684160zd9138684160xf1&_p=1789865053096&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=43832017&_eu=AAAAAAQ&_fplc=0&cid=413868713.1789865054&frm=0&ngs=1&pscdl=noapi&rcb=5&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&ur=KR-11&sst.etld=google.co.kr&sst.tft=1789865053096&sst.lpc=124484948&sst.navt=n&sst.ude=0&sst.sw_exp=1&_s=2&tag_exp=115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789865054&sct=1&seg=1&dl=https%3A%2F%2Fop.gg%2F&dt=LoL%20Stats%20Tracker%2C%20Rankings%20%26%20Match%20History%20%7C%20OP.GG&_tu=BA&en=page_view&gap.sstd=4&_et=1&tfd=1946&richsstsse",
       "type": "fetch",
       "ipinfo": {
         "domain": "opgg-pdc.our.gg",
@@ -466,7 +514,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.36.191.69",
           "prefix": "34.36.191.0/24",
           "anycast": true,

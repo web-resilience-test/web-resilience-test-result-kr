@@ -1,15 +1,15 @@
 {
   "url": "https://doubleclick.net",
-  "canonicalURL": "https://marketingplatform.google.com/about/enterprise/",
+  "canonicalURL": "https://marketingplatform.google.com/intl/ko/about/enterprise/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:28:17.657Z",
+  "timestamp": "2026-09-20T00:48:29.015Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 29,
+  "requestCount": 25,
   "uniqueDomains": 6,
   "test_results": {
     "domestic": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "doubleclick.net",
-        "ip": "142.251.24.101",
-        "hostname": "rj-in-f101.1e100.net",
+        "ip": "142.251.169.101",
+        "hostname": "rx-in-f101.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -53,12 +53,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.48,
+        "rtt": 49.106,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "142.251.24.101",
-          "prefix": "142.251.24.0/24",
+          "queried_ip": "142.251.169.101",
+          "prefix": "142.251.169.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -75,8 +75,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "marketingplatform.google.com",
-        "ip": "142.250.21.100",
-        "hostname": "zh-in-f100.1e100.net",
+        "ip": "142.251.23.100",
+        "hostname": "rl-in-f100.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -86,12 +86,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.591,
+        "rtt": 47.891,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.100",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.100",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -104,12 +104,12 @@
       }
     },
     {
-      "originalUrl": "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=en",
+      "originalUrl": "https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans:400,500|Product+Sans:400&lang=ko",
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.250.23.95",
-        "hostname": "zj-in-f95.1e100.net",
+        "ip": "142.251.24.95",
+        "hostname": "rj-in-f95.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -119,12 +119,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.962,
+        "rtt": 45.441,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.95",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.95",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -141,8 +141,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "www.gstatic.com",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
+        "ip": "142.251.23.94",
+        "hostname": "rl-in-f94.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -152,12 +152,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.703,
+        "rtt": 45.469,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.94",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -174,8 +174,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "lh3.googleusercontent.com",
-        "ip": "142.251.23.132",
-        "hostname": "rl-in-f132.1e100.net",
+        "ip": "142.251.24.132",
+        "hostname": "rj-in-f132.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -185,12 +185,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.434,
+        "rtt": 38.638,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.23.132",
-          "prefix": "142.251.23.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.24.132",
+          "prefix": "142.251.24.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -218,10 +218,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.629,
+        "rtt": 47.344,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.250.21.95",
           "prefix": "142.250.21.0/24",
           "anycast": false,

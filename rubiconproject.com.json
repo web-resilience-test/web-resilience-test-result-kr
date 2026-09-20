@@ -2,14 +2,14 @@
   "url": "https://rubiconproject.com",
   "canonicalURL": "https://www.magnite.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:03.461Z",
+  "timestamp": "2026-09-20T00:51:59.729Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,11 +24,11 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 55,
-  "uniqueDomains": 6,
+  "requestCount": 52,
+  "uniqueDomains": 5,
   "test_results": {
     "domestic": {
-      "cloud": 5,
+      "cloud": 4,
       "direct": 0
     },
     "foreign": {
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e65a3d75eaa9-ICN",
+        "cf-ray": "a3dcd83fff9bde66-ICN",
         "detection_method": "header"
       }
     },
@@ -73,10 +73,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.142,
+        "rtt": 45.199,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.250.21.97",
           "prefix": "142.250.21.0/24",
           "anycast": false,
@@ -95,7 +95,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.cookielaw.org",
-        "ip": "104.18.87.42",
+        "ip": "104.18.86.42",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -106,7 +106,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e65cfb89eaa3-ICN",
+        "cf-ray": "a3dcd8430e65e620-ICN",
         "detection_method": "header"
       }
     },
@@ -131,7 +131,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "analytics.ahrefs.com",
-        "ip": "104.18.39.141",
+        "ip": "172.64.148.115",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -142,27 +142,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e65cff64aa3e-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "geolocation.onetrust.com",
-        "ip": "104.18.32.137",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3d6e65dc985f3ef-ICN",
+        "cf-ray": "a3dcd8430e4b28fd-ICN",
         "detection_method": "header"
       }
     }

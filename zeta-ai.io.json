@@ -1,15 +1,15 @@
 {
   "url": "https://zeta-ai.io",
-  "canonicalURL": "https://zeta-ai.io/en",
+  "canonicalURL": "https://zeta-ai.io/ko",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:12.838Z",
+  "timestamp": "2026-09-20T00:46:36.106Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -24,12 +24,12 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "168.126.63.1"
   },
-  "requestCount": 141,
-  "uniqueDomains": 19,
+  "requestCount": 149,
+  "uniqueDomains": 20,
   "test_results": {
     "domestic": {
       "cloud": 6,
-      "direct": 2
+      "direct": 3
     },
     "foreign": {
       "cloud": 8,
@@ -55,7 +55,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "216.150.1.1",
           "prefix": "216.150.1.0/24",
           "anycast": true,
@@ -84,7 +84,7 @@
       "type": "font",
       "ipinfo": {
         "domain": "web-cdn.zeta-ai.io",
-        "ip": "71.18.92.227",
+        "ip": "71.18.92.225",
         "city": "Osaka",
         "region": "Osaka",
         "country": "JP",
@@ -95,12 +95,27 @@
       "category": "foreign/direct"
     },
     {
+      "originalUrl": "https://t1.kakaocdn.net/kakao_js_sdk/2.6.0/kakao.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "211.56.99.152",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
       "originalUrl": "https://appleid.cdn-apple.com/appleauth/static/jsapi/appleid/1/en_US/appleid.auth.js",
       "type": "script",
       "ipinfo": {
         "domain": "appleid.cdn-apple.com",
-        "ip": "23.11.232.167",
-        "hostname": "a23-11-232-167.deploy.static.akamaitechnologies.com",
+        "ip": "23.11.232.103",
+        "hostname": "a23-11-232-103.deploy.static.akamaitechnologies.com",
         "city": "Santa Clara",
         "region": "California",
         "country": "US",
@@ -110,11 +125,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 138.503,
+        "rtt": 145.091,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.11.232.167",
+          "queried_ip": "23.11.232.103",
           "prefix": "23.11.232.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -143,20 +158,20 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e654dfe03274-ICN",
+        "cf-ray": "a3dcd01549245817-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://image.zeta-ai.io/profile-image/709a7894-79fa-4f6e-bd54-33b0bc0c4dc6/3600e4bb-4651-487c-b2fc-19bb14f2f8b7.webp?w=256&q=75&f=webp",
+      "originalUrl": "https://image.zeta-ai.io/profile-image/c5a93d9e-2409-4c36-b207-356c96877836/bbc938d0-9615-47a1-a39b-0b0265148b62/e9d7d884-5995-49da-9281-261d1e93db71.jpeg?w=256&q=75&f=webp",
       "type": "image",
       "ipinfo": {
         "domain": "image.zeta-ai.io",
-        "ip": "71.18.92.227",
-        "city": "Osaka",
-        "region": "Osaka",
+        "ip": "71.18.102.225",
+        "city": "Tokyo",
+        "region": "Tokyo",
         "country": "JP",
-        "loc": "34.6938,135.5011",
+        "loc": "35.6895,139.6917",
         "org": "AS396986 Bytedance Inc.",
         "timezone": "Asia/Tokyo"
       },
@@ -167,8 +182,8 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "sentry.luda.ai",
-        "ip": "52.203.17.36",
-        "hostname": "ec2-52-203-17-36.compute-1.amazonaws.com",
+        "ip": "54.166.112.144",
+        "hostname": "ec2-54-166-112-144.compute-1.amazonaws.com",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -183,8 +198,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "52.203.17.36",
-          "prefix": "52.203.17.0/24",
+          "queried_ip": "54.166.112.144",
+          "prefix": "54.166.112.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -211,10 +226,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 71.657,
+        "rtt": 76.042,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "57.155.120.218",
           "prefix": "57.155.120.0/24",
           "anycast": false,
@@ -249,8 +264,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "accounts.google.com",
-        "ip": "192.178.226.84",
-        "hostname": "lcnrts-in-f84.1e100.net",
+        "ip": "142.251.169.84",
+        "hostname": "rx-in-f84.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -260,12 +275,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.23,
+        "rtt": 47.074,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "192.178.226.84",
-          "prefix": "192.178.226.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.169.84",
+          "prefix": "142.251.169.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -278,12 +293,12 @@
       }
     },
     {
-      "originalUrl": "https://api.zeta-ai.io/v1/ab-experiments/260921-english-genre-ranking",
+      "originalUrl": "https://api.zeta-ai.io/v1/feature-flags/contest-2026-winners",
       "type": "xhr",
       "ipinfo": {
         "domain": "api.zeta-ai.io",
-        "ip": "3.37.26.61",
-        "hostname": "ec2-3-37-26-61.ap-northeast-2.compute.amazonaws.com",
+        "ip": "15.164.39.55",
+        "hostname": "ec2-15-164-39-55.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -298,7 +313,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "firebase.googleapis.com",
-        "ip": "172.217.113.4",
+        "ip": "172.217.114.4",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -311,9 +326,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.217.113.4",
-          "prefix": "172.217.113.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.114.4",
+          "prefix": "172.217.114.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -353,7 +368,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "172.217.112.4",
           "prefix": "172.217.112.0/24",
           "anycast": true,
@@ -365,8 +380,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -394,11 +409,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://emergency.zeta-ai.io/en/status",
+      "originalUrl": "https://emergency.zeta-ai.io/ko/status",
       "type": "xhr",
       "ipinfo": {
         "domain": "emergency.zeta-ai.io",
-        "ip": "71.18.92.227",
+        "ip": "71.18.92.231",
         "city": "Osaka",
         "region": "Osaka",
         "country": "JP",
@@ -413,8 +428,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
+        "ip": "142.250.23.97",
+        "hostname": "zj-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -424,12 +439,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.461,
+        "rtt": 40.43,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.97",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -442,11 +457,11 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789803181262&cv=11&tid=G-Y10GG3X5PN&fst=1789803181262&fmt=8&en=session_start&gtm=45je69g1v9205425774za200zd9205425774xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fzeta-ai.io%2Fen&gacid=669860403.1789803181&frm=0&tiba=zeta&gtm_ee=1&npa=0&pscdl=noapi&auid=683176057.1789803181&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=4",
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789865184522&cv=11&tid=G-Y10GG3X5PN&fst=1789865184522&fmt=8&en=session_start&gtm=45je69g1v9205425774za200zd9205425774xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fzeta-ai.io%2Fko&gacid=471874333.1789865185&frm=0&tiba=%EC%A0%9C%ED%83%80&gtm_ee=1&npa=0&pscdl=noapi&auid=1540064026.1789865185&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=2",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.153.119",
+        "ip": "142.251.156.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -459,9 +474,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.153.119",
-          "prefix": "142.251.153.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.156.119",
+          "prefix": "142.251.156.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -471,8 +486,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -484,11 +499,11 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-Y10GG3X5PN&gtm=45je69g1v9205425774za200zd9205425774xf1&_p=1789803180949&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_fid=c72rcXz58LSslAuj456x3P&_prs=ok&cid=669860403.1789803181&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&sid=1789803181&sct=1&seg=0&dl=https%3A%2F%2Fzeta-ai.io%2Fen&dt=zeta&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&ep.origin=firebase&tfd=1610",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-Y10GG3X5PN&gtm=45je69g1v9205425774za200zd9205425774xf1&_p=1789865184133&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_fid=eaLUgeBW5gzi1l4Jve9Ljs&_prs=ok&cid=471874333.1789865185&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789865184&sct=1&seg=0&dl=https%3A%2F%2Fzeta-ai.io%2Fko&dt=%EC%A0%9C%ED%83%80&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&ep.origin=firebase&tfd=1588",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.34.181",
+        "ip": "216.239.32.181",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -498,12 +513,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.07,
+        "rtt": 42.968,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "216.239.34.181",
-          "prefix": "216.239.34.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.32.181",
+          "prefix": "216.239.32.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -513,18 +528,18 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 17,
-          "location_count": 7
+          "site_count": 9,
+          "location_count": 9
         }
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-Y10GG3X5PN&cid=669860403.1789803181&gtm=45je69g1v9205425774za200zd9205425774xf1&rcb=4&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153~120847435&z=1398676776",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-Y10GG3X5PN&cid=471874333.1789865185&gtm=45je69g1v9205425774za200zd9205425774xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=1751462252",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
+        "ip": "142.251.23.94",
+        "hostname": "rl-in-f94.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -534,12 +549,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.376,
+        "rtt": 43.389,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.23.94",
+          "prefix": "142.251.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -556,7 +571,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "c.clarity.ms",
-        "ip": "150.171.110.135",
+        "ip": "150.171.110.133",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -570,8 +585,8 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "150.171.110.135",
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.133",
           "prefix": "150.171.110.0/24",
           "anycast": true,
           "confidence": "confident",

@@ -1,0 +1,576 @@
+{
+  "url": "https://windows.com",
+  "canonicalURL": "https://www.microsoft.com/ko-kr/windows",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T00:53:25.525Z",
+  "testParameters": {
+    "customDNS": null,
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "59.15.133.156",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS4766 Korea Telecom",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "168.126.63.1"
+  },
+  "requestCount": 62,
+  "uniqueDomains": 17,
+  "test_results": {
+    "domestic": {
+      "cloud": 3,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 14,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://windows.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "windows.com",
+        "ip": "20.76.201.171",
+        "city": "Amsterdam",
+        "region": "North Holland",
+        "country": "NL",
+        "loc": "52.3740,4.8897",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 239.863,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "20.76.201.171",
+          "prefix": "20.76.201.0/24",
+          "anycast": true,
+          "confidence": "low_confidence",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 1
+        }
+      }
+    },
+    {
+      "originalUrl": "https://windows.microsoft.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "windows.microsoft.com",
+        "ip": "23.34.111.79",
+        "hostname": "a23-34-111-79.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 37.45,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "23.34.111.79",
+          "prefix": "23.34.111.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://go.microsoft.com/fwlink/p/?linkid=532428",
+      "type": "document",
+      "ipinfo": {
+        "domain": "go.microsoft.com",
+        "ip": "184.27.209.155",
+        "hostname": "a184-27-209-155.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 43.914,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "184.27.209.155",
+          "prefix": "184.27.209.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.microsoft.com/ko-kr/windows",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.microsoft.com",
+        "ip": "104.94.218.45",
+        "hostname": "a104-94-218-45.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "wcpstatic.microsoft.com",
+        "ip": "150.171.110.133",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T005313Z-15559d97d99hmvhthC1SEL894w0000002vhg00000000cbw0",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.133",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    },
+    {
+      "originalUrl": "https://assets.adobedtm.com/5ef092d1efb5/e6b4ca74378c/launch-ENbb9d0de7cc374dc99259df2c4b823cef.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "assets.adobedtm.com",
+        "ip": "184.27.209.25",
+        "hostname": "a184-27-209-25.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 45.711,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "184.27.209.25",
+          "prefix": "184.27.209.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://uhf.microsoft.com/statics/20260910.10.32/css/style-By05NU7M.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "uhf.microsoft.com",
+        "ip": "23.36.104.49",
+        "hostname": "a23-36-104-49.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260910T113651Z-15749c967dcrqb6hhC1TYO7hx40000000e4g000000007d1b",
+        "rtt": 45.228,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.36.104.49",
+          "prefix": "23.36.104.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-Microsoft-sticky-logo-RE1Mu3b?scl=1&fmt=png-alpha",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cdn-dynmedia-1.microsoft.com",
+        "ip": "23.43.165.137",
+        "hostname": "a23-43-165-137.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2",
+      "type": "font",
+      "ipinfo": {
+        "domain": "c.s-microsoft.com",
+        "ip": "184.27.209.222",
+        "hostname": "a184-27-209-222.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 43.734,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "184.27.209.222",
+          "prefix": "184.27.209.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net/api/v1/tas",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "uhf-exp-fd-gbcrdgggfbggh0g3.b02.azurefd.net",
+        "ip": "150.171.110.135",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T005314Z-15559d97d998swqdhC1SELkq3n0000000k2000000000ca2k",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    },
+    {
+      "originalUrl": "https://offertoolproduction-fd-cwh9d4ahhtbkh8gq.b01.azurefd.net/offercontainer/LiveOffers.json",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "offertoolproduction-fd-cwh9d4ahhtbkh8gq.b01.azurefd.net",
+        "ip": "150.171.110.135",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T005314Z-15559d97d9952kb6hC1SELyqy00000001s9g00000000fgms",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    },
+    {
+      "originalUrl": "https://js.monitor.azure.com/scripts/c/ms.jsll-4.gbl.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js.monitor.azure.com",
+        "ip": "150.171.110.135",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T005314Z-15559d97d99nqrmkhC1SEL697c0000002vh0000000007zkq",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.clarity.ms/tag/3j9k6rpcy1",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.clarity.ms",
+        "ip": "57.155.120.218",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 72.073,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "57.155.120.218",
+          "prefix": "57.155.120.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.company-target.com/api/v3/ip.json?key=7D8lsDsuK7OQCqWFQDi6VqJjwaKomm62lkY5XEyw&referrer=&page=https%3A%2F%2Fwww.microsoft.com%2Fko-kr%2Fwindows%3Fr%3D1&title=Windows%2011%20OS%2C%20%EC%BB%B4%ED%93%A8%ED%84%B0%20%EB%B0%8F%20%EC%95%B1%EC%9C%BC%EB%A1%9C%20AI%EC%9D%98%20%EA%B0%95%EB%A0%A5%ED%95%9C%20%EC%84%B1%EB%8A%A5%20%ED%99%9C%EC%9A%A9%20%7C%20Microsoft%20Windows",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "api.company-target.com",
+        "ip": "18.67.51.13",
+        "hostname": "server-18-67-51-13.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://scripts.clarity.ms/0.8.70/clarity.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "scripts.clarity.ms",
+        "ip": "150.171.110.135",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T005315Z-15559d97d99jnrcjhC1SELgcs00000000hk000000000kv9n",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    },
+    {
+      "originalUrl": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=1914e7ccb4f5432bb305acb619302969&version=2.9.0",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "target.microsoft.com",
+        "ip": "63.140.50.158",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "63.140.50.158",
+          "prefix": "63.140.50.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://c.clarity.ms/c.gif",
+      "type": "image",
+      "ipinfo": {
+        "domain": "c.clarity.ms",
+        "ip": "150.171.110.135",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.135",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
+        }
+      }
+    }
+  ]
+}

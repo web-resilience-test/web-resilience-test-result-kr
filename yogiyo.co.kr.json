@@ -2,14 +2,14 @@
   "url": "https://yogiyo.co.kr",
   "canonicalURL": "https://yogiyo.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:33:29.435Z",
+  "timestamp": "2026-09-20T00:52:25.885Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "yogiyo.co.kr",
-        "ip": "13.124.124.31",
-        "hostname": "ec2-13-124-124-31.ap-northeast-2.compute.amazonaws.com",
+        "ip": "52.78.63.81",
+        "hostname": "ec2-52-78-63-81.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -74,7 +74,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.optimizely.com",
-        "ip": "104.18.65.57",
+        "ip": "104.18.66.57",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -85,7 +85,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3d6e6f84ae45141-ICN",
+        "cf-ray": "a3dcd8d91b11ea23-ICN",
         "detection_method": "header"
       }
     },
@@ -94,7 +94,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "nsp.pay.naver.com",
-        "ip": "110.93.154.8",
+        "ip": "117.52.133.22",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -109,7 +109,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.nid.naver.com",
-        "ip": "125.209.226.239",
+        "ip": "223.130.195.167",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -151,27 +151,12 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://t1.kakaocdn.net/kakao_js_sdk/v1/kakao.min.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "t1.kakaocdn.net",
-        "ip": "211.56.100.233",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://www.google-analytics.com/analytics.js",
       "type": "script",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.251.24.101",
-        "hostname": "rj-in-f101.1e100.net",
+        "ip": "142.250.21.101",
+        "hostname": "zh-in-f101.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -181,12 +166,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.37,
+        "rtt": 40.848,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.251.24.101",
-          "prefix": "142.251.24.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.21.101",
+          "prefix": "142.250.21.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -203,8 +188,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
+        "ip": "142.250.23.97",
+        "hostname": "zj-in-f97.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -214,12 +199,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.343,
+        "rtt": 43.59,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.97",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -230,6 +215,21 @@
           "location_count": 0
         }
       }
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/kakao_js_sdk/v1/kakao.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "211.56.100.234",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://memberyo.yogiyo.co.kr/v1/customers",
@@ -248,23 +248,7 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://authyo.yogiyo.co.kr/api/v1/auth/authorize?code=gAAAAABqrjrGDYnbQRdP7pJRJ2SkeN9D3w-ZJrFHQLnxGoJR-PidFLeJ0rEr04auEd5ztSi8rXLYYvEtnvOHWyGyMPNh-0wskne06PxpNnTxK_2uMklE84bONi0_AkMZLX4v1ZnXJaedekjI-VKMEpwghXXNtp6zKKIYxv3CPOiDYRCHYxDbon685eMlybaCACJlmrNTmzCT",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "authyo.yogiyo.co.kr",
-        "ip": "23.67.53.178",
-        "hostname": "a23-67-53-178.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=2067110231.1789803207&dt=%EC%9A%94%EA%B8%B0%EC%9A%94&en=page_view&dl=https%3A%2F%2Fwww.yogiyo.co.kr%2Fmobile%2F&scrsrc=www.googletagmanager.com&rnd=145688064.1789803207&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v71518840za200zd71518840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~117776796~118131809~118897920~118897930~120385422~120469145~120469153~120847435&tft=1789803206787&tfd=839&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1013701904.1789865543&dt=%EC%9A%94%EA%B8%B0%EC%9A%94&en=page_view&dl=https%3A%2F%2Fwww.yogiyo.co.kr%2Fmobile%2F&scrsrc=www.googletagmanager.com&rnd=209864949.1789865543&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v71518840za200zd71518840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120385423~120469145~120469153~120847435&tft=1789865543039&tfd=984&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
@@ -281,7 +265,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "142.251.153.119",
           "prefix": "142.251.153.0/24",
           "anycast": true,
@@ -293,8 +277,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -306,47 +290,28 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-6KMY7BWK8X&gtm=45je69g1v873566623z871518840za20gzb71518840zd71518840xf1&_p=1789803206382&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1241844396.1789803207&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=zh-tw&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~117776796~118131809~118897920~118897930~119793972~120213116~120385423~120469145~120469153~120847435&sid=1789803206&sct=1&seg=0&dl=https%3A%2F%2Fwww.yogiyo.co.kr%2Fmobile%2F&dt=%EC%9A%94%EA%B8%B0%EC%9A%94&en=page_view&_fv=1&_ss=2&tfd=1009",
+      "originalUrl": "https://authyo.yogiyo.co.kr/api/v1/auth/authorize?code=gAAAAABqry5H8K9LojVofdjNXKTP_dZpnFg7LDVypGBOsYicdZtVHES1bSj9u4CavqzbQNZ_v9SdBLkc310xV6G395ucK_wvtw3HfucOF1rpx-znHKiFa0KMQH3iIvSel6-2OURnHDJQmK3aN9ub6p7zbkJDGC1TtEgXKc6KlOqzmoYJRJYfrL8rY3msoo0T7PtBOZZy_CoZ",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "authyo.yogiyo.co.kr",
+        "ip": "23.67.53.178",
+        "hostname": "a23-67-53-178.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-6KMY7BWK8X&gtm=45je69g1v873566623z871518840za20gzb71518840zd71518840xf1&_p=1789865542428&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1810232398.1789865543&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435~121046857&sid=1789865543&sct=1&seg=0&dl=https%3A%2F%2Fwww.yogiyo.co.kr%2Fmobile%2F&dt=%EC%9A%94%EA%B8%B0%EC%9A%94&en=page_view&_fv=1&_ss=2&tfd=1140",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.38.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 41.02,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "216.239.38.181",
-          "prefix": "216.239.38.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 15,
-          "location_count": 15
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-6KMY7BWK8X&cid=1241844396.1789803207&gtm=45je69g1v873566623z871518840za20gzb71518840zd71518840xf1&rcb=15&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~117776796~118131809~118897920~118897930~119793972~120213116~120385423~120469145~120469153~120847435&z=1729875761",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
+        "ip": "142.250.23.138",
+        "hostname": "zj-in-f138.1e100.net",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -356,12 +321,45 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.963,
+        "rtt": 39.722,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.23.138",
+          "prefix": "142.250.23.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-6KMY7BWK8X&cid=1810232398.1789865543&gtm=45je69g1v873566623z871518840za20gzb71518840zd71518840xf1&rcb=6&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435~121046857&z=199207448",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.23.94",
+        "hostname": "zj-in-f94.1e100.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 41.724,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.23.94",
+          "prefix": "142.250.23.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -378,8 +376,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "frontyo.yogiyo.co.kr",
-        "ip": "23.67.53.201",
-        "hostname": "a23-67-53-201.deploy.static.akamaitechnologies.com",
+        "ip": "23.67.53.217",
+        "hostname": "a23-67-53-217.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

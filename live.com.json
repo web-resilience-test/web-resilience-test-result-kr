@@ -2,14 +2,14 @@
   "url": "https://live.com",
   "canonicalURL": "https://live.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-19T07:31:37.127Z",
+  "timestamp": "2026-09-20T00:50:56.574Z",
   "testParameters": {
     "customDNS": null,
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
     ],
-    "useCache": false,
+    "useCache": true,
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
@@ -28,11 +28,11 @@
   "uniqueDomains": 4,
   "test_results": {
     "domestic": {
-      "cloud": 4,
+      "cloud": 3,
       "direct": 0
     },
     "foreign": {
-      "cloud": 0,
+      "cloud": 1,
       "direct": 0
     }
   },
@@ -53,11 +53,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 4D377589884D42A69DE2233BBA29B9DC Ref B: SLAEDGE1320 Ref C: 2026-09-19T07:31:35Z",
+        "x-msedge-ref": "Ref A: 72643E63BFE244CFAEEA7D1418862970 Ref B: SLAEDGE1408 Ref C: 2026-09-20T00:50:53Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "204.79.197.212",
           "prefix": "204.79.197.0/24",
           "anycast": true,
@@ -86,7 +86,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "outlook.live.com",
-        "ip": "52.98.51.162",
+        "ip": "52.97.118.162",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -101,27 +101,40 @@
       "type": "script",
       "ipinfo": {
         "domain": "res.public.onecdn.static.microsoft",
-        "ip": "104.18.19.203",
-        "city": "San Francisco",
-        "region": "California",
+        "ip": "23.34.172.171",
+        "hostname": "a23-34-172-171.deploy.static.akamaitechnologies.com",
+        "city": "Hillsboro",
+        "region": "Oregon",
         "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
+        "loc": "45.5229,-122.9898",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "America/Los_Angeles"
       },
-      "category": "domestic/cloud",
+      "category": "foreign/cloud",
       "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3d6e4427adb13e8-ICN",
-        "detection_method": "header"
+        "rtt": 124.418,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.34.172.171",
+          "prefix": "23.34.172.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
       }
     },
     {
-      "originalUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&scope=service%3A%3Aoutlook.office.com%3A%3AMBI_SSL%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2FoauthRedirect.html&client-request-id=f6b15196-bd0a-78f3-1800-96244cbc0a16&response_mode=fragment&client_info=1&clidata=1&prompt=none&nonce=01a0b893-e5ec-7214-bce7-da11a20e320b&state=eyJpZCI6IjAxYTBiODkzLWU1ZWMtNzE5MC05Yzc1LTcxY2I5YzZlYzg0ZCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoic2lsZW50In19%7CeyJtc2FsVmVyc2lvbiI6IjUuMTkuMCJ9%7CaHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwv&claims=%7B%22id_token%22%3A%7B%22signin_state%22%3A%7B%22essential%22%3Afalse%7D%2C%22login_hint%22%3A%7B%22essential%22%3Afalse%7D%7D%2C%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=5.19.0&response_type=code&code_challenge=gTp_M-o-xauLwMTrCQH-KbGa3lCM-mR4xGXyuLgTaAY&code_challenge_method=S256",
+      "originalUrl": "https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&scope=service%3A%3Aoutlook.office.com%3A%3AMBI_SSL%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2FoauthRedirect.html&client-request-id=573d172c-777a-2b72-c4ec-33392215ce8c&response_mode=fragment&client_info=1&clidata=1&prompt=none&nonce=01a0bc4b-6e53-7639-a623-950e75d7901d&state=eyJpZCI6IjAxYTBiYzRiLTZlNTMtNzRkNS05ZGZhLTYzMzA4NzUxOWM1NSIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoic2lsZW50In19%7CeyJtc2FsVmVyc2lvbiI6IjUuMTkuMCJ9%7CaHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwv&claims=%7B%22id_token%22%3A%7B%22signin_state%22%3A%7B%22essential%22%3Afalse%7D%2C%22login_hint%22%3A%7B%22essential%22%3Afalse%7D%7D%2C%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=5.19.0&response_type=code&code_challenge=mpO6f7eCquN1FJcr0DpHZwV8MyCl5lfDgYIGHXW5qh8&code_challenge_method=S256",
       "type": "document",
       "ipinfo": {
         "domain": "login.microsoftonline.com",
-        "ip": "20.190.144.166",
+        "ip": "20.190.144.160",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
