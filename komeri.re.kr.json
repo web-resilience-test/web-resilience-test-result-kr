@@ -1,0 +1,91 @@
+{
+  "url": "https://komeri.re.kr",
+  "canonicalURL": "https://komeri.re.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:50:48.848Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 86,
+  "uniqueDomains": 3,
+  "test_results": {
+    "domestic": {
+      "cloud": 1,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://komeri.re.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "komeri.re.kr",
+        "ip": "125.134.58.71",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://unpkg.com/swiper@11.2.6/swiper-bundle.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "unpkg.com",
+        "ip": "104.18.1.22",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df95713beda7cf-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.komeri.re.kr/data/editor/2608/dc229c759933eadaac4c0a590d2fad26_1788132381_2123.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.komeri.re.kr",
+        "ip": "125.134.58.71",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

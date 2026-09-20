@@ -2,9 +2,9 @@
   "url": "https://gmarket.com",
   "canonicalURL": "https://gmarket.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:49:46.365Z",
+  "timestamp": "2026-09-20T05:18:22.676Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,19 +13,19 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 228,
-  "uniqueDomains": 31,
+  "requestCount": 232,
+  "uniqueDomains": 30,
   "test_results": {
     "domestic": {
       "cloud": 7,
@@ -33,7 +33,7 @@
     },
     "foreign": {
       "cloud": 3,
-      "direct": 2
+      "direct": 1
     }
   },
   "domainDetails": [
@@ -68,7 +68,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd4ee7a8dea92-ICN",
+        "cf-ray": "a3de5e784d8830cd-ICN",
         "detection_method": "header"
       }
     },
@@ -77,7 +77,22 @@
       "type": "script",
       "ipinfo": {
         "domain": "script.gmarket.co.kr",
-        "ip": "117.52.124.145",
+        "ip": "116.120.4.215",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38688 GSNeotek",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://script.gmarket.com/fonts/GmarketSansBold.woff2",
+      "type": "font",
+      "ipinfo": {
+        "domain": "script.gmarket.com",
+        "ip": "117.52.124.146",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -88,11 +103,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://script.gmarket.com/fonts/GmarketSansBold.woff2",
-      "type": "font",
+      "originalUrl": "https://gdimg.gmarket.co.kr/2427904617/still/400/",
+      "type": "image",
       "ipinfo": {
-        "domain": "script.gmarket.com",
-        "ip": "211.47.29.85",
+        "domain": "gdimg.gmarket.co.kr",
+        "ip": "211.47.29.86",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -107,27 +122,27 @@
       "type": "image",
       "ipinfo": {
         "domain": "image.gmarket.co.kr",
-        "ip": "211.47.29.85",
+        "ip": "117.52.124.144",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://pics.gmarket.co.kr/pc/single/kr/homemain/logo__hsp-lottetv1.svg",
+      "originalUrl": "https://pics.gmarket.co.kr/pc/single/kr/homemain/logo__hsp-hhome01.svg",
       "type": "image",
       "ipinfo": {
         "domain": "pics.gmarket.co.kr",
-        "ip": "211.47.29.85",
+        "ip": "117.52.124.146",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -148,7 +163,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd4f10d44d1d6-ICN",
+        "cf-ray": "a3de5e7a0bb9d1e3-ICN",
         "detection_method": "header"
       }
     },
@@ -172,26 +187,11 @@
       "type": "image",
       "ipinfo": {
         "domain": "pdsssl.gmarket.co.kr",
-        "ip": "117.52.47.37",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "183.111.134.37",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://gdimg.gmarket.co.kr/4859548008/still/600?ver=1789864588",
-      "type": "image",
-      "ipinfo": {
-        "domain": "gdimg.gmarket.co.kr",
-        "ip": "211.47.29.85",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4565,126.7052",
         "org": "AS4766 Korea Telecom",
         "timezone": "Asia/Seoul"
       },
@@ -202,7 +202,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "sinbad-img.gmarket.com",
-        "ip": "117.52.124.146",
+        "ip": "117.52.124.144",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -217,23 +217,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.40",
+        "hostname": "nchkga-ap-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 46.669,
+        "rtt": 85.756,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.198.40",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -246,40 +246,10 @@
       }
     },
     {
-      "originalUrl": "https://dadispapi.gmarket.co.kr/getMixedImpsByInventories?adtType=cguid&adtId=&inventoryIds=136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,540,541,542,543,544,545,546,547,548,549,550,551,552,163",
+      "originalUrl": "https://dadispapi.gmarket.co.kr/getMixedImpsByInventories?adtType=cguid&adtId=11789881501959006352000000&inventoryIds=136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,540,541,542,543,544,545,546,547,548,549,550,551,552,163",
       "type": "fetch",
       "ipinfo": {
         "domain": "dadispapi.gmarket.co.kr",
-        "ip": "117.52.47.34",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://heimdall-api.gmarket.co.kr/gnb.getGnb,gnb.getGnb?batch=1&input=%7B%220%22%3A%7B%22type%22%3A%22home%22%2C%22isHome%22%3Atrue%7D%2C%221%22%3A%7B%22type%22%3A%22home%22%2C%22isHome%22%3Atrue%7D%7D",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "heimdall-api.gmarket.co.kr",
-        "ip": "117.52.47.34",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://home2.gmarket.co.kr/api/rvi/get",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "home2.gmarket.co.kr",
         "ip": "117.52.47.34",
         "city": "Seoul",
         "region": "Seoul",
@@ -310,7 +280,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static-rescdn.gmarket.co.kr",
-        "ip": "163.181.22.187",
+        "ip": "43.109.5.17",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -321,16 +291,46 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://ad-img.gmarket.com/ADS/Contents_/2026_09_18_10_07_58/cf63b018b69d40e3.JPG",
+      "originalUrl": "https://heimdall-api.gmarket.co.kr/gnb.getGnb,gnb.getGnb?batch=1&input=%7B%220%22%3A%7B%22type%22%3A%22home%22%2C%22isHome%22%3Atrue%7D%2C%221%22%3A%7B%22type%22%3A%22home%22%2C%22isHome%22%3Atrue%7D%7D",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "heimdall-api.gmarket.co.kr",
+        "ip": "183.111.134.34",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://home2.gmarket.co.kr/api/rvi/get",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "home2.gmarket.co.kr",
+        "ip": "183.111.134.34",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://ad-img.gmarket.com/ADS/Contents_/2026_09_07_10_26_23/4bf7b712c04f42ce.JPG",
       "type": "image",
       "ipinfo": {
         "domain": "ad-img.gmarket.com",
-        "ip": "211.47.29.85",
+        "ip": "117.52.124.144",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -351,12 +351,28 @@
       "category": "domestic/direct"
     },
     {
+      "originalUrl": "https://g.alicdn.com/alilog/mlog/aplus_v2.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "g.alicdn.com",
+        "ip": "23.32.56.27",
+        "hostname": "a23-32-56-27.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
       "originalUrl": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CM5NHSJC77UDBRR1JAIG&lib=ttq",
       "type": "script",
       "ipinfo": {
         "domain": "analytics.tiktok.com",
-        "ip": "23.35.218.10",
-        "hostname": "a23-35-218-10.deploy.static.akamaitechnologies.com",
+        "ip": "23.35.218.18",
+        "hostname": "a23-35-218-18.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -371,7 +387,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "tags.creativecdn.com",
-        "ip": "89.222.116.12",
+        "ip": "89.222.116.11",
         "hostname": "107935180.seo.cdn77.com",
         "city": "Seoul",
         "region": "Seoul",
@@ -383,114 +399,19 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789865383534&cv=11&tid=G-1BYVQK09SB&fst=1789865383534&fmt=8&en=session_start&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gmarket.co.kr%2F&gacid=1357923792.1789865384&frm=0&tiba=G%EB%A7%88%EC%BC%93%20-%20%EC%A7%80%EA%B8%88%EB%B6%80%ED%84%B0%EC%9D%98%20%EB%A7%88%EC%BC%93&npa=0&pscdl=noapi&auid=285851907.1789865384&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=2",
+      "originalUrl": "https://d.alicdn.com/alilog/??aplus/1.13.26-1/aplus_pc.js,aplus/1.13.26-1/plugin/aplus_spmact.js?v=20260728193427",
       "type": "fetch",
       "ipinfo": {
-        "domain": "www.google.com",
-        "ip": "142.251.157.119",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "domain": "d.alicdn.com",
+        "ip": "43.109.5.3",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS24429 Zhejiang Taobao Network Co.,Ltd",
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.157.119",
-          "prefix": "142.251.157.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-1BYVQK09SB&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xf1&_p=1789865382823&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=175250556&_eu=AAAAAGAC&_prs=ok&cid=1357923792.1789865384&ec_mode=a&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&sid=1789865383&sct=1&seg=0&dl=https%3A%2F%2Fwww.gmarket.co.kr%2F&dt=G%EB%A7%88%EC%BC%93%20-%20%EC%A7%80%EA%B8%88%EB%B6%80%ED%84%B0%EC%9D%98%20%EB%A7%88%EC%BC%93&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=1776",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "analytics.google.com",
-        "ip": "216.239.36.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 48.794,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "216.239.36.181",
-          "prefix": "216.239.36.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 17,
-          "location_count": 9
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-1BYVQK09SB&cid=1357923792.1789865384&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&z=1153832972",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.251.24.94",
-        "hostname": "rj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 48.467,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.24.94",
-          "prefix": "142.251.24.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
+      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://asia.creativecdn.com/tags/v2?type=json",
@@ -509,58 +430,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
-      "type": "ping",
-      "ipinfo": {
-        "domain": "analytics-ipv6.tiktokw.us",
-        "ip": "23.35.218.156",
-        "hostname": "a23-35-218-156.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://g.alicdn.com/alilog/mlog/aplus_v2.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "g.alicdn.com",
-        "ip": "23.67.53.185",
-        "hostname": "a23-67-53-185.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://d.alicdn.com/alilog/??aplus/1.13.26-1/aplus_pc.js,aplus/1.13.26-1/plugin/aplus_spmact.js?v=20260728193427",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "d.alicdn.com",
-        "ip": "163.181.22.203",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS24429 Zhejiang Taobao Network Co.,Ltd",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://alidt.alicdn.com/alilog/configs/sdk/common.json",
       "type": "fetch",
       "ipinfo": {
         "domain": "alidt.alicdn.com",
-        "ip": "163.181.22.203",
+        "ip": "43.109.5.4",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -586,20 +460,128 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://sin46.creativecdn.com/info?tk=dc4RnaNfcMSwx_mrvlbN4M5hBYWfxUE-4XQ6A36RYHJ_BHGD_R7UNbHeoeu0haiRX0tmJsKBFlFC5JEqQvabaAA",
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789881500943&cv=11&tid=G-1BYVQK09SB&fst=1789881500943&fmt=8&en=session_start&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120474862~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.gmarket.co.kr%2F&gacid=1094218625.1789881501&frm=0&tiba=G%EB%A7%88%EC%BC%93%20-%20%EC%A7%80%EA%B8%88%EB%B6%80%ED%84%B0%EC%9D%98%20%EB%A7%88%EC%BC%93&npa=0&pscdl=noapi&auid=1857047945.1789881501&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=14",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.154.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.119",
+          "prefix": "142.251.154.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-1BYVQK09SB&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xf1&_p=1789881499919&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1859987304&_eu=AAAAAGAC&_prs=ok&cid=1094218625.1789881501&ec_mode=a&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120474862~120847435&sid=1789881500&sct=1&seg=0&dl=https%3A%2F%2Fwww.gmarket.co.kr%2F&dt=G%EB%A7%88%EC%BC%93%20-%20%EC%A7%80%EA%B8%88%EB%B6%80%ED%84%B0%EC%9D%98%20%EB%A7%88%EC%BC%93&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=1700",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "142.250.198.142",
+        "hostname": "nchkgb-aj-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 89.56,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.142",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-1BYVQK09SB&cid=1094218625.1789881501&gtm=45je69g1v899780548z8895564802za20gzb895564802zd895564802xf1&rcb=14&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118131808~118897920~118897930~120213116~120385423~120469145~120469153~120474862~120847435&z=605726877",
       "type": "image",
       "ipinfo": {
-        "domain": "sin46.creativecdn.com",
-        "ip": "103.132.192.110",
-        "hostname": "ip-103-132-192-110.rtbhouse.net",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
-        "org": "AS138552 RTB HOUSE PTE. LTD.",
-        "timezone": "Asia/Singapore"
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.131",
+        "hostname": "nchkgb-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
       },
-      "category": "foreign/direct"
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 84.13,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.131",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "analytics-ipv6.tiktokw.us",
+        "ip": "23.32.56.144",
+        "hostname": "a23-32-56-144.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
     }
   ]
 }

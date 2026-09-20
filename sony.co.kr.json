@@ -1,0 +1,312 @@
+{
+  "url": "https://sony.co.kr",
+  "canonicalURL": "https://www.sony.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:07:58.336Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 83,
+  "uniqueDomains": 10,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 6,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://sony.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sony.co.kr",
+        "ip": "3.217.44.222",
+        "hostname": "ec2-3-217-44-222.compute-1.amazonaws.com",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS14618 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "3.217.44.222",
+          "prefix": "3.217.44.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.sony.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.sony.co.kr",
+        "ip": "23.35.218.67",
+        "hostname": "a23-35-218-67.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://rum.hlx.page/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "rum.hlx.page",
+        "ip": "146.75.49.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://tags.tiqcdn.com/utag/sony-marketing/kr/prod/utag.sync.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "tags.tiqcdn.com",
+        "ip": "52.85.128.80",
+        "hostname": "server-52-85-128-80.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://sony.scene7.com/is/content/sonyglobalsolutions/sony-logo?$S7Product$",
+      "type": "image",
+      "ipinfo": {
+        "domain": "sony.scene7.com",
+        "ip": "23.32.4.169",
+        "hostname": "a23-32-4-169.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://dpm.demdex.net/id?d_visid_ver=5.2.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_verify=1&d_orgid=7286403D53B6AA9A0A490D4C%40AdobeOrg&d_nsid=0&ts=1789888065205",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "dpm.demdex.net",
+        "ip": "35.79.178.132",
+        "hostname": "ec2-35-79-178-132.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "35.79.178.132",
+          "prefix": "35.79.178.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://sonyglobal.demdex.net/dest5.html?d_nsid=0",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sonyglobal.demdex.net",
+        "ip": "52.68.145.202",
+        "hostname": "ec2-52-68-145-202.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "52.68.145.202",
+          "prefix": "52.68.145.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://sonyglobal.d1.sc.omtrdc.net/id?d_visid_ver=5.2.0&d_fieldgroup=A&mcorgid=7286403D53B6AA9A0A490D4C%40AdobeOrg&mid=83791121189384931542070325214997256318&ts=1789888065515",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "sonyglobal.d1.sc.omtrdc.net",
+        "ip": "63.140.50.158",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "63.140.50.158",
+          "prefix": "63.140.50.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cm.everesttech.net/cm/dd?d_uuid=89466997764601918751502728689458348063",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cm.everesttech.net",
+        "ip": "47.130.148.86",
+        "hostname": "ec2-47-130-148-86.ap-southeast-1.compute.amazonaws.com",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "47.130.148.86",
+          "prefix": "47.130.148.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://loadm.exelator.com/load/?p=204&g=091&j=0&bi=89466997764601918751502728689458348063",
+      "type": "image",
+      "ipinfo": {
+        "domain": "loadm.exelator.com",
+        "ip": "35.174.135.129",
+        "hostname": "ec2-35-174-135-129.compute-1.amazonaws.com",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS14618 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "35.174.135.129",
+          "prefix": "35.174.135.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

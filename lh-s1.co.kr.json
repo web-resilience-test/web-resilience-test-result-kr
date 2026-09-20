@@ -1,0 +1,260 @@
+{
+  "url": "https://lh-s1.co.kr",
+  "canonicalURL": "https://lh-s1.co.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:47:29.612Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 69,
+  "uniqueDomains": 11,
+  "test_results": {
+    "domestic": {
+      "cloud": 5,
+      "direct": 3
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 1
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://lh-s1.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "lh-s1.co.kr",
+        "ip": "183.111.182.244",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdnjs.cloudflare.com",
+        "ip": "104.17.25.14",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df90c00d4e490f-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ajax.googleapis.com",
+        "ip": "142.250.198.138",
+        "hostname": "nchkgb-aj-in-f10.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.686,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.138",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cr.acecounter.com/ac.js?gc=AX1A103660&py=www.lh-s1.co.kr,lh-s1.co.kr&up=NaPm_Ncisy&rd=1789894046620",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cr.acecounter.com",
+        "ip": "43.201.216.87",
+        "hostname": "ec2-43-201-216-87.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/earlyaccess/notosanskr.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.251.8.95",
+        "hostname": "tb-in-f95.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Taipei"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 72.602,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.8.95",
+          "prefix": "142.251.8.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.rawgit.com",
+        "ip": "109.61.83.242",
+        "hostname": "109-61-83-242.bunnyinfra.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@master/nanumsquare.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "151.101.129.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-served-by": "cache-fra-etou8220184-FRA, cache-icn1450042-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff",
+      "type": "font",
+      "ipinfo": {
+        "domain": "fastly.jsdelivr.net",
+        "ip": "151.101.65.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-served-by": "cache-fra-eddf8230177-FRA, cache-icn1450039-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://gmb.acecounter.com/mwg/?mid=AX1A103660&tp=site&sv=20260626&st=1789894047116508760|1789894047116508760|1789894047116508760|0&vt=1789894047116508760|0|1789894047116508760|0|1789894047370I4TNS0&vk=1&ce=1&FCV=1789894047370I4TNS0-31647&ri=0&re=0&dm=1280*720&url=lh-s1.co.kr%2F&ref=bookmark&ui=1&cd=30&tz=20&lg=ko-kr&pcm=0&dmp=0.0.0",
+      "type": "image",
+      "ipinfo": {
+        "domain": "gmb.acecounter.com",
+        "ip": "43.201.90.79",
+        "hostname": "ec2-43-201-90-79.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://adlc-exchange.toast.com/sendid?sid=acecounter&uid=1789894047401833688&rnd=0.23399345064085675",
+      "type": "image",
+      "ipinfo": {
+        "domain": "adlc-exchange.toast.com",
+        "ip": "180.210.64.99",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45974 NHNCLOUD",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "http://html.h-internet.co.kr/404.html",
+      "type": "other",
+      "ipinfo": {
+        "domain": "html.h-internet.co.kr",
+        "ip": "112.175.246.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

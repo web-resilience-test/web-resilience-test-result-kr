@@ -1,0 +1,545 @@
+{
+  "url": "https://sazo.kr",
+  "canonicalURL": "https://sazo.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:36:52.696Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 122,
+  "uniqueDomains": 25,
+  "test_results": {
+    "domestic": {
+      "cloud": 14,
+      "direct": 8
+    },
+    "foreign": {
+      "cloud": 3,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://sazo.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sazo.kr",
+        "ip": "3.39.145.122",
+        "hostname": "ec2-3-39-145-122.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://wcs.naver.net/wcslog.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "wcs.naver.net",
+        "ip": "125.209.254.11",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.207.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df80f7f8acc622-ICN",
+        "x-served-by": "cache-fra-eddf8230218-FRA, cache-nrt-rjtf7700047-NRT",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://sazo-prod-korea-shop-file-service.s3.ap-northeast-2.amazonaws.com/public/site_icon/2cd8f5dc-00d2-4c97-893d-c8f7b1d36267.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "sazo-prod-korea-shop-file-service.s3.ap-northeast-2.amazonaws.com",
+        "ip": "3.5.184.195",
+        "hostname": "s3-w.ap-northeast-2.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://developers.kakao.com/sdk/js/kakao.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "developers.kakao.com",
+        "ip": "203.133.190.44",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS18160 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/kakao_js_sdk/v1/kakao.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "117.52.57.13",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ssl.pstatic.net",
+        "ip": "125.209.254.14",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://api.sazo.kr/api/user/auth/token/refresh",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.sazo.kr",
+        "ip": "43.200.118.27",
+        "hostname": "ec2-43-200-118-27.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-KMDK5GWZ",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.40",
+        "hostname": "nchkga-ap-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.231,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.40",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://wcs.naver.com/b",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "wcs.naver.com",
+        "ip": "202.179.180.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://static.mercdn.net/item/detail/orig/photos/m77130453813_1.jpg?1789884574",
+      "type": "image",
+      "ipinfo": {
+        "domain": "static.mercdn.net",
+        "ip": "104.18.33.34",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df80fb0d195a03-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://assets.mercari-shops-static.com/-/large/plain/2JSacaRtjmotTjssYVRvkd.webp@jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "assets.mercari-shops-static.com",
+        "ip": "104.18.36.193",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df80fb8d4f3270-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://cdn.colleize.com/images/1786928898015-2015263982?w=300",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cdn.colleize.com",
+        "ip": "13.225.117.75",
+        "hostname": "server-13-225-117-75.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/nac/2",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "nam.veta.naver.com",
+        "ip": "210.89.168.52",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://api.notifly.tech/authorize",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.notifly.tech",
+        "ip": "104.18.8.21",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df80fbfa34924b-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://e.notifly.tech/records",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "e.notifly.tech",
+        "ip": "104.18.8.21",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df80ff7d8b924b-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "connect.facebook.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t.sazo.kr/sazo.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t.sazo.kr",
+        "ip": "43.200.118.27",
+        "hostname": "ec2-43-200-118-27.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws/events?cee=no",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws",
+        "ip": "54.183.75.133",
+        "hostname": "ec2-54-183-75-133.us-west-1.compute.amazonaws.com",
+        "city": "San Jose",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3394,-121.8950",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "54.183.75.133",
+          "prefix": "54.183.75.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t.co/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=03762cfe-85ac-4a9b-8f72-0783fba61a66&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f2649cf3-ee39-4433-897c-de0639110110&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fsazo.kr%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789893401889-650589718&tw_session_start=1&twpid=tw.1789893401889.964002064100320403&txn_id=r8t8j&type=javascript&version=2.4.11",
+      "type": "image",
+      "ipinfo": {
+        "domain": "t.co",
+        "ip": "162.159.140.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df8102bf50ea12-ICN",
+        "x-served-by": "t4_p",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=03762cfe-85ac-4a9b-8f72-0783fba61a66&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=f2649cf3-ee39-4433-897c-de0639110110&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fsazo.kr%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789893401889-650589718&tw_session_start=1&twpid=tw.1789893401889.964002064100320403&txn_id=r8t8j&type=javascript&version=2.4.11",
+      "type": "image",
+      "ipinfo": {
+        "domain": "analytics.twitter.com",
+        "ip": "162.159.140.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df8102b830dfca-ICN",
+        "x-served-by": "t4_p",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://k6-e4e4123be8e54363900a90353991ca93.ecs.us-west-1.on.aws/events?cee=no",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "k6-e4e4123be8e54363900a90353991ca93.ecs.us-west-1.on.aws",
+        "ip": "52.8.125.176",
+        "hostname": "ec2-52-8-125-176.us-west-1.compute.amazonaws.com",
+        "city": "San Jose",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3394,-121.8950",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "52.8.125.176",
+          "prefix": "52.8.125.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&auid=271431120.1789893402&dt=%EC%82%AC%EC%A4%98-%ED%95%9C%EA%B5%AD%20%EC%B5%9C%EB%8C%80%20%EC%9D%BC%EB%B3%B8%20%EA%B5%AC%EB%A7%A4%EB%8C%80%ED%96%89%20%EC%82%AC%EC%9D%B4%ED%8A%B8%2C%20%EC%9D%BC%EB%B3%B8%EC%97%90%EC%84%9C%EB%A7%8C%20%ED%8C%8C%EB%8A%94%20%EC%83%81%ED%92%88%EC%9D%B4&tid=AW-17488542369&en=page_view&dl=https%3A%2F%2Fsazo.kr%2F&scrsrc=www.googletagmanager.com&rnd=1228672154.1789893402&navt=n&npa=0&gtm=45je69g1v9220327554z89220312701za20gzb9220312701zd9220312701xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118131809~118897920~118897930~120213116~120385422~120469145~120469153~120847435&tft=1789893402030&tfd=2145&tids=AW-17488542369&fmt=8",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.150.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.150.119",
+          "prefix": "142.251.150.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.channel.io/plugin/ch-plugin-web.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.channel.io",
+        "ip": "54.230.62.53",
+        "hostname": "server-54-230-62-53.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

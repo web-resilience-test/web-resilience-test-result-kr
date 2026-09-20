@@ -2,9 +2,9 @@
   "url": "https://seoul.go.kr",
   "canonicalURL": "https://www.seoul.go.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:38:02.405Z",
+  "timestamp": "2026-09-20T06:04:52.958Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 140,
-  "uniqueDomains": 8,
+  "requestCount": 143,
+  "uniqueDomains": 9,
   "test_results": {
     "domestic": {
       "cloud": 2,
-      "direct": 4
+      "direct": 5
     },
     "foreign": {
       "cloud": 2,
@@ -72,23 +72,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.200",
+        "hostname": "nchkgb-al-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.68,
+        "rtt": 89.007,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.200",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -131,12 +131,12 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://delivery.acecounter.com/delivery/www/delivery/ajs.php?zoneid=801&cb=16463381264&charset=UTF-8&loc=https%3A%2F%2Fwww.seoul.go.kr%2Fmain%2Findex.jsp&referer=https%3A%2F%2Fwww.seoul.go.kr%2F",
+      "originalUrl": "https://delivery.acecounter.com/delivery/www/delivery/ajs.php?zoneid=801&cb=21138947755&charset=UTF-8&loc=https%3A%2F%2Fwww.seoul.go.kr%2Fmain%2Findex.jsp&referer=https%3A%2F%2Fwww.seoul.go.kr%2F",
       "type": "script",
       "ipinfo": {
         "domain": "delivery.acecounter.com",
-        "ip": "3.37.215.38",
-        "hostname": "ec2-3-37-215-38.ap-northeast-2.compute.amazonaws.com",
+        "ip": "3.36.251.117",
+        "hostname": "ec2-3-36-251-117.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -147,40 +147,7 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-YF59KRM6NR&gtm=45je69h0h2v9235958500za200zd9235958500xf1&_p=1789868278417&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&cid=342947543.1789868279&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789868278&sct=1&seg=0&dl=https%3A%2F%2Fwww.seoul.go.kr%2Fmain%2Findex.jsp&dr=https%3A%2F%2Fwww.seoul.go.kr%2F&dt=%EB%8F%99%ED%96%89%C2%B7%EB%A7%A4%EB%A0%A5%20%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%9A%B8%20%7C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=525",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "www.google-analytics.com",
-        "ip": "142.250.21.101",
-        "hostname": "zh-in-f101.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 34.802,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.21.101",
-          "prefix": "142.250.21.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://cm.acecounter.com/creative/af6b466a9a5b5adaaecae8130edd5155.jpg",
+      "originalUrl": "https://cm.acecounter.com/creative/552fd329f18f0ed3a9a6b2dacde19fa9.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "cm.acecounter.com",
@@ -194,6 +161,54 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-YF59KRM6NR&gtm=45je69g1v9235958500za200zd9235958500xf1&_p=1789884288169&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&cid=981620725.1789884289&frm=0&ir=1&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616985~115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789884289&sct=1&seg=0&dl=https%3A%2F%2Fwww.seoul.go.kr%2Fmain%2Findex.jsp&dr=https%3A%2F%2Fwww.seoul.go.kr%2F&dt=%EB%8F%99%ED%96%89%C2%B7%EB%A7%A4%EB%A0%A5%20%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%9A%B8%20%7C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1290",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.71.174",
+        "hostname": "nchkga-ab-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.35,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.71.174",
+          "prefix": "142.250.71.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://weblog2.eseoul.go.kr/event/?ra=1MBMKUB5M5QR3KHPRXLXOXN9B6E69QNX&service_id=www.seoul.go.kr&pc_id=17898842878284145674094&session_id=&screen=1280x720&language=ko-KR&mode=&referrer=https%3A%2F%2Fwww.seoul.go.kr%2F&unique_info=%5B%7B%22code%22%3A%22PLUG%22%2C%20%22hsCode%22%3A%2299a88d21e10e959428879450d48ceeb1%22%7D%2C%20%7B%22code%22%3A%22UAGT%22%2C%20%22hsCode%22%3A%224fb86d7439a1e431cea0287361c2e66d%22%7D%2C%20%7B%22code%22%3A%22SCRE%22%2C%20%22hsCode%22%3A%22572cda553fa9ac8d225f93d1bae76ab8%22%7D%5D&e_url=https%3A%2F%2Fwww.seoul.go.kr%2Fmain%2Findex.jsp&e_title=%EB%8F%99%ED%96%89%C2%B7%EB%A7%A4%EB%A0%A5%20%ED%8A%B9%EB%B3%84%EC%8B%9C%20%EC%84%9C%EC%9A%B8%20%7C%20%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C&e_type=pageview&END",
+      "type": "script",
+      "ipinfo": {
+        "domain": "weblog2.eseoul.go.kr",
+        "ip": "115.84.164.39",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17574 Seoul Metropolitan Government Computer Center",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     }
   ]
 }

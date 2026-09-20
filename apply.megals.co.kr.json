@@ -1,0 +1,119 @@
+{
+  "url": "https://apply.megals.co.kr",
+  "canonicalURL": "https://apply.megals.co.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:15:26.212Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 58,
+  "uniqueDomains": 4,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 3
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://apply.megals.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "apply.megals.co.kr",
+        "ip": "114.31.55.200",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38690 HyosungITX",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://img.megals.co.kr/common/css/common.css?ver=20260819",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "img.megals.co.kr",
+        "ip": "211.56.106.101",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://img.megamd.co.kr/font/font.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "img.megamd.co.kr",
+        "ip": "211.56.106.101",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://ssl.google-analytics.com/ga.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ssl.google-analytics.com",
+        "ip": "142.250.197.40",
+        "hostname": "nchkga-ag-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 84.902,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.40",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

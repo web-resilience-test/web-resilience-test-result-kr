@@ -2,9 +2,9 @@
   "url": "https://login.coupang.com",
   "canonicalURL": "https://www.coupang.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:10:44.808Z",
+  "timestamp": "2026-09-20T05:41:00.803Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 139,
-  "uniqueDomains": 16,
+  "requestCount": 138,
+  "uniqueDomains": 15,
   "test_results": {
     "domestic": {
-      "cloud": 15,
-      "direct": 0
+      "cloud": 13,
+      "direct": 1
     },
     "foreign": {
       "cloud": 1,
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "login.coupang.com",
-        "ip": "23.43.165.154",
-        "hostname": "a23-43-165-154.deploy.static.akamaitechnologies.com",
+        "ip": "23.43.165.168",
+        "hostname": "a23-43-165-168.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -58,8 +58,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.coupang.com",
-        "ip": "23.43.165.152",
-        "hostname": "a23-43-165-152.deploy.static.akamaitechnologies.com",
+        "ip": "23.32.56.155",
+        "hostname": "a23-32-56-155.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -74,13 +74,13 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "assets.coupangcdn.com",
-        "ip": "23.76.153.27",
-        "hostname": "a23-76-153-27.deploy.static.akamaitechnologies.com",
+        "ip": "54.230.62.11",
+        "hostname": "server-54-230-62-11.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
+        "org": "AS16509 Amazon.com, Inc.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
@@ -90,24 +90,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "static.coupangcdn.com",
-        "ip": "23.76.153.200",
-        "hostname": "a23-76-153-200.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://img1a.coupangcdn.com/image/mobile/ajax-loader.gif",
-      "type": "image",
-      "ipinfo": {
-        "domain": "img1a.coupangcdn.com",
-        "ip": "52.85.128.21",
-        "hostname": "server-52-85-128-21.icn53.r.cloudfront.net",
+        "ip": "52.85.128.44",
+        "hostname": "server-52-85-128-44.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -118,90 +102,11 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "x-amz-cf-pop": "ICN57-P1",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png",
-      "type": "image",
-      "ipinfo": {
-        "domain": "image7.coupangcdn.com",
-        "ip": "52.85.128.21",
-        "hostname": "server-52-85-128-21.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN57-P1",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://image.coupangcdn.com/image/coupang/home/icons/web/kr/coupang-play.png",
-      "type": "image",
-      "ipinfo": {
-        "domain": "image.coupangcdn.com",
-        "ip": "52.85.128.21",
-        "hostname": "server-52-85-128-21.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN57-P1",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://img1c.coupangcdn.com/image/ccm/banner/240dc6d355b179aab6922a9021c7862c.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "img1c.coupangcdn.com",
-        "ip": "18.67.51.27",
-        "hostname": "server-18-67-51-27.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://image11.coupangcdn.com/image/ccm/banner/7ff81a4610af939d0ee04d9d0da81637.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "image11.coupangcdn.com",
-        "ip": "52.85.128.40",
-        "hostname": "server-52-85-128-40.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "rtt": 9.425,
+        "rtt": 7.492,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "52.85.128.40",
+          "queried_ip": "52.85.128.44",
           "prefix": "52.85.128.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -215,12 +120,12 @@
       }
     },
     {
-      "originalUrl": "https://thumbnail1.coupangcdn.com/thumbnails/remote/x/image/displayitem/displayitem_7cf180b6-fd38-4f28-8768-54d32a5e854a.jpg",
+      "originalUrl": "https://img1a.coupangcdn.com/image/mobile/ajax-loader.gif",
       "type": "image",
       "ipinfo": {
-        "domain": "thumbnail1.coupangcdn.com",
-        "ip": "23.76.153.170",
-        "hostname": "a23-76-153-170.deploy.static.akamaitechnologies.com",
+        "domain": "img1a.coupangcdn.com",
+        "ip": "23.32.4.187",
+        "hostname": "a23-32-4-187.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -231,12 +136,80 @@
       "category": "domestic/cloud"
     },
     {
+      "originalUrl": "https://image7.coupangcdn.com/image/coupang/common/logo_coupang_w350.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "image7.coupangcdn.com",
+        "ip": "114.108.166.73",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://image.coupangcdn.com/image/coupang/home/icons/web/kr/coupang-play.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "image.coupangcdn.com",
+        "ip": "23.32.4.187",
+        "hostname": "a23-32-4-187.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://img1c.coupangcdn.com/image/ccm/banner/240dc6d355b179aab6922a9021c7862c.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "img1c.coupangcdn.com",
+        "ip": "23.32.4.187",
+        "hostname": "a23-32-4-187.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://thumbnail1.coupangcdn.com/thumbnails/remote/x/image/displayitem/displayitem_7cf180b6-fd38-4f28-8768-54d32a5e854a.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "thumbnail1.coupangcdn.com",
+        "ip": "52.85.128.38",
+        "hostname": "server-52-85-128-38.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
       "originalUrl": "https://ljc.coupang.com/api/v3/web/submit?appCode=coupang&market=KR",
       "type": "fetch",
       "ipinfo": {
         "domain": "ljc.coupang.com",
-        "ip": "23.214.22.207",
-        "hostname": "a23-214-22-207.deploy.static.akamaitechnologies.com",
+        "ip": "23.214.22.172",
+        "hostname": "a23-214-22-172.deploy.static.akamaitechnologies.com",
         "city": "Hillsboro",
         "region": "Oregon",
         "country": "US",
@@ -246,11 +219,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 115.99,
+        "rtt": 163.214,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "23.214.22.207",
+          "source": "laces api (direct)",
+          "queried_ip": "23.214.22.172",
           "prefix": "23.214.22.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -268,8 +241,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "reco.coupang.com",
-        "ip": "23.43.165.153",
-        "hostname": "a23-43-165-153.deploy.static.akamaitechnologies.com",
+        "ip": "23.43.165.136",
+        "hostname": "a23-43-165-136.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -280,12 +253,12 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://mercury.coupang.com/e.gif?r=ChBDQm5KVHZldUFRZHJtUnh4Eg01OS4xNS4xMzMuMTU2GLuE9uKLNCABKixsQzlqUmx0YzVock56Y2I5cnJmTmRjZm83RS9hc1g3U1RVbzFvRXZWUWNrPTIERkxBVEIXMTc4OTg2NjYzOTY3MjA0MTY5NTcxNjRQ4%2FTLBVoKaW1wcmVzc2lvbnoDV0VCigEEbWFyc5AB4YkLmAGmGqAB4%2FTLBcIBEHI2SktxNFgxZEZoWWQ4aDE%3D&t=2",
+      "originalUrl": "https://mercury.coupang.com/e.gif?r=ChBCMnFOTHpQMzlkR0R2aHVBEgwxMTYuMjU1LjkwLjQYx%2FzT6os0IAEqLDhUSUpveVRHbkkzK0JuUEVaU2hmemdpKzVrUHYyWDhtVDlYbWRvbmxkZlE9MgRGTEFUQhcxNzg5ODgyODU4OTA5OTEzNDAwMjEwM1Dj9MsFWgppbXByZXNzaW9uegNXRUKKAQRtYXJzkAHhiQuYAaYaoAHj9MsFwgEQc3BEWmRSdkd2ZVVZVlAxZg%3D%3D&t=2",
       "type": "image",
       "ipinfo": {
         "domain": "mercury.coupang.com",
-        "ip": "23.216.159.194",
-        "hostname": "a23-216-159-194.deploy.static.akamaitechnologies.com",
+        "ip": "23.50.121.152",
+        "hostname": "a23-50-121-152.deploy.static.akamaitechnologies.com",
         "city": "Yeongdong",
         "region": "North Chungcheong",
         "country": "KR",
@@ -300,29 +273,24 @@
       "type": "image",
       "ipinfo": {
         "domain": "img3c.coupangcdn.com",
-        "ip": "52.85.128.40",
-        "hostname": "server-52-85-128-40.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "ip": "23.32.4.187",
+        "hostname": "a23-32-4-187.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://img4a.coupangcdn.com/image/ccm/banner/1724636bd7db17c3c0d8406c3e97720b.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "img4a.coupangcdn.com",
-        "ip": "52.85.128.21",
-        "hostname": "server-52-85-128-21.icn53.r.cloudfront.net",
+        "ip": "52.85.128.81",
+        "hostname": "server-52-85-128-81.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -342,16 +310,21 @@
       "type": "image",
       "ipinfo": {
         "domain": "img2a.coupangcdn.com",
-        "ip": "23.76.153.177",
-        "hostname": "a23-76-153-177.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
+        "ip": "52.85.128.81",
+        "hostname": "server-52-85-128-81.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
     }
   ]
 }

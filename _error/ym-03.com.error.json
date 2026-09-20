@@ -1,10 +1,10 @@
 {
   "url": "https://ym-03.com",
   "canonicalURL": "https://ym-03.com",
-  "httpStatus": 451,
-  "timestamp": "2026-09-20T01:25:50.908Z",
+  "httpStatus": null,
+  "timestamp": "2026-09-20T05:54:45.923Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -16,9 +16,9 @@
   "requestCount": 0,
   "uniqueDomains": 0,
   "testError": true,
-  "errorReason": "HTTP 451 Error",
+  "errorReason": "ERR_CONNECTION_RESET",
   "errorDetails": {
-    "message": "HTTP 451 ",
-    "statusCode": "451"
+    "message": "page.goto: net::ERR_CONNECTION_RESET at https://www.ym-03.com/\nCall log:\n\u001b[2m  - navigating to \"https://www.ym-03.com/\", waiting until \"domcontentloaded\"\u001b[22m\n",
+    "statusCode": null
   }
 }

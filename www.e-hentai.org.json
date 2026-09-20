@@ -2,9 +2,9 @@
   "url": "https://www.e-hentai.org/",
   "canonicalURL": "https://www.e-hentai.org/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:05:54.258Z",
+  "timestamp": "2026-09-20T05:36:09.307Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,26 +13,26 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 40,
-  "uniqueDomains": 11,
+  "requestCount": 77,
+  "uniqueDomains": 16,
   "test_results": {
     "domestic": {
-      "cloud": 3,
+      "cloud": 7,
       "direct": 2
     },
     "foreign": {
-      "cloud": 0,
+      "cloud": 1,
       "direct": 6
     }
   },
@@ -52,32 +52,9 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcec8afa59d002-KIX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.66.132.196",
-          "prefix": "172.66.132.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de78722f6576c7-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -85,7 +62,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "e-hentai.org",
-        "ip": "172.66.132.196",
+        "ip": "172.66.140.62",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -95,32 +72,9 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcec907dd3d002-KIX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.66.132.196",
-          "prefix": "172.66.132.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de7876dbb076c7-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -128,24 +82,24 @@
       "type": "script",
       "ipinfo": {
         "domain": "adserver.juicyads.com",
-        "ip": "139.99.121.109",
-        "hostname": "ns554873.ip-139-99-121.net",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
+        "ip": "139.99.148.146",
+        "hostname": "ns547169.ip-139-99-148.net",
+        "city": "Sydney",
+        "region": "New South Wales",
+        "country": "AU",
+        "loc": "-33.8678,151.2073",
         "org": "AS16276 OVH SAS",
-        "timezone": "Asia/Singapore"
+        "timezone": "Australia/Sydney"
       },
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://ehgt.org/w/02/660/22269-f1270s6a.webp",
+      "originalUrl": "https://ehgt.org/w/02/660/53388-b4we11oh.webp",
       "type": "image",
       "ipinfo": {
         "domain": "ehgt.org",
-        "ip": "109.236.85.28",
-        "hostname": "109-236-85-28.hosted-by-worldstream.net",
+        "ip": "89.39.106.43",
+        "hostname": "89-39-106-43.hosted-by-worldstream.net",
         "city": "Naaldwijk",
         "region": "South Holland",
         "country": "NL",
@@ -156,23 +110,7 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://ads.juicyads.me/1x1.gif",
-      "type": "image",
-      "ipinfo": {
-        "domain": "ads.juicyads.me",
-        "ip": "89.222.116.12",
-        "hostname": "107935180.seo.cdn77.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS60068 Datacamp Limited",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://t.nettrck.store/s1/1d6ae58d-fb30-4d49-82d3-43e2cb05dcef?externalId={extPlaceholder}&cost={costPlaceholder}&cv1={dynamicCON}&cv2=KR&cv3=115&cv4=6666&cv5=19869&cv6=0",
+      "originalUrl": "https://t.nettrck.store/s1/e4283f53-1443-4e98-9f26-3d291b9b47dc?externalId={extPlaceholder}&cost={costPlaceholder}&cv1={dynamicCON}&cv2=KR&cv3=115&cv4=6666&cv5=671616&cv6=0",
       "type": "document",
       "ipinfo": {
         "domain": "t.nettrck.store",
@@ -187,53 +125,116 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://a.adtng.com/get/10017003?time=1788365065429",
+      "originalUrl": "https://chaturbate.com/in/?track=larotaiheneorg&tour=x1Rd&campaign=HPR7R&c=5&p=0&tag=asian",
       "type": "document",
       "ipinfo": {
-        "domain": "a.adtng.com",
-        "ip": "66.254.114.171",
-        "hostname": "reflectededge.reflected.net",
-        "city": "Waltham",
-        "region": "Massachusetts",
+        "domain": "chaturbate.com",
+        "ip": "104.19.162.95",
+        "city": "San Francisco",
+        "region": "California",
         "country": "US",
-        "loc": "42.3986,-71.2451",
-        "org": "AS29789 Reflected Networks, Inc.",
-        "timezone": "America/New_York"
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
       },
-      "category": "foreign/direct"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de787e2cd28b61-ICN",
+        "detection_method": "header"
+      }
     },
     {
-      "originalUrl": "https://ht-cdn2.adtng.com/delivery/vortex/vortex-simple-1.0.0.js",
-      "type": "script",
+      "originalUrl": "https://ads.juicyads.me/1x1.gif",
+      "type": "image",
       "ipinfo": {
-        "domain": "ht-cdn2.adtng.com",
-        "ip": "67.22.52.17",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
-        "org": "AS29789 Reflected Networks, Inc.",
-        "timezone": "Asia/Singapore"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://hw-cdn2.adtng.com/delivery/intersection_observer/IntersectionObserver.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "hw-cdn2.adtng.com",
-        "ip": "146.75.51.52",
+        "domain": "ads.juicyads.me",
+        "ip": "89.222.116.11",
+        "hostname": "107935180.seo.cdn77.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS54113 Fastly, Inc.",
+        "org": "AS60068 Datacamp Limited",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://cdn.storagexhd.com/files/20636/728x90.html?targetUrl=https%3A%2F%2Ft.nettrck.store%2Fc1%2F0c95b442-1b78-4adb-806a-ae0e18dbc6e4%3Fcost%3D%257BcostPlaceholder%257D%26cv1%3D%257BdynamicCON%257D%26cv2%3DKR%26cv3%3D115%26cv4%3D6666%26cv5%3D19869%26cv6%3D0%26externalId%3D%257BextPlaceholder%257D%26p%3DeyJzIjozNjA0MSwiYyI6MTI3NDA2LCJmIjo1LCJyaSI6MzE4MTgsInBoIjo5ODQxMSwicCI6MSwib2YiOjQ3Mzk1LCJvIjoyLCJuIjo1MDYsImZsIjozNzU3OCwiYiI6Mjg5ODA5LCJicyI6IjcyOHg5MCIsInQiOiIxIiwidGMiOjEsImFzIjoiY2xlYW4ifQ",
+      "originalUrl": "https://web.static.mmcdn.com/jsi18n/en/djangojs.js?hash=65b1022687e8",
+      "type": "script",
+      "ipinfo": {
+        "domain": "web.static.mmcdn.com",
+        "ip": "104.18.202.4",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de7881baf3ea9e-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://web2.static.mmcdn.com/CACHE/css/output.9dd3bb8bc58b.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "web2.static.mmcdn.com",
+        "ip": "104.16.92.18",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de7881ce2fc093-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-GX0FLQH21P",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.136",
+        "hostname": "nchkgb-aj-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.923,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.136",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.storagexhd.com/files/20628/728x90.html?targetUrl=https%3A%2F%2Ft.nettrck.store%2Fc1%2Ff396ac16-1bfa-49e9-a0e2-210139be5660%3Fcost%3D%257BcostPlaceholder%257D%26cv1%3D%257BdynamicCON%257D%26cv2%3DKR%26cv3%3D115%26cv4%3D6666%26cv5%3D671616%26cv6%3D0%26externalId%3D%257BextPlaceholder%257D%26p%3DeyJzIjozNjI4OCwiYyI6MTI3OTk0LCJmIjo1LCJyaSI6MzE4MTgsInBoIjo5ODQxMSwicCI6MSwib2YiOjQ3Mzk2LCJvIjozLCJuIjo1MDYsImZsIjozNzU3OCwiYiI6Mjg5ODAxLCJicyI6IjcyOHg5MCIsInQiOiIxIiwidGMiOjEsImFzIjoiY2xlYW4ifQ",
       "type": "document",
       "ipinfo": {
         "domain": "cdn.storagexhd.com",
@@ -253,8 +254,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "static.javhdhello.com",
-        "ip": "95.173.204.22",
-        "hostname": "361188685.tyo.cdn77.com",
+        "ip": "178.249.213.2",
+        "hostname": "440044529.tyo.cdn77.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -263,6 +264,100 @@
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://z6v2p9a8.bkcdn.net/library/960484/8235ce494cb489e98ec780896b7d53e377b4294a.gif",
+      "type": "image",
+      "ipinfo": {
+        "domain": "z6v2p9a8.bkcdn.net",
+        "ip": "178.249.213.2",
+        "hostname": "440044529.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://s.optvz.com/cimp.php?data=TVRjNE9UZzRNalUyT0h3ME56Z3dOMlkzWm1RMU16UTFZMlprTVRWak5UZzRZemcwTURsaU1EaGxOQS0tfC9saWJyYXJ5Lzk2MDQ4NC84MjM1Y2U0OTRjYjQ4OWU5OGVjNzgwODk2YjdkNTNlMzc3YjQyOTRhLmdpZnxodHRwc3wxMTYuMjU1LjkwLjR8S09SfDg2fGFkZG9wLmlvfDk2MDQ4NHw5NTM1Mzh8MTA3MDkxNnw1NzQxMzYyfDUwOHw4MjUwNzgyfDE0NDY5MjIyNnw5NXwyfDB8MHwxNTg3NXwxMjc0MDZ8NS4wNjEyMjR8NzB8VVNEfFVTRHwxfDF8MjF8NzI4eDkwfDF8S09SfHwxOHw0fDF8fGMwMWEwZTc1NDJjYWYzZGRjYzdmOTJlMTBmNTkxMTMxfDg0ODFiNjY4NzdlNzE2NGJhYjllZWMxNWMyMmU1Mzk0fDF8MHxtaXNzYXYuY29tfDB8MTQyMTUwfDMzMDg0OHwwLjAxfDF8MHxleGNoYW5nZV9iYW5uZXJ8MHwwfDE4MzU4NDd8LTF8MHw2MzY0MTA1fHx8MnwxNDQwfHwwfDB8MHwwfDB8MHwxfDB8fDh8MXxNb3ppbGxhLzUuMCAoTWFjaW50b3NoOyBJbnRlbCBNYWMgT1MgWCAxMF8xNV83KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTUzLjAuMC4wIFNhZmFyaS81MzcuMzZ8fDI0fDF8MHwyfDB8MTI3NDA2fGh0dHBzOi8vbWlzc2F2LmNvbXwwfDB8MHwwfDB8MHwwfDB8MHwwfDY5fDAuMDUwNjEyMjR8MC4wMDR8MC4wMDF8MC4xMnwxfDJ8MHxydGIuZXhvY2xpY2suY29tfHx8fDAuMjF8MHx2YXJpYXRpb258MnwxfDB8MHwwfDB8MHxPS3w2ZWNhZmUxZDEzNzA2ZDZlMDU3MjFkY2U2MTdjNWY1ZQ--&bs=TVRjNE9UZzRNalUyT0h3ME56Z3dOMlkzWm1RMU16UTFZMlprTVRWak5UZzRZemcwTURsaU1EaGxOQS0tfDEwfDUuMDYxMjI0fDEyfDUuMDYxMjI0fDF8T0t8NTg5OWNkMWQ4NjkxMDk5ZmUxNGRiOGEzOGU4YjQzNWQ-&cb=e2e_6aaf70c81d74d5.30155870",
+      "type": "image",
+      "ipinfo": {
+        "domain": "s.optvz.com",
+        "ip": "207.211.208.136",
+        "hostname": "unn-207-211-208-136.datapacket.com",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://nwr.static.mmcdn.com/nr-spa-1.322.0.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "nwr.static.mmcdn.com",
+        "ip": "162.247.243.39",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7864,-122.3892",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-served-by": "cache-icn1450059-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://nwr.mmcdn.com/1/6f524845d1?a=24279235&v=1.322.0&to=MwYEbUdYXxJQWhULDApMIExbWkUIXldOFgwRERUXQ1BUFkIDFQ0WFlA%3D&rst=1548&s=2f09d52617d13c76&ref=https://chaturbate.com/tours/3/&ptid=51dc4d3d6563de2e&af=err,spa,xhr,stn,ins&ap=32&be=535&fe=854&dc=603&at=H0ETGw9CExRCXBM9CgBBXAkZG1QPVUwSBxFKCgIbDwkdQ0RKBBANBQ4DGw8bbj5QVw4MPDtBShtGUFYPREk%2BBgIQBkQDBRUTIndmMwMaRllEWAZdVFYJDgdbBwICXlsDCBwqeGFDTkEnJTl7Wk0TWwgOTUAgIjwkVkFzYkMLXwAOEAFPRHpzZnMORXwZFhEFQVwbU1hdElQVBwMPFwZEFRdLVABdZggSQV5BVwgDFwNUBBdYUk1QQUobVFdeD25fDQMEF0FcGxcVEwNUShU9BBEGFUpqUEFDCxtQU1VKUVMMGwABTwUbTUABARASZlJMVBJCZgYHDEZZRHJnGx1DU1wSFjwDFgNKRmZWBF5mEwcEDQwIGw8bAFATFUMLEzsACUxbTUMYEwNDKTFGT0RQRWZSDkRXFRAaOwAJV1NQVQRfWgRAWUZaXxsZG1gRblcEFhQLEQ0bDxsTTRNQET0MFgQHV1xDUBVYVg9AWUYgK3sXFRMIQWYIERNGWUR6eHsTTRNQET0CFw1EAwYBB1kBFUMLEzsCFVdqVkMGEwNDIS4mQUobXEluAl5XDwcAEAoJV2pNSBFUG1tAIAUBClwafWItExVDCxM7FhVcR2ZFGEFcQ1hBFgYVUFFcXxVYWA1AT0YRA0hAXEIVbkkAFgtGWUQWQVZEE0IWUk1BSEERVWpRXhJFG1tAAAwCEkxHW1AVVBcCDQ5GT0RKXE1UPlhdQ1hSSEEVUEFcbgVeVAALDUZZRFpdWEUUQ1sAFgZKAAlUFxUTE1RIFAcQEDwOVkZNE1sTWgkDFxERBFhBXB8CXlRDTkEGEQlORlxDPlhdQ1hBXVcADgdcA1McAQIABUlXVg4BFFBWCA9MWltRAgAOAFsCV1AJQ05BFgYAXEdcQ0MLGwkWFxQQXBYaWFUSVEsXBxFKCRNQVkBQBUIXAg0OS0FKG0dcQBRUShU9DgEXDlZRGwtDdnw1QE9GEx9NXVZfPkdcExEKCw1EAxcKH1ADG01ABw4CCF5aZkcEQ0oIDQ1GWUQNGwsfUgEbTUANFjwQXEdKWA5fG1tAUldNUxcFGx1DRFg%2BBgYSCgVcaltDAF9dQ1hBJRMWVVAbHUNEWD4GBhIKBVxqX1AMWFUYQFlGLgdaFxUTFFBmBQcVDQADZlhWVQRdG1tALgUARBUXTFA%2BVVwXCwABPBJARVwTWxNdBBEIEAwWGxkbRABuVhI9BQUOD1VMGwtDfFgCQiw3Qz4bGRtEAG5WEj0VAREVUFpXE1sTCFFMUlFNURsZG0QAblsTDRQXBhRmU1hcCF1AQ1hBJwsUVlhcE00TTAA9ARYMEUpQS24XVEsSCwwKQVwbBAwCTwEXUUBPRhYHZkZNQwhfXkNYQSkMHFBZVVBOBBdRQkspAgVQW01eElkCQSsNEAYKGXhYUkF%2BakE6Q1VTOQgAZgZIEXgREg8BNANbflBFTgQKVkxQUkNOcn1tfC0dGQ0LCAFDIVxWUl5IEXoJEAwJBkkIAAofUR8JT1JDNwIAWEdQHlQCDk9RVUZPRF5cTW4CXlQMCxdGWUQPAFsAUQMLV1pUAVtUAAYKV1YGW1daWwdVUQFTXQkDAgsAVQFQUwMPFxUTBlhNPhYCA0FcG0MLB08IF1BUTVVNFlZGTQBDHRsTBxUNEA9WWxsLQwcMA1NTVlFQAQJcCVMIClIEVFMBUAENWgdWCV8FWgFXUQcOVw0BBAcbTUABCAwFUmpXXg9uXBIRBgoXD1hZZlIOXlIIBxBGWQBYWUpUTRNbDQ0ADzwIVltmVBJCXA8WCgUPOVpaVloIVEo%2BDRUBERRQUV1UDxMDBwMPFwZKG1xKbgRHVg0UBjsQDlZCVxNbV1gNEQZIQQpYW15uCVRYBQcRRllEUloUWhMdUg5OBgpOE0oZXF9DHRsRAxEFDhUbDxtKPRNaPUBZRD9EDGkbHUFtGwIDDhQCD15bZRNbEWVDKjM2VDRlFxURPRNdCBECBg8DZkZWRA9VZUNYQzhBVmUXFRE9E0k9QFlEP0QJaRsdQW0bFQMEOEFcGWkbUBJYWA8%2BQUhDOhtBVkQTbRtbQj9GG1drUWUTTRFlQxYRBQANZRcDET0TVQAQDBACD1FQV1QOQ149QB5GT0RYVk1YF1RmFQ0EAw8DShcDEzNUWAIWMQkPFU0ZelkVQ0oHTjMLDx9eWVZFTX9WJA8HKxUDS1lYSE18Ww0uAgoENUxFFWcAQk02Dk8pLjZAfFdHLl1dTTIRDRUrUFt0WA8ddSIyNwEONFxbFWQSVEszAxcBNwlWWRV1CEJYAw4GMlEiUEcVUBNTUBUHEUgzE0tHegMiHXQMMgIdMwdAWkxFTXVADzIBNFFKSVhPQU13YDEvAQhPK0pScF8SRXQGEE80BhRUdEpCNV5WDU4uBg8gXVdaWidDVE0uDQMMJVFGX30OVhUxFxEWMA9eW0xBTXxKLQsVAU8xVVdVYhNSUSQUDxJPNUxFS0UyQVgMThMCAURESA%3D%3D&fsh=1&perf=%7B%22timing%22:%7B%22of%22:1789882565246,%22n%22:0,%22r%22:1,%22re%22:270,%22f%22:270,%22dn%22:270,%22dne%22:270,%22c%22:270,%22s%22:270,%22ce%22:270,%22rq%22:271,%22rp%22:536,%22rpe%22:576,%22di%22:1139,%22ds%22:1139,%22de%22:1139,%22dc%22:1389,%22l%22:1389,%22le%22:1390%7D,%22navigation%22:%7B%22rc%22:1%7D%7D",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "nwr.mmcdn.com",
+        "ip": "162.247.243.35",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7864,-122.3892",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "162.247.243.35",
+          "prefix": "162.247.243.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            54113
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 53,
+          "location_count": 53,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
     }
   ]
 }

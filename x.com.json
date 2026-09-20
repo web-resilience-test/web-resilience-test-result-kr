@@ -2,9 +2,9 @@
   "url": "https://x.com",
   "canonicalURL": "https://x.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:42:54.889Z",
+  "timestamp": "2026-09-20T05:11:35.112Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 560,
+  "requestCount": 558,
   "uniqueDomains": 2,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "x.com",
-        "ip": "172.66.0.227",
+        "ip": "162.159.140.229",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dccadf5e6652f0-ICN",
+        "cf-ray": "a3de547c689a76c7-ICN",
         "x-served-by": "t4_p",
         "detection_method": "header"
       }
@@ -63,23 +63,23 @@
       "type": "font",
       "ipinfo": {
         "domain": "abs.twimg.com",
-        "ip": "151.101.72.159",
-        "city": "Los Angeles",
-        "region": "California",
-        "country": "US",
-        "loc": "34.0522,-118.2437",
+        "ip": "199.232.148.159",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
         "org": "AS54113 Fastly, Inc.",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-served-by": "t4_a, cache-pdk-kfty8610028-PDK, cache-hhr-khhr2060034-HHR",
-        "rtt": 133.165,
+        "x-served-by": "t4_p, cache-nrt-rjtt7900037-NRT",
+        "rtt": 44.218,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "151.101.72.159",
-          "prefix": "151.101.72.0/24",
+          "queried_ip": "199.232.148.159",
+          "prefix": "199.232.148.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -89,8 +89,8 @@
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 2,
-          "location_count": 2
+          "site_count": 3,
+          "location_count": 3
         }
       }
     }

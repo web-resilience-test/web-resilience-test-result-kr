@@ -1,0 +1,71 @@
+{
+  "url": "https://gen.go.kr",
+  "canonicalURL": "https://gen.go.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:13:10.588Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 2,
+  "uniqueDomains": 2,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://gen.go.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "gen.go.kr",
+        "ip": "210.218.9.3",
+        "city": "Gwangju",
+        "region": "Gwangju",
+        "country": "KR",
+        "loc": "35.1547,126.9156",
+        "org": "AS9531 Gwangju Education Research Information Service",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "http://www.gen.go.kr/main/main.php",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.gen.go.kr",
+        "ip": "210.218.9.3",
+        "city": "Gwangju",
+        "region": "Gwangju",
+        "country": "KR",
+        "loc": "35.1547,126.9156",
+        "org": "AS9531 Gwangju Education Research Information Service",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

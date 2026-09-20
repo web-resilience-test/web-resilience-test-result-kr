@@ -2,9 +2,9 @@
   "url": "https://webzen.co.kr",
   "canonicalURL": "https://webzen.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T02:01:18.607Z",
+  "timestamp": "2026-09-20T06:27:51.515Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 92,
   "uniqueDomains": 10,
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "webzen.co.kr",
-        "ip": "202.31.215.34",
+        "ip": "202.31.215.31",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -57,7 +57,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.webzen.co.kr",
-        "ip": "202.31.215.32",
+        "ip": "202.31.215.33",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -72,12 +72,12 @@
       "type": "script",
       "ipinfo": {
         "domain": "platform.webzen.kr",
-        "ip": "162.128.171.125",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "43.174.12.42",
+        "city": "Ulsan",
+        "region": "Ulsan",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS21859 Zenlayer Inc",
+        "loc": "35.5372,129.3167",
+        "org": "AS139341 ACE",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -87,11 +87,11 @@
       "type": "script",
       "ipinfo": {
         "domain": "image.webzen.kr",
-        "ip": "43.155.149.105",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "43.174.12.42",
+        "city": "Ulsan",
+        "region": "Ulsan",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "35.5372,129.3167",
         "org": "AS139341 ACE",
         "timezone": "Asia/Seoul"
       },
@@ -102,23 +102,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.104",
+        "hostname": "nchkga-ai-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.726,
+        "rtt": 84.596,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.104",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -135,23 +135,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.250.21.102",
-        "hostname": "zh-in-f102.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.199.206",
+        "hostname": "nchkgb-am-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.125,
+        "rtt": 82.506,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.102",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.199.206",
+          "prefix": "142.250.199.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -171,11 +171,11 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=16&frm=0&apvc=1&ae=g&auid=1798490051.1789869677&dt=Webzen%20-%20Games%20Portal&en=page_view&dl=https%3A%2F%2Fwww.webzen.co.kr%2F&scrsrc=www.googletagmanager.com&rnd=1867628816.1789869677&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v72075306za200zd72075306xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385422~120469145~120469153~120847433&tft=1789869676866&tfd=871&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=4&frm=0&apvc=1&ae=g&auid=2034490116.1789885668&dt=Webzen%20-%20Games%20Portal&en=page_view&dl=https%3A%2F%2Fwww.webzen.co.kr%2F&scrsrc=www.googletagmanager.com&rnd=1835839299.1789885668&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v72075306za200zd72075306xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~120847433&tft=1789885668149&tfd=1390&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.150.119",
+        "ip": "142.251.152.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -189,8 +189,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.150.119",
-          "prefix": "142.251.150.0/24",
+          "queried_ip": "142.251.152.119",
+          "prefix": "142.251.152.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -200,8 +200,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
+          "site_count": 61,
+          "location_count": 61,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -213,27 +213,27 @@
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/859734542/?random=1789869677063&cv=11&fst=1789869600000&bg=ffffff&guid=ON&async=1&gtm=45be69g1z872075306za20gzb72075306zd72075306xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120420414~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.webzen.co.kr%2F&rcb=16&frm=0&tiba=Webzen%20-%20Games%20Portal&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1798490051.1789869677&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3OzQyxA0hRJMUdVT6bzCa-Zarij8whggpJz2-2Y6YeltLZmAQN2b6ayRWc8I0YUC_5IYCxDey-z5f8nkIWCMJ2bgWLuCO8ueLaS5T9-PAAnxRuHgFhsh19Z8NyfxK1XqPjmoY4v2jO42ibjRgTZm9RSvj_8Tddn2Yir8ZV53e_sE1hKMKRFqvQ23SeFgMCzt_uwAdo8xM1kkbhmL6aURb1cHBT_NJ2b4cRaAmlkYBce-d0hrwD1TL0DQkyo894SgZm1gU0pzAoYsNWKsaH8awg&random=2773473349&rmt_tld=1&ipr=y",
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/859734542/?random=1789885668394&cv=11&fst=1789884000000&bg=ffffff&guid=ON&async=1&gtm=45be69g1z872075306za20gzb72075306zd72075306xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~118897920~118897930~119793972~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.webzen.co.kr%2F&rcb=8&frm=0&tiba=Webzen%20-%20Games%20Portal&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2034490116.1789885668&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3MVyg9fcyNzZk0kElSjy1bEsOlEn_SWL1ueYXHOonl4dk6omv45JPHumAwgamdYJWdZvYGuo8whs6UI9_CkPa6qxxseXB5RL539EJ2X7Td3wv7t_bpZiPXqfv9Ftm9a5EZlZT4itKTBLkamCp7HWpWgCZz1bpGQ3qHqIm_Sft4D7vO4KPyC8mqqsaQ3A-hnw1JKFhTFmTldwTlLpFuXzoxrdnDTUmSF8QtYcAjX-z4bgjr2G4z3JRrFALkckgwjCGMvYeyN5Ih7bKtN_9AcgnA&random=3985420471&rmt_tld=1&ipr=y",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.131",
+        "hostname": "nchkga-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.046,
+        "rtt": 86.733,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.131",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -246,7 +246,7 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-RWDL1Q20ME&gtm=45je69g1v9126401920za20gxf1&_p=1789869676280&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGA&cid=784759316.1789869677&frm=0&ir=1&pscdl=noapi&rcb=1&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dl=https%3A%2F%2Fwww.webzen.co.kr%2F&dt=Webzen%20-%20Games%20Portal&sid=1789869677&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=115938466~115938469~118897920~118897930~120385422~120469145~120469153~120847433&tfd=1364",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-RWDL1Q20ME&gtm=45je69g1v9126401920za20gxf1&_p=1789885667389&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGA&cid=2070537985.1789885669&frm=0&ir=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&dl=https%3A%2F%2Fwww.webzen.co.kr%2F&dt=Webzen%20-%20Games%20Portal&sid=1789885668&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=115938465~115938469~118897920~118897930~120385422~120469145~120469153~120847433&tfd=2230",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
@@ -260,7 +260,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.241,
+        "rtt": 40.719,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",

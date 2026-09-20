@@ -1,0 +1,73 @@
+{
+  "url": "https://thevc.kr",
+  "canonicalURL": "https://thevc.kr",
+  "httpStatus": 202,
+  "timestamp": "2026-09-20T07:21:59.627Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 3,
+  "uniqueDomains": 2,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://thevc.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "thevc.kr",
+        "ip": "54.116.250.60",
+        "hostname": "ec2-54-116-250-60.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://a5a14326c8cb.61443b92.ap-northeast-2.token.awswaf.com/a5a14326c8cb/c1954e39dfb9/85c1bb1cf5bc/challenge.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "a5a14326c8cb.61443b92.ap-northeast-2.token.awswaf.com",
+        "ip": "18.244.60.2",
+        "hostname": "server-18-244-60-2.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

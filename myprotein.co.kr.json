@@ -1,0 +1,629 @@
+{
+  "url": "https://myprotein.co.kr",
+  "canonicalURL": "https://www.myprotein.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:42:25.840Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 248,
+  "uniqueDomains": 20,
+  "test_results": {
+    "domestic": {
+      "cloud": 10,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 8,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://myprotein.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "myprotein.co.kr",
+        "ip": "146.75.113.91",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-served-by": "cache-sin-wsap440067-SIN",
+        "rtt": 36.981,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "146.75.113.91",
+          "prefix": "146.75.113.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            54113
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 3,
+          "location_count": 3
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.myprotein.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.myprotein.co.kr",
+        "ip": "146.75.49.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.cookielaw.org",
+        "ip": "104.18.87.42",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df890d4c49326c-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,-%C2%A3%E2%82%AC%C3%A0%C3%A1%C3%A2%C3%A4%C3%A5%C4%85%C3%A6%C3%A9%C3%A8%C3%AA%C3%AB%C4%99%C4%97%C4%9B%C3%AE%C3%AF%C4%AF%C3%AD%C3%B4%C3%B6%C3%B3%C3%B8%C3%B9%C3%BA%C3%BB%C3%BC%C5%AF%C5%B3%C5%AB%C3%BF%C3%BD%C3%A7%C4%8D%C4%8F%C4%BA%C4%BE%C5%88%C5%99%C5%95%C5%A1%C5%A5%C5%BE%C3%80%C3%81%C3%82%C3%84%C3%85%C4%84%C3%86%C3%89%C3%88%C3%8A%C3%8B%C4%98%C4%96%C4%9A%C3%8E%C3%8F%C4%AE%C3%8D%C3%94%C3%96%C3%93%C3%98%C3%99%C3%9A%C3%9B%C3%9C%C5%AE%C5%B2%C5%AA%C5%B8%C3%9D%C3%87%C4%8C%C4%8E%C4%B9%C4%BD%C5%87%C5%98%C5%94%C5%A0%C5%A4%C5%BD%22%25%26%27%2F",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.250.198.202",
+        "hostname": "nchkgb-al-in-f10.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.741,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.202",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://sgtm.myprotein.co.kr/gtm.js?id=GTM-TLLKQLXB",
+      "type": "script",
+      "ipinfo": {
+        "domain": "sgtm.myprotein.co.kr",
+        "ip": "34.36.249.75",
+        "hostname": "75.249.36.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 37.355,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "34.36.249.75",
+          "prefix": "34.36.249.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 64,
+          "location_count": 64
+        }
+      }
+    },
+    {
+      "originalUrl": "https://assets.thg.dev/agentic-commerce/shopping-assistant/loader.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "assets.thg.dev",
+        "ip": "8.233.213.116",
+        "hostname": "116.213.233.8.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "8.233.213.116",
+          "prefix": "8.233.213.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://6e9172b1ac0b.o3n.io/files/dduqypialkrev1wf3opj9inix/doc.gif?l=https://www.myprotein.co.kr/&r=",
+      "type": "image",
+      "ipinfo": {
+        "domain": "6e9172b1ac0b.o3n.io",
+        "ip": "52.56.202.10",
+        "hostname": "ec2-52-56-202-10.eu-west-2.compute.amazonaws.com",
+        "city": "London",
+        "region": "England",
+        "country": "GB",
+        "loc": "51.5085,-0.1257",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Europe/London"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "52.56.202.10",
+          "prefix": "52.56.202.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-TLLKQLXB&gtg_health=1",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.168",
+        "hostname": "nchkgb-ak-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.442,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.168",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://euob.seroundprince.com/sxp/i/624fe1d3c2b6511e22d19fa47b09810f.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "euob.seroundprince.com",
+        "ip": "52.85.128.27",
+        "hostname": "server-52-85-128-27.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "geolocation.onetrust.com",
+        "ip": "172.64.155.119",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df89125ceac02f-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://obseu.seroundprince.com/ct?id=87435&url=https%3A%2F%2Fwww.myprotein.co.kr%2F&sf=0&tpi=&ch=Nutrition&uvid=&tsf=0&tsfmi=&tsfu=&cb=1789893732247&hl=2&op=0&ag=696751109&rand=9462775772460750282100201599991080528801112219827785022070277916207707921814907085607037711006111&fs=1280x720&fst=1280x720&np=macintel&nv=google%20inc.&ref=&ss=1280x720&nc=0&at=&di=W1siZWYiLDQ2MjNdLFsiYWJuY2giLDJdLFstMjgsImtvLUtSLGtvLGVuLVVTLGVuIl0sWy0zMCwiW1widlwiLDBdIl0sWy0zMywiLSJdLFstNTAsIi0iXSxbLTY3LCItIl0sWy03LCItIl0sWy0yNiwie1widGpoc1wiOjI2NTM3NjI1LFwidWpoc1wiOjE3MjYxNTAxLFwiamhzbFwiOjQzOTU2MzA1OTJ9Il0sWy0zNywiLTEwOS02Ni03MC0iXSxbLTU5LCJkZWZhdWx0Il0sWy02OCwiLSJdLFstNSwiLSJdLFstMTksIls1MywyMDUsNTMsMjA1LDAsMCwxLDMwLDMwLFwiLVwiLDEyODAsNzIwLDEyODAsNzIwLDEyODIsODAwLDEyODAsNzIwLDAsMCwwLDAsXCItXCIsXCItXCIsMTI4MCw3MjAsMF0iXSxbLTIyLCJbXCJuXCIsXCJuXCJdIl0sWy0yMywiKyJdLFstMzIsIjAiXSxbLTQ0LCIwLDAsMCw1Il0sWy00NiwiMCJdLFstNTEsIi0iXSxbLTYyLCI4MCJdLFstNjMsIi0iXSxbLTgsIi0iXSxbLTM0LCItIl0sWy0zNiwiW1wiMTYvOVwiLFwiMTYvOVwiXSJdLFstNDEsIi0iXSxbLTU2LCJsYW5kc2NhcGUtcHJpbWFyeSJdLFstNzAsIi0iXSxbLTc2LCItIl0sWy0xMiwibnVsbCJdLFstMTUsIi0iXSxbLTMxLCJ0cnVlIl0sWy01MiwiLSJdLFstNjYsImdlb2xvY2F0aW9uLGNodWFmdWxsdmVyc2lvbmxpc3QsY3Jvc3NvcmlnaW5pc29sYXRlZCxzY3JlZW53YWtlbG9jayxvbmRldmljZXNwZWVjaHJlY29nbml0aW9uLHRyYW5zbGF0b3IscHVibGlja2V5Y3JlZGVudGlhbHNnZXQsY2h1YWFyY2gsYmx1ZXRvb3RoLGNvbXB1dGVwcmVzc3VyZSxjaHByZWZlcnNyZWR1Y2VkdHJhbnNwYXJlbmN5LGRlZmVycmVkZmV0Y2gsdXNiLGNoc2F2ZWRhdGEscHVibGlja2V5Y3JlZGVudGlhbHNjcmVhdGUsZGVmZXJyZWRmZXRjaG1pbmltYWwsY2hkb3dubGluayxjaHVhZm9ybWZhY3RvcnMsb3RwY3JlZGVudGlhbHMscGF5bWVudCxjaHVhLGNodWFtb2RlbCxjaGVjdCxhdXRvcGxheSxjYW1lcmEsbGFuZ3VhZ2VkZXRlY3Rvcixwcml2YXRlc3RhdGV0b2tlbmlzc3VhbmNlLGRpZ2l0YWxjcmVkZW50aWFsc2dldCxhY2NlbGVyb21ldGVyLGNodWFwbGF0Zm9ybXZlcnNpb24saWRsZWRldGVjdGlvbixsYW5ndWFnZW1vZGVsLGludGVyZXN0Y29ob3J0LGNodmlld3BvcnRoZWlnaHQsY2FwdHVyZWRzdXJmYWNlY29udHJvbCxsb2NhbGZvbnRzLGNodWFwbGF0Zm9ybSxtaWRpLGNodWFmdWxsdmVyc2lvbix4cnNwYXRpYWx0cmFja2luZyxjbGlwYm9hcmRyZWFkLGdhbWVwYWQsZGlzcGxheWNhcHR1cmUsa2V5Ym9hcmRtYXAsYXJpYW5vdGlmeSxsb2NhbG5ldHdvcmssY2h1YWhpZ2hlbnRyb3B5dmFsdWVzLGNod2lkdGgsY2hwcmVmZXJzcmVkdWNlZG1vdGlvbixicm93c2luZ3RvcGljcyxlbmNyeXB0ZWRtZWRpYSxsb2NhbG5ldHdvcmthY2Nlc3MsZ3lyb3Njb3BlLHNlcmlhbCxjaHJ0dCxjaHVhbW9iaWxlLHdpbmRvd21hbmFnZW1lbnQsdW5sb2FkLGNoZHByLGNocHJlZmVyc2NvbG9yc2NoZW1lLGNodWF3b3c2NCxmdWxsc2NyZWVuLGlkZW50aXR5Y3JlZGVudGlhbHNnZXQscHJpdmF0ZXN0YXRldG9rZW5yZWRlbXB0aW9uLGhpZCxzdW1tYXJpemVyLGNodWFiaXRuZXNzLHN0b3JhZ2VhY2Nlc3Msc3luY3hocixjaGRldmljZW1lbW9yeSxjaHZpZXdwb3J0d2lkdGgscGljdHVyZWlucGljdHVyZSxsb29wYmFja25ldHdvcmssbWFnbmV0b21ldGVyLGNsaXBib2FyZHdyaXRlLG1pY3JvcGhvbmUiXSxbLTY5LCJNYWNJbnRlbHxHb29nbGUgSW5jLnwxNnwxMHxtYWNPU3wwIl0sWy03MSwiYTAxMDAxMDExMDAxMDAxMDEwMDAxMDEwMDExMTExMDEwMDAwMTAiXSxbLTEsIi0iXSxbLTksIisiXSxbLTEzLCItIl0sWy0xNCwiLSJdLFstMzksIltcIjIwMDMwMTA3XCIsMixcIkdlY2tvXCIsXCJOZXRzY2FwZVwiLFwiTW96aWxsYVwiLG51bGwsbnVsbCx0cnVlLDE2LGZhbHNlLG51bGwsNSx0cnVlLHRydWUsbnVsbCwwLHRydWUsdHJ1ZSx0cnVlLHRydWVdIl0sWy02MSwie1wid2dzbFwiOlwiMTI7cGFja2VkXzR4OF9pbnRlZ2VyX2RvdF9wcm9kdWN0O3N1Ymdyb3VwX3VuaWZvcm1pdHk7aW1tZWRpYXRlX2FkZHJlc3Nfc3BhY2U7bGluZWFyX2luZGV4aW5nO3N1Ymdyb3VwX2lkO3JlYWRvbmx5X2FuZF9yZWFkd3JpdGVfc3RvcmFnZV90ZXh0dXJlczt1bnJlc3RyaWN0ZWRfcG9pbnRlcl9wYXJhbWV0ZXJzO2J1ZmZlcl92aWV3O3RleHR1cmVfYW5kX3NhbXBsZXJfbGV0O3RleHR1cmVfZm9ybWF0c190aWVyMTtwb2ludGVyX2NvbXBvc2l0ZV9hY2Nlc3M7dW5pZm9ybV9idWZmZXJfc3RhbmRhcmRfbGF5b3V0O1wiLFwicGNmXCI6XCJiZ3JhOHVub3JtXCJ9Il0sWy03MiwiRXhVPSJdLFstNzQsIjEsMSJdLFstMTYsIjAiXSxbLTI0LCJbXSJdLFstNTMsIjAwMSJdLFstNzMsIkVtdDFPaUVvT3l3dFpDUW1MU2dsYVMwb1BTaGtLRG85T3laa0tpQXRaQ1FzSXpwOElUMHdkQlZyUFRzOExCVnJkMmwxTFNBb0pTWXVhU0F0ZEJWckpDWXRLQ1ZrS2lZblBTZ2dKeXc3Rld0cE95WWxMSFFWYXkwZ0tDVW1MaFZyYVNnN0lDaGtKQ1l0S0NWMEZXczlPendzRld0cEtEc2dLR1FsS0Nzc0pTVXNMU3N3ZEJWckpDWXRLQ1ZrUFNBOUpTd1ZhMmtvT3lBb1pDMHNPaW83SUNzc2EyVnJkVG9oS0Rzc0xXUXRPeWcrTER0cExTZzlLR1E3UFNWMEZXc3ZLQ1U2TEJWcmFTMG9QU2hrS0RvOU95WmtLaUF0WkgwaGZYMStMM3dsZEJWclBUczhMQlZyZDJsMUxTQW9KU1l1YVNBdGRCVnJMVHNvUGl3N1pDb21KejBvSUNjc094VnJhU2c3SUNoa0pDWXRLQ1YwRldzOU96d3NGV3RwS2lVb09qcDBGV3N0T3lnK0xEdHBMeVVzTVdrdkpTd3haRHNtUG1rbExuTWpQRG85SUM4d2EyVnJkVG9nTFN4a09pRXNMRDFwTFNnOUtHUWxKaWd0SUNjdVpDVW9LeXdsZEJWckJTWW9MU0FuTG1kblp4VnJhUzBvUFNoa0x5Z2dKU3d0WkNVbUtDMWtKQ3c2T2lndUxIUVZhdzhvSUNVc0xXazlKbWtsSmlndGFTb21KejBzSnoxbmFSa2xMQ2c2TEdrOU96QnBLQzRvSUNkbkZXdHBMU2c5S0dRc096c21PMlFxSlNZNkxHUTlMREU5ZEJWckNpVW1PaXdWYTJrdEtEMG9aRG9nYXhRPSJdLFstMjcsIls1MCwxMCwwLFwiNGdcIixudWxsLFwiLVwiXSJdLFstMjksIi0iXSxbLTM1LCJbMTc4OTg5MzczMjE5NywtOV0iXSxbLTQyLCI4ODMzOTkwMTYiXSxbLTQzLCIwMDAwMDAwMTAxMDAwMDAxMTAxMTEwMTEwMTExMTEwMTAwMDAwMTAxMTAxMSJdLFstNDUsIjYyNyw2NzcsMCwwLDAsMCwwLDc0OCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDYzMCw1NzEsNDkzLDYwOCw3OTIsNjg4LDAsMCwwLDAsMCJdLFstNDcsIkFzaWEvU2VvdWwsa28sbGF0bixncmVnb3J5Il0sWy01NSwiMSJdLFstNTcsIldFMFplRXRMV0VBWGZGd1pFVkZOVFVsS0F4WVdYRXhXV3hkS1hFdFdURmRkU1V0UVYxcGNGMXBXVkJaS1FVa1dVQllQQ3cxZlhBaGRDbG9MV3c4TUNBaGNDd3RkQ0FCZldBME9Xd2tBQVFnSlh4ZFRTZ01JQXdBQUNnZ0FFQlZZVFJsTEdSRlJUVTFKU2dNV0ZseE1WbHNYU2x4TFZreFhYVWxMVUZkYVhCZGFWbFFXU2tGSkZsQVdEd3NOWDF3SVhRcGFDMXNQREFnSVhBc0xYUWdBWDFnTkRsc0pBQUVJQ1Y4WFUwb0RDQU1JQ1F3SURBc1EiXSxbMTIsIntcImN0eFwiOlwid2ViZ2xcIixcInZcIjpcImdvb2dsZSBpbmMuIChhcHBsZSlcIixcInJcIjpcImFuZ2xlIChhcHBsZSwgYW5nbGUgbWV0YWwgcmVuZGVyZXI6IGFwcGxlIG01LCB1bnNwZWNpZmllZCB2ZXJzaW9uKVwiLFwic2x2XCI6XCJ3ZWJnbCBnbHNsIGVzIDEuMCAob3BlbmdsIGVzIGdsc2wgZXMgMS4wIGNocm9taXVtKVwiLFwiZ3ZlclwiOlwid2ViZ2wgMS4wIChvcGVuZ2wgZXMgMi4wIGNocm9taXVtKVwiLFwiZ3ZlblwiOlwid2Via2l0XCIsXCJiZW5cIjozLFwid2dsXCI6MSxcImdyZW5cIjpcIndlYmtpdCB3ZWJnbFwiLFwic2VmXCI6MjI1OTQxMDQ5LFwic2VjXCI6XCJcIn0iXSxbLTQsIi0iXSxbLTExLCJ7XCJ0XCI6XCJcIixcIm1cIjpbXCJvZzp0aXRsZVwiLFwiZGVzY3JpcHRpb25cIixcImtleXdvcmRzXCJdfSJdLFstMTcsIjEwIl0sWy0xOCwiWzAsMCwwLDFdIl0sWy01NCwie1wiaFwiOltcIl8zXCIsXCIzMzI1MzY4MDk3XCIsXCIyNzU4NjM3NDA3XCIsXCIxNzQ1NzM0MTE2XCIsXCIzNjgwMzc3OTkyXCIsXCI3NTA1NjI3NDJcIixcIl8xXCIsXCIzNzQ4MTYyMDExXCIsXCJfMlwiLFwiNDA4OTkxOTMzNlwiXSxcImRcIjpbXSxcImJcIjpbXCJfMVwiLFwiMTc1ODExOThcIixcIl8wXCIsXCI0ODI2MDQwXCIsXCI0NjkzNDc0MTRcIixcIjU0OTQ4NTYwM1wiXSxcInNcIjoxfSJdLFstNTgsIi0iXSxbLTc1LCJ7fS5zb21lRnVuYyBpcyBub3QgYSBmdW5jdGlvbiJdLFstMiwiMTcsTnVRaElTNWhrU1FNQUpIQmhVVkpCRzBJYlc5bk5HQldmQkZtM3RKcWpkN2REYXRuYUw4encxaUlvaWl1MEFDb2dNQ2tLWUFna1FNdWZPOTV3YTl2Uy9xODQ1TnpjaFRINyt6LywxMTczNDIwNDE2Il0sWy0zLCJbXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCIsXCJpbnRlcm5hbC1wZGYtdmlld2VyXCJdIl0sWy02LCJ7XCJ3XCI6W1wiMFwiLFwiYWx0aXR1ZGVcIixcInNoYXJlZEZ1bmN0aW9uc1wiLFwiX19jaGF0Ym90RW5hYmxlZFwiLFwiZGF0YUxheWVyXCIsXCJfMHg0ZWZhXCIsXCJfMHgxOGYxXCIsXCJ0ZW5hbnRDb25maWdcIixcInRlbmFudEluc3RhbmNlXCIsXCJsYW5nXCIsXCJfX1BSSUNFX0xPQ0FMRV9fXCIsXCJfX0NVUlJFTkNZX0xPQ0FMRV9fXCIsXCJfX0VYUEVSSU1FTlRTX19cIixcIl9fRVhQRVJJTUVOVE1BUF9fXCIsXCJsb2NhbGVcIixcIlRyYWNrZXJcIixcIl9feEFsdGl0dWRlSG9yaXpvblJheV9fXCIsXCJfX3JlY3NTbG90c1wiLFwiQXN0cm9cIixcIl9fSE9TVF9fXCIsXCJfX1RFTkFOVF9fXCIsXCJza3VJbWFnZXNcIixcInNpdGVPYmpcIixcImdvb2dsZV90YWdfbWFuYWdlclwiLFwicG9zdHNjcmliZVwiLFwiZ29vZ2xlX3RhZ19tYW5hZ2VyX2V4dGVybmFsXCIsXCJnb29nbGVfdGFnX2RhdGFcIixcIl9fb3BlbkN1c3RvbWVyU2VydmljZVwiLFwiX19USEdfQ0hBVEJPVF9DT05URU5UX19cIixcIl9fVEhHX0NIQVRCT1RfR0VUX1NJVEVfU0VTU0lPTl9JRF9fXCIsXCJfX1RIR19DSEFUQk9UX1NJVEVfRVZFTlRTX19cIixcIl9fbG9hZFJjXCIsXCJfYXJyYXlMaWtlVG9BcnJheVwiLFwiX2FycmF5V2l0aEhvbGVzXCIsXCJfYXJyYXlXaXRob3V0SG9sZXNcIixcIl9kZWZpbmVQcm9wZXJ0eVwiLFwiX2l0ZXJhYmxlVG9BcnJheVwiLFwiX2l0ZXJhYmxlVG9BcnJheUxpbWl0XCIsXCJfbm9uSXRlcmFibGVSZXN0XCIsXCJfbm9uSXRlcmFibGVTcHJlYWRcIixcIm93bktleXNcIixcIl9vYmplY3RTcHJlYWQyXCIsXCJfc2xpY2VkVG9BcnJheVwiLFwiX3RvQ29uc3VtYWJsZUFycmF5XCIsXCJfdG9QcmltaXRpdmVcIixcIl90b1Byb3BlcnR5S2V5XCIsXCJfdHlwZW9mXCIsXCJfdW5zdXBwb3J0ZWRJdGVyYWJsZVRvQXJyYXlcIixcIkFGX1VSTF9TQ0hFTUVcIixcIlZBTElEX0FGX1VSTF9QQVJUU19MRU5HVEhcIl0sXCJuXCI6W10sXCJkXCI6W119Il0sWy0yNSwiLSJdLFstMzgsImksLTEsLTEsNDE5LDAsMSwwLDE1LDM2LDkwOCwtMSwwLDE4MTIsMTgxMiwyMTIxLDIxMjIiXSxbLTQwLCIzMyJdLFstNDksIi0iXSxbLTY0LCJbMCxcIm1hY09TXCIsW3tcImJcIjpcIkNocm9taXVtXCIsXCJ2XCI6XCIxNTNcIn0se1wiYlwiOlwiTm90X0EgQnJhbmRcIixcInZcIjpcIjhcIn1dXSJdLFstNjUsIi0iXSxbImJuY2giLDY1XSxbLTEwLCItIl0sWy0yMCwiLSJdLFstMjEsIi0iXSxbLTQ4LCJbXCItXCIsXCItXCIsXCItXCIsXCItXCIsXCItXCJdIl0sWy02MCwyMDhdLFsiZGRiIiwiMCwxOCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDEsMCwwLDAsMSwwLDAsMCwwLDEsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMSwyMCwwLDQsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwIl0sWyJjYiIsIjAsMCwwLDAsMCwwLDAsMSwwLDEsMCwwLDQsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwxLDEsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAiXV0%3D&dep=0&pre=0&sdd=&cri=faDMVnBzF7&pto=2125&ver=66&gac=-&mei=&ap=&fe=1&duid=1.1789893732.WpkfUZStfrEr72B2&suid=1.1789893732.HbTbPSVWPAZr6D3C&tuid=1.1789893732.WnOzE31Z0ucshlNn&sid=1.1789893732248.m0mFTuVYawLXw1Ya&fbc=-&gtm=WyJPbmVUcnVzdExvYWRlZCIsIk9wdGFub25Mb2FkZWQiXQ%3D%3D&it=83%2C1861%2C153&fbcl=-&gacl=-&gacsd=-&rtic=-&rtict=-&bgc=-&spa=1&urid=0&ab=&sck=-&io=aGA2Oi1qbXp4Nn5%2FZlR4ZH55aG4%3D",
+      "type": "script",
+      "ipinfo": {
+        "domain": "obseu.seroundprince.com",
+        "ip": "54.247.42.129",
+        "hostname": "ec2-54-247-42-129.eu-west-1.compute.amazonaws.com",
+        "city": "Dublin",
+        "region": "Leinster",
+        "country": "IE",
+        "loc": "53.3331,-6.2489",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Europe/Dublin"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "54.247.42.129",
+          "prefix": "54.247.42.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.dwin1.com/22450.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.dwin1.com",
+        "ip": "52.85.128.82",
+        "hostname": "server-52-85-128-82.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://ade.googlesyndication.com/ddm/activity/src=4507112;type=pages;cat=page-hp;rcb=15;ord=630232119098;npa=1;u1=undefined;u2=undefined;u5=KRW;u9=ko_KR;u10=undefined;u12=https%3A%2F%2Fwww.myprotein.co.kr%2F;u13=undefined;uaa=x86;uab=64;uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0;uamb=0;uam=;uap=macOS;uapv=10_15_7;uaw=0;pscdl=denied;frm=0;user_data_mode=a;_tu=KFA;gtm=45fe69g1v9181660477z89189195849za20gzb9189195849zd9189195849xeaxf1;gcs=G100;gcd=13q3q3q3q5l1;dma_cps=-;dma=0;dc_fmt=8;tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153;epver=2;~oref=https%3A%2F%2Fwww.myprotein.co.kr?",
+      "type": "image",
+      "ipinfo": {
+        "domain": "ade.googlesyndication.com",
+        "ip": "142.250.199.66",
+        "hostname": "hkg07s37-in-f2.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.852,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.66",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.thg.dev/agentic-commerce/shopping-assistant/v1/content?channel=myprotein-ko-kr",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.thg.dev",
+        "ip": "34.149.87.63",
+        "hostname": "63.87.149.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "34.149.87.63",
+          "prefix": "34.149.87.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "connect.facebook.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://bat.bing.com/bat.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "bat.bing.com",
+        "ip": "150.171.27.10",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "x-msedge-ref": "Ref A: C6F83A238AF9423C87065EA39B27E37D Ref B: SEL221051802011 Ref C: 2026-09-20T08:42:13Z",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.27.10",
+          "prefix": "150.171.27.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 55,
+          "location_count": 55,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.google.com/rmkt/collect/1000447777/?random=1789893733624&cv=11&fst=1789893733624&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9101308940za200zd9101308940xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227714~118897920~118897930~120213116~120385423~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.myprotein.co.kr%2F&rcb=6&frm=1&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=701109208.1789893734&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.155.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.155.119",
+          "prefix": "142.251.155.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/1000447777/?random=1789893733624&cv=11&fst=1789891200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1v9101308940za200zd9101308940xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117227714~118897920~118897930~120213116~120385423~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.myprotein.co.kr%2F&rcb=6&frm=1&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=701109208.1789893734&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3DM0wMk1HDi2oyTI7mHUKDht8iBnCx0P-KbziKKAULjm95f2QuTS8By3rVh-MsWERfO8ljPBEsRr0_Ib2O_8guEii7pohLHO0s5-nqWmnepgNhgf3fQfExyRTyS_fdl30FxmiLIbsBGzmDdzxH5oGW1SbMoNydf2gO8ngp81Dphl-CwnfYCLrt_LruDK-5RSsmgnXi-p6hUcqWsLPmnKVSr5MeX0Yn2Y_F4t59kjHH7-zoMm-YB2e7F0I09PP5_939L15MXbnmsOdTUJ9uV5&random=4237748925&rmt_tld=1&ipr=y",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.197.131",
+        "hostname": "nchkga-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.877,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.131",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn-eu.dynamicyield.com/api/9882081/api_dynamic.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn-eu.dynamicyield.com",
+        "ip": "18.67.51.12",
+        "hostname": "server-18-67-51-12.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

@@ -2,9 +2,9 @@
   "url": "https://skype.com",
   "canonicalURL": "https://teams.live.com/free",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:53:04.366Z",
+  "timestamp": "2026-09-20T05:21:20.114Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,26 +13,26 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 38,
   "uniqueDomains": 9,
   "test_results": {
     "domestic": {
-      "cloud": 4,
+      "cloud": 3,
       "direct": 0
     },
     "foreign": {
-      "cloud": 5,
+      "cloud": 6,
       "direct": 0
     }
   },
@@ -42,30 +42,33 @@
       "type": "document",
       "ipinfo": {
         "domain": "skype.com",
-        "ip": "20.112.250.133",
-        "city": "Des Moines",
-        "region": "Iowa",
-        "country": "US",
-        "loc": "41.6005,-93.6091",
+        "ip": "20.76.201.171",
+        "city": "Amsterdam",
+        "region": "North Holland",
+        "country": "NL",
+        "loc": "52.3740,4.8897",
         "org": "AS8075 Microsoft Corporation",
-        "timezone": "America/Chicago"
+        "timezone": "Europe/Amsterdam"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 161.439,
+        "rtt": 225.267,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "20.112.250.133",
-          "prefix": "20.112.250.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
+          "source": "laces api (direct)",
+          "queried_ip": "20.76.201.171",
+          "prefix": "20.76.201.0/24",
+          "anycast": true,
+          "confidence": "low_confidence",
+          "partial": false,
+          "asns": [
+            8075
+          ],
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
+          "site_count": 2,
+          "location_count": 1
         }
       }
     },
@@ -74,7 +77,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.skype.com",
-        "ip": "52.123.129.14",
+        "ip": "52.123.128.14",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -84,13 +87,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: F57D38116E3B4533A8E5133BF27EE640 Ref B: SEL221051801021 Ref C: 2026-09-20T00:52:52Z",
+        "x-msedge-ref": "Ref A: 7FEC606CCA6E438AB78F93CC5D056E21 Ref B: SEL221051805025 Ref C: 2026-09-20T05:21:10Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "52.123.129.14",
-          "prefix": "52.123.129.0/24",
+          "queried_ip": "52.123.128.14",
+          "prefix": "52.123.128.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -100,8 +103,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 55,
-          "location_count": 55,
+          "site_count": 54,
+          "location_count": 54,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -127,11 +130,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 3836CFD748E543A1A30A983B290704FD Ref B: SEL221051801029 Ref C: 2026-09-20T00:52:52Z",
+        "x-msedge-ref": "Ref A: 0653DA39C08E4D3B9564B39F0C78BC12 Ref B: SEL221051803033 Ref C: 2026-09-20T05:21:10Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "52.123.129.14",
           "prefix": "52.123.129.0/24",
           "anycast": true,
@@ -160,7 +163,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "wcpstatic.microsoft.com",
-        "ip": "150.171.110.133",
+        "ip": "150.171.110.135",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -170,13 +173,13 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260920T005252Z-1764d94df46ggsxdhC1SELxzf00000000vx000000000rtwg",
+        "x-azure-ref": "20260920T052110Z-15559d97d99hb9gdhC1SELvhvc0000002wrg00000000drzu",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "150.171.110.133",
+          "queried_ip": "150.171.110.135",
           "prefix": "150.171.110.0/24",
           "anycast": true,
           "confidence": "confident",
@@ -193,11 +196,11 @@
       }
     },
     {
-      "originalUrl": "https://tflteams.public.onecdn.static.microsoft/evergreen-assets/gather/videos/from_skype/hero-video-placeholder_4544x2566.webp",
+      "originalUrl": "https://tflteams.public.onecdn.static.microsoft/evergreen-assets/icons/Teams_Logo_v2025_80x80.png",
       "type": "image",
       "ipinfo": {
         "domain": "tflteams.public.onecdn.static.microsoft",
-        "ip": "104.18.19.203",
+        "ip": "104.18.18.203",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -208,8 +211,30 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd996cfbe640b-ICN",
-        "detection_method": "header"
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.18.18.203",
+          "prefix": "104.18.18.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 72,
+          "location_count": 72,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
       }
     },
     {
@@ -217,15 +242,32 @@
       "type": "document",
       "ipinfo": {
         "domain": "login.microsoftonline.com",
-        "ip": "20.190.148.167",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
+        "ip": "20.190.163.18",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
         "org": "AS8075 Microsoft Corporation",
-        "timezone": "Asia/Seoul"
+        "timezone": "Asia/Singapore"
       },
-      "category": "domestic/cloud"
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 70.637,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "20.190.163.18",
+          "prefix": "20.190.163.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
     },
     {
       "originalUrl": "https://www.clarity.ms/tag/o0kztukq0k",
@@ -242,7 +284,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 71.855,
+        "rtt": 70.45,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -260,11 +302,11 @@
       }
     },
     {
-      "originalUrl": "https://login.live.com/oauth20_authorize.srf?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&scope=openid+profile&redirect_uri=https%3a%2f%2fteams.live.com%2fv2%2fauth&response_type=token&prompt=none&uaid=15acd43457d34c4c81b790702f473d60&msproxy=1&issuer=mso&tenant=consumers&ui_locales=ko-KR&epctrc=oTMagKmngaTexq84l03xv69LNUCkoIh%2bY5JMl4FdGS8%3d4%3a1%3aCANARY%3aGDoohOR1V5NyC%2bz9lgVBU65EYoxPSSYxepiVjfX9SZU%3d&epct=PBgABDgEAAAA9VeaV3ywaSLp1O3c4_Et5RXZvU3RzQXJ0aWZhY3RzCAAAAAAAT4XWlRtmpDOS93Y8s3tG039BNZw3-N9_NgasWcEsjsn7kPb-eEUcVn9udwZYqjxjtlgy3363017HEHz1F26i5OhZEgiQfcpVmxgaDirJJ7m9rYhYdI8gkjzKPvCOUuE1ASssjy6xxWyJ9EL1CytC287WwDwmRJfLngH96VU897LF3i64IuRtNN2QtCdwPFLNsfWCQ_6H7omsoa10aIit9Z7Ma7XYB3HaXZvLv5MX7ZeH-D11a2gghHSog90V5oQkr8SEWdrZDbviyHhWdsIv-YyFD1QKgy8vEPr2sFI8ZCINMrXv-WpUlM0C_6ojCAiWnomMa_b18W1yOvM0yGMeLCwcFemtj2ienJqqS19dqYPc9WKidvz55_TpiL1JOg6NDs7NjXPSMoVXuBdk9FNUYGx4aE-JDfzF3qTHXtaYu29oC3wjlPGDYofCOJpK7xfFL28QqiMv1IceeZON6EW26_1D92cAYJfHoEaW2OqU9yS_o520h1H7MbjJOf6D9gM7S9oQCT9npJz19U7rImgCQ3Th9nXPbKxSkOz80eUo06lodH7Ts_3j8lIjjIDWAdzO4PbDCBJ8Xe_c36ig_FLdnOHbgI1QpjXoGIZ03QRBes6oKg58yaXQJZt6IxeCsbOSJgVibMDpfFtmTXBzywnNOrLE1vhkCKqS7XXjSb1O0V9TKtJXO1H8ansx1dcb8yzRyh9yJTHahO-aG4yWh7P0pH9HhyB30m0PIpjMKp2hMcrGMkSDn710LZh7bExszWNbIAA&jshs=0",
+      "originalUrl": "https://login.live.com/oauth20_authorize.srf?client_id=4b3e8f46-56d3-427f-b1e2-d239b2ea6bca&scope=openid+profile&redirect_uri=https%3a%2f%2fteams.live.com%2fv2%2fauth&response_type=token&prompt=none&uaid=983f2ea91a3f4f68b984b4f0bfa653f5&msproxy=1&issuer=mso&tenant=consumers&ui_locales=ko-KR&epctrc=sCiQkJ3J4T9UOUMNnNTnzQCGqafpan4SA%2fBP%2fo5S3Lw%3d4%3a1%3aCANARY%3a5%2br5dfSNZMRLFK3oo6tWaDHwn57pKgBXuCTmNB9YXWU%3d&epct=PBgABDgEAAAA9VeaV3ywaSLp1O3c4_Et5RXZvU3RzQXJ0aWZhY3RzCAAAAAAANBKuCUe1ZhAm7EwdosItxK5cs-IjfCKu1W9sjtIbzGFyYYkNu3S8ckCPEiSlDZA6M8WQKVJJdQInA18FgAbqZQjPyWmSxNWNYdgX6V-GBANi6a7C_ENpmqd_XQ7C57pARXUNrSFkKubZRVQZsn4TcotPmxbP6s0t7CuBYb6gqWzPmr86wNjWcQESti10_UqmC2uiS78BWtaAyWpvJhG6Tz9Y0zoGDtUvorz6rmiROXHcruWjhodwro25u8gF4vMP7j8zZy0Ir0WyT40Hjz0ozcbOHcfHl8o_6lZuIToQr5QMy0eirHuv9mVAsxGda0V8Jpbms0BcnKRLaBOnzbG3uinjEHgazJb7aLo0Kw9b3-qbzpcVNc0uuBETmp5CLG0-6q4yF99R6TS-nyLU1hSMQSoVRgUfWsnEP-SNDc9F__VWZPLbhZAcwAbuRh0F0yLGQBwUkfxENVJwcHIY5i_-_sBOjMYn69qNkvHyWmYkxoux7Bpd5rcNriiYpW4DVnSeauXWuq885GwlxlJPrF-d--E8db181KNCzTDmqnV0-K5diZqyxzM8Dvd7RgFoGcoMZ_DEdtq1K3WspSu2dzwLm_hfoEKYV1zOoly1hCdZp8euVx0tnLRMrSTmvIj41ACIRjXmKLNZbbiTJTG-C3HJmY0jBRKkC9rwzOiL2zecinPNQljEWJYVI074Eu_XY325EPwbwUXe_yqrATHOdsnAELTpHDcdcUg_PUChHGl7Gp129J2aGs3aRej4oKFlc_lKIAA&jshs=0",
       "type": "document",
       "ipinfo": {
         "domain": "login.live.com",
-        "ip": "40.126.35.81",
+        "ip": "40.126.35.87",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -274,11 +316,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 78.287,
+        "rtt": 70.937,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "40.126.35.81",
+          "source": "laces api (cached)",
+          "queried_ip": "40.126.35.87",
           "prefix": "40.126.35.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -306,10 +348,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 178.022,
+        "rtt": 181.257,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "20.57.85.160",
           "prefix": "20.57.85.0/24",
           "anycast": false,

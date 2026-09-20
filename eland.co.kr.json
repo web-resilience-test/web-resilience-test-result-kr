@@ -1,0 +1,110 @@
+{
+  "url": "https://eland.co.kr",
+  "canonicalURL": "https://eland.co.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T06:41:23.103Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 127,
+  "uniqueDomains": 3,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://eland.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "eland.co.kr",
+        "ip": "15.165.202.92",
+        "hostname": "ec2-15-165-202-92.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://d15jkvm9y6e1os.cloudfront.net/images/web/Mgzn/1591_5/20260916134714639001.webp",
+      "type": "image",
+      "ipinfo": {
+        "domain": "d15jkvm9y6e1os.cloudfront.net",
+        "ip": "3.169.231.49",
+        "hostname": "server-3-169-231-49.lax54.r.cloudfront.net",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "US",
+        "loc": "34.0522,-118.2437",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-amz-cf-pop": "LAX54-P7",
+        "rtt": 145.477,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "3.169.231.49",
+          "prefix": "3.169.231.0/24",
+          "anycast": true,
+          "confidence": "low_confidence",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 1
+        }
+      }
+    },
+    {
+      "originalUrl": "https://item.elandrs.com/r/image/item/2026-08-18/e241c9d0-67c1-448c-97a0-98fa4f8ff06e.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "item.elandrs.com",
+        "ip": "18.244.60.61",
+        "hostname": "server-18-244-60-61.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "url": "https://karaku.co.kr",
+  "canonicalURL": "https://karaku.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:51:27.281Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 243,
+  "uniqueDomains": 24,
+  "test_results": {
+    "domestic": {
+      "cloud": 13,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 6,
+      "direct": 3
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://karaku.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "karaku.co.kr",
+        "ip": "23.227.38.65",
+        "hostname": "myshopify.com",
+        "city": "Ottawa",
+        "region": "Ontario",
+        "country": "CA",
+        "loc": "45.4166,-75.6904",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Toronto"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df963e291ade66-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-HPGFEEXP7S",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.40",
+        "hostname": "nchkga-ap-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 91.582,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.40",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.shopify.com/shopifycloud/shop-js/modules/v2/loader.init-shop-cart-sync.ko.esm.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.shopify.com",
+        "ip": "23.227.39.200",
+        "city": "Ottawa",
+        "region": "Ontario",
+        "country": "CA",
+        "loc": "45.4166,-75.6904",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Toronto"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df963fbe7b7b6d-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://s.yimg.jp/images/listing/tool/cv/ytag.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "s.yimg.jp",
+        "ip": "124.83.190.124",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
+        "org": "AS24572 Yahoo Japan",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://bucket.useifsapp.com/posts/karaku_korea/3985692449259494643.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "bucket.useifsapp.com",
+        "ip": "172.67.152.147",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3df96422adb0725-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.67.152.147",
+          "prefix": "172.67.152.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://ifeed.bio/api/store/ping",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "ifeed.bio",
+        "ip": "172.67.208.41",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3df96441e70e2f6-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.67.208.41",
+          "prefix": "172.67.208.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 59,
+          "location_count": 59,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://shop.app/pay/hop?analytics_trace_id=93e1d3eb-d3c9-4f9d-969c-82b521cadf16&target_origin=https%3A%2F%2Fkaraku.co.kr&client_handle=karakukorea.myshopify.com",
+      "type": "document",
+      "ipinfo": {
+        "domain": "shop.app",
+        "ip": "23.227.39.20",
+        "city": "Ottawa",
+        "region": "Ontario",
+        "country": "CA",
+        "loc": "45.4166,-75.6904",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Toronto"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df9643bf4c30b6-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://otlp-http-production.shopifysvc.com/v1/metrics",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "otlp-http-production.shopifysvc.com",
+        "ip": "34.160.147.240",
+        "hostname": "240.147.160.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.160.147.240",
+          "prefix": "34.160.147.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://b99.yahoo.co.jp/pagead/conversion_async.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "b99.yahoo.co.jp",
+        "ip": "124.83.186.42",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
+        "org": "AS24572 Yahoo Japan",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://apm.yahoo.co.jp/c?yahoo_ydn_conv_io=_pXXCuVXO8tB5gcs6Aplcg..&yahoo_ydn_conv_label=UEM85ENYBEAJKR8BVE1127467&yahoo_ydn_conv_transaction_id=&r=1789894273.506114&ref=https%3A%2F%2Fkaraku.co.kr%2F&yahoo_ydn_conv_value=%3C%3Fphp+echo+%24userRevenueValue+%3F%3E&nc=0&ncr=0&_impl=ytag&brands=%22Chromium%22%3B+v%3D%22153.0.8010.12%22%2C+%22Not_A+Brand%22%3B+v%3D%228.0.0.0%22&platform=%22macOS%22&platform_version=%2210_15_7%22",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "apm.yahoo.co.jp",
+        "ip": "124.83.186.40",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
+        "org": "AS24572 Yahoo Japan",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn-2.helixo.co/bucks/bucks-modern%20-flags.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cdn-2.helixo.co",
+        "ip": "104.21.8.203",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3df96496d505de7-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.21.8.203",
+          "prefix": "104.21.8.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/rmkt/collect/11380678224/?random=1789894273219&cv=11&fst=1789894273219&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je69g1v9169005417za200zb9204484275zd9204484275xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fkaraku.co.kr%2F&rcb=2&frm=0&tiba=KARAKU%20%7C%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EB%B9%88%ED%8B%B0%EC%A7%80%20%26%20%EC%9B%8C%ED%81%AC%EC%9B%A8%EC%96%B4%20%EB%82%A8%EC%84%B1%20%ED%8C%A8%EC%85%98%20%E2%80%93%20Karaku%20KR&did=dN2ZkMj%2CdNTU0Yz&gdid=dN2ZkMj.dNTU0Yz&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1986848762.1789894273&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.153.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.153.119",
+          "prefix": "142.251.153.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-HPGFEEXP7S&gtm=45je69g1v9169005417za200zb9204484275zd9204484275xf1&_p=1789894271815&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dN2ZkMj.dNTU0Yz&ecid=951814409&_eu=AAAAAGAC&_prs=ok&cid=2090170596.1789894273&ec_mode=a&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789894273&sct=1&seg=0&dl=https%3A%2F%2Fkaraku.co.kr%2F&dt=KARAKU%20%7C%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EB%B9%88%ED%8B%B0%EC%A7%80%20%26%20%EC%9B%8C%ED%81%AC%EC%9B%A8%EC%96%B4%20%EB%82%A8%EC%84%B1%20%ED%8C%A8%EC%85%98%20%E2%80%93%20Karaku%20KR&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&_ee=1&tfd=3327",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.32.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 40.997,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.32.181",
+          "prefix": "216.239.32.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 9,
+          "location_count": 9
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-HPGFEEXP7S&cid=2090170596.1789894273&gtm=45je69g1v9169005417za200zb9204484275zd9204484275xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~117776795~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=1253145527",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.71.163",
+        "hostname": "nchkga-ab-in-f3.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 90.831,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.71.163",
+          "prefix": "142.250.71.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://dm.slim02.jp/tppa/v2/vs?adv_id=5000000244218781&cnropq=eyJ0YWdfaWQiOiJCNTdINkc4QkdSIiwibGFiZWwiOiIiLCJldmVudCI6IiIsInJlZiI6Imh0dHBzOi8va2FyYWt1LmNvLmtyLyIsInJlcV90eXBlIjoicmV0YXJnZXRpbmcifQ&evt=5&pid=5000000244218780&xci=",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "dm.slim02.jp",
+        "ip": "54.178.202.181",
+        "hostname": "ec2-54-178-202-181.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 37.594,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "54.178.202.181",
+          "prefix": "54.178.202.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "connect.facebook.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://analytics.bucks.helixo.co/api/analytics/currency-switch",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.bucks.helixo.co",
+        "ip": "172.67.157.215",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3df964c99118a60-NRT",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.67.157.215",
+          "prefix": "172.67.157.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://storage.googleapis.com/gsf-scripts/custom-pixels/karakukorea.js?shop=karakukorea.myshopify.com&_=1741255889",
+      "type": "script",
+      "ipinfo": {
+        "domain": "storage.googleapis.com",
+        "ip": "34.128.9.187",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS396982 Google LLC",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-PJVXS4J4W1&gtm=45Pe69g1v9204504346za200zb9204484275zd9204484275xf1&_p=1789894271815&gcs=G111&gcd=13t3t3t3t5l1&npa=0&dma=0&gdid=dYmNjMT&cid=2090170596.1789894273&excid=shp.ad06bef6-cfa5-41b0-b9e9-dea0cf50a950&frm=0&pscdl=noapi&rcb=15&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&dp=%2F&dt=KARAKU%20%7C%20%EC%95%84%EB%A9%94%EB%A6%AC%EC%B9%B8%20%EB%B9%88%ED%8B%B0%EC%A7%80%20%26%20%EC%9B%8C%ED%81%AC%EC%9B%A8%EC%96%B4%20%EB%82%A8%EC%84%B1%20%ED%8C%A8%EC%85%98%20%E2%80%93%20Karaku%20KR&dl=https%3A%2F%2Fkaraku.co.kr%2F&sid=1789894274&sct=1&seg=0&_tu=AAI&en=page_view&_fv=1&_ss=1&_ee=1&edid=dNzYwYj&ep.shopify_event_name=page_viewed&evnid=sh-be032f97-C828-47E1-B7F2-FAFDF82D2948&tfd=4095",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.merchant-center-analytics.goog",
+        "ip": "142.250.199.206",
+        "hostname": "nchkgb-am-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.166,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.206",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://shopify.privy.com/widget.js?shop=karakukorea.myshopify.com",
+      "type": "script",
+      "ipinfo": {
+        "domain": "shopify.privy.com",
+        "ip": "172.66.158.185",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.66.158.185",
+          "prefix": "172.66.158.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 68,
+          "location_count": 68,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://pixee.gropulse.com/js/active.js?shop=karakukorea.myshopify.com",
+      "type": "script",
+      "ipinfo": {
+        "domain": "pixee.gropulse.com",
+        "ip": "104.21.34.8",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.21.34.8",
+          "prefix": "104.21.34.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://mds.oceanpayment.com/assets/shopifylogo/visa,mastercard,maestro,jcb,american_express,diners_club,discover.js?shop=karakukorea.myshopify.com",
+      "type": "script",
+      "ipinfo": {
+        "domain": "mds.oceanpayment.com",
+        "ip": "47.238.178.179",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "47.238.178.179",
+          "prefix": "47.238.178.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://js.smile.io/v1/smile-shopify.js?shop=karakukorea.myshopify.com",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js.smile.io",
+        "ip": "3.170.221.111",
+        "hostname": "server-3-170-221-111.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

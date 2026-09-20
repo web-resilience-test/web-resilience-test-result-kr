@@ -2,9 +2,9 @@
   "url": "https://expedia.co.kr",
   "canonicalURL": "https://www.expedia.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:52:18.002Z",
+  "timestamp": "2026-09-20T06:19:32.688Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 76,
+  "requestCount": 82,
   "uniqueDomains": 12,
   "test_results": {
     "domestic": {
-      "cloud": 4,
-      "direct": 7
+      "cloud": 10,
+      "direct": 1
     },
     "foreign": {
       "cloud": 1,
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "expedia.co.kr",
-        "ip": "23.37.92.190",
-        "hostname": "a23-37-92-190.deploy.static.akamaitechnologies.com",
+        "ip": "23.37.92.135",
+        "hostname": "a23-37-92-135.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -53,11 +53,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 49.063,
+        "rtt": 40.354,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.37.92.190",
+          "queried_ip": "23.37.92.135",
           "prefix": "23.37.92.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -75,56 +75,55 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.expedia.co.kr",
-        "ip": "61.111.58.68",
-        "hostname": "61-111-58-68.kidc.net",
+        "ip": "23.35.218.10",
+        "hostname": "a23-35-218-10.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://forever.travel-assets.com/flex/flexmanager/mediaasset/1445686-0_2-BEX00141_BBM_GoingPlaces_CL_Landscapes_Provoste_0009_V02_QC_FNL.jpg?impolicy=fcrop&w=1920&h=390&q=mediumHigh",
       "type": "image",
       "ipinfo": {
         "domain": "forever.travel-assets.com",
-        "ip": "61.111.58.52",
-        "hostname": "61-111-58-52.kidc.net",
-        "city": "Incheon",
-        "region": "Incheon",
+        "ip": "23.35.218.24",
+        "hostname": "a23-35-218-24.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
         "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS3786 LG DACOM Corporation",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://a.travel-assets.com/egds/fonts/CentraNo2/CentraNo2-Book.woff2",
       "type": "font",
       "ipinfo": {
         "domain": "a.travel-assets.com",
-        "ip": "61.111.58.39",
-        "hostname": "61-111-58-39.kidc.net",
-        "city": "Hwaseong-si",
-        "region": "Gyeonggi-do",
+        "ip": "23.35.218.26",
+        "hostname": "a23-35-218-26.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
         "country": "KR",
-        "loc": "37.2068,126.8169",
-        "org": "AS3786 LG DACOM Corporation",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://c.travel-assets.com/lotus-home-ui/egds.31f6b589e5394030.js",
       "type": "script",
       "ipinfo": {
         "domain": "c.travel-assets.com",
-        "ip": "61.111.58.71",
-        "hostname": "61-111-58-71.kidc.net",
+        "ip": "121.254.136.128",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -135,36 +134,36 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://mediaim.expedia.com/sponsored_ad_creative/699e1259-b21d-5a97-835e-c133b032328f/1e157b6c-c121-452d-96a9-d096fc1e6571.jpg",
+      "originalUrl": "https://mediaim.expedia.com/sponsored_ad_creative/a1a4717a-fbb8-5c01-928b-522751c6ee01/dccd344e-66d8-490b-ab25-ec306c3ddbe7.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "mediaim.expedia.com",
-        "ip": "61.111.58.58",
-        "hostname": "61-111-58-58.kidc.net",
+        "ip": "23.35.218.19",
+        "hostname": "a23-35-218-19.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://www.uciservice.com/assets/meso-loaders/expads-blocked.js",
       "type": "script",
       "ipinfo": {
         "domain": "www.uciservice.com",
-        "ip": "61.111.58.67",
-        "hostname": "61-111-58-67.kidc.net",
+        "ip": "23.35.218.25",
+        "hostname": "a23-35-218-25.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://cdn.tagcommander.com/6035/tc_bex_prod.js",
@@ -186,16 +185,16 @@
       "type": "script",
       "ipinfo": {
         "domain": "b.travel-assets.com",
-        "ip": "61.111.58.65",
-        "hostname": "61-111-58-65.kidc.net",
+        "ip": "23.35.218.26",
+        "hostname": "a23-35-218-26.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
@@ -213,7 +212,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dd308f7a30e9fb-ICN",
+        "cf-ray": "a3deb8084e55ea1b-ICN",
         "detection_method": "header"
       }
     },
@@ -222,8 +221,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.uqd.io",
-        "ip": "3.170.221.42",
-        "hostname": "server-3-170-221-42.icn57.r.cloudfront.net",
+        "ip": "3.170.221.50",
+        "hostname": "server-3-170-221-50.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -238,7 +237,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "geolocation.onetrust.com",
-        "ip": "172.64.155.119",
+        "ip": "104.18.32.137",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -249,7 +248,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dd30905807f3ef-ICN",
+        "cf-ray": "a3deb808d84b3271-ICN",
         "detection_method": "header"
       }
     }

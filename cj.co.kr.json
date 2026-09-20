@@ -1,0 +1,269 @@
+{
+  "url": "https://cj.co.kr",
+  "canonicalURL": "https://www.cj.co.kr/kr/index",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:52:33.386Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 101,
+  "uniqueDomains": 10,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 4,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://cj.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "cj.co.kr",
+        "ip": "13.209.231.28",
+        "hostname": "ec2-13-209-231-28.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.cj.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.cj.co.kr",
+        "ip": "43.200.62.166",
+        "hostname": "ec2-43-200-62-166.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-4S6JE1VD3T",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.199.200",
+        "hostname": "nchkgb-am-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.067,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.200",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "connect.facebook.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-4S6JE1VD3T&gtm=45je69h0h2v888696630za200zd888696630xf1&_p=1789894343797&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=1994520469.1789894344&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789894344&sct=1&seg=0&dl=https%3A%2F%2Fwww.cj.co.kr%2Fkr%2Findex&dt=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&_ee=1&tfd=1320",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "142.250.71.174",
+        "hostname": "nchkga-ab-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 89.582,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.71.174",
+          "prefix": "142.250.71.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-4S6JE1VD3T&cid=1994520469.1789894344&gtm=45je69h0h2v888696630za200zd888696630xf1&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&z=1095412598",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.197.99",
+        "hostname": "nchkga-ai-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.666,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.99",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/analytics.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.199.206",
+        "hostname": "nchkgb-am-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 83.553,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.206",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.amplitude.com/libs/amplitude-8.17.0-min.gz.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.amplitude.com",
+        "ip": "13.225.117.63",
+        "hostname": "server-13-225-117-63.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/?id=761768147553675&ev=PageView&dl=https%3A%2F%2Fwww.cj.co.kr%2Fkr%2Findex&rl=&if=false&ts=1789894344915&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.2.1789894344911.612776113670779657&ler=empty&cdl=API_unavailable&pmd[title]=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9&pmd[locale]=ko&pmd[keywords]=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%2C%20%EC%94%A8%EC%A0%9C%EC%9D%B4%2C%20%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%2C%20%EC%94%A8%EC%A0%9C%EC%9D%B4%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%2C%20CJ%2C%20%ED%96%87%EB%B0%98%2C%20%EB%B9%84%EB%B9%84%EA%B3%A0%2C%20%EB%B0%B1%EC%84%A4%2C%20%EA%B3%A0%EB%A9%94%2C%20%EB%8D%94%EA%B1%B4%EA%B0%95%ED%95%9C&pmd[description]=CJ%EC%A0%9C%EC%9D%BC%EC%A0%9C%EB%8B%B9%EC%9D%80%2070%EB%85%84%20%EC%9D%B4%EC%83%81%EC%9D%98%20%EB%B3%80%ED%99%94%EC%99%80%20%EC%84%B1%EC%9E%A5%EC%9D%98%20DNA%EB%A5%BC%20%EB%B0%94%ED%83%95%EC%9C%BC%EB%A1%9C%2C%20%EA%B1%B4%EA%B0%95%C2%B7%EC%A6%90%EA%B1%B0%EC%9B%80%C2%B7%ED%8E%B8%EB%A6%AC%EB%A5%BC%20%EC%B0%BD%EC%A1%B0%ED%95%98%EB%8A%94%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%83%9D%ED%99%9C%EB%AC%B8%ED%99%94%EA%B8%B0%EC%97%85%EC%9E%85%EB%8B%88%EB%8B%A4.&imft=1&tz=540&it=1789894344838&coo=false&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=ep1&rqm=GET",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://rum.beusable.net/load/b200701e124559u075?url=https%3A%2F%2Fwww.cj.co.kr%2Fkr%2Findex",
+      "type": "script",
+      "ipinfo": {
+        "domain": "rum.beusable.net",
+        "ip": "3.39.1.207",
+        "hostname": "ec2-3-39-1-207.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

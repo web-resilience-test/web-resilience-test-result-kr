@@ -2,9 +2,9 @@
   "url": "https://lfmall.co.kr",
   "canonicalURL": "https://lfmall.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:59:50.995Z",
+  "timestamp": "2026-09-20T06:26:28.876Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,27 +13,27 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 20,
-  "uniqueDomains": 5,
+  "requestCount": 418,
+  "uniqueDomains": 41,
   "test_results": {
     "domestic": {
-      "cloud": 0,
-      "direct": 5
+      "cloud": 11,
+      "direct": 19
     },
     "foreign": {
-      "cloud": 0,
-      "direct": 0
+      "cloud": 8,
+      "direct": 3
     }
   },
   "domainDetails": [
@@ -72,12 +72,12 @@
       "type": "script",
       "ipinfo": {
         "domain": "img.lfmall.co.kr",
-        "ip": "117.52.22.174",
+        "ip": "211.110.8.66",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
         "loc": "37.4565,126.7052",
-        "org": "AS3786 LG DACOM Corporation",
+        "org": "AS9318 SK Broadband Co Ltd",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -111,6 +111,822 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-KJ96TGZ&gtm_auth=&gtm_preview=&gtm_cookies_win=x",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.197.232",
+        "hostname": "nchkga-ao-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.743,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.232",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://nimg.lfmall.co.kr/speed/src/https://img.lfmall.co.kr/file/WAS/apps/2024/pfront/logo/lf_logo_pc.svg/dims/format/avif;fallback=webp/optimize",
+      "type": "image",
+      "ipinfo": {
+        "domain": "nimg.lfmall.co.kr",
+        "ip": "1.234.26.66",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://jscdn.appier.net/aa.js?id=lfmall.co.kr",
+      "type": "script",
+      "ipinfo": {
+        "domain": "jscdn.appier.net",
+        "ip": "23.208.31.158",
+        "hostname": "a23-208-31-158.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.516,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.208.31.158",
+          "prefix": "23.208.31.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://t1.daumcdn.net/kas/static/kp.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.daumcdn.net",
+        "ip": "117.52.56.139",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://tags.creativecdn.com/PyOP92fMkBYTYUC3jPaJ.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "tags.creativecdn.com",
+        "ip": "89.222.116.11",
+        "hostname": "107935180.seo.cdn77.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://wcs.naver.net/wcslog.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "wcs.naver.net",
+        "ip": "125.209.254.13",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "connect.facebook.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://buzz-js.buzzvil.com/buzzvil-pixel-sdk/buzzvil-pixel-universal.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "buzz-js.buzzvil.com",
+        "ip": "18.67.51.90",
+        "hostname": "server-18-67-51-90.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://karrot-pixel.business.daangn.com/karrot-pixel.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "karrot-pixel.business.daangn.com",
+        "ip": "52.85.128.64",
+        "hostname": "server-52-85-128-64.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://sdk.saucelink.im/web/latest/saucelink.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "sdk.saucelink.im",
+        "ip": "13.225.134.20",
+        "hostname": "server-13-225-134-20.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=824949148.1789885577&dt=%EB%82%98%EB%A5%BC%20%EB%82%98%EB%8B%B5%EA%B2%8C%20LFmall.com&en=page_view&dl=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&scrsrc=www.googletagmanager.com&rnd=1586848313.1789885577&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v812562886za200zd812562886xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~120385422~120469145~120469153~120847435~121153387&tft=1789885576699&tfd=1325&fmt=8",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.151.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.151.119",
+          "prefix": "142.251.151.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://asia.creativecdn.com/tags/v2?type=json",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "asia.creativecdn.com",
+        "ip": "103.132.192.30",
+        "hostname": "ip-103-132-192-30.rtbhouse.net",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS138552 RTB HOUSE PTE. LTD.",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws/events?cee=no",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "2c-1138a2e087744ef69e662051fe044c44.ecs.us-west-1.on.aws",
+        "ip": "54.151.64.53",
+        "hostname": "ec2-54-151-64-53.us-west-1.compute.amazonaws.com",
+        "city": "San Jose",
+        "region": "California",
+        "country": "US",
+        "loc": "37.3394,-121.8950",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "54.151.64.53",
+          "prefix": "54.151.64.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/?id=1638196123170386&ev=PageView&dl=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&rl=&if=false&ts=1789885577145&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.2.1789885577141.829185468442177159&hmd=bfdfc2240f34b24df2085a3b&eid=ob3_plugin-set_c4710a617f6a0b290667f6ef8196be0b23ee298b09f75a60d53adf417c48c9d1&cs_est=true&ler=empty&cdl=API_unavailable&pmd[title]=%EB%82%98%EB%A5%BC%20%EB%82%98%EB%8B%B5%EA%B2%8C%20LFmall.com&pmd[locale]=ko&plt=517.8000000007451&iss=1&imft=1&tz=540&it=1789885576900&coo=false&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=ct2&expv2[6]=hf0&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=ep1&rqm=GET",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "ssl.pstatic.net",
+        "ip": "125.209.254.17",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://wcs.naver.com/b",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "wcs.naver.com",
+        "ip": "202.179.180.81",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://pixelfnt-us.dsp-api.moloco.com/v1/cm/init?source=MOLOCO_PIXEL?mlc_cm",
+      "type": "document",
+      "ipinfo": {
+        "domain": "pixelfnt-us.dsp-api.moloco.com",
+        "ip": "34.111.130.7",
+        "hostname": "7.130.111.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.111.130.7",
+          "prefix": "34.111.130.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/kas/static/third-party/cookie/ct2.html",
+      "type": "document",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "117.52.57.75",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://anylist.c.appier.net/r2?country=KR&enable_cookie_sync=1&url=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&referer=&ssid=OPOWauNNp2pxIg2S-Zagc6&sessidx=1&siteuid=r0SElUPA9jeemL7o&appier_utmz={}&_t=1789885577159&_tz=9&uc=KR&tv=2.8.0&eqid=-jTK-x-XoWAC99pC&site=lfmall.co.kr&fbp=fb.2.1789885577141.829185468442177159&lt=1785",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "anylist.c.appier.net",
+        "ip": "34.110.219.147",
+        "hostname": "147.219.110.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.110.219.147",
+          "prefix": "34.110.219.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://track.buzzvil.com/action/pb/buzzvil_pixel/?event_source_id=318144510164256&pixel_uuid=35c946ac-8ab8-4e5e-9955-c1e87e507eb8&action=PageView&type=event&sdk_type=universal&platform=web&page_url=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&referrer=&event_time=2026-09-20T06%3A26%3A17.236Z&_ts=1789885577236",
+      "type": "image",
+      "ipinfo": {
+        "domain": "track.buzzvil.com",
+        "ip": "57.182.65.242",
+        "hostname": "ec2-57-182-65-242.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "57.182.65.242",
+          "prefix": "57.182.65.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://collect.daangn.com/p/c?id=1770175238108158001&uid=km%7Cwww.lfmall.co.kr%7C1789885577237%7C30aec389-62b6-46a0-9ff6-c7bafc2a8031&et=ViewPage&rl=&l=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&ts=1789885577238&pl=%7B%7D&md=%7B%22sw%22%3A1280%2C%22sh%22%3A720%2C%22ec%22%3A0%2C%22it%22%3A1789885577236%2C%22v%22%3A%220.7.3%22%7D",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "collect.daangn.com",
+        "ip": "13.125.115.82",
+        "hostname": "ec2-13-125-115-82.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://karrot-dsp-conversion-event.daangn.com/configs/1770175238108158001.json",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "karrot-dsp-conversion-event.daangn.com",
+        "ip": "18.64.8.81",
+        "hostname": "server-18-64-8-81.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://api-user.sauceflex.com/sauce-link/v1/sdk/auth",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "api-user.sauceflex.com",
+        "ip": "43.202.11.196",
+        "hostname": "ec2-43-202-11-196.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-K1ZGHLS8PP&gtm=45je69g1v9115170610z8812562886za20gzb812562886zd812562886xf1&_p=1789885576034&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=2134664875.1789885577&frm=0&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~118131809~118897920~118897930~119793973~120213116~120385423~120469145~120469153~120847435~121153387&sid=1789885577&sct=1&seg=0&dl=https%3A%2F%2Fwww.lfmall.co.kr%2Fapp&dt=%EB%82%98%EB%A5%BC%20%EB%82%98%EB%8B%B5%EA%B2%8C%20LFmall.com&en=page_view&_fv=2&_nsi=1&_ss=2&_c=1&tfd=1921",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "142.250.198.46",
+        "hostname": "nchkga-ap-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.301,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.46",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-K1ZGHLS8PP&cid=2134664875.1789885577&gtm=45je69g1v9115170610z8812562886za20gzb812562886zd812562886xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938465~115938468~118131809~118897920~118897930~119793973~120213116~120385423~120469145~120469153~120847435~121153387&z=1036484192",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.197.131",
+        "hostname": "nchkga-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.162,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.131",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://t0.c.appier.net/web2/052a72eb0a1ad68/?action_id=ViewTwoPages_59de&path=%2Fapp%2Fexhibition%2Fmenu%2F501&cookie_uid=r0SElUPA9jeemL7o&api_version=1&escaped_qs=",
+      "type": "image",
+      "ipinfo": {
+        "domain": "t0.c.appier.net",
+        "ip": "34.84.138.147",
+        "hostname": "147.138.84.34.bc.googleusercontent.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS396982 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.635,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.84.138.147",
+          "prefix": "34.84.138.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://tag.lfmall.co.kr/setPwebPageView?id=501&pageId=002&timestamp=1789885577339",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "tag.lfmall.co.kr",
+        "ip": "210.206.126.11",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://s.c.appier.net/aprcm?a_i=%2Fr2%3Fcountry%3DKR%26enable_cookie_sync%3D1%26url%3Dhttps%253A%252F%252Fwww.lfmall.co.kr%252Fapp%26referer%3D%26ssid%3DOPOWauNNp2pxIg2S-Zagc6%26sessidx%3D1%26siteuid%3Dr0SElUPA9jeemL7o%26appier_utmz%3D%7B%7D%26_t%3D1789885577159%26_tz%3D9%26uc%3DKR%26tv%3D2.8.0%26eqid%3D-jTK-x-XoWAC99pC%26site%3Dlfmall.co.kr%26fbp%3Dfb.2.1789885577141.829185468442177159%26lt%3D1785&gdpr=0&gdpr_consent=",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "s.c.appier.net",
+        "ip": "172.104.86.216",
+        "hostname": "172-104-86-216.ip.linodeusercontent.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS63949 Akamai Connected Cloud",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/nac/2",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "nam.veta.naver.com",
+        "ip": "210.89.168.48",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://act.ds.kakao.com/match?d=106&uid=fea9868dd346c39af04314744f5e07ae",
+      "type": "image",
+      "ipinfo": {
+        "domain": "act.ds.kakao.com",
+        "ip": "121.53.95.98",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS18160 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cm-exchange.toast.com/bi/pixel?cm_pid=1107948209&puid=fea9868dd346c39af04314744f5e07ae&toast_push",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cm-exchange.toast.com",
+        "ip": "180.210.70.11",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45974 NHNCLOUD",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://sbm.nate.com/setCookie?venderKey=wider&userKey=fea9868dd346c39af04314744f5e07ae",
+      "type": "image",
+      "ipinfo": {
+        "domain": "sbm.nate.com",
+        "ip": "203.226.255.40",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4792 NATE Communications Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cm.igaw.io/v1/usersync?dsp_no=700&user_id=fea9868dd346c39af04314744f5e07ae",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cm.igaw.io",
+        "ip": "13.159.41.177",
+        "hostname": "ec2-13-159-41-177.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "13.159.41.177",
+          "prefix": "13.159.41.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://sync.bidence.net/dsp/9504ed4c5482b211d593135eb26474aa?dsp_uid=fea9868dd346c39af04314744f5e07ae",
+      "type": "image",
+      "ipinfo": {
+        "domain": "sync.bidence.net",
+        "ip": "34.149.9.208",
+        "hostname": "208.9.149.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.149.9.208",
+          "prefix": "34.149.9.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cookie.momento.dev/cookie/WIDER?buyeruid=fea9868dd346c39af04314744f5e07ae",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cookie.momento.dev",
+        "ip": "13.125.142.232",
+        "hostname": "ec2-13-125-142-232.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://sin46.creativecdn.com/info?tk=OLzVj_1RM5DOD9jvXc8xkPZSV6jzY2VKUs6jNY1yP3-rQfAzZUZk9DU2OhB-XB3YnZTA1FV8I_SYGfR1SkemQAA",
+      "type": "image",
+      "ipinfo": {
+        "domain": "sin46.creativecdn.com",
+        "ip": "103.132.192.110",
+        "hostname": "ip-103-132-192-110.rtbhouse.net",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS138552 RTB HOUSE PTE. LTD.",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/direct"
     }
   ]
 }

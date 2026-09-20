@@ -2,9 +2,9 @@
   "url": "https://bucheon.go.kr",
   "canonicalURL": "https://bucheon.go.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:43:33.499Z",
+  "timestamp": "2026-09-20T06:10:08.715Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 183,
   "uniqueDomains": 5,
@@ -53,7 +53,7 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://chat.makebot.ai/plugin?key=agr054kfa&t=1789868608955",
+      "originalUrl": "https://chat.makebot.ai/plugin?key=agr054kfa&t=1789884598283",
       "type": "script",
       "ipinfo": {
         "domain": "chat.makebot.ai",
@@ -68,22 +68,7 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://tracer.bucheon.go.kr:8180/TRACERAPI/checkBotIp.do",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "tracer.bucheon.go.kr",
-        "ip": "27.101.105.95",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS17841 NATIONAL INFORMATION RESOURCES SERVICE",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://partner.makebot.ai/chat/bucheon/site.css?v=1789868608",
+      "originalUrl": "https://partner.makebot.ai/chat/bucheon/site.css?v=1789884597",
       "type": "stylesheet",
       "ipinfo": {
         "domain": "partner.makebot.ai",
@@ -102,7 +87,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "code.jquery.com",
-        "ip": "151.101.1.155",
+        "ip": "151.101.65.155",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -113,9 +98,24 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "x-served-by": "cache-lga21980-LGA, cache-icn1450050-ICN",
+        "x-served-by": "cache-lga21980-LGA, cache-icn1450043-ICN",
         "detection_method": "header"
       }
+    },
+    {
+      "originalUrl": "https://tracer.bucheon.go.kr:8180/TRACERAPI/checkBotIp.do",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "tracer.bucheon.go.kr",
+        "ip": "27.101.105.95",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17841 NATIONAL INFORMATION RESOURCES SERVICE",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     }
   ]
 }

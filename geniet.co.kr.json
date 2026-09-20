@@ -1,0 +1,555 @@
+{
+  "url": "https://geniet.co.kr",
+  "canonicalURL": "https://geniet.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:44:32.402Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 192,
+  "uniqueDomains": 18,
+  "test_results": {
+    "domestic": {
+      "cloud": 7,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 7,
+      "direct": 2
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://geniet.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "geniet.co.kr",
+        "ip": "3.170.221.22",
+        "hostname": "server-3-170-221-22.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://astro-static.geniet.co.kr/0205f67501c849e6/_astro/global.CmRj5anO.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "astro-static.geniet.co.kr",
+        "ip": "210.94.120.200",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-BZNTY23VNN",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.168",
+        "hostname": "nchkgb-ak-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.664,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.168",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://images.geniet.io/0_admin/none/BANNER/1789113557868_0.png?w=1774&h=1166&format=webp",
+      "type": "image",
+      "ipinfo": {
+        "domain": "images.geniet.io",
+        "ip": "210.94.120.202",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://mf.geniet.co.kr/geniet/_astro/KeywordRankPc.mf6vgYAW.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "mf.geniet.co.kr",
+        "ip": "18.244.60.98",
+        "hostname": "server-18-244-60-98.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:751180910160:web:b77a1ae44d60d00ec00b55/webConfig",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebase.googleapis.com",
+        "ip": "172.217.119.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.119.4",
+          "prefix": "172.217.119.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://firebaseinstallations.googleapis.com/v1/projects/geniet-50fa8/installations",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebaseinstallations.googleapis.com",
+        "ip": "172.217.114.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.114.4",
+          "prefix": "172.217.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.geniet.io/v3/diet/top-search",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.geniet.io",
+        "ip": "54.180.3.138",
+        "hostname": "ec2-54-180-3-138.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789893869143&cv=11&tid=G-BZNTY23VNN&fst=1789893869143&fmt=8&en=session_start&gtm=45je69g1v9210065001za200zd9210065001xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fgeniet.co.kr%2F&gacid=923665930.1789893869&frm=0&tiba=%EC%A7%80%EB%8B%88%EC%96%B4%ED%8A%B8%20Geniet%20%7C%20%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%20%EC%8B%9D%EB%8B%A8%20%C2%B7%20%EC%9A%B4%EB%8F%99%20%C2%B7%20%ED%9B%84%EA%B8%B0%20%C2%B7%20%EB%B3%B4%EC%A1%B0%EC%A0%9C%EA%B9%8C%EC%A7%80%20%ED%95%9C%EB%88%88&gtm_ee=1&npa=0&pscdl=noapi&auid=425361872.1789893869&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=9",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.156.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.156.119",
+          "prefix": "142.251.156.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-BZNTY23VNN&gtm=45je69g1v9210065001za200zd9210065001xf1&_p=1789893868524&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=923665930.1789893869&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789893869&sct=1&seg=0&dl=https%3A%2F%2Fgeniet.co.kr%2F&dt=%EC%A7%80%EB%8B%88%EC%96%B4%ED%8A%B8%20Geniet%20%7C%20%EB%8B%A4%EC%9D%B4%EC%96%B4%ED%8A%B8%20%EC%8B%9D%EB%8B%A8%20%C2%B7%20%EC%9A%B4%EB%8F%99%20%C2%B7%20%ED%9B%84%EA%B8%B0%20%C2%B7%20%EB%B3%B4%EC%A1%B0%EC%A0%9C%EA%B9%8C%EC%A7%80%20%ED%95%9C%EB%88%88%EC%97%90&en=page_view&_fv=1&_nsi=1&_ss=2&_ee=1&tfd=871",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.32.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 41.396,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.32.181",
+          "prefix": "216.239.32.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 9,
+          "location_count": 9
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-BZNTY23VNN&cid=923665930.1789893869&gtm=45je69g1v9210065001za200zd9210065001xf1&rcb=9&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=326247012",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.35",
+        "hostname": "nchkga-ap-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.238,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.35",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://fundingchoicesmessages.google.com/i/ca-pub-7363437477207396?href=https%3A%2F%2Fgeniet.co.kr&ers=2",
+      "type": "script",
+      "ipinfo": {
+        "domain": "fundingchoicesmessages.google.com",
+        "ip": "142.250.197.78",
+        "hostname": "nchkga-ah-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 79.04,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.78",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://trace.popin.cc/ju/win?tn=c92aad1999f497c1a6c2ff886123e07c&trackingid=dfdb35cf8b2206f67269c7a35481c54a&acid=1066&data=jg2a_wswr8w1e-gc4ZTIcIS04gZ8sm9dZWPVw4v6b2Mlczqs1XugYIin2UVVLyZiRzgO6HoqSxgqoPxEOVtSMOwOFSPyI_rYopboT2jqtADCpUbGwuMZhKQvnnBthFPfbdwNps1Y38XekxiCOGGXuLT26PgdYFV9lfMXGRy2ySDzOKGaVYt96tAHZvav78k4mCLI7FZl_iPssmhdbYwSQYSpG3h9vH77cn4vI3Son09EyW9Uav608ZbQpyc7THu_sa6K5ynBT8fLmaKJtYGzJtocT_GJWO12_YQynRqQmO8V5vpw9rvfLcXZJRz8d1t17fTQKjiXN1JDf1DqfGzHAAfIdWloQa_RwiP-phFetk36qbYXEDBeMhN0MolD7ZRk8TDho1F1lsHtUaH93Ln8BA8E-ykXFvAgUR8BRfuuQs2-GEITa9RDiet_aXS-LkTTC3A7dmu4ag_q-4NkUqE4GtEJ87G98qjMM33gwY77IoI4uBeEeysNtT__ChgJxK_gtNaifcaqRdrsmGU2S2Mt4EVzzIicCfLHH9FSfzRdva2uFu-Kb7U5NOPDMDhtqR4msQ3dAzph2_JPoPz9gsA_OUuIv1pStV6Qr4afacQWeXN8oKNnc4-mJL79mh6D8AhcG7bdQgHTA6o8Uaq81xhX5DWcKXJCXq2ZPST5kWRlfSiWK1BA4bOwoq9KjnawmZUHjAD3ngPbhwmYB5J6zB5l1XJUboR3FcEMIwQGBJmVwKGij71CfYfAHwIsiU98S6HWI3QXif6iwWL1HMhANK_qV6TGRMLB0m1eelu1MV--CVTKDxFWL7H5x-L1h7SsZUqnRgMPcbFf-ta-k91lPKZmIjVVJeZZ15mj0r2gwf46Vx23YgRxbnAr3AgkyD84t4n9&ap=aq-c7QAK2XkF6a1XAAdFEzKCX-7tVOl4MsnVRQ&tid=106&c_sync=1",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "trace.popin.cc",
+        "ip": "35.213.89.133",
+        "hostname": "133.89.213.35.bc.googleusercontent.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS19527 Google LLC",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 37.748,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "35.213.89.133",
+          "prefix": "35.213.89.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://images.mediago.io/js/mediago/style/style_banner_6bba5b.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "images.mediago.io",
+        "ip": "34.111.60.239",
+        "hostname": "239.60.111.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 37.228,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.111.60.239",
+          "prefix": "34.111.60.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 64,
+          "location_count": 64
+        }
+      }
+    },
+    {
+      "originalUrl": "https://imageaws.popin.cc/ML/1a20d8a2b062d0bc65bd40e0b4120eff__scv1__300x175.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "imageaws.popin.cc",
+        "ip": "202.232.100.209",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
+        "org": "AS2497 Internet Initiative Japan Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.mediago.io/js/cookieSync.html?tn=c92aad1999f497c1a6c2ff886123e07c&c_sync=1",
+      "type": "document",
+      "ipinfo": {
+        "domain": "cdn.mediago.io",
+        "ip": "34.111.133.51",
+        "hostname": "51.133.111.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.111.133.51",
+          "prefix": "34.111.133.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://gtrace.mediago.io/ju/cs/eplist?tn=c92aad1999f497c1a6c2ff886123e07c&gdpr_consent=&gdpr=0&dm=https%253A%252F%252Fcdn.mediago.io&c_sync=1&mcb=mmgg_1789893870365_613",
+      "type": "script",
+      "ipinfo": {
+        "domain": "gtrace.mediago.io",
+        "ip": "35.208.249.213",
+        "hostname": "213.249.208.35.bc.googleusercontent.com",
+        "city": "Council Bluffs",
+        "region": "Iowa",
+        "country": "US",
+        "loc": "41.2619,-95.8608",
+        "org": "AS43515 Google Ireland Limited",
+        "timezone": "America/Chicago"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260917&st=env&sjk=864777785903407",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "ep1.adtrafficquality.google",
+        "ip": "142.250.198.194",
+        "hostname": "nchkgb-al-in-f2.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.481,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.194",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

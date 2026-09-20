@@ -2,9 +2,9 @@
   "url": "https://fashionplus.co.kr",
   "canonicalURL": "https://www.fashionplus.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:46:52.892Z",
+  "timestamp": "2026-09-20T06:13:24.623Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,27 +13,27 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 219,
-  "uniqueDomains": 35,
+  "requestCount": 214,
+  "uniqueDomains": 34,
   "test_results": {
     "domestic": {
-      "cloud": 12,
-      "direct": 13
+      "cloud": 13,
+      "direct": 12
     },
     "foreign": {
       "cloud": 7,
-      "direct": 3
+      "direct": 2
     }
   },
   "domainDetails": [
@@ -72,12 +72,12 @@
       "type": "script",
       "ipinfo": {
         "domain": "t1.daumcdn.net",
-        "ip": "211.231.116.149",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "117.52.56.13",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -87,8 +87,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "karrot-pixel.business.daangn.com",
-        "ip": "54.230.62.3",
-        "hostname": "server-54-230-62-3.icn80.r.cloudfront.net",
+        "ip": "54.230.62.78",
+        "hostname": "server-54-230-62-78.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -103,8 +103,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "scripts.blux.ai",
-        "ip": "52.85.128.92",
-        "hostname": "server-52-85-128-92.icn53.r.cloudfront.net",
+        "ip": "52.85.128.26",
+        "hostname": "server-52-85-128-26.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -124,7 +124,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "img.fashionplus.co.kr",
-        "ip": "182.162.14.217",
+        "ip": "114.108.158.218",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -139,8 +139,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.shoplive.cloud",
-        "ip": "18.244.60.53",
-        "hostname": "server-18-244-60-53.icn57.r.cloudfront.net",
+        "ip": "18.244.60.111",
+        "hostname": "server-18-244-60-111.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -166,7 +166,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dd28571e6ead77-ICN",
+        "cf-ray": "a3deaec6ad3a3115-ICN",
         "detection_method": "header"
       }
     },
@@ -175,7 +175,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "wcs.naver.net",
-        "ip": "61.247.197.71",
+        "ip": "125.209.254.13",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -190,23 +190,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.200",
+        "hostname": "nchkgb-al-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.322,
+        "rtt": 92.905,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.200",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -223,8 +223,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api.blux.ai",
-        "ip": "52.79.192.178",
-        "hostname": "ec2-52-79-192-178.ap-northeast-2.compute.amazonaws.com",
+        "ip": "54.180.23.231",
+        "hostname": "ec2-54-180-23-231.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -239,7 +239,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "ssl.pstatic.net",
-        "ip": "61.247.197.74",
+        "ip": "125.209.254.17",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -254,7 +254,7 @@
       "type": "ping",
       "ipinfo": {
         "domain": "wcs.naver.com",
-        "ip": "125.209.233.29",
+        "ip": "202.179.180.81",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -269,8 +269,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -285,18 +285,18 @@
       "type": "document",
       "ipinfo": {
         "domain": "t1.kakaocdn.net",
-        "ip": "211.56.99.153",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "117.52.56.140",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://collect.daangn.com/p/c?id=1720492426816600001&uid=km%7Cwww.fashionplus.co.kr%7C1789868798504%7Ca552a888-9dc9-4dfe-b22f-aef36e28f8bf&et=ViewPage&rl=&l=https%3A%2F%2Fwww.fashionplus.co.kr%2F&ts=1789868798656&pl=%7B%7D&fp=ab21273f7203ba28c87798644561abd6&md=%7B%22sw%22%3A1280%2C%22sh%22%3A720%2C%22ec%22%3A0%2C%22it%22%3A1789868798504%2C%22v%22%3A%220.5.0%22%7D",
+      "originalUrl": "https://collect.daangn.com/p/c?id=1720492426816600001&uid=km%7Cwww.fashionplus.co.kr%7C1789884791244%7Cd5410caf-da3e-412b-8f80-9c78211bc08f&et=ViewPage&rl=&l=https%3A%2F%2Fwww.fashionplus.co.kr%2F&ts=1789884791381&pl=%7B%7D&fp=ab21273f7203ba28c87798644561abd6&md=%7B%22sw%22%3A1280%2C%22sh%22%3A720%2C%22ec%22%3A0%2C%22it%22%3A1789884791244%2C%22v%22%3A%220.5.0%22%7D",
       "type": "ping",
       "ipinfo": {
         "domain": "collect.daangn.com",
@@ -316,7 +316,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "nam.veta.naver.com",
-        "ip": "61.247.192.232",
+        "ip": "61.247.192.227",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -327,77 +327,27 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws/events?cee=no",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws",
-        "ip": "52.14.15.254",
-        "hostname": "ec2-52-14-15-254.us-east-2.compute.amazonaws.com",
-        "city": "Columbus",
-        "region": "Ohio",
-        "country": "US",
-        "loc": "39.9612,-82.9988",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": null,
-        "detection_method": "rtt",
-        "rtt_error": "timeout",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "52.14.15.254",
-          "prefix": "52.14.15.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.facebook.com/tr/?id=1465461944329193&ev=PageView&dl=https%3A%2F%2Fwww.fashionplus.co.kr%2F&rl=&if=false&ts=1789868798854&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=20509&aems=0%3B0&fbp=fb.2.1789868798853.183592151723162642&eid=ob3_plugin-set_7a2cb5f08df1a85445d4226b4a21247c2df627cdc08f6e284871ddf5ea692c37&ler=empty&cdl=API_unavailable&tz=540&it=1789868798780&coo=false&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct3&expv2[6]=hf0&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=ep1&rqm=GET",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS32934 Facebook, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
       "originalUrl": "https://www.google-analytics.com/analytics.js",
       "type": "script",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.250.21.138",
-        "hostname": "zh-in-f138.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.46",
+        "hostname": "nchkga-ap-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37,
+        "rtt": 91.462,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.138",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.198.46",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -414,13 +364,63 @@
       "type": "script",
       "ipinfo": {
         "domain": "tags.creativecdn.com",
-        "ip": "89.222.116.11",
+        "ip": "89.222.116.12",
         "hostname": "107935180.seo.cdn77.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
         "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws/events?cee=no",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws",
+        "ip": "3.139.253.35",
+        "hostname": "ec2-3-139-253-35.us-east-2.compute.amazonaws.com",
+        "city": "Columbus",
+        "region": "Ohio",
+        "country": "US",
+        "loc": "39.9612,-82.9988",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "3.139.253.35",
+          "prefix": "3.139.253.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/?id=1465461944329193&ev=PageView&dl=https%3A%2F%2Fwww.fashionplus.co.kr%2F&rl=&if=false&ts=1789884792571&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=20509&aems=0%3B0&fbp=fb.2.1789884792569.363286873393941074&eid=ob3_plugin-set_6fb5fa5885c5153808966f746b45435e30e638ef894608a80f67f8e4ad1a765e&ler=empty&cdl=API_unavailable&plt=1616&tz=540&it=1789884792451&coo=false&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=mt0&expv2[46]=ot1&expv2[47]=ep1&rqm=GET",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -442,11 +442,79 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789868799954&cv=11&tid=G-D2FVEWGLYM&fst=1789868799954&fmt=8&en=page_view&gtm=45je69g1v9134046931z8890968425za20gzb890968425zd890968425xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.fashionplus.co.kr%2F&gacid=524139746.1789868800&frm=0&tiba=%ED%8C%A8%EC%85%98%ED%94%8C%EB%9F%AC%EC%8A%A4&npa=0&pscdl=noapi&auid=425440936.1789868800&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=10",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-GBBMYM6VZW&gtm=45je69g1v891072116z8890968425za20gzb890968425zd890968425xf1&_p=1789884791243&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGA&cid=133445260.1789884793&frm=0&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789884792&sct=1&seg=0&dl=https%3A%2F%2Fwww.fashionplus.co.kr%2F&dt=%ED%8C%A8%EC%85%98%ED%94%8C%EB%9F%AC%EC%8A%A4&en=page_view&_fv=2&_ss=1&tfd=2596",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.38.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 48.839,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.38.181",
+          "prefix": "216.239.38.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 15,
+          "location_count": 15
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-GBBMYM6VZW&cid=133445260.1789884793&gtm=45je69g1v891072116z8890968425za20gzb890968425zd890968425xf1&rcb=14&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&z=1682822896",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.163",
+        "hostname": "nchkgb-ak-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 93.129,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.163",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789884792916&cv=11&tid=G-D2FVEWGLYM&fst=1789884792916&fmt=8&en=page_view&gtm=45je69g1v9134046931z8890968425za20gzb890968425zd890968425xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118131809~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.fashionplus.co.kr%2F&gacid=133445260.1789884793&frm=0&tiba=%ED%8C%A8%EC%85%98%ED%94%8C%EB%9F%AC%EC%8A%A4&npa=0&pscdl=noapi&auid=1833634548.1789884793&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=15",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.155.119",
+        "ip": "142.251.157.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -460,8 +528,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.155.119",
-          "prefix": "142.251.155.0/24",
+          "queried_ip": "142.251.157.119",
+          "prefix": "142.251.157.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -484,95 +552,11 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-D2FVEWGLYM&gtm=45je69g1v9134046931z8890968425za20gzb890968425zd890968425xf1&_p=1789868798503&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=290450289&_eu=EAAAAGAC&_prs=ok&cid=524139746.1789868800&frm=0&ir=1&pscdl=noapi&rcb=10&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&sid=1789868799&sct=1&seg=0&dl=https%3A%2F%2Fwww.fashionplus.co.kr%2F&dt=%ED%8C%A8%EC%85%98%ED%94%8C%EB%9F%AC%EC%8A%A4&en=page_view&_fv=2&_ss=2&_c=1&ep.app_platform=web&ep.app_version=&ep.app_is_first=false&tfd=1858",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "analytics.google.com",
-        "ip": "216.239.32.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 42.565,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "216.239.32.181",
-          "prefix": "216.239.32.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 9,
-          "location_count": 9
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-D2FVEWGLYM&cid=524139746.1789868800&gtm=45je69g1v9134046931z8890968425za20gzb890968425zd890968425xf1&rcb=10&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&z=1129086006",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 35.216,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://sin46.creativecdn.com/info?tk=EXFMHVyFcJVBXRqAp4xgOLFXrWl14xmT3kD8-MWCT2cp-4tnJxeJHDRfs1i1TtIf1vI0k3j37GPE7WisMRdtWgA",
-      "type": "image",
-      "ipinfo": {
-        "domain": "sin46.creativecdn.com",
-        "ip": "103.132.192.110",
-        "hostname": "ip-103-132-192-110.rtbhouse.net",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
-        "org": "AS138552 RTB HOUSE PTE. LTD.",
-        "timezone": "Asia/Singapore"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://tg.socdm.com/aux/idsync?proto=criteo&dsp_uid=k-rWj_1yYL_7O3jjrerN0GpuyVBw3t-2q9gh9IFw",
+      "originalUrl": "https://tg.socdm.com/aux/idsync?proto=criteo&dsp_uid=k-G57W6_N332nIEeTpB-D9KbrmAo5g2Znu5Ze8yg",
       "type": "image",
       "ipinfo": {
         "domain": "tg.socdm.com",
-        "ip": "124.146.153.167",
+        "ip": "124.146.153.152",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -583,23 +567,23 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://ade.clmbtech.com/uid/sync.htm?pid=13079&cuid=k-FLsFciYL_7O3jjrerN0GpuyVBw3WZ1-RvMEHaw",
+      "originalUrl": "https://ade.clmbtech.com/uid/sync.htm?pid=13079&cuid=k-hFNiWvN332nIEeTpB-D9KbrmAo6ZATYsz6GOhQ",
       "type": "image",
       "ipinfo": {
         "domain": "ade.clmbtech.com",
-        "ip": "61.111.58.61",
-        "hostname": "61-111-58-61.kidc.net",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.202.97.25",
+        "hostname": "a23-202-97-25.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS3786 LG DACOM Corporation",
+        "loc": "36.1750,127.7764",
+        "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/direct"
+      "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://act.ds.kakao.com/match?d=101&uid=k-MkaCliYL_7O3jjrerN0GpuyVBw1zkPp2qdRe7A",
+      "originalUrl": "https://act.ds.kakao.com/match?d=101&uid=k-om7e1fN332nIEeTpB-D9KbrmAo47ULtqvdppQQ",
       "type": "image",
       "ipinfo": {
         "domain": "act.ds.kakao.com",
@@ -614,7 +598,7 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://idsync.rlcdn.com/362338.gif?partner_uid=k-tI2mhCYL_7O3jjrerN0GpuyVBw2UhspmwNr8lg",
+      "originalUrl": "https://idsync.rlcdn.com/362338.gif?partner_uid=k-uS8Ey_N332nIEeTpB-D9KbrmAo61vyxHLbc_6g",
       "type": "image",
       "ipinfo": {
         "domain": "idsync.rlcdn.com",
@@ -644,8 +628,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 63,
+          "location_count": 63,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -657,7 +641,7 @@
       }
     },
     {
-      "originalUrl": "https://cm.meba.kr/cm.mezzo/?buyerid=k-0h7KaiYL_7O3jjrerN0GpuyVBw1PWt_y4rJ4sA&partnerkey=criteo",
+      "originalUrl": "https://cm.meba.kr/cm.mezzo/?buyerid=k-CPE_q_N332nIEeTpB-D9KbrmAo7QvhFMw45JTg&partnerkey=criteo",
       "type": "image",
       "ipinfo": {
         "domain": "cm.meba.kr",
@@ -672,12 +656,12 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://sync.1rx.io/usersync/criteodsp/k-N4SBgSYL_7O3jjrerN0GpuyVBw0GTa9XAViAFQ",
+      "originalUrl": "https://sync.1rx.io/usersync/criteodsp/k-q5lryPN332nIEeTpB-D9KbrmAo5SWM5EoJfrGA",
       "type": "image",
       "ipinfo": {
         "domain": "sync.1rx.io",
-        "ip": "47.130.238.24",
-        "hostname": "ec2-47-130-238-24.ap-southeast-1.compute.amazonaws.com",
+        "ip": "47.131.106.68",
+        "hostname": "ec2-47-131-106-68.ap-southeast-1.compute.amazonaws.com",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -692,8 +676,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "47.130.238.24",
-          "prefix": "47.130.238.0/24",
+          "queried_ip": "47.131.106.68",
+          "prefix": "47.131.106.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -706,7 +690,7 @@
       }
     },
     {
-      "originalUrl": "https://c.bing.com/c.gif?Red3=CTOMS_pd&cbid=k-LU_erCYL_7O3jjrerN0GpuyVBw0fouKkKEZg-g",
+      "originalUrl": "https://c.bing.com/c.gif?Red3=CTOMS_pd&cbid=k-kEQw8fN332nIEeTpB-D9KbrmAo7fWnMRl1N8pg",
       "type": "image",
       "ipinfo": {
         "domain": "c.bing.com",
@@ -748,11 +732,11 @@
       }
     },
     {
-      "originalUrl": "https://sync.outbrain.com/cookie-sync?p=criteo&uid=k-8vwX9iYL_7O3jjrerN0GpuyVBw1a3t93nTWmXg&initiator=partner",
+      "originalUrl": "https://sync.outbrain.com/cookie-sync?p=criteo&uid=k-9PNstPN332nIEeTpB-D9KbrmAo7_LgSaHmauVA&initiator=partner",
       "type": "image",
       "ipinfo": {
         "domain": "sync.outbrain.com",
-        "ip": "172.179.182.7",
+        "ip": "172.179.183.99",
         "city": "Moses Lake",
         "region": "Washington",
         "country": "US",
@@ -762,12 +746,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 130.302,
+        "rtt": 135.898,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.179.182.7",
-          "prefix": "172.179.182.0/24",
+          "queried_ip": "172.179.183.99",
+          "prefix": "172.179.183.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -780,7 +764,7 @@
       }
     },
     {
-      "originalUrl": "https://cs.media.net/cksync.php?cs=3&type=crt&ovsid=k-WoWP5CYL_7O3jjrerN0GpuyVBw3ti6Xd5OiPZw",
+      "originalUrl": "https://cs.media.net/cksync.php?cs=3&type=crt&ovsid=k-EjObAPN332nIEeTpB-D9KbrmAo5MjJ_HdHantA",
       "type": "image",
       "ipinfo": {
         "domain": "cs.media.net",

@@ -1,0 +1,152 @@
+{
+  "url": "https://icons8.kr",
+  "canonicalURL": "https://icons8.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:08:40.548Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 49,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 3
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://icons8.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "icons8.kr",
+        "ip": "172.67.223.200",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3df00022e19dd46-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.67.223.200",
+          "prefix": "172.67.223.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://maxst.icons8.com/_nuxt/landings/Inter-Variable.BAftF_nW.woff2",
+      "type": "font",
+      "ipinfo": {
+        "domain": "maxst.icons8.com",
+        "ip": "178.249.213.2",
+        "hostname": "440044529.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://goodies.icons8.com/web/common/header/logo/logo-icons8.svg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "goodies.icons8.com",
+        "ip": "178.249.213.2",
+        "hostname": "440044529.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "type": "script",
+      "ipinfo": {
+        "domain": "static.cloudflareinsights.com",
+        "ip": "104.16.79.73",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df0006e8deea2b-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://crowdin-cdn.icons8.com/94e80c13abc08fc5900f727rzn3/content/common/en-US.json",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "crowdin-cdn.icons8.com",
+        "ip": "95.173.204.22",
+        "hostname": "361188685.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    }
+  ]
+}

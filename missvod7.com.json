@@ -2,9 +2,9 @@
   "url": "https://missvod7.com",
   "canonicalURL": "https://missvod7.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:14:55.289Z",
+  "timestamp": "2026-09-20T05:44:33.032Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 158,
   "uniqueDomains": 23,
@@ -67,11 +67,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf9785b8a67ef-SJC",
+        "cf-ray": "a3de8485bbf7e2f8-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.21.62.249",
           "prefix": "104.21.62.0/24",
           "anycast": true,
@@ -100,19 +100,18 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "cdn.jsdelivr.net",
-        "ip": "104.17.208.5",
+        "ip": "151.101.129.229",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
         "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
+        "org": "AS54113 Fastly, Inc.",
         "timezone": "America/Los_Angeles"
       },
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcf97af80db2de-ICN",
-        "x-served-by": "cache-fra-etou8220174-FRA, cache-itm1220024-ITM",
+        "x-served-by": "cache-fra-eddf8230104-FRA, cache-icn1450059-ICN",
         "detection_method": "header"
       }
     },
@@ -132,7 +131,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcf97afd3ce106-ICN",
+        "cf-ray": "a3de8487d9f30bf6-ICN",
         "detection_method": "header"
       }
     },
@@ -141,23 +140,23 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.251.24.95",
-        "hostname": "rj-in-f95.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.199.202",
+        "hostname": "nchkgb-am-in-f10.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.306,
+        "rtt": 86.8,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.24.95",
-          "prefix": "142.251.24.0/24",
+          "queried_ip": "142.250.199.202",
+          "prefix": "142.250.199.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -174,7 +173,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "code.iconify.design",
-        "ip": "172.67.71.159",
+        "ip": "104.26.13.204",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -184,14 +183,14 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf97d5d41b84e-LAX",
-        "x-served-by": "cache-bur-kbur8200118-BUR",
+        "cf-ray": "a3de84885e27d419-KIX",
+        "x-served-by": "cache-itm1220053-ITM",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.67.71.159",
-          "prefix": "172.67.71.0/24",
+          "queried_ip": "104.26.13.204",
+          "prefix": "104.26.13.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -201,8 +200,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -218,49 +217,6 @@
       "type": "image",
       "ipinfo": {
         "domain": "av1.wandoo1.com",
-        "ip": "172.67.143.219",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "cf-ray": "a3dcf97fdebec090-SJC",
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.67.143.219",
-          "prefix": "172.67.143.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://bn.wandoo1.com/app.css",
-      "type": "stylesheet",
-      "ipinfo": {
-        "domain": "bn.wandoo1.com",
         "ip": "104.21.63.57",
         "city": "San Francisco",
         "region": "California",
@@ -271,11 +227,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf98068a215d8-SJC",
+        "cf-ray": "a3de848a69eca0c5-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.21.63.57",
           "prefix": "104.21.63.0/24",
           "anycast": true,
@@ -300,11 +256,11 @@
       }
     },
     {
-      "originalUrl": "https://s10.histats.com/js15_as.js",
-      "type": "script",
+      "originalUrl": "https://bn.wandoo1.com/app.css",
+      "type": "stylesheet",
       "ipinfo": {
-        "domain": "s10.histats.com",
-        "ip": "104.20.8.131",
+        "domain": "bn.wandoo1.com",
+        "ip": "172.67.143.219",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -314,13 +270,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf9836b04fcd2-FUK",
+        "cf-ray": "a3de848aff7a0cd6-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "104.20.8.131",
-          "prefix": "104.20.8.0/24",
+          "queried_ip": "172.67.143.219",
+          "prefix": "172.67.143.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -330,8 +286,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 66,
-          "location_count": 66,
+          "site_count": 61,
+          "location_count": 61,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -343,12 +299,32 @@
       }
     },
     {
-      "originalUrl": "https://s4.histats.com/stats/0.php?4873173&@f16&@g1&@h1&@i1&@j1789866880657&@k0&@l1&@mmissav&@n0&@o1000&@q0&@r0&@s0&@tko-KR&@u1280&@b1:182159109&@b3:1789866881&@b4:js15_as.js&@b5:540&@a-_0.2.1&@vhttps%3A%2F%2Fmissvod8.com%2F&@w",
+      "originalUrl": "https://s10.histats.com/js15_as.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "s10.histats.com",
+        "ip": "172.66.129.60",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de848c792ff804-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://s4.histats.com/stats/0.php?4873173&@f16&@g1&@h1&@i1&@j1789883059109&@k0&@l1&@mmissav&@n0&@o1000&@q0&@r0&@s0&@tko-KR&@u1280&@b1:-75258357&@b3:1789883059&@b4:js15_as.js&@b5:540&@a-_0.2.1&@vhttps%3A%2F%2Fmissvod8.com%2F&@w",
       "type": "script",
       "ipinfo": {
         "domain": "s4.histats.com",
-        "ip": "149.56.240.127",
-        "hostname": "ns534295.ip-149-56-240.net",
+        "ip": "167.114.157.80",
+        "hostname": "ns513145.ip-167-114-157.net",
         "city": "Montréal",
         "region": "Quebec",
         "country": "CA",
@@ -373,7 +349,7 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf9911db2d7a4-LAX",
+        "cf-ray": "a3de84921f68fd45-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
@@ -402,11 +378,11 @@
       }
     },
     {
-      "originalUrl": "https://t.dtscout.com/idg/?su=51A01789866882900D26AD6E0D17263C",
+      "originalUrl": "https://t.dtscout.com/idg/?su=51A01789883062B56EB775AC2903EAC1",
       "type": "document",
       "ipinfo": {
         "domain": "t.dtscout.com",
-        "ip": "104.26.10.2",
+        "ip": "172.67.70.180",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -416,13 +392,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf995d8d52f3e-LAX",
+        "cf-ray": "a3de8497ff2348e5-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "104.26.10.2",
-          "prefix": "104.26.10.0/24",
+          "queried_ip": "172.67.70.180",
+          "prefix": "172.67.70.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -432,8 +408,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -449,7 +425,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.tynt.com",
-        "ip": "104.18.12.146",
+        "ip": "104.18.13.146",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -460,7 +436,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcf993dad73f26-ICN",
+        "cf-ray": "a3de849669dba2b5-ICN",
         "detection_method": "header"
       }
     },
@@ -469,7 +445,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "p.mrktmtrcs.net",
-        "ip": "104.26.14.100",
+        "ip": "172.67.70.156",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -479,13 +455,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf995df857e95-LAX",
+        "cf-ray": "a3de849808683c15-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.26.14.100",
-          "prefix": "104.26.14.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "172.67.70.156",
+          "prefix": "172.67.70.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -495,8 +471,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -508,7 +484,7 @@
       }
     },
     {
-      "originalUrl": "https://ic.tynt.com/b/p?id=wu!&lm=0&ts=1789866883203&dn=AFWU&iso=0&pu=https%3A%2F%2Fmissvod8.com%2F&ct=missav%20-%20%EB%AF%B8%EC%93%B0%EC%97%90%EC%9D%B4%EB%B8%8C%EC%9D%B4%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%82%AC%EC%9D%B4%ED%8A%B8&t=missav&chpv=10_15_7&chuav=Chromium%3Bv%3D153.0.8010.12%2C%20Not_A%20Brand%3Bv%3D8.0.0.0&chp=macOS&chmob=0&chua=Chromium%3Bv%3D153%2C%20Not_A%20Brand%3Bv%3D8",
+      "originalUrl": "https://ic.tynt.com/b/p?id=wu!&lm=0&ts=1789883060744&dn=AFWU&iso=0&pu=https%3A%2F%2Fmissvod8.com%2F&ct=missav%20-%20%EB%AF%B8%EC%93%B0%EC%97%90%EC%9D%B4%EB%B8%8C%EC%9D%B4%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%82%AC%EC%9D%B4%ED%8A%B8&t=missav&chpv=10_15_7&chuav=Chromium%3Bv%3D153.0.8010.12%2C%20Not_A%20Brand%3Bv%3D8.0.0.0&chp=macOS&chmob=0&chua=Chromium%3Bv%3D153%2C%20Not_A%20Brand%3Bv%3D8",
       "type": "image",
       "ipinfo": {
         "domain": "ic.tynt.com",
@@ -527,7 +503,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "de.tynt.com",
-        "ip": "72.28.123.108",
+        "ip": "72.28.123.105",
         "city": "Chicago",
         "region": "Illinois",
         "country": "US",
@@ -542,8 +518,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "tags.crwdcntrl.net",
-        "ip": "52.85.128.67",
-        "hostname": "server-52-85-128-67.icn53.r.cloudfront.net",
+        "ip": "52.85.128.93",
+        "hostname": "server-52-85-128-93.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -559,11 +535,11 @@
       }
     },
     {
-      "originalUrl": "https://t.dtscdn.com/widget/?d=51A01789866882900D26AD6E0D17263C&nid=300&p=2114454483&t=-540&s=1280x720x30&u=https%3A%2F%2Fmissvod8.com%2F&r=",
+      "originalUrl": "https://t.dtscdn.com/widget/?d=51A01789883062B56EB775AC2903EAC1&nid=300&p=2114454483&t=-540&s=1280x720x30&u=https%3A%2F%2Fmissvod8.com%2F&r=",
       "type": "script",
       "ipinfo": {
         "domain": "t.dtscdn.com",
-        "ip": "104.26.13.60",
+        "ip": "172.67.74.186",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -573,57 +549,34 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf99abe5fcb7a-LAX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.26.13.60",
-          "prefix": "104.26.13.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 60,
-          "location_count": 60,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de849b9d78d7e0-ICN",
+        "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://pixel.onaudience.com/?partner=137085098&mapped=51A01789866882900D26AD6E0D17263C",
+      "originalUrl": "https://pixel.onaudience.com/?partner=137085098&mapped=51A01789883062B56EB775AC2903EAC1",
       "type": "image",
       "ipinfo": {
         "domain": "pixel.onaudience.com",
-        "ip": "148.113.153.94",
-        "hostname": "ns5020952.ip-148-113-153.net",
-        "city": "Montréal",
-        "region": "Quebec",
-        "country": "CA",
-        "loc": "45.5088,-73.5878",
+        "ip": "37.187.82.52",
+        "hostname": "ns31746890.ip-37-187-82.eu",
+        "city": "Roubaix",
+        "region": "Hauts-de-France",
+        "country": "FR",
+        "loc": "50.6942,3.1746",
         "org": "AS16276 OVH SAS",
-        "timezone": "America/Toronto"
+        "timezone": "Europe/Paris"
       },
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://ps.eyeota.net/pixel?pid=c9gd671&t=gif&uid=IWx692qvM4Me3%2FuoCsj4KQ%3D%3D&us_privacy=&33random=1789866883952.1&cat=33across",
+      "originalUrl": "https://ps.eyeota.net/pixel?pid=c9gd671&t=gif&uid=4v0sNGqvcrdLgkQYCzWTNw%3D%3D&us_privacy=&33random=1789883063820.1&cat=33across",
       "type": "image",
       "ipinfo": {
         "domain": "ps.eyeota.net",
-        "ip": "35.72.103.83",
-        "hostname": "ec2-35-72-103-83.ap-northeast-1.compute.amazonaws.com",
+        "ip": "13.114.183.63",
+        "hostname": "ec2-13-114-183-63.ap-northeast-1.compute.amazonaws.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -638,8 +591,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "35.72.103.83",
-          "prefix": "35.72.103.0/24",
+          "queried_ip": "13.114.183.63",
+          "prefix": "13.114.183.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -652,12 +605,54 @@
       }
     },
     {
+      "originalUrl": "https://spl.zeotap.com/?zdid=1332&zcluid=2eed57c0182e4ba6",
+      "type": "image",
+      "ipinfo": {
+        "domain": "spl.zeotap.com",
+        "ip": "104.18.21.114",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.18.21.114",
+          "prefix": "104.18.21.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 70,
+          "location_count": 70,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
       "originalUrl": "https://d.turn.com/r/dd/id/L2NzaWQvMS9jaWQvMjg0NTA1NDYvdC8w/url/https://ps.eyeota.net/match?bid=1mpjpn0&turn_id=$!{TURN_UUID}&newuser=1&dc_rc=2&dc_mr=2&dc_orig=c9gd671&&referrer_pid=c9gd671",
       "type": "image",
       "ipinfo": {
         "domain": "d.turn.com",
-        "ip": "54.151.211.217",
-        "hostname": "ec2-54-151-211-217.ap-southeast-1.compute.amazonaws.com",
+        "ip": "13.228.129.108",
+        "hostname": "ec2-13-228-129-108.ap-southeast-1.compute.amazonaws.com",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -672,8 +667,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "54.151.211.217",
-          "prefix": "54.151.211.0/24",
+          "queried_ip": "13.228.129.108",
+          "prefix": "13.228.129.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -699,48 +694,6 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://spl.zeotap.com/?zdid=1332&zcluid=52fc096ce031254a",
-      "type": "image",
-      "ipinfo": {
-        "domain": "spl.zeotap.com",
-        "ip": "104.18.20.114",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "104.18.20.114",
-          "prefix": "104.18.20.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 72,
-          "location_count": 72,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
     }
   ]
 }

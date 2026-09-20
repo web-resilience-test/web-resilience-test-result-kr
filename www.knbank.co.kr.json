@@ -1,0 +1,71 @@
+{
+  "url": "https://www.knbank.co.kr/",
+  "canonicalURL": "https://www.knbank.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T06:47:47.548Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 4,
+  "uniqueDomains": 2,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.knbank.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.knbank.co.kr",
+        "ip": "210.124.238.1",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45368 KYONGNAMBANK",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://wait.knbank.co.kr/agents/web/surffy-agent_latest.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "wait.knbank.co.kr",
+        "ip": "210.124.238.20",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45368 KYONGNAMBANK",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

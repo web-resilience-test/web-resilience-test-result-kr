@@ -1,0 +1,234 @@
+{
+  "url": "https://yeoshin.co.kr",
+  "canonicalURL": "https://www.yeoshin.co.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:13:10.708Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 156,
+  "uniqueDomains": 9,
+  "test_results": {
+    "domestic": {
+      "cloud": 8,
+      "direct": 1
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://yeoshin.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "yeoshin.co.kr",
+        "ip": "43.201.228.216",
+        "hostname": "ec2-43-201-228-216.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.yeoshin.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.yeoshin.co.kr",
+        "ip": "43.201.228.216",
+        "hostname": "ec2-43-201-228-216.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://d3gurpvil0se70.cloudfront.net/upfiles/images/banner/IuH0tXP7ExQV3zKNV8OKkQFM2Zo.png?q=90&f=webp&w=1024",
+      "type": "image",
+      "ipinfo": {
+        "domain": "d3gurpvil0se70.cloudfront.net",
+        "ip": "52.84.167.136",
+        "hostname": "server-52-84-167-136.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://script.tapfiliate.com/tapfiliate.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "script.tapfiliate.com",
+        "ip": "52.85.128.23",
+        "hostname": "server-52-85-128-23.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/kakao_js_sdk/2.8.0/kakao.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "117.52.57.75",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://o4507495975026688.ingest.us.sentry.io/api/4507495978303488/envelope/?sentry_version=7&sentry_key=693376b17b8b1f1952a3c0ea10683461&sentry_client=sentry.javascript.nextjs%2F10.73.0",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "o4507495975026688.ingest.us.sentry.io",
+        "ip": "34.160.81.0",
+        "hostname": "0.81.160.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.160.81.0",
+          "prefix": "34.160.81.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 64,
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://websdk.appsflyer.com/?st=pba&",
+      "type": "script",
+      "ipinfo": {
+        "domain": "websdk.appsflyer.com",
+        "ip": "52.85.128.110",
+        "hostname": "server-52-85-128-110.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "rtt": 8.084,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "52.85.128.110",
+          "prefix": "52.85.128.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.channel.io/plugin/ch-plugin-web.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.channel.io",
+        "ip": "54.230.62.56",
+        "hostname": "server-54-230-62-56.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://api.yeoshin.co.kr/recommends/home/sales-events-by-much-orders?expand=false",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "api.yeoshin.co.kr",
+        "ip": "43.201.228.216",
+        "hostname": "ec2-43-201-228-216.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

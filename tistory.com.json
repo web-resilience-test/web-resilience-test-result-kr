@@ -2,9 +2,9 @@
   "url": "https://tistory.com",
   "canonicalURL": "https://tistory.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:43:44.585Z",
+  "timestamp": "2026-09-20T05:12:24.148Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 125,
   "uniqueDomains": 8,
   "test_results": {
     "domestic": {
-      "cloud": 1,
-      "direct": 7
+      "cloud": 0,
+      "direct": 8
     },
     "foreign": {
       "cloud": 0,
@@ -42,6 +42,21 @@
       "type": "document",
       "ipinfo": {
         "domain": "tistory.com",
+        "ip": "211.183.210.24",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS152199 Kakao Corp",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.tistory.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.tistory.com",
         "ip": "211.183.222.4",
         "city": "Seoul",
         "region": "Seoul",
@@ -53,11 +68,56 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.tistory.com/",
-      "type": "document",
+      "originalUrl": "https://img1.daumcdn.net/thumb/C100x65@2x.fwebp/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbkNy2z%2FdJMcagAgMnF%2FAAAAAAAAAAAAAAAAAAAAAHvA8CVzryvy65vgAcBK3LwWkKncNz_c7FrhXbQgMz_0%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D%252FvPK1fnXZeTYlSC89DzW5gqliIE%253D",
+      "type": "image",
       "ipinfo": {
-        "domain": "www.tistory.com",
-        "ip": "121.53.223.39",
+        "domain": "img1.daumcdn.net",
+        "ip": "121.254.136.73",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t1.daumcdn.net/tistory_admin/top_v2/heart.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "t1.daumcdn.net",
+        "ip": "117.52.57.204",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://t1.kakaocdn.net/tiara/js/v1/tiara-1.2.0.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.kakaocdn.net",
+        "ip": "117.52.57.204",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://aem-kakao-collector.onkakao.net/api/11896/envelope/?sentry_version=7&sentry_key=3b508d127ff84b9c8c34276b8c963ce8&sentry_client=sentry.javascript.nextjs%2F8.54.0",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "aem-kakao-collector.onkakao.net",
+        "ip": "203.133.191.55",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -68,77 +128,16 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://img1.daumcdn.net/thumb/C100x65@2x.fwebp/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F0M6kr%2FdJMcahZ6FTU%2FAAAAAAAAAAAAAAAAAAAAALPs3exiZEOGjo7e9ghEyORF5B0qbCdhJYjFEvDapxbw%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D4sqg1JCxymQw596yfbIfrjNH%252Bfw%253D",
-      "type": "image",
-      "ipinfo": {
-        "domain": "img1.daumcdn.net",
-        "ip": "23.53.228.35",
-        "hostname": "a23-53-228-35.deploy.static.akamaitechnologies.com",
-        "city": "Yeongdong",
-        "region": "North Chungcheong",
-        "country": "KR",
-        "loc": "36.1750,127.7764",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://t1.daumcdn.net/tistory_admin/top_v2/heart.png",
-      "type": "image",
-      "ipinfo": {
-        "domain": "t1.daumcdn.net",
-        "ip": "211.231.116.86",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://t1.kakaocdn.net/tiara/js/v1/tiara-1.2.0.min.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "t1.kakaocdn.net",
-        "ip": "211.231.116.33",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://aem-kakao-collector.onkakao.net/api/11896/envelope/?sentry_version=7&sentry_key=3b508d127ff84b9c8c34276b8c963ce8&sentry_client=sentry.javascript.nextjs%2F8.54.0",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "aem-kakao-collector.onkakao.net",
-        "ip": "211.183.212.21",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS152199 Kakao Corp",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://stat.tiara.tistory.com/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.0%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22user.tistory.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fwww.tistory.com%2F%22%2C%22title%22%3A%22%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC%22%2C%22section%22%3A%22%ED%99%88%22%2C%22page%22%3A%22%ED%99%88%22%2C%22kakao_app_key%22%3A%223e6ddd834b023f24221217e370daed18%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-BLB2Vdc06wKd_260920094343038%22%2C%22tsid%22%3A%22w-BLB2Vdc06wKd_260920094343038%22%2C%22uuid%22%3A%22w-9zQVzRQfB7jH_260920086591408%22%2C%22suid%22%3A%22w-9zQVzRQfB7jH_260920086591408%22%2C%22isuid%22%3A%22w-bpvhxd1jNfkX_260920883354104%22%2C%22client_timestamp%22%3A1789865023038%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC%20%ED%99%88%20%EC%A1%B0%ED%9A%8C%22%2C%22kind%22%3A%22%22%7D%7D",
+      "originalUrl": "https://stat.tiara.tistory.com/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.0%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22user.tistory.com%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fwww.tistory.com%2F%22%2C%22title%22%3A%22%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC%22%2C%22section%22%3A%22%ED%99%88%22%2C%22page%22%3A%22%ED%99%88%22%2C%22kakao_app_key%22%3A%223e6ddd834b023f24221217e370daed18%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-ef2j8o00teVu_260920141222955%22%2C%22tsid%22%3A%22w-ef2j8o00teVu_260920141222955%22%2C%22uuid%22%3A%22w-oR1nOi3LPlir_260920921925710%22%2C%22suid%22%3A%22w-oR1nOi3LPlir_260920921925710%22%2C%22isuid%22%3A%22w-Ncij1VBhFNcU_260920266718351%22%2C%22client_timestamp%22%3A1789881142955%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22%ED%8B%B0%EC%8A%A4%ED%86%A0%EB%A6%AC%20%ED%99%88%20%EC%A1%B0%ED%9A%8C%22%2C%22kind%22%3A%22%22%7D%7D",
       "type": "image",
       "ipinfo": {
         "domain": "stat.tiara.tistory.com",
-        "ip": "211.183.212.26",
+        "ip": "211.183.223.17",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS152199 Kakao Corp",
+        "org": "AS7625 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -148,11 +147,11 @@
       "type": "image",
       "ipinfo": {
         "domain": "tistory1.daumcdn.net",
-        "ip": "121.53.218.30",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "211.249.219.23",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "37.4565,126.7052",
         "org": "AS7625 Kakao Corp",
         "timezone": "Asia/Seoul"
       },

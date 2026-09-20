@@ -1,0 +1,267 @@
+{
+  "url": "https://www.kira.or.kr/",
+  "canonicalURL": "https://www.kira.or.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:43:18.490Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 139,
+  "uniqueDomains": 8,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 1
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.kira.or.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.kira.or.kr",
+        "ip": "210.178.36.123",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.rawgit.com",
+        "ip": "212.102.50.52",
+        "hostname": "212-102-50-52.bunnyinfra.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/innks/NanumSquareRound@master/nanumsquareround.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "151.101.1.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df8a9b0e41ea0d-ICN",
+        "x-served-by": "cache-fra-etou8220199-FRA, cache-nrt-rjtt7900065-NRT",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.youtube.com/embed/Nrx74u3-aIs?autoplay=1&mute=1&playsinline=1",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.youtube.com",
+        "ip": "142.251.154.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.4",
+          "prefix": "142.251.154.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "http://html5shiv.googlecode.com/svn/trunk/html5.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "html5shiv.googlecode.com",
+        "ip": "74.125.203.82",
+        "hostname": "th-in-f82.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Taipei"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 67.743,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "74.125.203.82",
+          "prefix": "74.125.203.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/js/th/9kbh97dqs7QZvQm1sGSfYDRDfRSTiumhhMhu1B8Eock.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.150.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.150.119",
+          "prefix": "142.251.150.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://rr1---sn-jhctq3g-bh2e.googlevideo.com/videoplayback?expire=1789915395&ei=o5yvas6ULNqZ1d8P64PegQs&ip=116.255.90.4&id=o-ACXmsOJlYzmLVTfgXeYYZELCDfGTcFjSEHuYkrT95s55&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=240&met=1789893795%2C&mh=-v&mm=31%2C29&mn=sn-jhctq3g-bh2e%2Csn-oguelnzz&ms=au%2Crdu&mv=m&mvi=1&pl=22&rms=au%2Cau&initcwndbps=2670500&spc=I-rgIRt08mDjDHbQt1vdCheQRgM32rcTS3kcI65uL0d98tYHTGiXWVaPdqpFXeIbe07kpbob&svpuc=1&ns=Pp5u9hJidL62SadSxZ37JQwY&sabr=1&rqh=1&mt=1789893162&fvip=1&epbp=1&keepalive=yes&fexp=51565116&c=WEB_EMBEDDED_PLAYER&n=EdP5U82SoCc_oA&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRQIhAM4HkOfJIj-ldXGOlrGrH6Ejd3O3PDmAdTEyPEePwi6iAiBKp6r9DbG57xalK3YjNrrsUik56j9jWGN9BQY9JjpiBw%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIgETfwFkMY_2y3H8ZZVzFot60BewaTEKU_VemOCx-IQuYCIQCqz2Re7ZgE6WoVPy_cwijJakpQqUjKM60fAtvsN2FOkQ%3D%3D&cpn=rMO2MC-ztaAHsDPx&cver=2.20260918.01.00&rn=1&alr=yes",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "rr1---sn-jhctq3g-bh2e.googlevideo.com",
+        "ip": "124.195.255.108",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38680 CMB",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "jnn-pa.googleapis.com",
+        "ip": "172.217.119.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.119.4",
+          "prefix": "172.217.119.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

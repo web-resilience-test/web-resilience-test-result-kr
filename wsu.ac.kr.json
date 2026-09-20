@@ -1,0 +1,298 @@
+{
+  "url": "https://wsu.ac.kr",
+  "canonicalURL": "https://www.wsu.ac.kr/main/index.jsp",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T07:43:51.091Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 107,
+  "uniqueDomains": 10,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 4
+    },
+    "foreign": {
+      "cloud": 4,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://wsu.ac.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "wsu.ac.kr",
+        "ip": "211.181.201.10",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://sso.wsu.ac.kr/svc/tk/Auth.eps?id=www&ac=N&RelayState=%2Fmain%2Findex.jsp&ifa=N&",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sso.wsu.ac.kr",
+        "ip": "220.90.187.130",
+        "city": "Daejeon",
+        "region": "Daejeon",
+        "country": "KR",
+        "loc": "36.3491,127.3849",
+        "org": "AS9782 WooSong University",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.wsu.ac.kr/exsignon/sso/sso_identify.jsp?RelayState=%2Fmain%2Findex.jsp&failureCause=unauthorized&status=failure",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.wsu.ac.kr",
+        "ip": "211.181.201.10",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "151.101.193.229",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df330d2cecea23-ICN",
+        "x-served-by": "cache-fra-eddf8230201-FRA, cache-nrt-rjtt7900097-NRT",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://chatbot.wsu.ac.kr/css/embed.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "chatbot.wsu.ac.kr",
+        "ip": "220.90.187.56",
+        "city": "Daejeon",
+        "region": "Daejeon",
+        "country": "KR",
+        "loc": "36.3491,127.3849",
+        "org": "AS9782 WooSong University",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=AW-796737747",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.168",
+        "hostname": "nchkgb-ak-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.986,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.168",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/analytics.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.197.238",
+        "hostname": "nchkga-ao-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.741,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.238",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/rmkt/collect/796737747/?random=1789890214564&cv=11&fst=1789890214564&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be69g1za200xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~117776796~118897920~118897930~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.wsu.ac.kr%2Fmain%2Findex.jsp&rcb=5&frm=0&tiba=%3A%20%EC%9A%B0%EC%86%A1%EB%8C%80%ED%95%99%EA%B5%90&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1635135296.1789890215&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.150.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.150.119",
+          "prefix": "142.251.150.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/846792531/?random=1789890217921&cv=9&fst=1789887600000&num=1&guid=ON&resp=GooglemKTybQhCsO&eid=375603260%2C466465925%2C512247839%2C658953496&u_h=720&u_w=1280&ig=1&frm=0&url=https%3A%2F%2Fwww.wsu.ac.kr%2Fmain%2Findex.jsp&tiba=%3A%20%EC%9A%B0%EC%86%A1%EB%8C%80%ED%95%99%EA%B5%90&hn=www.googleadservices.com&uaa=x86&uab=64&uam=&uap=macOS&uapv=10_15_7&uaw=0&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAQM4h3F94-ZFXDdbMcb-LZOEAZrW9GCL-iKFCEug4ZFhw1E2exLR3JxpbXGwXKwi2hD5YW5xeuC7WgM152BA7w1AGcwgDvoJk0InlfwHC2OBz87FEMLq4wzlEh_U7Ma2W3h22CPiezTgE8pf_Z0W0t8FQRXidfDEGKFw80s-5qcPGT5dKlyRgbxLU2VoaEi2aD9cLS32k1A3lfvuadZOa55bhi5OKL3eSbameKW7wLwWUW6QA-N0N_LkEjLe-QqNDxwuTg5hf5j5fm21jyAI-FPXY&random=721922992&resp=GooglemKTybQhCsO&rmt_tld=1&ipr=y",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.199.195",
+        "hostname": "nchkgb-am-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.776,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.195",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-4Q3E86KVHM&gtm=45je69g1v9125686426za20gxf1&_p=1789890212288&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIAGA&_ng=1&cid=843272125.1789890228&frm=0&ir=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153&dl=https%3A%2F%2Fwww.wsu.ac.kr%2Fmain%2Findex.jsp&dt=%3A%20%EC%9A%B0%EC%86%A1%EB%8C%80%ED%95%99%EA%B5%90&sid=1789890229&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=25972",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.34.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.888,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.34.181",
+          "prefix": "216.239.34.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 17,
+          "location_count": 7
+        }
+      }
+    }
+  ]
+}

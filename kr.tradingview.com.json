@@ -2,9 +2,9 @@
   "url": "https://kr.tradingview.com",
   "canonicalURL": "https://kr.tradingview.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:10:03.898Z",
+  "timestamp": "2026-09-20T05:40:24.720Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 439,
+  "requestCount": 438,
   "uniqueDomains": 13,
   "test_results": {
     "domestic": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "kr.tradingview.com",
-        "ip": "54.230.62.36",
-        "hostname": "server-54-230-62-36.icn80.r.cloudfront.net",
+        "ip": "54.230.62.62",
+        "hostname": "server-54-230-62-62.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -90,23 +90,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "accounts.google.com",
-        "ip": "192.178.230.84",
-        "hostname": "yunrtab-in-f84.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "108.177.125.84",
+        "hostname": "tp-in-f84.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Taipei"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.447,
+        "rtt": 71.844,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "192.178.230.84",
-          "prefix": "192.178.230.0/24",
+          "queried_ip": "108.177.125.84",
+          "prefix": "108.177.125.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -123,23 +123,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.104",
+        "hostname": "nchkga-ai-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.721,
+        "rtt": 85.078,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.104",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -172,8 +172,8 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "news-mediator.tradingview.com",
-        "ip": "52.85.128.58",
-        "hostname": "server-52-85-128-58.icn53.r.cloudfront.net",
+        "ip": "52.85.128.122",
+        "hostname": "server-52-85-128-122.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -189,12 +189,27 @@
       }
     },
     {
+      "originalUrl": "https://economic-calendar.tradingview.com/events?from=2026-09-20T03%3A00%3A00.000Z&to=2026-10-20T05%3A00%3A00.000Z&countries=AR%2CAU%2CBR%2CCA%2CCN%2CFR%2CDE%2CIN%2CID%2CIT%2CJP%2CKR%2CMX%2CRU%2CSA%2CZA%2CTR%2CGB%2CUS%2CEU",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "economic-calendar.tradingview.com",
+        "ip": "76.164.232.95",
+        "city": "New York City",
+        "region": "New York",
+        "country": "US",
+        "loc": "40.7143,-74.0060",
+        "org": "AS400416 TradingView, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/direct"
+    },
+    {
       "originalUrl": "https://snowplow-pixel.tradingview.com/com.tradingview/track",
       "type": "ping",
       "ipinfo": {
         "domain": "snowplow-pixel.tradingview.com",
-        "ip": "35.167.110.74",
-        "hostname": "ec2-35-167-110-74.us-west-2.compute.amazonaws.com",
+        "ip": "52.13.149.195",
+        "hostname": "ec2-52-13-149-195.us-west-2.compute.amazonaws.com",
         "city": "Boardman",
         "region": "Oregon",
         "country": "US",
@@ -208,9 +223,9 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "35.167.110.74",
-          "prefix": "35.167.110.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "52.13.149.195",
+          "prefix": "52.13.149.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -223,77 +238,27 @@
       }
     },
     {
-      "originalUrl": "https://economic-calendar.tradingview.com/events?from=2026-09-19T23%3A00%3A00.000Z&to=2026-10-20T01%3A00%3A00.000Z&countries=AR%2CAU%2CBR%2CCA%2CCN%2CFR%2CDE%2CIN%2CID%2CIT%2CJP%2CKR%2CMX%2CRU%2CSA%2CZA%2CTR%2CGB%2CUS%2CEU",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "economic-calendar.tradingview.com",
-        "ip": "76.164.233.94",
-        "city": "Chicago",
-        "region": "Illinois",
-        "country": "US",
-        "loc": "41.8500,-87.6500",
-        "org": "AS400416 TradingView, Inc.",
-        "timezone": "America/Chicago"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-YVVRYGL0E0&gtm=45je69g1v9104254764za200zd9104254764xf1&_p=1789866592268&_gaz=1&gcs=G1-0&gcd=13l3p3l3l5l1&npa=0&dma=0&_eu=AAAAAGA&cid=810867887.1789866593&frm=0&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938466~115938469~118897920~118897930~119791748~120213116~120385423~120469145~120469153&sid=1789866592&sct=1&seg=0&dl=https%3A%2F%2Fkr.tradingview.com%2F&dt=%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%B7%B0%20-%20%EB%AA%A8%EB%93%A0%20%EC%8B%9C%EC%9E%A5%EC%9D%84%20%EC%B6%94%EC%A0%81%ED%95%98%EC%84%B8%EC%9A%94%20%E2%80%94%20TradingView&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=734",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-YVVRYGL0E0&gtm=45je69g1v9104254764za200zd9104254764xf1&_p=1789882813007&_gaz=1&gcs=G1-0&gcd=13l3p3l3l5l1&npa=0&dma=0&_eu=AAAAAGA&cid=1557854793.1789882814&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789882813&sct=1&seg=0&dl=https%3A%2F%2Fkr.tradingview.com%2F&dt=%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%B7%B0%20-%20%EB%AA%A8%EB%93%A0%20%EC%8B%9C%EC%9E%A5%EC%9D%84%20%EC%B6%94%EC%A0%81%ED%95%98%EC%84%B8%EC%9A%94%20%E2%80%94%20TradingView&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.anonymize_ip=true&tfd=1254",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.36.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
+        "ip": "142.250.197.110",
+        "hostname": "nchkga-ai-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.484,
+        "rtt": 83.25,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "216.239.36.181",
-          "prefix": "216.239.36.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 17,
-          "location_count": 9
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-YVVRYGL0E0&cid=810867887.1789866593&gtm=45je69g1v9104254764za200zd9104254764xf1&rcb=3&aip=1&dma=0&gcs=G1-0&gcd=13l3p3l3l5l1&npa=0&frm=0&tag_exp=115616986~115938466~115938469~118897920~118897930~119791748~120213116~120385423~120469145~120469153&z=264363505",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 41.348,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.197.110",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -306,11 +271,44 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=1&frm=0&apvc=1&auid=1863118445.1789866593&dt=%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%B7%B0%20-%20%EB%AA%A8%EB%93%A0%20%EC%8B%9C%EC%9E%A5%EC%9D%84%20%EC%B6%94%EC%A0%81%ED%95%98%EC%84%B8%EC%9A%94%20%E2%80%94%20TradingView&tid=DC-13919399&en=page_view&dl=https%3A%2F%2Fkr.tradingview.com%2F&scrsrc=www.googletagmanager.com&rnd=1584570382.1789866593&navt=n&npa=0&gtm=45fe69g1v9190700051za200zb9104254764zd9104254764xecxf1&gcs=G111&gcd=13r3r3l3l5l1&dma=0&tag_exp=115938466~115938468~117227715~118897920~118897930~120213116~120385422~120469145~120469153~120847435&tft=1789866592854&tfd=937&tids=DC-13919399&fmt=8",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-YVVRYGL0E0&cid=1557854793.1789882814&gtm=45je69g1v9104254764za200zd9104254764xf1&rcb=9&aip=1&dma=0&gcs=G1-0&gcd=13l3p3l3l5l1&npa=0&frm=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385422~120469145~120469153&z=1318623445",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.199.227",
+        "hostname": "nchkgb-an-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.268,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.227",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=1785468762.1789882814&dt=%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%B7%B0%20-%20%EB%AA%A8%EB%93%A0%20%EC%8B%9C%EC%9E%A5%EC%9D%84%20%EC%B6%94%EC%A0%81%ED%95%98%EC%84%B8%EC%9A%94%20%E2%80%94%20TradingView&tid=DC-13919399&en=page_view&dl=https%3A%2F%2Fkr.tradingview.com%2F&scrsrc=www.googletagmanager.com&rnd=1284962944.1789882814&navt=n&npa=0&gtm=45fe69g1v9190700051za200zb9104254764zd9104254764xecxf1&gcs=G111&gcd=13r3r3l3l5l1&dma=0&tag_exp=115616985~115938466~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153~120847433&tft=1789882814348&tfd=1654&tids=DC-13919399&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.150.119",
+        "ip": "142.251.157.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -324,8 +322,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.150.119",
-          "prefix": "142.251.150.0/24",
+          "queried_ip": "142.251.157.119",
+          "prefix": "142.251.157.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -352,23 +350,23 @@
       "type": "other",
       "ipinfo": {
         "domain": "google.com",
-        "ip": "142.250.21.101",
-        "hostname": "zh-in-f101.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.199.206",
+        "hostname": "nchkgb-am-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.811,
+        "rtt": 88.613,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.101",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.199.206",
+          "prefix": "142.250.199.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

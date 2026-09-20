@@ -2,9 +2,9 @@
   "url": "https://www.txnhh.com",
   "canonicalURL": "https://www.txnhh.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:23:18.855Z",
+  "timestamp": "2026-09-20T05:52:16.560Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,27 +13,27 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 61,
+  "requestCount": 59,
   "uniqueDomains": 5,
   "test_results": {
     "domestic": {
       "cloud": 1,
-      "direct": 1
+      "direct": 2
     },
     "foreign": {
       "cloud": 0,
-      "direct": 3
+      "direct": 2
     }
   },
   "domainDetails": [
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.txnhh.com",
-        "ip": "172.64.149.22",
+        "ip": "104.18.38.234",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dd061dee3d564b-ICN",
+        "cf-ray": "a3de90157a845503-ICN",
         "detection_method": "header"
       }
     },
@@ -72,22 +72,6 @@
         "timezone": "Europe/Amsterdam"
       },
       "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://a.pemsrv.com/ad-provider.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "a.pemsrv.com",
-        "ip": "89.222.116.12",
-        "hostname": "107935180.seo.cdn77.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS60068 Datacamp Limited",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://thumb-cdn77.xnxx-cdn.com/a0331973-7340-435f-b432-1c5fcbbbb065/5/xn_28_t.avif",
@@ -110,15 +94,31 @@
       "type": "image",
       "ipinfo": {
         "domain": "thumbs-gcore.xnxx-cdn.com",
-        "ip": "31.184.207.62",
-        "city": "Osaka",
-        "region": "Osaka",
-        "country": "JP",
-        "loc": "34.6772,135.4913",
+        "ip": "92.223.61.30",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS199524 G-Core Labs S.A.",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Seoul"
       },
-      "category": "foreign/direct"
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://a.pemsrv.com/ad-provider.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "a.pemsrv.com",
+        "ip": "89.222.116.11",
+        "hostname": "107935180.seo.cdn77.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     }
   ]
 }

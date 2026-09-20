@@ -1,0 +1,236 @@
+{
+  "url": "https://eliv.kr",
+  "canonicalURL": "https://eliv.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:11:13.564Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 81,
+  "uniqueDomains": 9,
+  "test_results": {
+    "domestic": {
+      "cloud": 9,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://eliv.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "eliv.kr",
+        "ip": "172.66.43.189",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df5b9a3a63504a-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://eliv.cdn.eliv-cdn.kr/eliv/Assets/Front/Vendors/animate.css/4.1.1/animate.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "eliv.cdn.eliv-cdn.kr",
+        "ip": "104.18.7.32",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df5b9cadd552f0-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://resources.eliv.kr/ELIV/CSS/Common.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "resources.eliv.kr",
+        "ip": "172.66.40.67",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df5b9afd09504a-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdnjs.cloudflare.com",
+        "ip": "104.17.24.14",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df5b9e9fe3d1e1-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://status.eliv.one/embed-status/0a8c2060/light-sm",
+      "type": "document",
+      "ipinfo": {
+        "domain": "status.eliv.one",
+        "ip": "76.76.21.22",
+        "city": "Walnut",
+        "region": "California",
+        "country": "US",
+        "loc": "34.0203,-117.8653",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "76.76.21.22",
+          "prefix": "76.76.21.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 57,
+          "location_count": 57,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.eliv.kr/v1/Account/OAuth/URL?redirect_url=https%3A%2F%2Feliv.kr%2F",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.eliv.kr",
+        "ip": "172.66.43.189",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df5b9efbacd1e2-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://cdn.channel.io/plugin/ch-plugin-web.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.channel.io",
+        "ip": "54.230.62.56",
+        "hostname": "server-54-230-62-56.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://api.channel.io/front/v8/elastic/plugins/c806a2c4-adf5-48b1-8a89-081cc15301de?",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.channel.io",
+        "ip": "52.79.160.177",
+        "hostname": "ec2-52-79-160-177.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://cf.channel.io/avatar/emoji/ribbon.86e3da.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cf.channel.io",
+        "ip": "52.85.128.117",
+        "hostname": "server-52-85-128-117.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    }
+  ]
+}

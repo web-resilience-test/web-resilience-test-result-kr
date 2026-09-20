@@ -1,0 +1,250 @@
+{
+  "url": "https://purpleo.co.kr",
+  "canonicalURL": "https://purpleo.co.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:43:06.066Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 27,
+  "uniqueDomains": 7,
+  "test_results": {
+    "domestic": {
+      "cloud": 4,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://purpleo.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "purpleo.co.kr",
+        "ip": "115.68.219.5",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS38700 SMILESERV",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.250.198.202",
+        "hostname": "nchkgb-al-in-f10.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 89.481,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.202",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://unpkg.com/aos@2.3.4/dist/aos.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "unpkg.com",
+        "ip": "104.18.1.22",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df8a556c615a63-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://www.youtube.com/embed/0HOLqSTSP_0?mute=1&autoplay=1&autohide=1&modestbranding=0&rel=0&loop=1&playlist=0HOLqSTSP_0&showinfo=0&controls=0&disablekb=1&enablejsapi=1&iv_load_policy=3",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.youtube.com",
+        "ip": "142.251.157.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.157.4",
+          "prefix": "142.251.157.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/js/th/9kbh97dqs7QZvQm1sGSfYDRDfRSTiumhhMhu1B8Eock.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.153.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.153.119",
+          "prefix": "142.251.153.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://rr1---sn-jhctq3g-bh2e.googlevideo.com/videoplayback?expire=1789915384&ei=mJyvavDTJobmpskP3LLVuQ0&ip=116.255.90.4&id=o-AJkKm0BoPf_Ac72DBl50lpjAQbdurEOdfejc1eKX0ndX&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=288&met=1789893784%2C&mh=bN&mm=31%2C29&mn=sn-jhctq3g-bh2e%2Csn-ogul7n7k&ms=au%2Crdu&mv=m&mvi=1&pcm2cms=yes&pl=22&rms=au%2Cau&initcwndbps=2670500&spc=I-rgIdO3M0RtcP_K3U_G1MU3eV_jBEurB_dvZ68BP8Ttas27NFMyeVqlrKY4zxot3nVvju5R&svpuc=1&ns=h-12MlvtMRHI_zZ21do9XHMY&sabr=1&rqh=1&mt=1789893162&fvip=5&keepalive=yes&fexp=51565116&c=WEB_EMBEDDED_PLAYER&n=kw6wEwKu0R-w9A&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwQwIgfLAS7RepauioG9z1FPa2CGdb1Jc5zgfV1-78ot3dOEsCH2FkUed4-ZjDfXcPHMUaCf9K9Dv9_Bvx0z3g58013Qc%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgZv841S_CTw-9GiTQl7ewF9Q9g4MLx4riEfIfFnEKFTICIBCmyx8IyqLVFiLt4Qk4erx-H83Dr1YJkjsuzcTfDnGC&cpn=q6QbY2Ha0-2USZa5&cver=2.20260918.01.00&rn=1&alr=yes",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "rr1---sn-jhctq3g-bh2e.googlevideo.com",
+        "ip": "124.195.255.108",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38680 CMB",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "jnn-pa.googleapis.com",
+        "ip": "172.217.114.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.114.4",
+          "prefix": "172.217.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

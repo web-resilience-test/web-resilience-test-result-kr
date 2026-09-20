@@ -2,9 +2,9 @@
   "url": "https://blacktv22.com",
   "canonicalURL": "https://blacktv22.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:03:39.418Z",
+  "timestamp": "2026-09-20T05:33:36.512Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 160,
+  "requestCount": 79,
   "uniqueDomains": 5,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "blacktv22.com",
-        "ip": "172.67.183.177",
+        "ip": "104.21.72.115",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -52,13 +52,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dce9404e9d14c7-SJC",
+        "cf-ray": "a3de74be2b3af900-SIN",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "172.67.183.177",
-          "prefix": "172.67.183.0/24",
+          "queried_ip": "104.21.72.115",
+          "prefix": "104.21.72.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -85,7 +85,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "bundle.beetalk.io",
-        "ip": "104.26.12.15",
+        "ip": "172.67.74.243",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -95,13 +95,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dce9468a2e4e41-LAX",
+        "cf-ray": "a3de74c20958d74f-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "104.26.12.15",
-          "prefix": "104.26.12.0/24",
+          "queried_ip": "172.67.74.243",
+          "prefix": "172.67.74.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -111,8 +111,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 63,
-          "location_count": 63,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -128,23 +128,23 @@
       "type": "image",
       "ipinfo": {
         "domain": "img.youtube.com",
-        "ip": "142.250.21.100",
-        "hostname": "zh-in-f100.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.142",
+        "hostname": "nchkgb-aj-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.307,
+        "rtt": 89.66,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.100",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.198.142",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -161,7 +161,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.cloudflareinsights.com",
-        "ip": "104.16.79.73",
+        "ip": "104.16.80.73",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -172,7 +172,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce9420e50d827-ICN",
+        "cf-ray": "a3de74bfed1ec6c3-ICN",
         "detection_method": "header"
       }
     },
@@ -181,19 +181,18 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "cdn.jsdelivr.net",
-        "ip": "104.17.207.5",
+        "ip": "151.101.129.229",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
         "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
+        "org": "AS54113 Fastly, Inc.",
         "timezone": "America/Los_Angeles"
       },
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce9432fc2f804-ICN",
-        "x-served-by": "cache-fra-eddf8230092-FRA, cache-itm1220030-ITM",
+        "x-served-by": "cache-fra-eddf8230092-FRA, cache-icn1450044-ICN",
         "detection_method": "header"
       }
     }

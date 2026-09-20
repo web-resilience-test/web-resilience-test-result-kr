@@ -2,9 +2,9 @@
   "url": "https://babechat.ai",
   "canonicalURL": "https://babechat.ai/dashboard",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:03:03.242Z",
+  "timestamp": "2026-09-20T05:32:54.105Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,26 +13,26 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 281,
-  "uniqueDomains": 22,
+  "requestCount": 272,
+  "uniqueDomains": 18,
   "test_results": {
     "domestic": {
-      "cloud": 18,
+      "cloud": 15,
       "direct": 0
     },
     "foreign": {
-      "cloud": 4,
+      "cloud": 3,
       "direct": 0
     }
   },
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "babechat.ai",
-        "ip": "172.66.40.109",
+        "ip": "172.66.43.147",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce8279a5bd5ad-ICN",
+        "cf-ray": "a3de73be8e2de434-ICN",
         "detection_method": "header"
       }
     },
@@ -73,7 +73,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce828cf97ea31-ICN",
+        "cf-ray": "a3de73bfe9c8d2f8-ICN",
         "detection_method": "header"
       }
     },
@@ -82,23 +82,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.72",
+        "hostname": "nchkga-ah-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.66,
+        "rtt": 87.702,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.197.72",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -115,7 +115,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.cloudflareinsights.com",
-        "ip": "104.16.80.73",
+        "ip": "104.16.79.73",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -126,7 +126,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce8289b5e98ff-ICN",
+        "cf-ray": "a3de73bf7bf4ea14-ICN",
         "detection_method": "header"
       }
     },
@@ -145,32 +145,9 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dce82ade73fcdb-FUK",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.66.169.73",
-          "prefix": "172.66.169.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de73c14d3189c0-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -178,8 +155,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "static.hotjar.com",
-        "ip": "18.244.60.17",
-        "hostname": "server-18-244-60-17.icn57.r.cloudfront.net",
+        "ip": "18.244.60.123",
+        "hostname": "server-18-244-60-123.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -194,23 +171,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "analytics.tiktok.com",
-        "ip": "23.53.228.112",
-        "hostname": "a23-53-228-112.deploy.static.akamaitechnologies.com",
-        "city": "Yeongdong",
-        "region": "North Chungcheong",
+        "ip": "23.35.218.131",
+        "hostname": "a23-35-218-131.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
         "country": "KR",
-        "loc": "36.1750,127.7764",
+        "loc": "37.5660,126.9784",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=540180665.1789866170&dt=%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%B1%97(BabeChat)%20-%20%ED%95%9C%EA%B3%84%20%EC%97%86%EB%8A%94%20AI%20%EC%B1%84%ED%8C%85&en=page_view&dl=https%3A%2F%2Fbabechat.ai%2F&scrsrc=babechat.ai&rnd=869033595.1789866170&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dY2E1Nz.dNzQzZD&gtm=45E92e69g1h1v9201495379za204zd9201495379xeaxf4&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120385422~120469145~120469153~120847435&tft=1789866170104&tfd=673&gap.gtb=1&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=1&ae=g&auid=516486540.1789882372&dt=%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%B1%97(BabeChat)%20-%20%ED%95%9C%EA%B3%84%20%EC%97%86%EB%8A%94%20AI%20%EC%B1%84%ED%8C%85&en=page_view&dl=https%3A%2F%2Fbabechat.ai%2F&scrsrc=babechat.ai&rnd=362872384.1789882372&navt=n&npa=0&ep.ads_data_redaction=0&gdid=dY2E1Nz.dNzQzZD&gtm=45E92e69g1v9201495379za204zd9201495379xeaxf4&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118012007~118897920~118897930~120385423~120469145~120469153~120847433&tft=1789882371645&tfd=890&gap.gtb=1&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.151.119",
+        "ip": "142.251.152.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -224,8 +201,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.151.119",
-          "prefix": "142.251.151.0/24",
+          "queried_ip": "142.251.152.119",
+          "prefix": "142.251.152.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -235,8 +212,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
+          "site_count": 61,
+          "location_count": 61,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -263,67 +240,32 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce82bf8d53278-ICN",
+        "cf-ray": "a3de73c47ada38d5-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-0ZYYKB5B15&gtm=45je69h0h2v9189308642za200zb9201495379zd9201495379xf1&_p=1789866170062&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dY2E1Nz&ecid=1536661778&_eu=AAAAAGAC&cid=1012925073.1789866170&frm=0&pscdl=noapi&rcb=18&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789866170&sct=1&seg=0&dl=https%3A%2F%2Fbabechat.ai%2F&dt=%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%B1%97(BabeChat)%20-%20%ED%95%9C%EA%B3%84%20%EC%97%86%EB%8A%94%20AI%20%EC%B1%84%ED%8C%85&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=729",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-0ZYYKB5B15&gtm=45je69h0h2v9189308642za200zb9201495379zd9201495379xf1&_p=1789882371587&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&gdid=dY2E1Nz&ecid=1881230889&_eu=AAAAAGAC&cid=1380244301.1789882372&frm=0&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789882371&sct=1&seg=0&dl=https%3A%2F%2Fbabechat.ai%2F&dt=%EB%B2%A0%EC%9D%B4%EB%B9%84%EC%B1%97(BabeChat)%20-%20%ED%95%9C%EA%B3%84%20%EC%97%86%EB%8A%94%20AI%20%EC%B1%84%ED%8C%85&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=969",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.36.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
+        "ip": "142.250.198.206",
+        "hostname": "nchkgb-al-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.779,
+        "rtt": 84.296,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "216.239.36.181",
-          "prefix": "216.239.36.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 17,
-          "location_count": 9
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-0ZYYKB5B15&cid=1012925073.1789866170&gtm=45je69h0h2v9189308642za200zb9201495379zd9201495379xf1&rcb=18&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&z=1742539680",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 43.863,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.206",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -333,6 +275,59 @@
           "site_count": 0,
           "location_count": 0
         }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-0ZYYKB5B15&cid=1380244301.1789882372&gtm=45je69h0h2v9189308642za200zb9201495379zd9201495379xf1&rcb=16&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385422~120469145~120469153&z=921751301",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.195",
+        "hostname": "nchkgb-al-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.732,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.195",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://blob.babechat.ai/banner/820%20%282%29-1W32IpodX6Zt3NAgDZkPCxiDkkssQ4.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "blob.babechat.ai",
+        "ip": "172.66.43.147",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de73c4ea0dd160-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -352,11 +347,11 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://blob.babechat.ai/banner/image-JmCplNn1S3SrtVGBkZ5fizFmS0x1Uo.webp",
+      "originalUrl": "https://t.co/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=a2fba44c-79ff-44ed-bef4-0c28daca3f5d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0ed5d4b3-b326-4929-93b5-ee450db498a8&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fbabechat.ai%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789882372121-207350484&tw_session_start=1&twpid=tw.1789882372121.122163599942705671&txn_id=onh8f&type=javascript&version=2.4.11",
       "type": "image",
       "ipinfo": {
-        "domain": "blob.babechat.ai",
-        "ip": "172.66.40.109",
+        "domain": "t.co",
+        "ip": "172.66.0.227",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -367,33 +362,39 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce82c8da7d5ad-ICN",
+        "cf-ray": "a3de73c74c56ea8d-ICN",
+        "x-served-by": "t4_p",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://vc.hotjar.io/sessions/6445071?s=0.25&r=0.05552524672549397",
-      "type": "xhr",
+      "originalUrl": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=a2fba44c-79ff-44ed-bef4-0c28daca3f5d&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=0ed5d4b3-b326-4929-93b5-ee450db498a8&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fbabechat.ai%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789882372121-207350484&tw_session_start=1&twpid=tw.1789882372121.122163599942705671&txn_id=onh8f&type=javascript&version=2.4.11",
+      "type": "image",
       "ipinfo": {
-        "domain": "vc.hotjar.io",
-        "ip": "13.225.134.91",
-        "hostname": "server-13-225-134-91.icn80.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
+        "domain": "analytics.twitter.com",
+        "ip": "172.66.0.227",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de73c7496be106-ICN",
+        "x-served-by": "t4_p",
+        "detection_method": "header"
+      }
     },
     {
       "originalUrl": "https://analytics-ipv6.tiktokw.us/ipv6/enrich_ipv6",
       "type": "ping",
       "ipinfo": {
         "domain": "analytics-ipv6.tiktokw.us",
-        "ip": "23.35.218.149",
-        "hostname": "a23-35-218-149.deploy.static.akamaitechnologies.com",
+        "ip": "23.32.56.144",
+        "hostname": "a23-32-56-144.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -402,82 +403,6 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://t.co/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=e4ea7fb7-832b-495d-b90a-6fc15d728d4a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=16d6daf2-f63d-4602-ba23-220570d787b9&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fbabechat.ai%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789866171363-600261352&tw_session_start=1&twpid=tw.1789866171363.267056418144274618&txn_id=onh8f&type=javascript&version=2.4.11",
-      "type": "image",
-      "ipinfo": {
-        "domain": "t.co",
-        "ip": "162.159.140.229",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dce8338f80fa46-ICN",
-        "x-served-by": "t4_p",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=e4ea7fb7-832b-495d-b90a-6fc15d728d4a&integration=gtm&p_id=Twitter&p_user_id=0&pl_id=16d6daf2-f63d-4602-ba23-220570d787b9&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fbabechat.ai%2F&tw_engaged_ms=1&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789866171363-600261352&tw_session_start=1&twpid=tw.1789866171363.267056418144274618&txn_id=onh8f&type=javascript&version=2.4.11",
-      "type": "image",
-      "ipinfo": {
-        "domain": "analytics.twitter.com",
-        "ip": "162.159.140.229",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dce8337d7ad1d7-ICN",
-        "x-served-by": "t4_p",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://api.axiom.co/v1/datasets/babechat-logs-prod/ingest",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "api.axiom.co",
-        "ip": "52.6.166.174",
-        "hostname": "ec2-52-6-166-174.compute-1.amazonaws.com",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS14618 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": null,
-        "detection_method": "rtt",
-        "rtt_error": "timeout",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "52.6.166.174",
-          "prefix": "52.6.166.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
     },
     {
       "originalUrl": "https://static.airbridge.io/sdk/latest/airbridge.min.js",
@@ -510,56 +435,6 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://config.airbridge.io/v1/web/apps/babechatkr?browserClientID=b06b6585-1f3a-458d-8e86-c3a41c37a027&webToken=8ffedc57bb524d008c1a54b237067760",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "config.airbridge.io",
-        "ip": "18.64.8.31",
-        "hostname": "server-18-64-8-31.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://id.abr.ge/api/v2/third-party-cookie/identifier.html?requestID=843012523",
-      "type": "document",
-      "ipinfo": {
-        "domain": "id.abr.ge",
-        "ip": "52.85.128.104",
-        "hostname": "server-52-85-128-104.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "rtt": 9.563,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "52.85.128.104",
-          "prefix": "52.85.128.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
     }
   ]
 }

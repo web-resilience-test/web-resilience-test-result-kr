@@ -2,9 +2,9 @@
   "url": "https://windows.com",
   "canonicalURL": "https://www.microsoft.com/ko-kr/windows",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:53:25.525Z",
+  "timestamp": "2026-09-20T05:21:45.007Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 62,
   "uniqueDomains": 17,
@@ -42,33 +42,30 @@
       "type": "document",
       "ipinfo": {
         "domain": "windows.com",
-        "ip": "20.76.201.171",
-        "city": "Amsterdam",
-        "region": "North Holland",
-        "country": "NL",
-        "loc": "52.3740,4.8897",
+        "ip": "20.112.250.133",
+        "city": "Des Moines",
+        "region": "Iowa",
+        "country": "US",
+        "loc": "41.6005,-93.6091",
         "org": "AS8075 Microsoft Corporation",
-        "timezone": "Europe/Amsterdam"
+        "timezone": "America/Chicago"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 239.863,
+        "rtt": 159.214,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "20.76.201.171",
-          "prefix": "20.76.201.0/24",
-          "anycast": true,
-          "confidence": "low_confidence",
-          "partial": false,
-          "asns": [
-            8075
-          ],
+          "source": "laces api (direct)",
+          "queried_ip": "20.112.250.133",
+          "prefix": "20.112.250.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 2,
-          "location_count": 1
+          "site_count": 0,
+          "location_count": 0
         }
       }
     },
@@ -77,8 +74,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "windows.microsoft.com",
-        "ip": "23.34.111.79",
-        "hostname": "a23-34-111-79.deploy.static.akamaitechnologies.com",
+        "ip": "184.26.242.230",
+        "hostname": "a184-26-242-230.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -88,12 +85,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.45,
+        "rtt": 38.06,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "23.34.111.79",
-          "prefix": "23.34.111.0/24",
+          "queried_ip": "184.26.242.230",
+          "prefix": "184.26.242.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -110,8 +107,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "go.microsoft.com",
-        "ip": "184.27.209.155",
-        "hostname": "a184-27-209-155.deploy.static.akamaitechnologies.com",
+        "ip": "23.63.77.252",
+        "hostname": "a23-63-77-252.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -121,12 +118,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.914,
+        "rtt": 40.245,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "184.27.209.155",
-          "prefix": "184.27.209.0/24",
+          "queried_ip": "23.63.77.252",
+          "prefix": "23.63.77.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -169,7 +166,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260920T005313Z-15559d97d99hmvhthC1SEL894w0000002vhg00000000cbw0",
+        "x-azure-ref": "20260920T052135Z-1764d94df4672wc9hC1SEL3q480000002s3g000000010f70",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
@@ -196,8 +193,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "assets.adobedtm.com",
-        "ip": "184.27.209.25",
-        "hostname": "a184-27-209-25.deploy.static.akamaitechnologies.com",
+        "ip": "23.63.77.84",
+        "hostname": "a23-63-77-84.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -207,12 +204,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 45.711,
+        "rtt": 39.445,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "184.27.209.25",
-          "prefix": "184.27.209.0/24",
+          "source": "laces api (direct)",
+          "queried_ip": "23.63.77.84",
+          "prefix": "23.63.77.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -229,8 +226,8 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "uhf.microsoft.com",
-        "ip": "23.36.104.49",
-        "hostname": "a23-36-104-49.deploy.static.akamaitechnologies.com",
+        "ip": "23.10.14.77",
+        "hostname": "a23-10-14-77.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -241,12 +238,12 @@
       "category": "foreign/cloud",
       "cloud_provider": {
         "x-azure-ref": "20260910T113651Z-15749c967dcrqb6hhC1TYO7hx40000000e4g000000007d1b",
-        "rtt": 45.228,
+        "rtt": 38.678,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "23.36.104.49",
-          "prefix": "23.36.104.0/24",
+          "queried_ip": "23.10.14.77",
+          "prefix": "23.10.14.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -263,8 +260,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "cdn-dynmedia-1.microsoft.com",
-        "ip": "23.43.165.137",
-        "hostname": "a23-43-165-137.deploy.static.akamaitechnologies.com",
+        "ip": "23.201.35.128",
+        "hostname": "a23-201-35-128.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -279,8 +276,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "c.s-microsoft.com",
-        "ip": "184.27.209.222",
-        "hostname": "a184-27-209-222.deploy.static.akamaitechnologies.com",
+        "ip": "23.63.226.92",
+        "hostname": "a23-63-226-92.deploy.static.akamaitechnologies.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -290,12 +287,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.734,
+        "rtt": 38.156,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "184.27.209.222",
-          "prefix": "184.27.209.0/24",
+          "queried_ip": "23.63.226.92",
+          "prefix": "23.63.226.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -304,6 +301,43 @@
           "has_seoul": false,
           "site_count": 0,
           "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://js.monitor.azure.com/scripts/c/ms.jsll-4.gbl.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js.monitor.azure.com",
+        "ip": "150.171.110.133",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T052136Z-15559d97d99hhc4xhC1SELfh2n0000002x9g000000001adf",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.133",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
         }
       }
     },
@@ -322,7 +356,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260920T005314Z-15559d97d998swqdhC1SELkq3n0000000k2000000000ca2k",
+        "x-azure-ref": "20260920T052136Z-1764d94df46ggsxdhC1SELxzf00000000xng000000001r52",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
@@ -359,44 +393,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260920T005314Z-15559d97d9952kb6hC1SELyqy00000001s9g00000000fgms",
-        "rtt": null,
-        "detection_method": "rtt",
-        "rtt_error": "timeout",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "150.171.110.135",
-          "prefix": "150.171.110.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            8075
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 2,
-          "location_count": 2
-        }
-      }
-    },
-    {
-      "originalUrl": "https://js.monitor.azure.com/scripts/c/ms.jsll-4.gbl.min.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "js.monitor.azure.com",
-        "ip": "150.171.110.135",
-        "city": "Redmond",
-        "region": "Washington",
-        "country": "US",
-        "loc": "47.6740,-122.1215",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "x-azure-ref": "20260920T005314Z-15559d97d99nqrmkhC1SEL697c0000002vh0000000007zkq",
+        "x-azure-ref": "20260920T052136Z-1764d94df46z9j2fhC1SEL8xmc0000000kf000000000b1m7",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
@@ -433,7 +430,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 72.073,
+        "rtt": 70.873,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -455,8 +452,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api.company-target.com",
-        "ip": "18.67.51.13",
-        "hostname": "server-18-67-51-13.icn57.r.cloudfront.net",
+        "ip": "18.67.51.109",
+        "hostname": "server-18-67-51-109.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -467,44 +464,7 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://scripts.clarity.ms/0.8.70/clarity.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "scripts.clarity.ms",
-        "ip": "150.171.110.135",
-        "city": "Redmond",
-        "region": "Washington",
-        "country": "US",
-        "loc": "47.6740,-122.1215",
-        "org": "AS8075 Microsoft Corporation",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "x-azure-ref": "20260920T005315Z-15559d97d99jnrcjhC1SELgcs00000000hk000000000kv9n",
-        "rtt": null,
-        "detection_method": "rtt",
-        "rtt_error": "timeout",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "150.171.110.135",
-          "prefix": "150.171.110.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            8075
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 2,
-          "location_count": 2
-        }
-      }
-    },
-    {
-      "originalUrl": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=1914e7ccb4f5432bb305acb619302969&version=2.9.0",
+      "originalUrl": "https://target.microsoft.com/rest/v1/delivery?client=microsoftmscompoc&sessionId=944c6a39c93c435094dc4c781f2eb8a7&version=2.9.0",
       "type": "xhr",
       "ipinfo": {
         "domain": "target.microsoft.com",
@@ -533,6 +493,43 @@
           "has_seoul": false,
           "site_count": 0,
           "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://scripts.clarity.ms/0.8.70/clarity.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "scripts.clarity.ms",
+        "ip": "150.171.110.133",
+        "city": "Redmond",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6740,-122.1215",
+        "org": "AS8075 Microsoft Corporation",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-azure-ref": "20260920T052136Z-1764d94df462k2pdhC1SELk58n0000000xe0000000001x46",
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "150.171.110.133",
+          "prefix": "150.171.110.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            8075
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 2
         }
       }
     },

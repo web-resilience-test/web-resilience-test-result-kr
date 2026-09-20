@@ -1,0 +1,73 @@
+{
+  "url": "https://www.eporner.com",
+  "canonicalURL": "https://www.eporner.com/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T05:36:31.528Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 42,
+  "uniqueDomains": 2,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 2
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://www.eporner.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.eporner.com",
+        "ip": "94.75.220.6",
+        "hostname": "www.eporner.com",
+        "city": "Lelystad",
+        "region": "Flevoland",
+        "country": "NL",
+        "loc": "52.5083,5.4750",
+        "org": "AS60781 LeaseWeb Netherlands B.V.",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://static-sg-cdn.eporner.com/new/icons/fonts/epicons.woff2?ver=30",
+      "type": "font",
+      "ipinfo": {
+        "domain": "static-sg-cdn.eporner.com",
+        "ip": "15.235.224.185",
+        "hostname": "ns5028114.ip-15-235-224.net",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS16276 OVH SAS",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/direct"
+    }
+  ]
+}

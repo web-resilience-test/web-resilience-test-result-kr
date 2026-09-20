@@ -2,9 +2,9 @@
   "url": "https://www.coupangplay.com",
   "canonicalURL": "https://www.coupangplay.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:04:38.754Z",
+  "timestamp": "2026-09-20T05:34:51.902Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 80,
   "uniqueDomains": 13,
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.coupangplay.com",
-        "ip": "23.43.165.136",
-        "hostname": "a23-43-165-136.deploy.static.akamaitechnologies.com",
+        "ip": "23.32.56.154",
+        "hostname": "a23-32-56-154.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -58,33 +58,28 @@
       "type": "font",
       "ipinfo": {
         "domain": "assets.coupangplay.com",
-        "ip": "52.85.128.82",
-        "hostname": "server-52-85-128-82.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
+        "ip": "3.170.221.58",
+        "hostname": "server-3-170-221-58.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://img.coupangstreaming.com/clients/prelogin/web_prelogin_20260904.webp",
       "type": "image",
       "ipinfo": {
         "domain": "img.coupangstreaming.com",
-        "ip": "23.43.165.138",
-        "hostname": "a23-43-165-138.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.202.97.120",
+        "hostname": "a23-202-97-120.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "36.1750,127.7764",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -95,8 +90,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "ljc.coupang.com",
-        "ip": "23.214.22.75",
-        "hostname": "a23-214-22-75.deploy.static.akamaitechnologies.com",
+        "ip": "23.214.22.176",
+        "hostname": "a23-214-22-176.deploy.static.akamaitechnologies.com",
         "city": "Hillsboro",
         "region": "Oregon",
         "country": "US",
@@ -106,11 +101,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 119.835,
+        "rtt": 149.102,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "23.214.22.75",
+          "source": "laces api (cached)",
+          "queried_ip": "23.214.22.176",
           "prefix": "23.214.22.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -128,23 +123,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.40",
+        "hostname": "nchkga-ag-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 44.088,
+        "rtt": 86.53,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.40",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -161,8 +156,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "app.link",
-        "ip": "52.85.128.74",
-        "hostname": "server-52-85-128-74.icn53.r.cloudfront.net",
+        "ip": "52.85.128.129",
+        "hostname": "server-52-85-128-129.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -178,28 +173,12 @@
       }
     },
     {
-      "originalUrl": "https://api2.branch.io/v1/open",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "api2.branch.io",
-        "ip": "18.64.8.34",
-        "hostname": "server-18-64-8-34.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
       "originalUrl": "https://obs.coupangstreaming.com/web/collect",
       "type": "fetch",
       "ipinfo": {
         "domain": "obs.coupangstreaming.com",
-        "ip": "23.43.165.138",
-        "hostname": "a23-43-165-138.deploy.static.akamaitechnologies.com",
+        "ip": "23.32.56.176",
+        "hostname": "a23-32-56-176.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -210,12 +189,28 @@
       "category": "domestic/cloud"
     },
     {
+      "originalUrl": "https://api2.branch.io/v1/open",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "api2.branch.io",
+        "ip": "18.64.8.118",
+        "hostname": "server-18-64-8-118.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
       "originalUrl": "https://connect.facebook.net/en_US/fbevents.js",
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -226,11 +221,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=1855999897.1789866276&dt=%EC%BF%A0%ED%8C%A1%ED%94%8C%EB%A0%88%EC%9D%B4&en=page_view&dl=https%3A%2F%2Fwww.coupangplay.com%2F&scrsrc=www.googletagmanager.com&rnd=72990214.1789866276&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9220073060za200zd9220073060xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938469~118897920~118897930~120385422~120469145~120469153~120847435&tft=1789866275977&tfd=1422&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=1&ae=g&auid=1009395858.1789882490&dt=%EC%BF%A0%ED%8C%A1%ED%94%8C%EB%A0%88%EC%9D%B4&en=page_view&dl=https%3A%2F%2Fwww.coupangplay.com%2F&scrsrc=www.googletagmanager.com&rnd=1000278316.1789882490&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9220073060za200zd9220073060xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120385423~120469145~120469153~120847435&tft=1789882489821&tfd=1701&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.152.119",
+        "ip": "142.251.153.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -244,8 +239,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.152.119",
-          "prefix": "142.251.152.0/24",
+          "queried_ip": "142.251.153.119",
+          "prefix": "142.251.153.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -255,8 +250,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
+          "site_count": 61,
+          "location_count": 61,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -268,62 +263,60 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-WS2DFNF7E6&gtm=45je69g1v9221809556z89220073060za20gzb9220073060zd9220073060xf1&_p=1789866275626&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&_prs=ok&cid=154540724.1789866276&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&sid=1789866276&sct=1&seg=0&dl=https%3A%2F%2Fwww.coupangplay.com%2F&dt=%EC%BF%A0%ED%8C%A1%ED%94%8C%EB%A0%88%EC%9D%B4&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&tfd=1602",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-WS2DFNF7E6&gtm=45je69g1v9221809556z89220073060za20gzb9220073060zd9220073060xf1&_p=1789882489002&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&_prs=ok&cid=1025863478.1789882490&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&sid=1789882490&sct=1&seg=0&dl=https%3A%2F%2Fwww.coupangplay.com%2F&dt=%EC%BF%A0%ED%8C%A1%ED%94%8C%EB%A0%88%EC%9D%B4&en=page_view&_fv=1&_nsi=1&_ss=1&_c=1&tfd=2109",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.38.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
+        "ip": "142.250.199.206",
+        "hostname": "nchkgb-am-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 37.46,
+        "rtt": 85.946,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "216.239.38.181",
-          "prefix": "216.239.38.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
+          "queried_ip": "142.250.199.206",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 15,
-          "location_count": 15
+          "site_count": 0,
+          "location_count": 0
         }
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-WS2DFNF7E6&cid=154540724.1789866276&gtm=45je69g1v9221809556z89220073060za20gzb9220073060zd9220073060xf1&rcb=2&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847435&z=549216340",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-WS2DFNF7E6&cid=1025863478.1789882490&gtm=45je69g1v9221809556z89220073060za20gzb9220073060zd9220073060xf1&rcb=14&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&z=173897703",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.195",
+        "hostname": "nchkgb-al-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 40.399,
+        "rtt": 86.382,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.195",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -340,8 +333,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

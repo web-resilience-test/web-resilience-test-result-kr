@@ -2,9 +2,9 @@
   "url": "https://best.aliexpress.com",
   "canonicalURL": "https://best.aliexpress.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:03:28.529Z",
+  "timestamp": "2026-09-20T05:33:26.474Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 278,
+  "requestCount": 276,
   "uniqueDomains": 39,
   "test_results": {
     "domestic": {
@@ -74,12 +74,12 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "assets.aliexpress-media.com",
-        "ip": "23.53.2.194",
-        "hostname": "a23-53-2-194.deploy.static.akamaitechnologies.com",
-        "city": "Yeongdong",
-        "region": "North Chungcheong",
+        "ip": "23.35.218.9",
+        "hostname": "a23-35-218-9.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
         "country": "KR",
-        "loc": "36.1750,127.7764",
+        "loc": "37.5660,126.9784",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
@@ -90,8 +90,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "ae-pic-a1.aliexpress-media.com",
-        "ip": "23.67.53.218",
-        "hostname": "a23-67-53-218.deploy.static.akamaitechnologies.com",
+        "ip": "23.32.56.56",
+        "hostname": "a23-32-56-56.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -118,42 +118,10 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://umdc-global.aliexpress.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=best.aliexpress.com&biz=4",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "umdc-global.aliexpress.com",
-        "ip": "47.246.72.173",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
-        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
-        "timezone": "Asia/Singapore"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 89.098,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "47.246.72.173",
-          "prefix": "47.246.72.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://34026.ase.aidcgroup.net/web/pd.js",
+      "originalUrl": "https://81209.ase.aidcgroup.net/web/pd.js",
       "type": "fetch",
       "ipinfo": {
-        "domain": "34026.ase.aidcgroup.net",
+        "domain": "81209.ase.aidcgroup.net",
         "ip": "47.246.72.115",
         "city": "Singapore",
         "region": "Singapore",
@@ -164,7 +132,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 89.535,
+        "rtt": 87.032,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -182,43 +150,11 @@
       }
     },
     {
-      "originalUrl": "https://epss.alibaba-inc.com/report/web-e?host=best.aliexpress.com&jf=lwsc&cv=perf2&jv=36&m=prep%3D2%26init%3D137%26reg%3D211%26ua%3DMozilla%252F5.0%2520(Macintosh%253B%2520Intel%2520Mac%2520OS%2520X%252010_15_7)%2520AppleWebKit%252F537.36%2520(KHTML%252C%2520like%2520Gecko)%2520Chrome%252F153.0.0.0%2520Safari%252F537.36",
-      "type": "image",
-      "ipinfo": {
-        "domain": "epss.alibaba-inc.com",
-        "ip": "47.246.174.209",
-        "city": "Singapore",
-        "region": "Singapore",
-        "country": "SG",
-        "loc": "1.2897,103.8501",
-        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
-        "timezone": "Asia/Singapore"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 87.117,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "47.246.174.209",
-          "prefix": "47.246.174.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1789866202147&sign=eeabff9e2963b546d2c61038bbfa4851&api=mtop.aliexpress.address.shipto.division.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp1&data=%7B%22_lang%22%3A%22ko_KR%22%2C%22useLocalAddress%22%3Afalse%2C%22clientType%22%3A%22pc%22%7D",
+      "originalUrl": "https://acs.aliexpress.com/h5/mtop.aliexpress.address.shipto.division.get/1.0/?jsv=2.5.1&appKey=12574478&t=1789882399024&sign=e61c28499f6417adc2464c15705fa9f0&api=mtop.aliexpress.address.shipto.division.get&v=1.0&type=jsonp&dataType=jsonp&callback=mtopjsonp1&data=%7B%22_lang%22%3A%22ko_KR%22%2C%22useLocalAddress%22%3Afalse%2C%22clientType%22%3A%22pc%22%7D",
       "type": "script",
       "ipinfo": {
         "domain": "acs.aliexpress.com",
-        "ip": "47.246.72.199",
+        "ip": "47.246.72.172",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -228,11 +164,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 93.164,
+        "rtt": 94.38,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "47.246.72.199",
+          "source": "laces api (direct)",
+          "queried_ip": "47.246.72.172",
           "prefix": "47.246.72.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -246,27 +182,11 @@
       }
     },
     {
-      "originalUrl": "https://time-ae.akamaized.net/gettime?callback=timestampcb",
-      "type": "script",
-      "ipinfo": {
-        "domain": "time-ae.akamaized.net",
-        "ip": "23.32.4.123",
-        "hostname": "a23-32-4-123.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
       "originalUrl": "https://o.alicdn.com/gcom/ug-member-config/config.json",
       "type": "xhr",
       "ipinfo": {
         "domain": "o.alicdn.com",
-        "ip": "163.181.22.203",
+        "ip": "43.109.5.4",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -277,11 +197,27 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://aplus.aliexpress.com/eg.js?t=1789866202234",
+      "originalUrl": "https://time-ae.akamaized.net/gettime?callback=timestampcb",
+      "type": "script",
+      "ipinfo": {
+        "domain": "time-ae.akamaized.net",
+        "ip": "23.32.4.186",
+        "hostname": "a23-32-4-186.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://aplus.aliexpress.com/eg.js?t=1789882399159",
       "type": "script",
       "ipinfo": {
         "domain": "aplus.aliexpress.com",
-        "ip": "47.246.110.43",
+        "ip": "47.246.110.42",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -291,11 +227,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 94.87,
+        "rtt": 79.93,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "47.246.110.43",
+          "queried_ip": "47.246.110.42",
           "prefix": "47.246.110.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -313,7 +249,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "us.ynuf.aliapp.org",
-        "ip": "47.246.165.152",
+        "ip": "47.246.165.151",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -323,12 +259,45 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 87.953,
+        "rtt": 87.439,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "47.246.165.152",
+          "queried_ip": "47.246.165.151",
           "prefix": "47.246.165.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-5VJNN2G",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.197.40",
+        "hostname": "nchkga-ag-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.837,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.40",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -355,7 +324,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 93.731,
+        "rtt": 87.528,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -373,11 +342,11 @@
       }
     },
     {
-      "originalUrl": "https://fourier.aliexpress.com/ts?url=https%3A%2F%2Fase.aidcgroup.net%2Fupload%2Fweb%2Finfo&token=gOYtIV0BUXFOvPgIePmHwbt80wcnKDAZsdR7otXgcpppHLUgoIiZMqpk1tfm_OXXvK9FjOTvgrCXGKlNnfoH_C7VlYDkD4Aw_b27TFDhljOCosndiFgv_C74TQkLtEdZDv1ba1_Xhw6Ca1_blsaj9W1fdP1b5swI9sWClPa1G91CZ1UfG19XOXCVdt_flK_I9sWChZ_XrCzOH56zkKFvLP4UT94bleCOf4R1dr1eJ1IOFC9YlrNV6GBW19HGyBeVDdI9-VeP6HOJL1pqzP71Dht55EH-WwOyxd1phYEAd3LwkgYteuW67tJR5HHQWZ_CwIIkxjZRKnOeJMLtqS5eSITNqagzCtxHwECvuxupeC99VgT_Bg7vrU3zyGBRilGK9orVf62S2ayRGo5mG6BoTpr40MCF9TcK5orVfSfdEXm30oSd9&cna=undefined&ext=61",
+      "originalUrl": "https://fourier.aliexpress.com/ts?url=https%3A%2F%2Fase.aidcgroup.net%2Fupload%2Fweb%2Finfo&token=gfSEIu2ij3fsUiFc3txzgPXKlCKpA3Pb4gOWETXkdBA3yJdkEC5yV9wKVTYlGTnBrWKC41-dfwiWOWKPEstzGSZbc9BpY3VbGCc7Y-xkEuOu5ejWrIAuGSZbfrCSCHVfFhx5OhvJspmHZ22wIKJHqvYlZCYMnKGHq3fuQFvpE20n-UxMIpdMZ3xlZO2weCvHq3flIRJJrBYkucJJ-omVZp6UtpTei9AZ4_swKeudKCooqG5e8ImX_0mlbpW8vHvSxoRGRajBjMViMhXA56vw0ukyQZWMxp58DDKhnObk8gzSHQQNIZTNWvwpQMWV4K8nsJRRA6SyJiVjXBbNXg-C5WoXwUb1vEIQsD-ck9tCr12oqQ7MEgWxwdxEoRVjZ48HBdRbQRvBm7gZu506t43JRfpwGJ2ny4LHAdRbQT0-yeL9QIw3d&cna=IV42IzZ31QcCAXT%2FWgTNJSca&ext=61",
       "type": "image",
       "ipinfo": {
         "domain": "fourier.aliexpress.com",
-        "ip": "47.246.110.23",
+        "ip": "47.246.165.127",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -387,12 +356,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 92.737,
+        "rtt": 86.884,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "47.246.110.23",
-          "prefix": "47.246.110.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "47.246.165.127",
+          "prefix": "47.246.165.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -405,27 +374,26 @@
       }
     },
     {
-      "originalUrl": "https://www.googletagmanager.com/gtm.js?id=GTM-5VJNN2G",
-      "type": "script",
+      "originalUrl": "https://epss.alibaba-inc.com/report/web-e?host=best.aliexpress.com&jf=epssw_reportSend&cv=14&jv=60&m=host%3Dase.aidcgroup.net",
+      "type": "image",
       "ipinfo": {
-        "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "domain": "epss.alibaba-inc.com",
+        "ip": "47.246.167.107",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Singapore"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.434,
+        "rtt": 89.983,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "47.246.167.107",
+          "prefix": "47.246.167.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -436,6 +404,21 @@
           "location_count": 0
         }
       }
+    },
+    {
+      "originalUrl": "https://img.alicdn.com/imgextra/i2/O1CN01iMN8Hb1xrDdqAXdq6_!!6000000006496-2-tps-64-64.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "img.alicdn.com",
+        "ip": "43.109.5.4",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS24429 Zhejiang Taobao Network Co.,Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://tags.creativecdn.com/Ss52YF3IAd5cEVfrVcQ0.js",
@@ -483,7 +466,7 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: 9CCF3182D7624FE8850939BEC9079EE4 Ref B: SEL221051801025 Ref C: 2026-09-20T01:03:23Z",
+        "x-msedge-ref": "Ref A: 202480EEC1B24A5B99460D5C59D3E6CE Ref B: SEL221051801017 Ref C: 2026-09-20T05:33:22Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
@@ -516,8 +499,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -532,8 +515,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "resjscdn.com",
-        "ip": "18.64.8.88",
-        "hostname": "server-18-64-8-88.icn57.r.cloudfront.net",
+        "ip": "18.64.8.107",
+        "hostname": "server-18-64-8-107.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -548,23 +531,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "jscdn.appier.net",
-        "ip": "23.11.232.4",
-        "hostname": "a23-11-232-4.deploy.static.akamaitechnologies.com",
-        "city": "Santa Clara",
-        "region": "California",
-        "country": "US",
-        "loc": "37.3541,-121.9552",
+        "ip": "23.46.155.138",
+        "hostname": "a23-46-155-138.deploy.static.akamaitechnologies.com",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
         "org": "AS20940 Akamai International B.V.",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Tokyo"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 132.833,
+        "rtt": 40.676,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "23.11.232.4",
-          "prefix": "23.11.232.0/24",
+          "queried_ip": "23.46.155.138",
+          "prefix": "23.46.155.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -577,11 +560,11 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=3&frm=0&apvc=1&ae=g&auid=1536189702.1789866203&dt=AliExpress%20-%20%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%20%EC%A0%84%EC%9E%90%20%EC%A0%9C%ED%92%88%2C%20%ED%8C%A8%EC%85%98%2C%20%EA%B0%80%EC%A0%95%20%EB%B0%8F%20%EC%A0%95%EC%9B%90%2C%20%EC%99%84%EA%B5%AC%20%EB%B0%8F%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%2C%20&en=page_view&dl=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26terminal_id%3Dcadb7e3f7f54474788aca9b11c70f377&scrsrc=www.googletagmanager.com&rnd=1797909409.1789866203&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He69g1v837053949za200zd837053949xeaxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120385423~120469145~120469153~120847433&tft=1789866203027&tfd=2033&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=9&frm=0&apvc=1&ae=g&auid=1482688565.1789882400&dt=AliExpress%20-%20%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%20%EC%A0%84%EC%9E%90%20%EC%A0%9C%ED%92%88%2C%20%ED%8C%A8%EC%85%98%2C%20%EA%B0%80%EC%A0%95%20%EB%B0%8F%20%EC%A0%95%EC%9B%90%2C%20%EC%99%84%EA%B5%AC%20%EB%B0%8F%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%2C%20&en=page_view&dl=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26terminal_id%3D734df128505a4989a8d01924eb26add5&scrsrc=www.googletagmanager.com&rnd=505672101.1789882400&navt=n&npa=0&ep.ads_data_redaction=0&_tu=CA&gtm=45He69g1v837053949za200zd837053949xeaxf1&gcs=G1--&gcd=13l3l3l3l5l1&dma=0&tag_exp=115616986~115938466~115938468~118897920~118897930~120385422~120469145~120469153~120847435&tft=1789882400195&tfd=2626&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.152.119",
+        "ip": "142.251.157.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -594,9 +577,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.152.119",
-          "prefix": "142.251.152.0/24",
+          "source": "laces api (direct)",
+          "queried_ip": "142.251.157.119",
+          "prefix": "142.251.157.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -619,6 +602,54 @@
       }
     },
     {
+      "originalUrl": "https://dsp-track-global.zmaticoo.com/api/v1/monitor",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "dsp-track-global.zmaticoo.com",
+        "ip": "47.252.44.64",
+        "city": "Virginia Beach",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "36.8529,-75.9780",
+        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 193.129,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "47.252.44.64",
+          "prefix": "47.252.44.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://ct.pinterest.com/user/?tid=2613185206100&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&cb=1789882400318&dep=2%2CPAGE_LOAD",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "ct.pinterest.com",
+        "ip": "23.60.185.12",
+        "hostname": "a23-60-185-12.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
       "originalUrl": "https://ams.creativecdn.com/tags/v2?type=json",
       "type": "fetch",
       "ipinfo": {
@@ -635,42 +666,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://img.alicdn.com/imgextra/i2/O1CN01iMN8Hb1xrDdqAXdq6_!!6000000006496-2-tps-64-64.png",
-      "type": "image",
-      "ipinfo": {
-        "domain": "img.alicdn.com",
-        "ip": "163.181.22.203",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS24429 Zhejiang Taobao Network Co.,Ltd",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://ct.pinterest.com/user/?tid=2613185206100&pd=%7B%22np%22%3A%22gtm%22%2C%22gtm_version%22%3A%22legacy%22%7D&cb=1789866203183&dep=2%2CPAGE_LOAD",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "ct.pinterest.com",
-        "ip": "23.60.185.12",
-        "hostname": "a23-60-185-12.deploy.static.akamaitechnologies.com",
-        "city": "Yeongdong",
-        "region": "North Chungcheong",
-        "country": "KR",
-        "loc": "36.1750,127.7764",
-        "org": "AS16625 Akamai Technologies, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
       "originalUrl": "https://mpc-prod-4-1053047382554.us-central1.run.app/events?cee=no",
       "type": "fetch",
       "ipinfo": {
         "domain": "mpc-prod-4-1053047382554.us-central1.run.app",
-        "ip": "34.143.74.2",
+        "ip": "34.143.77.2",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -684,8 +684,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "34.143.74.2",
-          "prefix": "34.143.74.0/24",
+          "queried_ip": "34.143.77.2",
+          "prefix": "34.143.77.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -712,8 +712,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -724,112 +724,12 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-VED1YSGNC7&gtm=45je69g1v869285019z8837053949za20gzb837053949zd837053949xf1&_p=1789866202702&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&_eu=EAAAAGAC&_prs=ok&cid=223842721.1789866203&frm=0&ir=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789866203&sct=1&seg=0&dl=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26terminal_id%3Dcadb7e3f7f54474788aca9b11c70f377&dt=AliExpress%20-%20%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%20%EC%A0%84%EC%9E%90%20%EC%A0%9C%ED%92%88%2C%20%ED%8C%A8%EC%85%98%2C%20%EA%B0%80%EC%A0%95%20%EB%B0%8F%20%EC%A0%95%EC%9B%90%2C%20%EC%99%84%EA%B5%AC%20%EB%B0%8F%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%2C%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%B0%8F%20%EA%B8%B0%ED%83%80%20%EC%A0%9C%ED%92%88%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%87%BC%ED%95%91.&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=2308",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "analytics.google.com",
-        "ip": "216.239.36.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 42.513,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "216.239.36.181",
-          "prefix": "216.239.36.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 17,
-          "location_count": 9
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-VED1YSGNC7&cid=223842721.1789866203&gtm=45je69g1v869285019z8837053949za20gzb837053949zd837053949xf1&rcb=16&aip=1&dma=0&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&frm=0&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=906865988",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.23.94",
-        "hostname": "zj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 43.53,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.23.94",
-          "prefix": "142.250.23.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://dsp-track-global.zmaticoo.com/api/v1/monitor",
-      "type": "ping",
-      "ipinfo": {
-        "domain": "dsp-track-global.zmaticoo.com",
-        "ip": "47.252.44.64",
-        "city": "Virginia Beach",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "36.8529,-75.9780",
-        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
-        "timezone": "America/New_York"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 209.933,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "47.252.44.64",
-          "prefix": "47.252.44.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://t0.c.appier.net/web2/313c693ef4e2b97/?action_id=ViewLanding_7a9d&path=%2F&cookie_uid=KHTQES1g53OHjvHe&api_version=1&escaped_qs=commercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26terminal_id%3Dcadb7e3f7f54474788aca9b11c70f377&webuu=57NzNcafN67rVO4Gz569m6",
+      "originalUrl": "https://t0.c.appier.net/web2/313c693ef4e2b97/?action_id=ViewLanding_7a9d&path=%2F&cookie_uid=9OT_V43Khx-_BQ4F&api_version=1&escaped_qs=commercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26terminal_id%3D734df128505a4989a8d01924eb26add5&webuu=cR4_K14vkSR0WOR6HHVh1d",
       "type": "image",
       "ipinfo": {
         "domain": "t0.c.appier.net",
-        "ip": "34.84.138.147",
-        "hostname": "147.138.84.34.bc.googleusercontent.com",
+        "ip": "35.221.116.36",
+        "hostname": "36.116.221.35.bc.googleusercontent.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -839,12 +739,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.785,
+        "rtt": 41.201,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "34.84.138.147",
-          "prefix": "34.84.138.0/24",
+          "queried_ip": "35.221.116.36",
+          "prefix": "35.221.116.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -857,7 +757,7 @@
       }
     },
     {
-      "originalUrl": "https://anylist.c.appier.net/r2?country=KR&enable_cookie_sync=1&url=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%26terminal_id%3Dcadb7e3f7f54474788aca9b11c70f377&referer=&ssid=2jlCx7zDVneRUTgF8olTJD&sessidx=1&siteuid=KHTQES1g53OHjvHe&appier_utmz={}&_t=1789866203435&_tz=9&uc=KR&tv=2.8.1&eqid=yiF-jBvEeSrvGLUD&site=aliexpress.com&fbp=fb.1.1789866203209.269294235506586584&lt=2441",
+      "originalUrl": "https://anylist.c.appier.net/r2?country=KR&enable_cookie_sync=1&url=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26terminal_id%3D734df128505a4989a8d01924eb26add5&referer=&ssid=4xbdfwnO5OU8hYEfTTrjCt&sessidx=1&siteuid=9OT_V43Khx-_BQ4F&appier_utmz={}&_t=1789882400403&_tz=9&uc=KR&tv=2.8.1&eqid=qF6nsn6o2tm_U-tr&site=aliexpress.com&fbp=fb.1.1789882400380.444324984716519386&lt=2834",
       "type": "xhr",
       "ipinfo": {
         "domain": "anylist.c.appier.net",
@@ -900,12 +800,78 @@
       }
     },
     {
-      "originalUrl": "https://s.c.appier.net/aprcm?a_i=%2Fr2%3Fcountry%3DKR%26enable_cookie_sync%3D1%26url%3Dhttps%253A%252F%252Fbest.aliexpress.com%252F%253Fcommercial_type%253DbestPage%2526hc_1214_tag%253DByAffPage%2526aff_fcid%253D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%2526aff_fsk%253D_pz9sEiR%2526aff_platform%253Dportals-promotion%2526sk%253D_pz9sEiR%2526aff_trace_key%253D2f4e50d9621b442ea30c8f284b02ce95-1789866201256-00321-_pz9sEiR%2526terminal_id%253Dcadb7e3f7f54474788aca9b11c70f377%26referer%3D%26ssid%3D2jlCx7zDVneRUTgF8olTJD%26sessidx%3D1%26siteuid%3DKHTQES1g53OHjvHe%26appier_utmz%3D%7B%7D%26_t%3D1789866203435%26_tz%3D9%26uc%3DKR%26tv%3D2.8.1%26eqid%3DyiF-jBvEeSrvGLUD%26site%3Daliexpress.com%26fbp%3Dfb.1.1789866203209.269294235506586584%26lt%3D2441&gdpr=0&gdpr_consent=",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-VED1YSGNC7&gtm=45je69g1v869285019z8837053949za20gzb837053949zd837053949xf1&_p=1789882399576&_gaz=1&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&dma=0&_eu=EAAAAGAC&_prs=ok&cid=317964414.1789882400&frm=0&ir=1&pscdl=noapi&rcb=2&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~120847435&sid=1789882400&sct=1&seg=0&dl=https%3A%2F%2Fbest.aliexpress.com%2F%3Fcommercial_type%3DbestPage%26hc_1214_tag%3DByAffPage%26aff_fcid%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26aff_fsk%3D_pz9sEiR%26aff_platform%3Dportals-promotion%26sk%3D_pz9sEiR%26aff_trace_key%3D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%26terminal_id%3D734df128505a4989a8d01924eb26add5&dt=AliExpress%20-%20%EC%9D%B8%EA%B8%B0%EC%9E%88%EB%8A%94%20%EC%A0%84%EC%9E%90%20%EC%A0%9C%ED%92%88%2C%20%ED%8C%A8%EC%85%98%2C%20%EA%B0%80%EC%A0%95%20%EB%B0%8F%20%EC%A0%95%EC%9B%90%2C%20%EC%99%84%EA%B5%AC%20%EB%B0%8F%20%EC%8A%A4%ED%8F%AC%EC%B8%A0%2C%20%EC%9E%90%EB%8F%99%EC%B0%A8%20%EB%B0%8F%20%EA%B8%B0%ED%83%80%20%EC%A0%9C%ED%92%88%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%87%BC%ED%95%91.&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=2876",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "142.250.198.206",
+        "hostname": "nchkgb-al-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.483,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.206",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-VED1YSGNC7&cid=317964414.1789882400&gtm=45je69g1v869285019z8837053949za20gzb837053949zd837053949xf1&rcb=2&aip=1&dma=0&gcs=G1--&gcd=13l3l3l3l5l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118897920~118897930~120213116~120385423~120420415~120469145~120469153~120847435&z=518870197",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.71.163",
+        "hostname": "nchkga-ab-in-f3.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.23,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.71.163",
+          "prefix": "142.250.71.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://s.c.appier.net/aprcm?a_i=%2Fr2%3Fcountry%3DKR%26enable_cookie_sync%3D1%26url%3Dhttps%253A%252F%252Fbest.aliexpress.com%252F%253Fcommercial_type%253DbestPage%2526hc_1214_tag%253DByAffPage%2526aff_fcid%253D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%2526aff_fsk%253D_pz9sEiR%2526aff_platform%253Dportals-promotion%2526sk%253D_pz9sEiR%2526aff_trace_key%253D189bf6cbf90a423981cb35975facbf75-1789882400058-01617-_pz9sEiR%2526terminal_id%253D734df128505a4989a8d01924eb26add5%26referer%3D%26ssid%3D4xbdfwnO5OU8hYEfTTrjCt%26sessidx%3D1%26siteuid%3D9OT_V43Khx-_BQ4F%26appier_utmz%3D%7B%7D%26_t%3D1789882400403%26_tz%3D9%26uc%3DKR%26tv%3D2.8.1%26eqid%3DqF6nsn6o2tm_U-tr%26site%3Daliexpress.com%26fbp%3Dfb.1.1789882400380.444324984716519386%26lt%3D2834&gdpr=0&gdpr_consent=",
       "type": "xhr",
       "ipinfo": {
         "domain": "s.c.appier.net",
-        "ip": "172.104.70.67",
-        "hostname": "li1680-67.members.linode.com",
+        "ip": "172.105.225.231",
+        "hostname": "172-105-225-231.ip.linodeusercontent.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -916,11 +882,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://299bci.tdum.alibaba.com/dss.js",
+      "originalUrl": "https://6qu8zh.tdum.alibaba.com/dss.js",
       "type": "script",
       "ipinfo": {
-        "domain": "299bci.tdum.alibaba.com",
-        "ip": "47.246.110.143",
+        "domain": "6qu8zh.tdum.alibaba.com",
+        "ip": "47.246.167.138",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -930,12 +896,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 91.981,
+        "rtt": 92.413,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "47.246.110.143",
-          "prefix": "47.246.110.0/24",
+          "queried_ip": "47.246.167.138",
+          "prefix": "47.246.167.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -967,19 +933,19 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "g.alicdn.com",
-        "ip": "23.67.53.185",
-        "hostname": "a23-67-53-185.deploy.static.akamaitechnologies.com",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "23.50.121.19",
+        "hostname": "a23-50-121-19.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
         "country": "KR",
-        "loc": "37.5660,126.9784",
+        "loc": "36.1750,127.7764",
         "org": "AS20940 Akamai International B.V.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://gw-iad-bid.ymmobi.com/dsp/user/sync?dspid=bmV0d29ya19pZHNw&gdpr=1&gdpr_consent=CQnB74AQnB74ABcABAENDcEgAPLAAAAAAAAAIzQAwAQALzAjMCM0AMAEAC8wIzAAAAAA.IIzQAwAQALzAjMAA.YAAAAAAAAAAA&us_privacy=1&callback=https%3A%2F%2Fdsp-track-global.zmaticoo.com%2Fcm%2Fcb%3Fpartner%3Dzmaticoo%26pixel_uid%3Da7d38f43-697f-45de-87d1-49b62cca1a08%26cid%3D%7Bym_user_id%7D",
+      "originalUrl": "https://gw-iad-bid.ymmobi.com/dsp/user/sync?dspid=bmV0d29ya19pZHNw&gdpr=1&gdpr_consent=CQnB74AQnB74ABcABAENDcEgAPLAAAAAAAAAIzQAwAQALzAjMCM0AMAEAC8wIzAAAAAA.IIzQAwAQALzAjMAA.YAAAAAAAAAAA&us_privacy=1&callback=https%3A%2F%2Fdsp-track-global.zmaticoo.com%2Fcm%2Fcb%3Fpartner%3Dzmaticoo%26pixel_uid%3Dfa1f8304-3d68-49ab-842e-1e45d8698644%26cid%3D%7Bym_user_id%7D",
       "type": "script",
       "ipinfo": {
         "domain": "gw-iad-bid.ymmobi.com",
@@ -993,7 +959,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 94.566,
+        "rtt": 88.319,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -1011,7 +977,7 @@
       }
     },
     {
-      "originalUrl": "https://ams46.creativecdn.com/info?tk=70WQahCOa4l6Md5mGOlSFtjvHiOvR8Dht_CIyDS_7teV6RHj8jCnjrIdliMPXK1s-yfQ7rOWU3QF4mEN2wqLrwA",
+      "originalUrl": "https://ams46.creativecdn.com/info?tk=mcHhQ_qMlpaV7lhbV6ULcAluzLYgE3j7S8QvSRkhyBL7-Vgvz59Ugd5cCVzOjViOZYhmtNkw75-OmEyQQtnnXwA",
       "type": "image",
       "ipinfo": {
         "domain": "ams46.creativecdn.com",
@@ -1025,6 +991,38 @@
         "timezone": "Europe/Amsterdam"
       },
       "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://umdc-global.aliexpress.com/repTw.json?e=2075&sv=1.0&pv=1.0&pn=best.aliexpress.com&biz=4",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "umdc-global.aliexpress.com",
+        "ip": "47.246.72.58",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS45102 Alibaba (US) Technology Co., Ltd.",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 76.165,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "47.246.72.58",
+          "prefix": "47.246.72.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
     }
   ]
 }

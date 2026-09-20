@@ -2,9 +2,9 @@
   "url": "https://game.naver.com",
   "canonicalURL": "https://game.naver.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:07:35.695Z",
+  "timestamp": "2026-09-20T05:37:48.441Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,26 +13,26 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 300,
-  "uniqueDomains": 16,
+  "requestCount": 305,
+  "uniqueDomains": 18,
   "test_results": {
     "domestic": {
-      "cloud": 2,
-      "direct": 14
+      "cloud": 0,
+      "direct": 17
     },
     "foreign": {
-      "cloud": 0,
+      "cloud": 1,
       "direct": 0
     }
   },
@@ -57,7 +57,7 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "ssl.pstatic.net",
-        "ip": "61.247.197.76",
+        "ip": "61.247.197.75",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -72,7 +72,7 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "editor-static.pstatic.net",
-        "ip": "61.247.197.72",
+        "ip": "125.209.254.12",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -87,7 +87,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "comm-api.game.naver.com",
-        "ip": "202.179.177.65",
+        "ip": "110.93.157.161",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -117,52 +117,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "point.pay.naver.com",
-        "ip": "117.52.133.22",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS23576 NAVER Cloud Corp.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://nng-phinf.pstatic.net/MjAyNjA5MTZfODgg/MDAxNzg5NTcwMDEyODIz.KXEhGFS_SMIXgkqdYaYX1jI017DhlEroQBEo7u203mog.uQpJLEw-1hDDyh_9w3Sw6QPT2tnb3M9ctGWYHNasOawg.JPEG/867200_1789450766.jpg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "nng-phinf.pstatic.net",
-        "ip": "116.120.5.187",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS38688 GSNeotek",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://dbscthumb-phinf.pstatic.net/5116_000_1/20200521154234516_LFA86GSJU.jpg/200521_%EC%95%84.jpg?type=m1500_q100",
-      "type": "image",
-      "ipinfo": {
-        "domain": "dbscthumb-phinf.pstatic.net",
-        "ip": "116.125.28.62",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS9318 SK Broadband Co Ltd",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://mimgnews.pstatic.net/image/origin/356/2026/09/19/86043.jpg?type=w300",
-      "type": "image",
-      "ipinfo": {
-        "domain": "mimgnews.pstatic.net",
-        "ip": "125.209.254.14",
+        "ip": "110.93.154.9",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -177,8 +132,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -189,27 +144,41 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://cdn-ao.adison.co/uploads/ad/thumbnail/1000132/1349b789e5.jpg",
+      "originalUrl": "https://cdn-ao.adison.co/uploads/ad/thumbnail/862508/e2e38ec9bd.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "cdn-ao.adison.co",
-        "ip": "23.76.153.203",
-        "hostname": "a23-76-153-203.deploy.static.akamaitechnologies.com",
+        "ip": "121.254.136.58",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://nam.veta.naver.com/gfp/v1?u=p_game_general_top&xdid=HomeTopBanner&p=pcmo%3Apc%2Ccp%3Anavergame%2Csvc%3Anavergame_main_top%2Cda_dom_id%3AHomeTopBanner&an=game.naver.com&c=https%3A%2F%2Fgame.naver.com%2F&sn=web&sv=3.10.7&nt=0&iv=2e65214d-ca28-4883-97c3-8be1777f386c&ivt=0&sa=0&rui=3398520366&br=0&sua=%7B%22browsers%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%5B%22153%22%2C%220%22%2C%228010%22%2C%2212%22%5D%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%5B%228%22%2C%220%22%2C%220%22%2C%220%22%5D%7D%5D%2C%22platform%22%3A%7B%22brand%22%3A%22macOS%22%2C%22version%22%3A%5B%2210_15_7%22%5D%7D%2C%22mobile%22%3A0%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22model%22%3A%22%22%7D",
+      "originalUrl": "https://nng-phinf.pstatic.net/MjAyNjA5MTZfMjEg/MDAxNzg5NTY3OTA1MDMw.6bqz9Np1EyHdqw56iWU3_DmRddIp4bZ3lGBsv9NbX0sg.jKoJ67kW90HIX-x0OgjW7z_gCqA8-4ph6P_W1HkPuWog.PNG/%EB%B0%B0%EA%B2%BD.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "nng-phinf.pstatic.net",
+        "ip": "116.125.28.62",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS9318 SK Broadband Co Ltd",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://nam.veta.naver.com/gfp/v1?u=p_game_general_top&xdid=HomeTopBanner&p=pcmo%3Apc%2Ccp%3Anavergame%2Csvc%3Anavergame_main_top%2Cda_dom_id%3AHomeTopBanner&an=game.naver.com&c=https%3A%2F%2Fgame.naver.com%2F&sn=web&sv=3.10.7&nt=0&iv=3a562897-f33c-4c90-be68-66db558c8be5&ivt=0&sa=0&rui=3934664802&br=0&sua=%7B%22browsers%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%5B%22153%22%2C%220%22%2C%228010%22%2C%2212%22%5D%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%5B%228%22%2C%220%22%2C%220%22%2C%220%22%5D%7D%5D%2C%22platform%22%3A%7B%22brand%22%3A%22macOS%22%2C%22version%22%3A%5B%2210_15_7%22%5D%7D%2C%22mobile%22%3A0%2C%22architecture%22%3A%22x86%22%2C%22bitness%22%3A%2264%22%2C%22model%22%3A%22%22%7D",
       "type": "fetch",
       "ipinfo": {
         "domain": "nam.veta.naver.com",
-        "ip": "210.89.168.51",
+        "ip": "210.89.168.82",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -220,11 +189,11 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://scv-game.io.naver.com/jackpotlog/v1/logs",
-      "type": "fetch",
+      "originalUrl": "https://mimgnews.pstatic.net/image/origin/442/2026/09/20/196931.jpg?type=w300",
+      "type": "image",
       "ipinfo": {
-        "domain": "scv-game.io.naver.com",
-        "ip": "110.93.158.164",
+        "domain": "mimgnews.pstatic.net",
+        "ip": "125.209.254.15",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -235,11 +204,26 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://siape.veta.naver.com/openrtb/nurl?eu=EU10044592&calp=-&oj=3RAIOv5wNj%2FTGFeOkW65b5BY%2Flrb%2BMHuA31JXVnEiz1sPInassc8Cpp8YcEVHHqsqc%2BbrPnMGnrVSuBwNC1ivIzLRs%2BUER4WKP6nZe2Na7A9iSxBzV3NFje1XuKuJOx285mBDwl3lrNGYV6e%2BSf9t3epfyhIM5praVsXMKf9DofbK8g1p%2F2l2yei6oUn0RGq8oL877zQM9mHTijqjP132eTnwpUhd4SglQO2EBWNJNB4GeJ%2FYFpEN60SJRJYDS5Gqm8vh3gvpnHaDWq7y6XXA41PQLelVptkxR5QEr6r%2BBNyr%2BNJaBRciP9HN05AFB4O0YzZngEwJUvyEakKVXYTaJq0ScbSD99VrcUGL1vbICAQ7oWzaMqLzWqZ90dtRKEgNeAL%2FFuBo%2BNPU7CSjIXqIK%2BVSAzGQQKlzfM3Myylt7E&ac=9322092&src=8239157&evtcd=BID_WIN&x_ti=1574&rk=B4I782rPmafeL8XWO15Ixg&eltts=9PiSkbhltbZqhWJvAyirPg%3D%3D&brs=Y&dummy=0.5135353121470836",
-      "type": "xhr",
+      "originalUrl": "https://dbscthumb-phinf.pstatic.net/4467_000_37/20201010084305355_Z6NHNZ740.png/0000748883_DP000.png?type=m120_120",
+      "type": "image",
       "ipinfo": {
-        "domain": "siape.veta.naver.com",
-        "ip": "110.93.159.44",
+        "domain": "dbscthumb-phinf.pstatic.net",
+        "ip": "116.120.5.187",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38688 GSNeotek",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://s.pstatic.net/dbscthumb.phinf/5116_000_1/20171130105209826_76A4AQAEU.png/logo_masseffect1.png?type=m1500_q100",
+      "type": "image",
+      "ipinfo": {
+        "domain": "s.pstatic.net",
+        "ip": "61.247.197.71",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -254,7 +238,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "video-phinf.pstatic.net",
-        "ip": "211.47.3.60",
+        "ip": "211.47.29.117",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -269,16 +253,78 @@
       "type": "image",
       "ipinfo": {
         "domain": "livecloud-thumb.akamaized.net",
-        "ip": "23.206.175.219",
-        "hostname": "a23-206-175-219.deploy.static.akamaitechnologies.com",
+        "ip": "121.254.136.185",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://siape.veta.naver.com/openrtb/nurl?eu=EU10044592&calp=-&oj=3RAIOv5wNj%2BbetUe%2BYuSEeoGvYoeFDGqm8D8CWNlEoxmpKU9%2BJD6GaAHAh2PRn6yqc%2BbrPnMGnrVSuBwNC1ivIzLRs%2BUER4WKP6nZe2Na7A9iSxBzV3NFje1XuKuJOx285mBDwl3lrNGYV6e%2BSf9t3epfyhIM5praVsXMKf9DofbK8g1p%2F2l25fAPxnswoU38oL877zQM9mHTijqjP132eTnwpUhd4SglQO2EBWNJNB4GeJ%2FYFpEN60SJRJYDS5Gqm8vh3gvpnHaDWq7y6XXA41PQLelVptkxR5QEr6r%2BBNyr%2BNJaBRciP9HN05AFB4O0YzZngEwJUvyEakKVXYTaJq0ScbSD99VrcUGL1vbICAQ7oWzaMqLzWqZ90dtRKEgNeAL%2FFuBo%2BNPU7CSjIXqIK%2BVSAzGQQKlzfM3Myylt7E&ac=9317788&src=8225668&evtcd=BID_WIN&x_ti=1574&rk=wExGg52buOndAZsuVdASrQ&eltts=mo3SjRm5URhuxgxBgpCA2w%3D%3D&brs=Y&dummy=0.5519978298453377",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "siape.veta.naver.com",
+        "ip": "125.209.233.24",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://blogger.googleusercontent.com/img/a/AVvXsEgx0hHjTGnhOoYQyNPlnyAygQQjOT_wKCqCuCo1RUP-eEPmAzbE_HPsq4npZdIB3SAfvfITm3iZAuX6NFuY_RCRHa5C3kOVbRsB8YPFb5_d1rze4pu9NmOu2N-VZ4dGknbAKdonoFQP-BEbYSC4Gyzg99IlW7kaEMUWOZ6EnhzwOaolY9LZ-KoC6wGymLKe=w1200-h630-p-k-no-nu",
+      "type": "image",
+      "ipinfo": {
+        "domain": "blogger.googleusercontent.com",
+        "ip": "142.250.197.97",
+        "hostname": "nchkga-ai-in-f1.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.624,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.97",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://scv-game.io.naver.com/jackpotlog/v1/logs",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "scv-game.io.naver.com",
+        "ip": "110.93.145.228",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS23576 NAVER Cloud Corp.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
     }
   ]
 }

@@ -1,0 +1,135 @@
+{
+  "url": "https://moe.go.kr",
+  "canonicalURL": "https://moe.go.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:21:46.815Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 108,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 0,
+      "direct": 3
+    },
+    "foreign": {
+      "cloud": 1,
+      "direct": 1
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://moe.go.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "moe.go.kr",
+        "ip": "27.101.207.36",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17841 NATIONAL INFORMATION RESOURCES SERVICE",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.moe.go.kr/img/2025Renewal/main/top_button.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.moe.go.kr",
+        "ip": "27.101.207.36",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17841 NATIONAL INFORMATION RESOURCES SERVICE",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://img.youtube.com/vi/qacY5-06nYQ/sddefault.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "img.youtube.com",
+        "ip": "142.250.199.238",
+        "hostname": "nchkgb-an-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.189,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.238",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://scontent-nrt6-1.cdninstagram.com/v/t51.82787-15/813747639_18365946817245399_6559849481433725930_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=MwEo0rwJcz4Q7kNvwE85LqW&_nc_oc=AdoJCVS2y4fwIIY5JFHnVD7Y06a4K__kUt0hB4VhcUo3BCDRuY5RaQdLcxfVxwRwiNI&_nc_zt=23&_nc_ht=scontent-nrt6-1.cdninstagram.com&edm=ANQ71j8EAAAA&_nc_gid=8PQiGXb8fc4ke3AGKQU-eg&_nc_tpa=Q5bMBQL7g_Qnggv2QaMu4BN_CzN3ZFCiNSQOEWBhWEsM_LYWqw5_loeJ-xBE35cHXBlivBLCS54PPlPvXqM&oh=00_AQLv0anjrfkxzB0dsyOxA1j_tCU7Qym9ZxJdPdhjGY3jwg&oe=6AB5089E",
+      "type": "image",
+      "ipinfo": {
+        "domain": "scontent-nrt6-1.cdninstagram.com",
+        "ip": "57.144.44.192",
+        "hostname": "instagram-p3-shv-01-nrt6.fbcdn.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS32934 Facebook, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.korea.kr/etc/news_widget.do?svrId=JFJ9wSADGJ000",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.korea.kr",
+        "ip": "27.101.217.76",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17841 NATIONAL INFORMATION RESOURCES SERVICE",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

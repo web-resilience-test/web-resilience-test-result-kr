@@ -2,9 +2,9 @@
   "url": "https://ticketbay.co.kr",
   "canonicalURL": "https://www.ticketbay.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T02:04:22.749Z",
+  "timestamp": "2026-09-20T06:30:30.001Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 134,
+  "requestCount": 133,
   "uniqueDomains": 22,
   "test_results": {
     "domestic": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "ticketbay.co.kr",
-        "ip": "43.200.115.11",
-        "hostname": "ec2-43-200-115-11.ap-northeast-2.compute.amazonaws.com",
+        "ip": "15.165.148.28",
+        "hostname": "ec2-15-165-148-28.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -58,8 +58,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.ticketbay.co.kr",
-        "ip": "43.200.115.11",
-        "hostname": "ec2-43-200-115-11.ap-northeast-2.compute.amazonaws.com",
+        "ip": "15.165.148.28",
+        "hostname": "ec2-15-165-148-28.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -74,23 +74,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.168",
+        "hostname": "nchkgb-ak-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 39.392,
+        "rtt": 86.591,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.198.168",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -123,7 +123,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "sdk.iad-07.braze.com",
-        "ip": "104.18.40.226",
+        "ip": "172.64.147.30",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -134,7 +134,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dd42463b881a63-ICN",
+        "cf-ray": "a3dec818aaf38127-ICN",
         "detection_method": "header"
       }
     },
@@ -143,7 +143,7 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "use.fontawesome.com",
-        "ip": "172.67.142.245",
+        "ip": "104.21.27.152",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -153,13 +153,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dd4246bf128e47-LAX",
+        "cf-ray": "a3dec8180f32dd4b-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.67.142.245",
-          "prefix": "172.67.142.0/24",
+          "queried_ip": "104.21.27.152",
+          "prefix": "104.21.27.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -169,8 +169,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 59,
-          "location_count": 59,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -186,8 +186,8 @@
       "type": "font",
       "ipinfo": {
         "domain": "cdn.ticketbay.co.kr",
-        "ip": "18.64.8.86",
-        "hostname": "server-18-64-8-86.icn57.r.cloudfront.net",
+        "ip": "18.64.8.67",
+        "hostname": "server-18-64-8-67.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -202,7 +202,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "code.jquery.com",
-        "ip": "151.101.65.155",
+        "ip": "151.101.193.155",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -213,7 +213,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "x-served-by": "cache-lga21978-LGA, cache-icn1450097-ICN",
+        "x-served-by": "cache-lga21978-LGA, cache-icn1450033-ICN",
         "detection_method": "header"
       }
     },
@@ -222,8 +222,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -238,7 +238,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "wcs.naver.net",
-        "ip": "125.209.254.13",
+        "ip": "125.209.254.11",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -253,28 +253,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "karrot-pixel.business.daangn.com",
-        "ip": "52.85.128.65",
-        "hostname": "server-52-85-128-65.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
+        "ip": "54.230.62.106",
+        "hostname": "server-54-230-62-106.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google.com/ccm/collect?rcb=17&frm=0&apvc=1&ae=g&auid=969911051.1789869861&dt=%EA%B5%AD%EB%82%B4%20%EC%B5%9C%EB%8C%80%20%ED%8B%B0%EC%BC%93%20%EC%96%91%EB%8F%84%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%ED%8B%B0%EC%BC%93%EB%B2%A0%EC%9D%B4(Ticketbay)&en=page_view&dl=https%3A%2F%2Fwww.ticketbay.co.kr%2F&scrsrc=www.googletagmanager.com&rnd=1962641876.1789869861&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9182860773za200zd9182860773xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120385423~120469145~120469153~120847433&tft=1789869860629&tfd=670&fmt=8",
+      "originalUrl": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&ae=g&auid=1556184962.1789885828&dt=%EA%B5%AD%EB%82%B4%20%EC%B5%9C%EB%8C%80%20%ED%8B%B0%EC%BC%93%20%EC%96%91%EB%8F%84%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%ED%8B%B0%EC%BC%93%EB%B2%A0%EC%9D%B4(Ticketbay)&en=page_view&dl=https%3A%2F%2Fwww.ticketbay.co.kr%2F&scrsrc=www.googletagmanager.com&rnd=1618684981.1789885828&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He69g1v9182860773za200zd9182860773xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118131809~118897920~118897930~120385422~120469145~120469153~120847433&tft=1789885827595&tfd=1218&fmt=8",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.154.119",
+        "ip": "142.251.157.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -288,8 +283,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.154.119",
-          "prefix": "142.251.154.0/24",
+          "queried_ip": "142.251.157.119",
+          "prefix": "142.251.157.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -312,7 +307,7 @@
       }
     },
     {
-      "originalUrl": "https://tbfile.ticketbay.co.kr/mobile-giftcard/2026/06/86d50ca6-9abe-4b19-8bb1-8dfc2c64ab3f.png",
+      "originalUrl": "https://tbfile.ticketbay.co.kr/banner/2026/08/ac0bc389-f54f-4102-b6c4-78339a5925f3.png",
       "type": "image",
       "ipinfo": {
         "domain": "tbfile.ticketbay.co.kr",
@@ -328,79 +323,11 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-4MJE1B53RZ&gtm=45je69g1v898686542z89182860773za20gzb9182860773zd9182860773xf1&_p=1789869860220&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=815231590.1789869861&frm=0&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789869860&sct=1&seg=0&dl=https%3A%2F%2Fwww.ticketbay.co.kr%2F&dt=%EA%B5%AD%EB%82%B4%20%EC%B5%9C%EB%8C%80%20%ED%8B%B0%EC%BC%93%20%EC%96%91%EB%8F%84%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%ED%8B%B0%EC%BC%93%EB%B2%A0%EC%9D%B4(Ticketbay)&en=page_view&_fv=2&_nsi=1&_ss=2&_c=1&ep.isMobile=false&ep.mobile_app=false&tfd=936",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "analytics.google.com",
-        "ip": "216.239.38.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 41.48,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "216.239.38.181",
-          "prefix": "216.239.38.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 15,
-          "location_count": 15
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-4MJE1B53RZ&cid=815231590.1789869861&gtm=45je69g1v898686542z89182860773za20gzb9182860773zd9182860773xf1&rcb=6&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=974716430",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.251.24.94",
-        "hostname": "rj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 40.81,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.24.94",
-          "prefix": "142.251.24.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
       "originalUrl": "https://ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js",
       "type": "script",
       "ipinfo": {
         "domain": "ssl.pstatic.net",
-        "ip": "125.209.254.17",
+        "ip": "61.247.197.76",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -415,7 +342,7 @@
       "type": "ping",
       "ipinfo": {
         "domain": "wcs.naver.com",
-        "ip": "125.209.233.21",
+        "ip": "125.209.233.29",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -426,28 +353,12 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://collect.daangn.com/p/c?id=1762405656894252001&uid=km%7Cwww.ticketbay.co.kr%7C1789869860996%7C568e09b0-93f2-4509-a286-11e267d1e8cd&et=ViewPage&rl=&l=https%3A%2F%2Fwww.ticketbay.co.kr%2F&ts=1789869861019&pl=%7B%7D&fp=ab21273f7203ba28c87798644561abd6&md=%7B%22sw%22%3A1280%2C%22sh%22%3A720%2C%22ec%22%3A0%2C%22it%22%3A1789869860996%2C%22v%22%3A%220.5.0%22%7D",
+      "originalUrl": "https://collect.daangn.com/p/c?id=1762405656894252001&uid=km%7Cwww.ticketbay.co.kr%7C1789885827669%7C8d04eda4-38b0-4a3f-a955-1a71123705d5&et=ViewPage&rl=&l=https%3A%2F%2Fwww.ticketbay.co.kr%2F&ts=1789885827692&pl=%7B%7D&fp=ab21273f7203ba28c87798644561abd6&md=%7B%22sw%22%3A1280%2C%22sh%22%3A720%2C%22ec%22%3A0%2C%22it%22%3A1789885827668%2C%22v%22%3A%220.5.0%22%7D",
       "type": "ping",
       "ipinfo": {
         "domain": "collect.daangn.com",
-        "ip": "13.125.115.82",
-        "hostname": "ec2-13-125-115-82.ap-northeast-2.compute.amazonaws.com",
-        "city": "Incheon",
-        "region": "Incheon",
-        "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
-    },
-    {
-      "originalUrl": "https://event-api.hackle.io/api/v2/w/events",
-      "type": "xhr",
-      "ipinfo": {
-        "domain": "event-api.hackle.io",
-        "ip": "3.37.118.12",
-        "hostname": "ec2-3-37-118-12.ap-northeast-2.compute.amazonaws.com",
+        "ip": "15.164.148.68",
+        "hostname": "ec2-15-164-148-68.ap-northeast-2.compute.amazonaws.com",
         "city": "Incheon",
         "region": "Incheon",
         "country": "KR",
@@ -462,7 +373,7 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "nam.veta.naver.com",
-        "ip": "210.89.168.77",
+        "ip": "210.89.168.48",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -473,12 +384,94 @@
       "category": "domestic/direct"
     },
     {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-WV8RLXRMTY&gtm=45je69g1v9207922134z89182860773za20gzb9182860773zd9182860773xf1&_p=1789885826792&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=712767052&_eu=AAAAAGA&cid=801573240.1789885828&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789885827&sct=1&seg=0&dl=https%3A%2F%2Fwww.ticketbay.co.kr%2F&dt=%EA%B5%AD%EB%82%B4%20%EC%B5%9C%EB%8C%80%20%ED%8B%B0%EC%BC%93%20%EC%96%91%EB%8F%84%20%ED%94%8C%EB%9E%AB%ED%8F%BC%20-%20%ED%8B%B0%EC%BC%93%EB%B2%A0%EC%9D%B4(Ticketbay)&en=page_view&_fv=1&_nsi=1&_ss=1&ep.isMobile=false&ep.mobile_app=false&tfd=1558",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "142.250.199.78",
+        "hostname": "hkg07s37-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.395,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.78",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WV8RLXRMTY&cid=801573240.1789885828&gtm=45je69g1v9207922134z89182860773za20gzb9182860773zd9182860773xf1&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938465~115938468~118897920~118897930~120213116~120385423~120469145~120469153&z=1183213301",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.35",
+        "hostname": "nchkga-ap-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 84.121,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.35",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://event-api.hackle.io/api/v2/w/events",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "event-api.hackle.io",
+        "ip": "54.116.157.156",
+        "hostname": "ec2-54-116-157-156.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
       "originalUrl": "https://www.facebook.com/tr/",
       "type": "document",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -493,8 +486,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "cdn.channel.io",
-        "ip": "54.230.62.56",
-        "hostname": "server-54-230-62-56.icn80.r.cloudfront.net",
+        "ip": "54.230.62.31",
+        "hostname": "server-54-230-62-31.icn80.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

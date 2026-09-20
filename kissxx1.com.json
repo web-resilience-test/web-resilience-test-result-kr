@@ -2,9 +2,9 @@
   "url": "https://kissxx1.com",
   "canonicalURL": "https://kissxx1.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:09:24.983Z",
+  "timestamp": "2026-09-20T05:39:43.608Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 145,
+  "requestCount": 142,
   "uniqueDomains": 26,
   "test_results": {
     "domestic": {
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "kissxx1.com",
-        "ip": "104.21.92.157",
+        "ip": "172.67.195.106",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -52,13 +52,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf15b397367ef-SJC",
+        "cf-ray": "a3de7d68bc8fce4e-SIN",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "104.21.92.157",
-          "prefix": "104.21.92.0/24",
+          "queried_ip": "172.67.195.106",
+          "prefix": "172.67.195.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -68,8 +68,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 60,
-          "location_count": 60,
+          "site_count": 58,
+          "location_count": 58,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -85,7 +85,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "redbogo24.com",
-        "ip": "104.21.46.123",
+        "ip": "172.67.138.142",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -95,13 +95,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf160efc64ea0-LAX",
+        "cf-ray": "a3de7d6d6d2b09e8-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "104.21.46.123",
-          "prefix": "104.21.46.0/24",
+          "queried_ip": "172.67.138.142",
+          "prefix": "172.67.138.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -111,8 +111,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 60,
-          "location_count": 60,
+          "site_count": 58,
+          "location_count": 58,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -128,7 +128,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "redbogo25.com",
-        "ip": "172.67.182.31",
+        "ip": "104.21.32.10",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -138,13 +138,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf164fdd32847-SJC",
+        "cf-ray": "a3de7d702daaf866-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "172.67.182.31",
-          "prefix": "172.67.182.0/24",
+          "queried_ip": "104.21.32.10",
+          "prefix": "104.21.32.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -154,8 +154,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 59,
-          "location_count": 59,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -183,11 +183,44 @@
       "category": "domestic/direct"
     },
     {
+      "originalUrl": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "fonts.googleapis.com",
+        "ip": "142.250.199.74",
+        "hostname": "hkg07s37-in-f10.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 86.485,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.74",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
       "originalUrl": "https://waust.at/s.js",
       "type": "script",
       "ipinfo": {
         "domain": "waust.at",
-        "ip": "104.26.5.7",
+        "ip": "104.26.4.7",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -197,32 +230,9 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf16ae9bac3a8-LAX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "104.26.5.7",
-          "prefix": "104.26.5.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 59,
-          "location_count": 59,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de7d743b7cea2d-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -241,41 +251,8 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcf168ee0ed1d6-ICN",
+        "cf-ray": "a3de7d743910eaab-ICN",
         "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&display=swap",
-      "type": "stylesheet",
-      "ipinfo": {
-        "domain": "fonts.googleapis.com",
-        "ip": "142.251.24.95",
-        "hostname": "rj-in-f95.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 37.492,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.24.95",
-          "prefix": "142.251.24.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
       }
     },
     {
@@ -299,7 +276,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "img.red69.quest",
-        "ip": "172.67.145.143",
+        "ip": "104.21.79.120",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -309,13 +286,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf16d2b157803-SJC",
+        "cf-ray": "a3de7d78af300964-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "172.67.145.143",
-          "prefix": "172.67.145.0/24",
+          "queried_ip": "104.21.79.120",
+          "prefix": "104.21.79.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -325,8 +302,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 59,
-          "location_count": 59,
+          "site_count": 60,
+          "location_count": 60,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -352,40 +329,17 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf16ca8d229df-FUK",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.20.8.131",
-          "prefix": "104.20.8.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 66,
-          "location_count": 66,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de7d77e95aea25-ICN",
+        "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://whos.amung.us/pingjs/?k=z8yqbc6c23&t=%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&c=s&x=https%3A%2F%2Fredbogo25.com%2F&y=&a=0&d=2.929&v=27&r=6258",
+      "originalUrl": "https://whos.amung.us/pingjs/?k=z8yqbc6c23&t=%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&c=s&x=https%3A%2F%2Fredbogo25.com%2F&y=&a=0&d=2.658&v=27&r=2099",
       "type": "script",
       "ipinfo": {
         "domain": "whos.amung.us",
-        "ip": "104.20.41.165",
+        "ip": "172.66.172.247",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -395,13 +349,33 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf16d3ee9fc9c-KIX",
+        "country": "kr",
+        "cf-ray": "a3de7d77ff6c0d05-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://t.dtscout.com/i/?l=https%3A%2F%2Fredbogo25.com%2F&j=&wk=z8yqbc6c23",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t.dtscout.com",
+        "ip": "172.67.70.180",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3de7d7868bdcb50-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "104.20.41.165",
-          "prefix": "104.20.41.0/24",
+          "queried_ip": "172.67.70.180",
+          "prefix": "172.67.70.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -411,8 +385,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 64,
-          "location_count": 64,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -424,10 +398,82 @@
       }
     },
     {
-      "originalUrl": "https://t.dtscout.com/i/?l=https%3A%2F%2Fredbogo25.com%2F&j=&wk=z8yqbc6c23",
+      "originalUrl": "https://s4.histats.com/stats/5043626.php?5043626&@f16&@g1&@h1&@i1&@j1789882769090&@k0&@l1&@m%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&@n0&@o1000&@q0&@r0&@s24&@tko-KR&@u1280&@b1:165082374&@b3:1789882769&@b4:js15_as.js&@b5:540&@a-_0.2.1&@vhttps%3A%2F%2Fredbogo25.com%2F&@w",
       "type": "script",
       "ipinfo": {
-        "domain": "t.dtscout.com",
+        "domain": "s4.histats.com",
+        "ip": "149.56.240.128",
+        "hostname": "ns534296.ip-149-56-240.net",
+        "city": "Montréal",
+        "region": "Quebec",
+        "country": "CA",
+        "loc": "45.5088,-73.5878",
+        "org": "AS16276 OVH SAS",
+        "timezone": "America/Toronto"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://z6v2p9a8.bkcdn.net/library/993986/d251470cc4a2820a212b2d3b8c1367b9572a21e5.webp",
+      "type": "image",
+      "ipinfo": {
+        "domain": "z6v2p9a8.bkcdn.net",
+        "ip": "95.173.204.21",
+        "hostname": "361188685.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.tynt.com/tc.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.tynt.com",
+        "ip": "104.18.13.146",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de7d7bd8b5d1f3-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://p.mrktmtrcs.net/mm.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "p.mrktmtrcs.net",
+        "ip": "172.67.70.156",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de7d7bdbc162a9-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://e.dtscout.com/e/?v=1a&pid=5200&site=1&l=https%3A%2F%2Fredbogo25.com%2F&j=",
+      "type": "script",
+      "ipinfo": {
+        "domain": "e.dtscout.com",
         "ip": "104.26.11.2",
         "city": "San Francisco",
         "region": "California",
@@ -438,7 +484,7 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf16dcbd82ef3-LAX",
+        "cf-ray": "a3de7d7c1b49cb50-NRT",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
@@ -467,106 +513,11 @@
       }
     },
     {
-      "originalUrl": "https://z6v2p9a8.bkcdn.net/library/993986/d251470cc4a2820a212b2d3b8c1367b9572a21e5.webp",
-      "type": "image",
-      "ipinfo": {
-        "domain": "z6v2p9a8.bkcdn.net",
-        "ip": "95.173.204.21",
-        "hostname": "361188685.tyo.cdn77.com",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS60068 Datacamp Limited",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://s4.histats.com/stats/5043626.php?5043626&@f16&@g1&@h1&@i1&@j1789866549327&@k0&@l1&@m%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&@n0&@o1000&@q0&@r0&@s24&@tko-KR&@u1280&@b1:86568135&@b3:1789866549&@b4:js15_as.js&@b5:540&@a-_0.2.1&@vhttps%3A%2F%2Fredbogo25.com%2F&@w",
-      "type": "script",
-      "ipinfo": {
-        "domain": "s4.histats.com",
-        "ip": "192.95.33.104",
-        "hostname": "ns5001674.ip-192-95-33.net",
-        "city": "Montréal",
-        "region": "Quebec",
-        "country": "CA",
-        "loc": "45.5088,-73.5878",
-        "org": "AS16276 OVH SAS",
-        "timezone": "America/Toronto"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://cdn.tynt.com/tc.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "cdn.tynt.com",
-        "ip": "104.18.13.146",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcf1709da8580d-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://p.mrktmtrcs.net/mm.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "p.mrktmtrcs.net",
-        "ip": "104.26.15.100",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "cf-ray": "a3dcf178fd1d2eed-LAX",
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.26.15.100",
-          "prefix": "104.26.15.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://ic.tynt.com/b/p?id=w!z8yqbc6c23&lm=0&ts=1789866549903&dn=TC&iso=0&pu=https%3A%2F%2Fredbogo25.com%2F&t=%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&chpv=10_15_7&chuav=Chromium%3Bv%3D153.0.8010.12%2C%20Not_A%20Brand%3Bv%3D8.0.0.0&chp=macOS&chmob=0&chua=Chromium%3Bv%3D153%2C%20Not_A%20Brand%3Bv%3D8",
+      "originalUrl": "https://ic.tynt.com/b/p?id=w!z8yqbc6c23&lm=0&ts=1789882769787&dn=TC&iso=0&pu=https%3A%2F%2Fredbogo25.com%2F&t=%EB%A0%88%EB%93%9C%ED%86%B5%20-%20%EB%AC%B4%EB%A3%8C%20%EC%84%B1%EC%9D%B8%20%EB%8F%99%EC%98%81%EC%83%81%20%EC%8A%A4%ED%8A%B8%EB%A6%AC%EB%B0%8D&chpv=10_15_7&chuav=Chromium%3Bv%3D153.0.8010.12%2C%20Not_A%20Brand%3Bv%3D8.0.0.0&chp=macOS&chmob=0&chua=Chromium%3Bv%3D153%2C%20Not_A%20Brand%3Bv%3D8",
       "type": "image",
       "ipinfo": {
         "domain": "ic.tynt.com",
-        "ip": "72.28.123.105",
+        "ip": "72.28.123.108",
         "city": "Chicago",
         "region": "Illinois",
         "country": "US",
@@ -577,54 +528,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://e.dtscout.com/e/?v=1a&pid=5200&site=1&l=https%3A%2F%2Fredbogo25.com%2F&j=",
-      "type": "script",
-      "ipinfo": {
-        "domain": "e.dtscout.com",
-        "ip": "104.26.10.2",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "cf-ray": "a3dcf1721f242ef3-LAX",
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.26.10.2",
-          "prefix": "104.26.10.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 61,
-          "location_count": 61,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
       "originalUrl": "https://de.tynt.com/deb/v2?id=w!z8yqbc6c23&dn=TC&cc=1&chpv=10_15_7&chuav=Chromium%3Bv%3D153.0.8010.12%2C%20Not_A%20Brand%3Bv%3D8.0.0.0&chp=macOS&chmob=0&chua=Chromium%3Bv%3D153%2C%20Not_A%20Brand%3Bv%3D8&r=&pu=https%3A%2F%2Fredbogo25.com%2F",
       "type": "script",
       "ipinfo": {
         "domain": "de.tynt.com",
-        "ip": "72.28.123.102",
+        "ip": "72.28.123.111",
         "city": "Chicago",
         "region": "Illinois",
         "country": "US",
@@ -639,8 +547,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "tags.crwdcntrl.net",
-        "ip": "52.85.128.93",
-        "hostname": "server-52-85-128-93.icn53.r.cloudfront.net",
+        "ip": "52.85.128.67",
+        "hostname": "server-52-85-128-67.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -656,11 +564,11 @@
       }
     },
     {
-      "originalUrl": "https://t.dtscdn.com/widget/?d=51A017898665495365BFAA07F718BDB2&nid=300&p=2114454483&t=-540&s=1280x720x30&u=https%3A%2F%2Fredbogo25.com%2F&r=",
+      "originalUrl": "https://t.dtscdn.com/widget/?d=51A017898827719E4D01DF9783BDD634&nid=300&p=2114454483&t=-540&s=1280x720x30&u=https%3A%2F%2Fredbogo25.com%2F&r=",
       "type": "script",
       "ipinfo": {
         "domain": "t.dtscdn.com",
-        "ip": "172.67.74.186",
+        "ip": "104.26.12.60",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -670,41 +578,18 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcf176cfec398e-LAX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.67.74.186",
-          "prefix": "172.67.74.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de7d7f7a1be620-ICN",
+        "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://pixel.onaudience.com/?partner=137085098&mapped=51A017898665495365BFAA07F718BDB2",
+      "originalUrl": "https://pixel.onaudience.com/?partner=137085098&mapped=51A017898827719E4D01DF9783BDD634",
       "type": "image",
       "ipinfo": {
         "domain": "pixel.onaudience.com",
-        "ip": "79.137.99.232",
-        "hostname": "ns3239897.ip-79-137-99.eu",
+        "ip": "51.38.30.15",
+        "hostname": "ns31790662.ip-51-38-30.eu",
         "city": "Roubaix",
         "region": "Hauts-de-France",
         "country": "FR",
@@ -715,12 +600,12 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://ps.eyeota.net/pixel?pid=c9gd671&t=gif&uid=ZqrLkWqvMjbuO0BjCrxZtw%3D%3D&us_privacy=&33random=1789866550659.1&cat=33across",
+      "originalUrl": "https://ps.eyeota.net/pixel?pid=c9gd671&t=gif&uid=ZqrLkWqvcZTuO0BjCzFinQ%3D%3D&us_privacy=&33random=1789882772855.1&cat=33across",
       "type": "image",
       "ipinfo": {
         "domain": "ps.eyeota.net",
-        "ip": "13.113.127.21",
-        "hostname": "ec2-13-113-127-21.ap-northeast-1.compute.amazonaws.com",
+        "ip": "35.72.103.83",
+        "hostname": "ec2-35-72-103-83.ap-northeast-1.compute.amazonaws.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -734,9 +619,9 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "13.113.127.21",
-          "prefix": "13.113.127.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "35.72.103.83",
+          "prefix": "35.72.103.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -753,8 +638,8 @@
       "type": "image",
       "ipinfo": {
         "domain": "d.turn.com",
-        "ip": "54.151.211.217",
-        "hostname": "ec2-54-151-211-217.ap-southeast-1.compute.amazonaws.com",
+        "ip": "47.128.3.235",
+        "hostname": "ec2-47-128-3-235.ap-southeast-1.compute.amazonaws.com",
         "city": "Singapore",
         "region": "Singapore",
         "country": "SG",
@@ -769,8 +654,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "54.151.211.217",
-          "prefix": "54.151.211.0/24",
+          "queried_ip": "47.128.3.235",
+          "prefix": "47.128.3.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -798,12 +683,12 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://target.digitalaudience.io/bakery/sync/g?gdpr=0&gdpr_consent=&rev=716&google_gid=CAESEGCiP4f_th-x2mgSaELN6Qo&google_cver=1",
+      "originalUrl": "https://target.digitalaudience.io/bakery/sync/g?gdpr=0&gdpr_consent=&rev=716&google_gid=CAESECfD-_1CPEXQVnuAGTWfZ0M&google_cver=1",
       "type": "image",
       "ipinfo": {
         "domain": "target.digitalaudience.io",
-        "ip": "52.28.253.249",
-        "hostname": "ec2-52-28-253-249.eu-central-1.compute.amazonaws.com",
+        "ip": "63.180.135.19",
+        "hostname": "ec2-63-180-135-19.eu-central-1.compute.amazonaws.com",
         "city": "Frankfurt am Main",
         "region": "Hesse",
         "country": "DE",
@@ -817,9 +702,9 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "52.28.253.249",
-          "prefix": "52.28.253.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "63.180.135.19",
+          "prefix": "63.180.135.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

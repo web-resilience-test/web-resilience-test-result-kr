@@ -1,0 +1,124 @@
+{
+  "url": "https://seobuk.kr",
+  "canonicalURL": "https://seobuk.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:51:53.488Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 120,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 3,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://seobuk.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "seobuk.kr",
+        "ip": "183.111.242.13",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js?ver=7.1.1",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.208.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df9736b8bfaa61-ICN",
+        "x-served-by": "cache-fra-eddf8230071-FRA, cache-nrt-rjtt7900097-NRT",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "t1.daumcdn.net",
+        "ip": "117.52.57.204",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://cdn.channel.io/plugin/ch-plugin-web.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.channel.io",
+        "ip": "54.230.62.56",
+        "hostname": "server-54-230-62-56.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://api.channel.io/front/v8/elastic/plugins/cce94e6b-1124-4d93-9f1e-310d7bc87fa2?",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.channel.io",
+        "ip": "43.202.200.233",
+        "hostname": "ec2-43-202-200-233.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

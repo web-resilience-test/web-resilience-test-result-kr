@@ -2,9 +2,9 @@
   "url": "https://poki.com",
   "canonicalURL": "https://poki.com/kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:46:38.723Z",
+  "timestamp": "2026-09-20T05:16:00.671Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 247,
   "uniqueDomains": 6,
@@ -42,66 +42,6 @@
       "type": "document",
       "ipinfo": {
         "domain": "poki.com",
-        "ip": "104.18.143.9",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcd06d4d72ea9d-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://a.poki-cdn.com/images/bg-diamante.svg",
-      "type": "image",
-      "ipinfo": {
-        "domain": "a.poki-cdn.com",
-        "ip": "104.18.34.147",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcd06ddf862916-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/6724ed3de9d26b15f5c86172f617d9e4/slime-keyboard-escape-logo.jfif",
-      "type": "image",
-      "ipinfo": {
-        "domain": "img.poki-cdn.com",
-        "ip": "172.64.153.109",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcd06dee98a2b5-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://api.poki.com/quicksearch/categories?site=48&country=KR&device=desktop",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "api.poki.com",
         "ip": "104.18.144.9",
         "city": "San Francisco",
         "region": "California",
@@ -113,7 +53,67 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd06f482252f0-ICN",
+        "cf-ray": "a3de5b0f39eb3537-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://a.poki-cdn.com/images/bg-diamante.svg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "a.poki-cdn.com",
+        "ip": "172.64.153.109",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de5b102800c38f-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=314,height=314,fit=cover,f=auto/6724ed3de9d26b15f5c86172f617d9e4/slime-keyboard-escape-logo.jfif",
+      "type": "image",
+      "ipinfo": {
+        "domain": "img.poki-cdn.com",
+        "ip": "104.18.34.147",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de5b103e1aa2b5-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://api.poki.com/quicksearch/categories?site=48&country=KR&device=desktop",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.poki.com",
+        "ip": "104.18.143.9",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de5b12288cea24-ICN",
         "detection_method": "header"
       }
     },
@@ -136,7 +136,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.144.222.236",
           "prefix": "34.144.222.0/24",
           "anycast": true,

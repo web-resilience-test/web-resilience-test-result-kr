@@ -2,9 +2,9 @@
   "url": "https://brunch.co.kr",
   "canonicalURL": "https://brunch.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:46:08.517Z",
+  "timestamp": "2026-09-20T05:15:15.566Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 173,
   "uniqueDomains": 8,
   "test_results": {
     "domestic": {
-      "cloud": 1,
-      "direct": 7
+      "cloud": 0,
+      "direct": 8
     },
     "foreign": {
       "cloud": 0,
@@ -42,18 +42,18 @@
       "type": "document",
       "ipinfo": {
         "domain": "brunch.co.kr",
-        "ip": "211.183.214.20",
+        "ip": "203.133.184.113",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS152199 Kakao Corp",
+        "org": "AS18160 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=e0201caea90cafbb237e250f63a519b5&state=xSaKUWJvrtjKplAIfhANgd42_TRC88Jz_Otsaa1nTrw%3D&redirect_uri=https://brunch.co.kr/callback/auth/kakao&grant_type=authorization_code&auto_login=true",
+      "originalUrl": "https://kauth.kakao.com/oauth/authorize?response_type=code&client_id=e0201caea90cafbb237e250f63a519b5&state=pYiIKOAwYVGRsozXpYvnprCqNMr2oQidycGLtOvku8g%3D&redirect_uri=https://brunch.co.kr/callback/auth/kakao&grant_type=authorization_code&auto_login=true",
       "type": "document",
       "ipinfo": {
         "domain": "kauth.kakao.com",
@@ -72,12 +72,12 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "t1.kakaocdn.net",
-        "ip": "211.231.116.151",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "117.52.57.13",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -87,28 +87,27 @@
       "type": "image",
       "ipinfo": {
         "domain": "img1.kakaocdn.net",
-        "ip": "23.76.153.120",
-        "hostname": "a23-76-153-120.deploy.static.akamaitechnologies.com",
+        "ip": "121.254.136.9",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS20940 Akamai International B.V.",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud"
+      "category": "domestic/direct"
     },
     {
       "originalUrl": "https://t1.daumcdn.net/section/oc/e0d9e92ea70941b9a4861c128751fc48",
       "type": "image",
       "ipinfo": {
         "domain": "t1.daumcdn.net",
-        "ip": "211.231.116.151",
-        "city": "Seoul",
-        "region": "Seoul",
+        "ip": "117.52.56.12",
+        "city": "Incheon",
+        "region": "Incheon",
         "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS4766 Korea Telecom",
+        "loc": "37.4565,126.7052",
+        "org": "AS3786 LG DACOM Corporation",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -118,27 +117,27 @@
       "type": "script",
       "ipinfo": {
         "domain": "developers.kakao.com",
-        "ip": "211.249.250.8",
-        "city": "Incheon",
-        "region": "Incheon",
+        "ip": "211.183.215.12",
+        "city": "Seoul",
+        "region": "Seoul",
         "country": "KR",
-        "loc": "37.4565,126.7052",
-        "org": "AS7625 Kakao Corp",
+        "loc": "37.5660,126.9784",
+        "org": "AS152199 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://stat.tiara.brunch.co.kr/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.2%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22brunch.co.kr%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fbrunch.co.kr%2F%22%2C%22title%22%3A%22%EB%B8%8C%EB%9F%B0%EC%B9%98%22%2C%22section%22%3A%22top%22%2C%22page%22%3A%22top%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-FcQZpZsvrN51_260920094605337%22%2C%22tsid%22%3A%22w-FcQZpZsvrN51_260920094605337%22%2C%22uuid%22%3A%22w-erXElXBixPgd_260920902181410%22%2C%22suid%22%3A%22w-erXElXBixPgd_260920902181410%22%2C%22isuid%22%3A%22w-mNbExw2kIwfH_260920865168288%22%2C%22client_timestamp%22%3A1789865165807%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22TOP%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22user_state%22%3A%22guest%22%2C%22toros_imp_id%22%3A%22%22%2C%22toros_file_hash_key%22%3A%22774c60c157ad4b5f0a%22%2C%22toros_user_id_type%22%3A%22user_ex.uuid%22%7D%7D",
+      "originalUrl": "https://stat.tiara.brunch.co.kr/track?d=%7B%22sdk%22%3A%7B%22type%22%3A%22WEB%22%2C%22version%22%3A%221.2.2%22%7D%2C%22env%22%3A%7B%22screen%22%3A%221280X720%22%2C%22tz%22%3A%22%2B9%22%2C%22cke%22%3A%22Y%22%2C%22uadata%22%3A%7B%22fullVersionList%22%3A%5B%7B%22brand%22%3A%22Chromium%22%2C%22version%22%3A%22153.0.8010.12%22%7D%2C%7B%22brand%22%3A%22Not_A%20Brand%22%2C%22version%22%3A%228.0.0.0%22%7D%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22macOS%22%2C%22platformVersion%22%3A%2210_15_7%22%7D%7D%2C%22common%22%3A%7B%22session_timeout%22%3A%221800%22%2C%22svcdomain%22%3A%22brunch.co.kr%22%2C%22deployment%22%3A%22production%22%2C%22url%22%3A%22https%3A%2F%2Fbrunch.co.kr%2F%22%2C%22title%22%3A%22%EB%B8%8C%EB%9F%B0%EC%B9%98%22%2C%22section%22%3A%22top%22%2C%22page%22%3A%22top%22%7D%2C%22etc%22%3A%7B%22client_info%22%3A%7B%22tuid%22%3A%22w-TEULJtiqVPbR_260920141510517%22%2C%22tsid%22%3A%22w-TEULJtiqVPbR_260920141510517%22%2C%22uuid%22%3A%22w-tp9ORnSk6zJa_260920236060531%22%2C%22suid%22%3A%22w-tp9ORnSk6zJa_260920236060531%22%2C%22isuid%22%3A%22w-vBxnLZ5ndYyh_260920611573476%22%2C%22client_timestamp%22%3A1789881310896%7D%7D%2C%22action%22%3A%7B%22type%22%3A%22Pageview%22%2C%22name%22%3A%22TOP%22%2C%22kind%22%3A%22%22%7D%2C%22custom_props%22%3A%7B%22user_state%22%3A%22guest%22%2C%22toros_imp_id%22%3A%22%22%2C%22toros_file_hash_key%22%3A%22774c60c157ad4b5f0a%22%2C%22toros_user_id_type%22%3A%22user_ex.uuid%22%7D%7D",
       "type": "image",
       "ipinfo": {
         "domain": "stat.tiara.brunch.co.kr",
-        "ip": "211.183.223.17",
+        "ip": "211.183.212.26",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS7625 Kakao Corp",
+        "org": "AS152199 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -148,12 +147,12 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api.brunch.co.kr",
-        "ip": "203.133.184.113",
+        "ip": "211.183.214.20",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
         "loc": "37.5660,126.9784",
-        "org": "AS18160 Kakao Corp",
+        "org": "AS152199 Kakao Corp",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"

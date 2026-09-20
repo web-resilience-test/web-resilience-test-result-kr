@@ -2,9 +2,9 @@
   "url": "https://www.samsungfire.com",
   "canonicalURL": "https://www.samsungfire.com",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:20:09.952Z",
+  "timestamp": "2026-09-20T05:49:14.422Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,23 +13,23 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 50,
-  "uniqueDomains": 1,
+  "requestCount": 122,
+  "uniqueDomains": 2,
   "test_results": {
     "domestic": {
       "cloud": 0,
-      "direct": 1
+      "direct": 2
     },
     "foreign": {
       "cloud": 0,
@@ -43,6 +43,21 @@
       "ipinfo": {
         "domain": "www.samsungfire.com",
         "ip": "123.41.26.97",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS45985 SamsungSDS Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://log2.samsungfire.com/static/00023/install.js?ver=1789883351320",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "log2.samsungfire.com",
+        "ip": "123.41.26.113",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",

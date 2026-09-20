@@ -2,9 +2,9 @@
   "url": "https://123av.org",
   "canonicalURL": "https://123av.org",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:01:46.757Z",
+  "timestamp": "2026-09-20T05:31:35.432Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,27 +13,27 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.2"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 202,
-  "uniqueDomains": 16,
+  "requestCount": 188,
+  "uniqueDomains": 20,
   "test_results": {
     "domestic": {
-      "cloud": 7,
-      "direct": 1
+      "cloud": 11,
+      "direct": 0
     },
     "foreign": {
       "cloud": 3,
-      "direct": 5
+      "direct": 6
     }
   },
   "domainDetails": [
@@ -52,11 +52,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dce682ed6cf7b9-LAX",
+        "cf-ray": "a3de71d4a87c00cb-KIX",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "104.26.13.217",
           "prefix": "104.26.13.0/24",
           "anycast": true,
@@ -85,23 +85,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "172.217.211.97",
-        "hostname": "hs-in-f97.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
-        "country": "JP",
-        "loc": "34.6938,135.5011",
+        "ip": "142.250.197.104",
+        "hostname": "nchkga-ai-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.368,
+        "rtt": 85.69,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.217.211.97",
-          "prefix": "172.217.211.0/24",
+          "queried_ip": "142.250.197.104",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -118,7 +118,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "go.mayzaent.com",
-        "ip": "162.159.142.241",
+        "ip": "172.66.2.237",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -129,32 +129,60 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce686af9a30d9-ICN",
+        "cf-ray": "a3de71d5fe0b9d6e-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://t.rallytrck.website/s1/761080d1-3f0c-4cd7-98d8-763a4fcf5ca4?cv1={impressionId}&cv2={userId}&cv3={device}&cv4={creativeId}&cv5={campaignId}&cv6={language}&cv8={browser}&cv9={siteId}&cv10={creativeName}",
-      "type": "document",
+      "originalUrl": "https://partwithner.com/partners/hxcha/298x98-2.jpg",
+      "type": "image",
       "ipinfo": {
-        "domain": "t.rallytrck.website",
-        "ip": "185.196.197.35",
-        "city": "Lelystad",
-        "region": "Flevoland",
-        "country": "NL",
-        "loc": "52.5083,5.4750",
-        "org": "AS39572 DataWeb Global Group B.V.",
-        "timezone": "Europe/Amsterdam"
+        "domain": "partwithner.com",
+        "ip": "104.21.90.99",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
       },
-      "category": "foreign/direct"
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3de71d7695db45e-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.21.90.99",
+          "prefix": "104.21.90.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
     },
     {
-      "originalUrl": "https://client-rapi-missav.recombee.com/missav-default/recomms/users/58152b9f-b371-4b43-a81d-72890f86b984/item-segments/?frontend_timestamp=1789866102&frontend_sign=f62210ce75d49da1b879c8caa7411aa1551b646f",
+      "originalUrl": "https://client-rapi-missav.recombee.com/missav-default/recomms/users/729ed169-9666-4e19-92e7-6061e493dba4/item-segments/?frontend_timestamp=1789882292&frontend_sign=7070e8e5bbab6e906beb5bd53e9d832b7722fd9f",
       "type": "xhr",
       "ipinfo": {
         "domain": "client-rapi-missav.recombee.com",
-        "ip": "51.81.171.243",
-        "hostname": "ip243.ip-51-81-171.us",
+        "ip": "51.81.240.0",
+        "hostname": "ip0.ip-51-81-240.us",
         "city": "Hillsboro",
         "region": "Oregon",
         "country": "US",
@@ -165,40 +193,7 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-R0M5KXBKDG&gtm=45je69g1v9200745710z89200737510za20gzb9200737510zd9200737510xf1&_p=1789866102515&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=961396184.1789866103&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616986~115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789866103&sct=1&seg=0&dl=https%3A%2F%2F123av.org%2Fdm270%2Fko&dt=123AV%20%7C%20%EB%AC%B4%EB%A3%8C%20HD%20AV%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%8B%9C%EC%B2%AD&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1215",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "www.google-analytics.com",
-        "ip": "142.251.118.113",
-        "hostname": "tu-in-f113.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
-        "country": "JP",
-        "loc": "34.6938,135.5011",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 44.471,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.118.113",
-          "prefix": "142.251.118.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://creative.greentrafsa.com/widgets/v4/Universal?autoplay=all&autoplayForce=1&campaignId=5187751f9e863b5203872bb6840397b2770820ab80b57aca98ad8539c54e06ea&campaignType=smartpop&creativeId=fc2ae2fb92ed2691a610541f0381c55387d1752fbd7d35eab159216e8e796059&hideButton=1&hideTitle=1&iterationId=1400201&masterSmartpopId=0&offset=3&ruleId=0&schemeType=mediabuyer&smartpopBucketId=75&smartpopId=17091&tag=girls&trafficType=bannerIframeOrJS&userId=0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907&variationId=36284",
+      "originalUrl": "https://creative.greentrafsa.com/widgets/v4/Universal?autoplay=all&autoplayForce=1&campaignId=5187751f9e863b5203872bb6840397b2770820ab80b57aca98ad8539c54e06ea&campaignType=smartpop&creativeId=fc2ae2fb92ed2691a610541f0381c55387d1752fbd7d35eab159216e8e796059&hideButton=1&hideTitle=1&iterationId=1400201&masterSmartpopId=0&offset=3&ruleId=0&schemeType=mediabuyer&smartpopBucketId=22&smartpopId=17091&tag=girls&trafficType=bannerIframeOrJS&userId=0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907&variationId=36284",
       "type": "document",
       "ipinfo": {
         "domain": "creative.greentrafsa.com",
@@ -213,7 +208,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce688a90da2b5-ICN",
+        "cf-ray": "a3de71d7c9e61fb3-ICN",
         "detection_method": "header"
       }
     },
@@ -222,23 +217,23 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.251.119.95",
-        "hostname": "tv-in-f95.1e100.net",
-        "city": "Osaka",
-        "region": "Osaka",
-        "country": "JP",
-        "loc": "34.6938,135.5011",
+        "ip": "142.250.197.138",
+        "hostname": "nchkga-aj-in-f10.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.407,
+        "rtt": 84.955,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.119.95",
-          "prefix": "142.251.119.0/24",
+          "queried_ip": "142.250.197.138",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -248,6 +243,26 @@
           "site_count": 0,
           "location_count": 0
         }
+      }
+    },
+    {
+      "originalUrl": "https://go.greentrafsa.com/config?url=https%3A%2F%2Fcreative.greentrafsa.com%2Fwidgets%2Fv4%2FUniversal%3Fautoplay%3Dall%26autoplayForce%3D1%26campaignId%3D5187751f9e863b5203872bb6840397b2770820ab80b57aca98ad8539c54e06ea%26campaignType%3Dsmartpop%26creativeId%3Dfc2ae2fb92ed2691a610541f0381c55387d1752fbd7d35eab159216e8e796059%26hideButton%3D1%26hideTitle%3D1%26iterationId%3D1400201%26masterSmartpopId%3D0%26offset%3D3%26ruleId%3D0%26schemeType%3Dmediabuyer%26smartpopBucketId%3D22%26smartpopId%3D17091%26tag%3Dgirls%26trafficType%3DbannerIframeOrJS%26userId%3D0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907%26variationId%3D36284",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "go.greentrafsa.com",
+        "ip": "172.66.2.237",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de71d87ca516dd-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -270,7 +285,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "s.uuidksinc.net",
-        "ip": "31.220.27.135",
+        "ip": "31.220.27.155",
         "city": "Lelystad",
         "region": "Flevoland",
         "country": "NL",
@@ -281,47 +296,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://go.greentrafsa.com/config?url=https%3A%2F%2Fcreative.greentrafsa.com%2Fwidgets%2Fv4%2FUniversal%3Fautoplay%3Dall%26autoplayForce%3D1%26campaignId%3D5187751f9e863b5203872bb6840397b2770820ab80b57aca98ad8539c54e06ea%26campaignType%3Dsmartpop%26creativeId%3Dfc2ae2fb92ed2691a610541f0381c55387d1752fbd7d35eab159216e8e796059%26hideButton%3D1%26hideTitle%3D1%26iterationId%3D1400201%26masterSmartpopId%3D0%26offset%3D3%26ruleId%3D0%26schemeType%3Dmediabuyer%26smartpopBucketId%3D75%26smartpopId%3D17091%26tag%3Dgirls%26trafficType%3DbannerIframeOrJS%26userId%3D0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907%26variationId%3D36284",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "go.greentrafsa.com",
-        "ip": "172.66.2.237",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dce6895db2fc1a-ICN",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://cdn.storagexhd.com/files/20800/300x100.html?targetUrl=https%3A%2F%2Ft.rallytrck.website%2Fc1%2F92160104-640e-4b29-9f5b-2a3205dae439%3Fcv1%3D%257BimpressionId%257D%26cv10%3D%257BcreativeName%257D%26cv2%3D%257BuserId%257D%26cv3%3D%257Bdevice%257D%26cv4%3D%257BcreativeId%257D%26cv5%3D%257BcampaignId%257D%26cv6%3D%257Blanguage%257D%26cv8%3D%257Bbrowser%257D%26cv9%3D%257BsiteId%257D%26p%3DeyJzIjozNzE1NiwiYyI6MTMxNzYxLCJmIjo1LCJyaSI6MzE1NTUsInBoIjoxMDA3ODYsInAiOjIsIm9mIjo0NzM5NSwibyI6MiwibiI6NTA2LCJmbCI6NDA2ODQsImIiOjI5MDA3NSwiYnMiOiIzMDB4MTAwIiwidCI6IjEiLCJ0YyI6MSwiYXMiOiJjbGVhbiJ9",
-      "type": "document",
-      "ipinfo": {
-        "domain": "cdn.storagexhd.com",
-        "ip": "89.222.116.11",
-        "hostname": "107935180.seo.cdn77.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS60068 Datacamp Limited",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://img.doppiocdn.com/thumbs/1789865822/93563283",
+      "originalUrl": "https://img.doppiocdn.com/thumbs/1789881887/265297723",
       "type": "image",
       "ipinfo": {
         "domain": "img.doppiocdn.com",
-        "ip": "104.17.223.114",
+        "ip": "104.17.222.114",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -332,12 +311,12 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce68bcd9ca865-ICN",
+        "cf-ray": "a3de71da9d9a5995-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://go.stripchat.mov/abc.gif?smartpopBucketId=78&campaignId=45c7ad1bf580fcb5d8aaba636b0134725a6aebecb64f2fe51932a7967eadc544&campaignType=smartpop&creativeId=efcbbc228c4d1a3a3fba238bba10fd0a8d004011d9fd0ce6e4b1b56dd61e729d&iterationId=1383444&masterSmartpopId=0&ruleId=0&smartpopId=17025&userId=0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907&variationId=36246&thumbSizeKey=big&language=en&thumbFit=cover&quality=original&stripcashR=0&thumbType=SChatBest&kbLimit=25000&modelsInWatchHistoryCount=-1&modelsInFavoritesCount=-1&userType=newuser&modelsCount=6&segment=hls-oldAPI&landing=WidgetV4Universal&referrer=https%3A%2F%2F123av.org%2Fdm270%2Fko&i=1&filtersMatch=1",
+      "originalUrl": "https://go.stripchat.mov/abc.gif?smartpopBucketId=68&campaignId=45c7ad1bf580fcb5d8aaba636b0134725a6aebecb64f2fe51932a7967eadc544&campaignType=smartpop&creativeId=efcbbc228c4d1a3a3fba238bba10fd0a8d004011d9fd0ce6e4b1b56dd61e729d&iterationId=1383444&masterSmartpopId=0&ruleId=0&smartpopId=17025&userId=0c96df4abeb0e8f90e4c799ab382981f84b483088706eee78a0b2896dd798907&variationId=36246&thumbSizeKey=big&language=en&thumbFit=cover&quality=original&stripcashR=0&thumbType=SChatBest&kbLimit=25000&modelsInWatchHistoryCount=-1&modelsInFavoritesCount=-1&userType=newuser&modelsCount=6&segment=hls-oldAPI&landing=WidgetV4Universal&referrer=https%3A%2F%2F123av.org%2Fdm270%2Fko&i=1&filtersMatch=0",
       "type": "image",
       "ipinfo": {
         "domain": "go.stripchat.mov",
@@ -352,17 +331,80 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dce68bdb79ea95-ICN",
+        "cf-ray": "a3de71da9c62ea8e-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://static.javhdhello.com/h5/files/css/style.css",
-      "type": "stylesheet",
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-R0M5KXBKDG&gtm=45je69g1v9200745710z89200737510za20gzb9200737510zd9200737510xf1&_p=1789882292521&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=736843077.1789882293&frm=0&ngs=1&pscdl=noapi&rcb=6&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789882293&sct=1&seg=0&dl=https%3A%2F%2F123av.org%2Fdm270%2Fko&dt=123AV%20%7C%20%EB%AC%B4%EB%A3%8C%20HD%20AV%20%EC%98%A8%EB%9D%BC%EC%9D%B8%20%EC%8B%9C%EC%B2%AD&en=page_view&_fv=1&_nsi=1&_ss=1&tfd=1138",
+      "type": "fetch",
       "ipinfo": {
-        "domain": "static.javhdhello.com",
-        "ip": "95.173.204.22",
-        "hostname": "361188685.tyo.cdn77.com",
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.197.78",
+        "hostname": "nchkga-ah-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 85.844,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.78",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://stripchats.site/checkUrl",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "stripchats.site",
+        "ip": "217.177.54.1",
+        "city": "Rotterdam",
+        "region": "South Holland",
+        "country": "NL",
+        "loc": "51.9225,4.4792",
+        "org": "AS214124 Intrahost Solutions Ltd",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://strip-chat.app/checkUrl",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "strip-chat.app",
+        "ip": "194.1.140.1",
+        "city": "Lelystad",
+        "region": "Flevoland",
+        "country": "NL",
+        "loc": "52.5083,5.4750",
+        "org": "AS214124 Intrahost Solutions Ltd",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://edge-hls.doppiocdn.live/checkUrl",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "edge-hls.doppiocdn.live",
+        "ip": "212.102.50.8",
+        "hostname": "338513667.tyo.cdn77.com",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -373,11 +415,11 @@
       "category": "foreign/direct"
     },
     {
-      "originalUrl": "https://fourhoi.com/fc2-ppv-2767568/cover-t.jpg",
-      "type": "image",
+      "originalUrl": "https://go.xxxivjmp.com/checkUrl",
+      "type": "fetch",
       "ipinfo": {
-        "domain": "fourhoi.com",
-        "ip": "104.20.20.131",
+        "domain": "go.xxxivjmp.com",
+        "ip": "162.159.142.241",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -387,33 +429,70 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dce691bf6b8d23-KIX",
-        "x-amz-cf-pop": "KIX82-P4",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "104.20.20.131",
-          "prefix": "104.20.20.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 65,
-          "location_count": 65,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3de71dbfdb03290-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://xhamsterlive.com/checkUrl",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "xhamsterlive.com",
+        "ip": "104.17.111.106",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de71dc1fb7a76e-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://xhlive.org/checkUrl",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "xhlive.org",
+        "ip": "104.17.118.12",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de71dc2e0f3121-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://fourhoi.com/heyzo-3962/cover-t.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "fourhoi.com",
+        "ip": "172.66.169.100",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de71de2d81d1d2-ICN",
+        "x-amz-cf-pop": "ICN57-P4",
+        "detection_method": "header"
       }
     }
   ]

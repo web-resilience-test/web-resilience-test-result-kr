@@ -1,0 +1,155 @@
+{
+  "url": "https://citibank.co.kr",
+  "canonicalURL": "https://citibank.co.kr",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T06:55:49.369Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 87,
+  "uniqueDomains": 5,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 1
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://citibank.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "citibank.co.kr",
+        "ip": "104.96.178.165",
+        "hostname": "a104-96-178-165.deploy.static.akamaitechnologies.com",
+        "city": "Sydney",
+        "region": "New South Wales",
+        "country": "AU",
+        "loc": "-33.8678,151.2073",
+        "org": "AS33905 Akamai International B.V.",
+        "timezone": "Australia/Sydney"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.citibank.co.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.citibank.co.kr",
+        "ip": "23.202.97.122",
+        "hostname": "a23-202-97-122.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://nexus.ensighten.com/citi/kr_prod/Bootstrap.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "nexus.ensighten.com",
+        "ip": "3.168.167.82",
+        "hostname": "server-3-168-167-82.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://citiapac.tt.omtrdc.net/m2/citiapac/mbox/json?mbox=target-global-mbox&mboxSession=11f030643a5c4f09a76c48b550deced0&mboxPC=&mboxPage=077f66b902a04bb0aca60bf216ec7583&mboxRid=093d00bf9d234cd88612f600a1fb607e&mboxVersion=1.5.0&mboxCount=1&mboxTime=1789919737763&mboxHost=www.citibank.co.kr&mboxURL=https%3A%2F%2Fwww.citibank.co.kr%2FComMainCnts0100.act%3Fref%3D&mboxReferrer=https%3A%2F%2Fwww.citibank.co.kr%2F&mboxXDomain=enabled&browserHeight=720&browserWidth=1280&browserTimeOffset=540&screenHeight=720&screenWidth=1280&colorDepth=30&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=ANGLE%20(Apple%2C%20ANGLE%20Metal%20Renderer%3A%20Apple%20M5%2C%20Unspecified%20Version)",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "citiapac.tt.omtrdc.net",
+        "ip": "63.140.50.133",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "63.140.50.133",
+          "prefix": "63.140.50.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://citiintl.122.2o7.net/b/ss/citiintlkoreaprod/1/JS-2.15.0/s06549281533676?AQB=1&ndh=1&pf=1&t=20%2F8%2F2026%2015%3A55%3A38%200%20-540&fid=246C75A0FF039F6D-214A371469E3BB11&ce=UTF-8&ns=citiintl&cdp=3&pageName=KR%7C%EC%94%A8%ED%8B%B0%EC%9D%80%ED%96%89%EB%A9%94%EC%9D%B8&g=https%3A%2F%2Fwww.citibank.co.kr%2FComMainCnts0100.act%3Fref%3D&r=https%3A%2F%2Fwww.citibank.co.kr%2F&ch=KR%7C&server=citibank.co.kr&events=event73%3D22%2Cevent29&c1=KR&v1=D%3DpageName&h1=KR%7C%EC%94%A8%ED%8B%B0%EC%9D%80%ED%96%89%EB%A9%94%EC%9D%B8&c2=KR%7C%EC%94%A8%ED%8B%B0%EC%9D%80%ED%96%89%EB%A9%94%EC%9D%B8&c5=Anonymous&v5=D%3Dc5&c6=Prospect&v6=D%3Dc6&c9=KR&c10=Korean&v11=D%3Dc17&c12=Citibank%20Korea&v13=D%3Dc18&v16=D%3Dc10&c17=New&c18=1&c23=https%3A%2F%2Fwww.citibank.co.kr%2F&v23=D%3Dc23&c39=Pre-login&c49=D%3DpageURL&v49=https%3A%2F%2Fwww.citibank.co.kr%2FComMainCnts0100.act&c50=Citi%20Intl%20s_code%20v1.0%20-%2020200107%20%7C%20SiteCatalyst%20Base%20Code%20AppMeasurement%202.15.0&v50=D%3DpageURL&c57=246C75A0FF039F6D-214A371469E3BB11&v65=D%3DpageURL&v73=22&v97=D%3Dc57&s=1280x720&c=30&j=1.6&v=N&k=Y&bw=1280&bh=720&AQE=1",
+      "type": "image",
+      "ipinfo": {
+        "domain": "citiintl.122.2o7.net",
+        "ip": "63.140.50.20",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "63.140.50.20",
+          "prefix": "63.140.50.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

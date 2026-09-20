@@ -2,9 +2,9 @@
   "url": "https://newswire.co.kr",
   "canonicalURL": "https://newswire.co.kr",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:47:33.098Z",
+  "timestamp": "2026-09-20T06:14:10.052Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 57,
+  "requestCount": 52,
   "uniqueDomains": 8,
   "test_results": {
     "domestic": {
@@ -83,7 +83,7 @@
       "category": "domestic/direct"
     },
     {
-      "originalUrl": "https://file.newswire.co.kr/data/datafile2/thumb_640/2026/09/1028147215_20260920090808_6657276211.jpg",
+      "originalUrl": "https://file.newswire.co.kr/data/datafile2/thumb_640/2026/09/1028147215_20260920131136_6939599491.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "file.newswire.co.kr",
@@ -102,23 +102,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.104",
+        "hostname": "nchkga-ai-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.214,
+        "rtt": 85.054,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.104",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -131,11 +131,11 @@
       }
     },
     {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789868851772&cv=11&tid=G-5QT82MVFEV&fst=1789868851772&fmt=8&en=first_visit&gtm=45je69g1h1v893518242za200zd893518242xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.newswire.co.kr%2F&gacid=1054900164.1789868852&frm=0&tiba=%EC%96%B8%EB%A1%A0%20%ED%99%8D%EB%B3%B4%2C%20%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20%EB%B0%B0%ED%8F%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20%EB%89%B4%EC%8A%A4%EC%99%80%EC%9D%B4%EC%96%B4&gtm_ee=1&npa=0&pscdl=noapi&auid=22428556.1789868852&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=8",
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789884848317&cv=11&tid=G-5QT82MVFEV&fst=1789884848317&fmt=8&en=first_visit&gtm=45je69g1v893518242za200zd893518242xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.newswire.co.kr%2F&gacid=34017039.1789884848&frm=0&tiba=%EC%96%B8%EB%A1%A0%20%ED%99%8D%EB%B3%B4%2C%20%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20%EB%B0%B0%ED%8F%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20%EB%89%B4%EC%8A%A4%EC%99%80%EC%9D%B4%EC%96%B4&gtm_ee=1&npa=0&pscdl=noapi&auid=2123524235.1789884848&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=11",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.153.119",
+        "ip": "142.251.155.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -149,8 +149,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.153.119",
-          "prefix": "142.251.153.0/24",
+          "queried_ip": "142.251.155.119",
+          "prefix": "142.251.155.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -173,62 +173,60 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-5QT82MVFEV&gtm=45je69g1h1v893518242za200zd893518242xf1&_p=1789868851400&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=1054900164.1789868852&frm=0&pscdl=noapi&rcb=8&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&sid=1789868851&sct=1&seg=0&dl=https%3A%2F%2Fwww.newswire.co.kr%2F&dt=%EC%96%B8%EB%A1%A0%20%ED%99%8D%EB%B3%B4%2C%20%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20%EB%B0%B0%ED%8F%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20%EB%89%B4%EC%8A%A4%EC%99%80%EC%9D%B4%EC%96%B4&en=page_view&_fv=2&_nsi=1&_ss=1&_ee=1&tfd=990",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-5QT82MVFEV&gtm=45je69g1v893518242za200zd893518242xf1&_p=1789884847683&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&cid=34017039.1789884848&frm=0&pscdl=noapi&rcb=11&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115616986~115938465~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~120847433&sid=1789884848&sct=1&seg=0&dl=https%3A%2F%2Fwww.newswire.co.kr%2F&dt=%EC%96%B8%EB%A1%A0%20%ED%99%8D%EB%B3%B4%2C%20%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C%20%EB%B0%B0%ED%8F%AC%20%EC%84%9C%EB%B9%84%EC%8A%A4%20-%20%EB%89%B4%EC%8A%A4%EC%99%80%EC%9D%B4%EC%96%B4&en=page_view&_fv=2&_nsi=1&_ss=1&_ee=1&tfd=951",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.32.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
+        "ip": "142.250.197.46",
+        "hostname": "nchkga-ag-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 36.477,
+        "rtt": 86.265,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "216.239.32.181",
-          "prefix": "216.239.32.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
+          "queried_ip": "142.250.197.46",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
           "date": "2026-07-17",
           "has_kr": false,
           "has_seoul": false,
-          "site_count": 9,
-          "location_count": 9
+          "site_count": 0,
+          "location_count": 0
         }
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-5QT82MVFEV&cid=1054900164.1789868852&gtm=45je69g1h1v893518242za200zd893518242xf1&rcb=8&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153~120847433&z=1623405755",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-5QT82MVFEV&cid=34017039.1789884848&gtm=45je69g1v893518242za200zd893518242xf1&rcb=11&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616986~115938465~115938468~117776795~118897920~118897930~120213116~120385422~120469145~120469153~120847433&z=1951699330",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.71.163",
+        "hostname": "nchkga-ab-in-f3.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 35.271,
+        "rtt": 84.899,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.71.163",
+          "prefix": "142.250.71.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

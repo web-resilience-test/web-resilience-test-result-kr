@@ -2,9 +2,9 @@
   "url": "https://deepai.org",
   "canonicalURL": "https://deepai.org/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:51:42.492Z",
+  "timestamp": "2026-09-20T05:20:08.172Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,18 +13,18 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 72,
+  "requestCount": 71,
   "uniqueDomains": 23,
   "test_results": {
     "domestic": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "deepai.org",
-        "ip": "18.244.60.107",
-        "hostname": "server-18-244-60-107.icn57.r.cloudfront.net",
+        "ip": "18.244.60.45",
+        "hostname": "server-18-244-60-45.icn57.r.cloudfront.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -58,7 +58,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "browser.sentry-cdn.com",
-        "ip": "151.101.130.217",
+        "ip": "151.101.194.217",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -72,8 +72,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "151.101.130.217",
-          "prefix": "151.101.130.0/24",
+          "queried_ip": "151.101.194.217",
+          "prefix": "151.101.194.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -100,23 +100,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.21.97",
-        "hostname": "zh-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.200",
+        "hostname": "nchkgb-al-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.047,
+        "rtt": 85.924,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.97",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.198.200",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -133,8 +133,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -149,7 +149,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "app.koah.ai",
-        "ip": "104.26.4.185",
+        "ip": "104.26.5.185",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -159,13 +159,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcd798fccfc1fe-LAX",
+        "cf-ray": "a3de60dd4d341955-KIX",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (direct)",
-          "queried_ip": "104.26.4.185",
-          "prefix": "104.26.4.0/24",
+          "queried_ip": "104.26.5.185",
+          "prefix": "104.26.5.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -175,8 +175,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 60,
-          "location_count": 60,
+          "site_count": 59,
+          "location_count": 59,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -192,7 +192,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "code.trygravity.ai",
-        "ip": "104.18.4.212",
+        "ip": "104.18.5.212",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -203,7 +203,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd7973a19834c-ICN",
+        "cf-ray": "a3de60dcb831d827-ICN",
         "detection_method": "header"
       }
     },
@@ -222,11 +222,11 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3dcd798cd34eb2a-SJC",
+        "cf-ray": "a3de60dd3c6fa8ad-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (cached)",
+          "source": "laces api (direct)",
           "queried_ip": "104.21.67.53",
           "prefix": "104.21.67.0/24",
           "anycast": true,
@@ -238,8 +238,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 60,
-          "location_count": 60,
+          "site_count": 58,
+          "location_count": 58,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -266,10 +266,10 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 143.428,
+        "rtt": 131.837,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "35.163.28.47",
           "prefix": "35.163.28.0/24",
           "anycast": false,
@@ -288,23 +288,23 @@
       "type": "image",
       "ipinfo": {
         "domain": "play.google.com",
-        "ip": "142.250.21.101",
-        "hostname": "zh-in-f101.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.197.110",
+        "hostname": "nchkga-ai-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 41.026,
+        "rtt": 84.158,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.21.101",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.197.110",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -348,7 +348,49 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcd797dcd3ea29-ICN",
+        "cf-ray": "a3de60d63f2cea11-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://t.co/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=102063d1-fe04-488f-b0f1-d621839161b6&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6aa8d7d3-e4c2-40a5-b7f1-68a54b8fc085&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fdeepai.org%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789881596404-499810750&tw_session_start=1&twpid=tw.1789881596404.677658350127310284&txn_id=pzofp&type=javascript&version=2.4.11",
+      "type": "image",
+      "ipinfo": {
+        "domain": "t.co",
+        "ip": "172.66.0.227",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de60d72f1c03c6-ICN",
+        "x-served-by": "t4_p",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=102063d1-fe04-488f-b0f1-d621839161b6&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=6aa8d7d3-e4c2-40a5-b7f1-68a54b8fc085&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fdeepai.org%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789881596404-499810750&tw_session_start=1&twpid=tw.1789881596404.677658350127310284&txn_id=pzofp&type=javascript&version=2.4.11",
+      "type": "image",
+      "ipinfo": {
+        "domain": "analytics.twitter.com",
+        "ip": "172.66.0.227",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de60d72821de6f-ICN",
+        "x-served-by": "t4_p",
         "detection_method": "header"
       }
     },
@@ -357,8 +399,8 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "md-eecad2978f7a43f5b7838c919258e6de.ecs.us-east-2.on.aws",
-        "ip": "52.14.15.254",
-        "hostname": "ec2-52-14-15-254.us-east-2.compute.amazonaws.com",
+        "ip": "3.139.253.35",
+        "hostname": "ec2-3-139-253-35.us-east-2.compute.amazonaws.com",
         "city": "Columbus",
         "region": "Ohio",
         "country": "US",
@@ -373,8 +415,8 @@
         "rtt_error": "timeout",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "52.14.15.254",
-          "prefix": "52.14.15.0/24",
+          "queried_ip": "3.139.253.35",
+          "prefix": "3.139.253.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -387,12 +429,12 @@
       }
     },
     {
-      "originalUrl": "https://www.facebook.com/tr/?id=3904251523200566&ev=PageView&dl=https%3A%2F%2Fdeepai.org%2F&rl=&if=false&ts=1789865490918&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4126&aems=0%3B0&fbp=fb.1.1789865490913.664886507728602228&eid=ob3_plugin-set_8d15921503b463884cef59f960aa81c6faaa0c3b93625104fe763cd6a0d74e47&ler=empty&cdl=API_unavailable&pmd[title]=DeepAI&pmd[locale]=en_US&pmd[description]=Artificially%20intelligent%20tools%20for%20naturally%20creative%20humans.&plt=223.29999999981374&iss=1&ss=%7B%22page_type%22%3A%5B%7B%22rid%22%3A%221410600131205853%22%2C%22v%22%3A%5B%22Image%20Generator%22%5D%7D%2C%7B%22rid%22%3A%221666616925114899%22%2C%22v%22%3A%5B%22Chat%22%5D%7D%5D%2C%22price%22%3A%5B%7B%22rid%22%3A%221409722527969761%22%2C%22v%22%3A%5B%22%245.00%20USD%22%5D%7D%5D%2C%22publisher%22%3A%5B%7B%22rid%22%3A%222112167129376876%22%2C%22v%22%3A%5B%22DeepAI%22%5D%7D%5D%2C%22page_keywords%22%3A%5B%7B%22rid%22%3A%2228019057031123504%22%2C%22v%22%3A%5B%22Chat%22%2C%22Image%20Generator%22%2C%22Video%22%2C%22Music%22%2C%22Voice%20Chat%22%2C%22Photo%20Editor%22%2C%22Try%20DeepAI%20in%20iMessage%22%2C%22Pricing%22%5D%7D%5D%7D&imft=1&tz=540&it=1789865490863&coo=false&ap[contents]=%5B%7B%22item_price%22%3A0%7D%2C%7B%22item_price%22%3A0%7D%5D&cf=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra2&expv2[4]=rp2&expv2[5]=im0&expv2[6]=hf1&expv2[7]=pt0&expv2[8]=sd1&expv2[9]=sp1&expv2[10]=ek1&expv2[11]=pc1&expv2[12]=gs1&expv2[13]=zs1&expv2[14]=cp1&expv2[15]=es1&expv2[16]=ac1&expv2[17]=so1&expv2[18]=wc1&expv2[19]=la1&expv2[20]=sf1&expv2[21]=da1&expv2[22]=io1&expv2[23]=ae1&expv2[24]=sx1&expv2[25]=if1&expv2[26]=fd1&expv2[27]=bg1&expv2[28]=mg1&expv2[29]=kl1&expv2[30]=sg1&expv2[31]=mk1&expv2[32]=sn1&expv2[33]=ec1&expv2[34]=mp1&expv2[35]=ps1&expv2[36]=fx1&expv2[37]=vt1&expv2[38]=dp1&expv2[39]=fw1&expv2[40]=cn1&expv2[41]=tz1&expv2[42]=pe1&expv2[43]=ee1&expv2[44]=bu1&expv2[45]=ta1&expv2[46]=ot1&expv2[47]=ep1&rqm=GET",
-      "type": "image",
+      "originalUrl": "https://www.facebook.com/tr/",
+      "type": "document",
       "ipinfo": {
         "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -403,11 +445,43 @@
       "category": "domestic/direct"
     },
     {
+      "originalUrl": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1234567890",
+      "type": "image",
+      "ipinfo": {
+        "domain": "toolbox.marketingtools.apple.com",
+        "ip": "17.33.193.45",
+        "hostname": "abs.awusw2.sbz.apple.com",
+        "city": "Seattle",
+        "region": "Washington",
+        "country": "US",
+        "loc": "47.6062,-122.3321",
+        "org": "AS714 Apple Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.thrad.ai/p.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.thrad.ai",
+        "ip": "3.168.167.106",
+        "hostname": "server-3-168-167-106.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
       "originalUrl": "https://bat.bing.com/bat.js",
       "type": "script",
       "ipinfo": {
         "domain": "bat.bing.com",
-        "ip": "150.171.27.10",
+        "ip": "150.171.28.10",
         "city": "Redmond",
         "region": "Washington",
         "country": "US",
@@ -417,13 +491,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "x-msedge-ref": "Ref A: C721B37AAAB44286AB4BB797CECC6BDC Ref B: SEL221051802037 Ref C: 2026-09-20T00:51:31Z",
+        "x-msedge-ref": "Ref A: 3702ACFFBD2E4D079BD41EB1A936F609 Ref B: SEL221051504009 Ref C: 2026-09-20T05:19:59Z",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "150.171.27.10",
-          "prefix": "150.171.27.0/24",
+          "queried_ip": "150.171.28.10",
+          "prefix": "150.171.28.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -433,8 +507,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 55,
-          "location_count": 55,
+          "site_count": 53,
+          "location_count": 53,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -464,7 +538,7 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
+          "source": "laces api (cached)",
           "queried_ip": "34.54.197.252",
           "prefix": "34.54.197.0/24",
           "anycast": true,
@@ -493,8 +567,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "analytics.tiktok.com",
-        "ip": "23.35.218.18",
-        "hostname": "a23-35-218-18.deploy.static.akamaitechnologies.com",
+        "ip": "23.35.218.9",
+        "hostname": "a23-35-218-9.deploy.static.akamaitechnologies.com",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -505,11 +579,11 @@
       "category": "domestic/cloud"
     },
     {
-      "originalUrl": "https://www.google.com/rmkt/collect/11306893344/?random=1789865491067&cv=11&fst=1789865491067&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fdeepai.org%2F&rcb=4&frm=0&tiba=DeepAI&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1984794156.1789865491&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+      "originalUrl": "https://www.google.com/rmkt/collect/11306893344/?random=1789881597403&cv=11&fst=1789881597403&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~117776796~118012007~118897920~118897930~120213116~120385423~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fdeepai.org%2F&rcb=4&frm=0&tiba=DeepAI&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=474368199.1789881597&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
-        "ip": "142.251.152.119",
+        "ip": "142.251.150.119",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -523,8 +597,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.152.119",
-          "prefix": "142.251.152.0/24",
+          "queried_ip": "142.251.150.119",
+          "prefix": "142.251.150.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -547,62 +621,27 @@
       }
     },
     {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-GY2GHX2J9Y&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xf1&_p=1789865490731&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=513989048.1789865491&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&sid=1789865491&sct=1&seg=0&dl=https%3A%2F%2Fdeepai.org%2F&dt=DeepAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&up.user_tier=anonymous&tfd=533",
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-GY2GHX2J9Y&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xf1&_p=1789881596210&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&cid=1831364785.1789881597&frm=0&pscdl=noapi&rcb=4&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938465~115938468~117776796~118012007~118897920~118897930~120213116~120385423~120469145~120469153~120847433&sid=1789881597&sct=1&seg=0&dl=https%3A%2F%2Fdeepai.org%2F&dt=DeepAI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&up.user_tier=anonymous&tfd=1283",
       "type": "fetch",
       "ipinfo": {
         "domain": "analytics.google.com",
-        "ip": "216.239.38.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
+        "ip": "142.250.199.78",
+        "hostname": "hkg07s37-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
         "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 38.529,
+        "rtt": 86.411,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "216.239.38.181",
-          "prefix": "216.239.38.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 15,
-          "location_count": 15
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-GY2GHX2J9Y&cid=513989048.1789865491&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xf1&rcb=4&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120847435&z=733988335",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.250.21.94",
-        "hostname": "zh-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 37.157,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.21.94",
-          "prefix": "142.250.21.0/24",
+          "queried_ip": "142.250.199.78",
+          "prefix": "142.250.199.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -615,78 +654,37 @@
       }
     },
     {
-      "originalUrl": "https://t.co/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=8dcf4542-0cef-4e37-90ef-6cb4342cf54f&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=09af9b4b-81dd-4f97-a790-10f644e483f3&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fdeepai.org%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789865491201-357950558&tw_session_start=1&twpid=tw.1789865491201.176447676661904880&txn_id=pzofp&type=javascript&version=2.4.11",
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-GY2GHX2J9Y&cid=1831364785.1789881597&gtm=45je69g1v9104459017za200zb9260548680zd9260548680xf1&rcb=4&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938465~115938468~117776796~118012007~118897920~118897930~120213116~120385423~120469145~120469153~120847433&z=564805562",
       "type": "image",
       "ipinfo": {
-        "domain": "t.co",
-        "ip": "172.66.0.227",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
+        "domain": "www.google.co.kr",
+        "ip": "142.250.198.131",
+        "hostname": "nchkgb-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
       },
-      "category": "domestic/cloud",
+      "category": "foreign/cloud",
       "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcd798dab2d1e2-ICN",
-        "x-served-by": "t4_p",
-        "detection_method": "header"
+        "rtt": 84.563,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.131",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
       }
-    },
-    {
-      "originalUrl": "https://analytics.twitter.com/1/i/adsct?bci=4&dv=Asia%2FSeoul%26ko-KR%2Cko%2Cen-US%2Cen%26Google%20Inc.%26MacIntel%26127%261280%26720%2610%2630%261280%26720%260%26na&eci=3&event=%7B%7D&event_id=8dcf4542-0cef-4e37-90ef-6cb4342cf54f&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=09af9b4b-81dd-4f97-a790-10f644e483f3&tw_ch_fvl=Chromium%2F153.0.8010.12%2CNot_A%20Brand%2F8.0.0.0&tw_ch_pv=10_15_7&tw_document_href=https%3A%2F%2Fdeepai.org%2F&tw_engaged_ms=0&tw_iframe_status=0&tw_pid_src=1&tw_session_count=1&tw_session_id=1789865491201-357950558&tw_session_start=1&twpid=tw.1789865491201.176447676661904880&txn_id=pzofp&type=javascript&version=2.4.11",
-      "type": "image",
-      "ipinfo": {
-        "domain": "analytics.twitter.com",
-        "ip": "172.66.0.227",
-        "city": "San Francisco",
-        "region": "California",
-        "country": "US",
-        "loc": "37.7621,-122.3971",
-        "org": "AS13335 Cloudflare, Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "cf-ray": "a3dcd798e8944627-ICN",
-        "x-served-by": "t4_p",
-        "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://toolbox.marketingtools.apple.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1234567890",
-      "type": "image",
-      "ipinfo": {
-        "domain": "toolbox.marketingtools.apple.com",
-        "ip": "17.33.194.218",
-        "hostname": "abs.awusw2.sbz.apple.com",
-        "city": "Seattle",
-        "region": "Washington",
-        "country": "US",
-        "loc": "47.6062,-122.3321",
-        "org": "AS714 Apple Inc.",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/direct"
-    },
-    {
-      "originalUrl": "https://cdn.thrad.ai/p.min.js",
-      "type": "script",
-      "ipinfo": {
-        "domain": "cdn.thrad.ai",
-        "ip": "3.168.167.5",
-        "hostname": "server-3-168-167-5.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/cloud"
     }
   ]
 }

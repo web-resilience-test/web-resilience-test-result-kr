@@ -2,9 +2,9 @@
   "url": "https://www.pixiv.net",
   "canonicalURL": "https://www.pixiv.net/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:18:55.927Z",
+  "timestamp": "2026-09-20T05:48:00.157Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,16 +13,16 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
   "requestCount": 45,
   "uniqueDomains": 10,
@@ -42,7 +42,7 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.pixiv.net",
-        "ip": "172.64.145.17",
+        "ip": "104.18.42.239",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -53,7 +53,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcffaffd76d2f8-ICN",
+        "cf-ray": "a3de89d108f8f6fc-ICN",
         "detection_method": "header"
       }
     },
@@ -62,7 +62,7 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "s.pximg.net",
-        "ip": "210.140.139.132",
+        "ip": "210.140.139.134",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -77,23 +77,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.200",
+        "hostname": "nchkgb-al-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 44.756,
+        "rtt": 87.551,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.200",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -106,11 +106,11 @@
       }
     },
     {
-      "originalUrl": "https://i.pximg.net/user-profile/img/2024/04/26/20/53/35/25810643_8583621b7510025946c0c9c41e20c7c5_50.jpg",
+      "originalUrl": "https://i.pximg.net/user-profile/img/2020/05/09/01/42/49/18541165_d8b46058d67020bfff5c8162b4c97a9a_50.jpg",
       "type": "image",
       "ipinfo": {
         "domain": "i.pximg.net",
-        "ip": "210.140.139.131",
+        "ip": "210.140.139.134",
         "city": "Tokyo",
         "region": "Tokyo",
         "country": "JP",
@@ -119,6 +119,39 @@
         "timezone": "Asia/Tokyo"
       },
       "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-75BBYNYN9J&gtm=45je69g1v879686543za20gzb6129840zd6129840xf1&_p=1789883277055&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=2090219342.1789883278&frm=0&ngs=1&pscdl=noapi&rcb=19&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938465~115938469~118897920~118897930~120032689~120213116~120385423~120469145~120469153&sid=1789883277&sct=1&seg=0&dl=https%3A%2F%2Fwww.pixiv.net%2F&dt=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&uid=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.login=no&ep.default_service_is_touch=no&epn.p_ab_d_id=50251821&up.plan=normal&up.gender=&up.illustup_flg=not_uploaded&up.lang=ko&tfd=979",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.198.206",
+        "hostname": "nchkgb-al-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 80.371,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.206",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
     },
     {
       "originalUrl": "https://cdn.onesignal.com/sdks/OneSignalSDK.js",
@@ -136,41 +169,8 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcffb56f9aaa50-ICN",
+        "cf-ray": "a3de89d8aa22f3ef-ICN",
         "detection_method": "header"
-      }
-    },
-    {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-75BBYNYN9J&gtm=45je69g1v879686543za20gzb6129840zd6129840xf1&_p=1789867133501&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=527865207.1789867134&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385422~120469145~120469153&sid=1789867134&sct=1&seg=0&dl=https%3A%2F%2Fwww.pixiv.net%2F&dt=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&uid=&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.login=no&ep.default_service_is_touch=no&epn.p_ab_d_id=1494208664&up.plan=normal&up.gender=&up.illustup_flg=not_uploaded&up.lang=ko&tfd=840",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "www.google-analytics.com",
-        "ip": "142.251.24.100",
-        "hostname": "rj-in-f100.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 41.659,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.24.100",
-          "prefix": "142.251.24.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
       }
     },
     {
@@ -178,7 +178,7 @@
       "type": "script",
       "ipinfo": {
         "domain": "onesignal.com",
-        "ip": "104.16.160.145",
+        "ip": "104.17.111.223",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -189,12 +189,12 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcffb618ba0dbb-ICN",
+        "cf-ray": "a3de89d96c6498ff-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://www.google.com/rmkt/collect/11051030714/?random=1789867134374&cv=11&fst=1789867134374&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9122641176z86129840za20gzb6129840zd6129840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119793973~120213116~120385422~120469145~120469153~120474862~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.pixiv.net%2F&rcb=12&frm=0&tiba=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1630857518.1789867134&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=68&gcp=5",
+      "originalUrl": "https://www.google.com/rmkt/collect/11051030714/?random=1789883278246&cv=11&fst=1789883278246&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9122641176z86129840za20gzb6129840zd6129840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119791749~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.pixiv.net%2F&rcb=19&frm=0&tiba=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=377402919.1789883278&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=68&gcp=5",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google.com",
@@ -251,33 +251,33 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3dcffb6bb24d1e9-ICN",
+        "cf-ray": "a3de89da1c5d5a63-ICN",
         "x-served-by": "cache-fra-eddf8230081-FRA, cache-itm1220021-ITM",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/11051030714/?random=1789867134374&cv=11&fst=1789866000000&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9122641176z86129840za20gzb6129840zd6129840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119793973~120213116~120385422~120469145~120469153~120474862~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.pixiv.net%2F&rcb=12&frm=0&tiba=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1630857518.1789867134&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3NKrtO3uRNkvEcIFU97g8CFIkhmsrKiwfjbLW2l1r7m94huBayn3MVu2-ErT03qy1G7j6izxvutzEPORmzuX6DXLdLnX1S2up5yLMTfSskxmbv3USALhmNBg6XXz9YtP3EVuxXtHYdguaOQG4b3Ifr-wyex3aBkjuTGJXodYMLSG_zlmFyi1rs4URw53GLNWEaeUibN0thQQknaH2MnQmQ-LvEYXF42t7SVXelibNEuXzYE0qPIV84xOk-A5ZWd4aKoDQ2ZNlvV3TO271WTl4Q&random=4163153564&rmt_tld=1&ipr=y",
+      "originalUrl": "https://www.google.co.kr/pagead/1p-user-list/11051030714/?random=1789883278246&cv=11&fst=1789880400000&bg=ffffff&guid=ON&async=1&gtm=45be69g1v9122641176z86129840za20gzb6129840zd6129840xeaxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938468~118897920~118897930~119791749~120213116~120385422~120469145~120469153~120847435&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.pixiv.net%2F&rcb=19&frm=0&tiba=%EC%9D%BC%EB%9F%AC%EC%8A%A4%ED%8A%B8%C2%B7%EB%A7%8C%ED%99%94%C2%B7%EC%86%8C%EC%84%A4%20%EC%9E%91%ED%92%88%20%EC%BB%A4%EB%AE%A4%EB%8B%88%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%5Bpixiv(%ED%94%BD%EC%8B%9C%EB%B8%8C)%5D&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=377402919.1789883278&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&_tu=CA&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS1AEAQM4h3IOfYDALz2H7wz2qHw-iBwKA8zqiZpJwgpRPkGbGyl8H-A6Th98R8natFhQY_vpz6jq-_tMdlVRgii9SZKvhwS-aabQgAERuyxXRFYpSAie62gxYHstCwkmZnoYDQZoyUVrhskO2xyIcTVB6nf3a9eVMB_qcC694wBXy0vX_GK6zhFJw_5fIiUwx4-X_FCr42MwNBvvL4EubbQthVg5TTHL5qlkiyjtG2nBj4RIEtRaalPM-c5j7umCAHxWJTnZmjJZbs74hjhxKHM-7iDkCbw&random=3256992019&rmt_tld=1&ipr=y",
       "type": "image",
       "ipinfo": {
         "domain": "www.google.co.kr",
-        "ip": "142.251.24.94",
-        "hostname": "rj-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.131",
+        "hostname": "nchkgb-aj-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 43.596,
+        "rtt": 85.611,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.251.24.94",
-          "prefix": "142.251.24.0/24",
+          "queried_ip": "142.250.198.131",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],

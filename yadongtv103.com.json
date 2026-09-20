@@ -1,0 +1,239 @@
+{
+  "url": "https://yadongtv103.com",
+  "canonicalURL": "https://yadongtv106.com/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T05:54:13.558Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 79,
+  "uniqueDomains": 8,
+  "test_results": {
+    "domestic": {
+      "cloud": 3,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 3
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://yadongtv103.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "yadongtv103.com",
+        "ip": "185.191.238.118",
+        "hostname": "hostedby.swisslayer.com",
+        "city": "Bellinzona",
+        "region": "Ticino",
+        "country": "CH",
+        "loc": "46.1928,9.0170",
+        "org": "AS264617 GRUPO PANAGLOBAL 15 S.A",
+        "timezone": "Europe/Zurich"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://yadongtv106.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "yadongtv106.com",
+        "ip": "172.67.129.89",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3de92e6da61dfaa-NRT",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "172.67.129.89",
+          "prefix": "172.67.129.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=G-R611EMHNL8",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.197.72",
+        "hostname": "nchkga-ah-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 88.694,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.72",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.207.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de92eb6c604627-ICN",
+        "x-served-by": "cache-fra-eddf8230090-FRA, cache-itm1220044-ITM",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://yatv90.b-cdn.net/storage/upload/banners/1786538606.webp",
+      "type": "image",
+      "ipinfo": {
+        "domain": "yatv90.b-cdn.net",
+        "ip": "169.150.225.42",
+        "hostname": "169-150-225-42.bunnyinfra.net",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+      "type": "script",
+      "ipinfo": {
+        "domain": "static.cloudflareinsights.com",
+        "ip": "104.16.80.73",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3de92eb7cd53274-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://yadong.yalink.org/matomo.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "yadong.yalink.org",
+        "ip": "67.223.119.31",
+        "hostname": "nc-ph-3937.web-hosting.com",
+        "city": "Phoenix",
+        "region": "Arizona",
+        "country": "US",
+        "loc": "33.4484,-112.0740",
+        "org": "AS22612 Namecheap, Inc.",
+        "timezone": "America/Phoenix"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-RE78DXT1N6&gtm=45je69g1v9257852353za200zd9257852353xf1&_p=1789883649780&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1951974107.1789883651&frm=0&ngs=1&pscdl=noapi&rcb=13&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120213116~120385423~120412528~120469145~120469153&sid=1789883650&sct=1&seg=0&dl=https%3A%2F%2Fyadongtv106.com%2F&dt=%EC%95%BC%EB%8F%99%ED%8B%B0%EB%B9%84%20%7C%20%ED%95%9C%EA%B5%AD%20%EC%95%BC%EB%8F%99%20%EC%82%AC%EC%9D%B4%ED%8A%B8%20-%20%EC%9E%90%EB%A7%89%20%EC%95%BC%EB%8F%99%2C%20BJ%EC%95%BC%EB%8F%99%2C%20%EC%9D%BC%EB%B3%B8%EC%95%BC%EB%8F%99%2C%20%EC%95%BC%EB%8F%99%20%EC%BD%94%EB%A6%AC%EC%95%84%20%EB%A0%88%EB%93%9C&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2456",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "142.250.199.78",
+        "hostname": "hkg07s37-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.484,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.78",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    }
+  ]
+}

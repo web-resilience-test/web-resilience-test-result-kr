@@ -1,10 +1,10 @@
 {
   "url": "https://adidas.co.kr",
-  "canonicalURL": "https://adidas.co.kr",
+  "canonicalURL": "https://www.adidas.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T01:39:57.315Z",
+  "timestamp": "2026-09-20T06:06:45.735Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,26 +13,26 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 5,
-  "uniqueDomains": 2,
+  "requestCount": 64,
+  "uniqueDomains": 10,
   "test_results": {
     "domestic": {
-      "cloud": 1,
+      "cloud": 8,
       "direct": 0
     },
     "foreign": {
-      "cloud": 0,
+      "cloud": 1,
       "direct": 1
     }
   },
@@ -57,8 +57,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "www.adidas.co.kr",
-        "ip": "23.53.228.155",
-        "hostname": "a23-53-228-155.deploy.static.akamaitechnologies.com",
+        "ip": "23.53.228.144",
+        "hostname": "a23-53-228-144.deploy.static.akamaitechnologies.com",
         "city": "Yeongdong",
         "region": "North Chungcheong",
         "country": "KR",
@@ -67,6 +67,158 @@
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_1920,w_1920/7644429_CAM_Onsite_Originals_Jennie_FW_26_HP_Banner_Hero_6_Desktop_2880x1200_4cc813e862.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "brand.assets.adidas.com",
+        "ip": "146.75.114.24",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.247,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "146.75.114.24",
+          "prefix": "146.75.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            54113
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 3,
+          "location_count": 3
+        }
+      }
+    },
+    {
+      "originalUrl": "https://esm.glass.adidas.com/@adl/css-reset@2.0.0",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "esm.glass.adidas.com",
+        "ip": "23.35.218.43",
+        "hostname": "a23-35-218-43.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://microfrontends.glass.adidas.com/cookie-consent-mf/ad95dfc956f8cea04d8998606c1fd42e76783f19/style.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "microfrontends.glass.adidas.com",
+        "ip": "23.53.228.145",
+        "hostname": "a23-53-228-145.deploy.static.akamaitechnologies.com",
+        "city": "Yeongdong",
+        "region": "North Chungcheong",
+        "country": "KR",
+        "loc": "36.1750,127.7764",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://eum.instana.io/eum.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "eum.instana.io",
+        "ip": "23.32.56.179",
+        "hostname": "a23-32-56-179.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://res.cloudinary.com/adidas-app/image/upload/c_limit,h_2532,q_auto:good,w_2532/v1/feed-assets/mf8xb00jqrhvl62gbmrg.png",
+      "type": "image",
+      "ipinfo": {
+        "domain": "res.cloudinary.com",
+        "ip": "23.49.204.44",
+        "hostname": "a23-49-204-44.deploy.static.akamaitechnologies.com",
+        "city": "Haegok",
+        "region": "Gyeonggi-do",
+        "country": "KR",
+        "loc": "37.2172,127.2142",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://feature-flags.adidas.com/api/publications/account-acquisition/production",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "feature-flags.adidas.com",
+        "ip": "23.32.56.178",
+        "hostname": "a23-32-56-178.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://account-frontends.adidas.com/account_welcome-flow/1.0.0-experimental.27/index.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "account-frontends.adidas.com",
+        "ip": "23.32.56.179",
+        "hostname": "a23-32-56-179.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://tags.tiqcdn.com/utag/adidas/adidasglobal/prod/utag.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "tags.tiqcdn.com",
+        "ip": "52.85.128.44",
+        "hostname": "server-52-85-128-44.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
     }
   ]
 }

@@ -2,9 +2,9 @@
   "url": "https://alphasquare.co.kr",
   "canonicalURL": "https://alphasquare.co.kr/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:50:36.456Z",
+  "timestamp": "2026-09-20T05:19:08.717Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,22 +13,22 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 69,
-  "uniqueDomains": 17,
+  "requestCount": 34,
+  "uniqueDomains": 16,
   "test_results": {
     "domestic": {
-      "cloud": 8,
+      "cloud": 7,
       "direct": 4
     },
     "foreign": {
@@ -42,8 +42,8 @@
       "type": "document",
       "ipinfo": {
         "domain": "alphasquare.co.kr",
-        "ip": "52.85.128.129",
-        "hostname": "server-52-85-128-129.icn53.r.cloudfront.net",
+        "ip": "52.85.128.25",
+        "hostname": "server-52-85-128-25.icn53.r.cloudfront.net",
         "city": "Ashburn",
         "region": "Virginia",
         "country": "US",
@@ -79,23 +79,23 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.23.97",
-        "hostname": "zj-in-f97.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
+        "ip": "142.250.198.136",
+        "hostname": "nchkgb-aj-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
+        "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 42.307,
+        "rtt": 87.018,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.23.97",
-          "prefix": "142.250.23.0/24",
+          "queried_ip": "142.250.198.136",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -127,8 +127,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "connect.facebook.net",
-        "ip": "157.240.215.14",
-        "hostname": "xx-fbcdn-shv-01-ssn1.fbcdn.net",
+        "ip": "57.144.188.128",
+        "hostname": "xx-fbcdn-shv-01-icn2.fbcdn.net",
         "city": "Seoul",
         "region": "Seoul",
         "country": "KR",
@@ -149,6 +149,22 @@
         "country": "KR",
         "loc": "37.5660,126.9784",
         "org": "AS131866 Digital Edge Korea",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.facebook.com/tr/?id=1399032907687412&ev=PageView&dl=https%3A%2F%2Falphasquare.co.kr&rl=&if=false&ts=1789881537783&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4124&aems=0%3B0&fbp=fb.2.1789881537782.686982998708863968&cs_est=true&pm=1&hrl=bf7b2f&ler=empty&cdl=API_unavailable&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1789881537743&coo=false&cs_cc=1&cas=24896710066594812&dlc=1&expv2[0]=pl0&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot1&expv2[46]=ep1&rqm=GET",
+      "type": "image",
+      "ipinfo": {
+        "domain": "www.facebook.com",
+        "ip": "57.144.188.1",
+        "hostname": "edge-star-mini-shv-01-icn2.facebook.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS32934 Facebook, Inc.",
         "timezone": "Asia/Seoul"
       },
       "category": "domestic/direct"
@@ -184,8 +200,8 @@
           "date": "2026-07-17",
           "has_kr": true,
           "has_seoul": true,
-          "site_count": 63,
-          "location_count": 63,
+          "site_count": 64,
+          "location_count": 64,
           "kr_locations": [
             {
               "city": "Seoul",
@@ -201,14 +217,14 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api64.ipify.org",
-        "ip": "104.237.62.213",
+        "ip": "173.231.16.77",
         "hostname": "api64.ipify.org",
-        "city": "Los Angeles",
-        "region": "California",
+        "city": "Ogden",
+        "region": "Utah",
         "country": "US",
-        "loc": "34.0522,-118.2437",
+        "loc": "41.2230,-111.9738",
         "org": "AS18450 WebNX, Inc.",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Denver"
       },
       "category": "foreign/direct"
     },
@@ -229,8 +245,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "rtt": 14.357,
-        "detection_method": "rtt",
+        "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
           "queried_ip": "34.117.124.41",
@@ -242,10 +257,17 @@
             396982
           ],
           "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
+          "has_kr": true,
+          "has_seoul": true,
           "site_count": 64,
-          "location_count": 64
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
         }
       }
     },
@@ -254,8 +276,8 @@
       "type": "xhr",
       "ipinfo": {
         "domain": "api.amplitude.com",
-        "ip": "35.160.59.200",
-        "hostname": "ec2-35-160-59-200.us-west-2.compute.amazonaws.com",
+        "ip": "32.186.245.80",
+        "hostname": "ec2-32-186-245-80.us-west-2.compute.amazonaws.com",
         "city": "Boardman",
         "region": "Oregon",
         "country": "US",
@@ -269,9 +291,9 @@
         "detection_method": "rtt",
         "rtt_error": "timeout",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "35.160.59.200",
-          "prefix": "35.160.59.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "32.186.245.80",
+          "prefix": "32.186.245.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -288,7 +310,7 @@
       "type": "fetch",
       "ipinfo": {
         "domain": "firebase.googleapis.com",
-        "ip": "172.217.118.4",
+        "ip": "172.217.117.4",
         "city": "Mountain View",
         "region": "California",
         "country": "US",
@@ -302,176 +324,8 @@
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.217.118.4",
-          "prefix": "172.217.118.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.facebook.com/tr/?id=1399032907687412&ev=PageView&dl=https%3A%2F%2Falphasquare.co.kr&rl=&if=false&ts=1789865424596&iw=false&sw=1280&sh=720&v=2.9.403&r=stable&ec=0&o=4124&aems=0%3B0&fbp=fb.2.1789865424594.12964239985193500&cs_est=true&pm=1&hrl=bf7b2f&ler=empty&cdl=API_unavailable&plt=677.1000000000931&ups[pv]=%7B%7D&ups[rpv]=%7B%7D&it=1789865424387&coo=false&cs_cc=1&cas=24896710066594812&dlc=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&expv2[7]=sd1&expv2[8]=sp1&expv2[9]=ek1&expv2[10]=pc1&expv2[11]=gs1&expv2[12]=zs1&expv2[13]=cp1&expv2[14]=es1&expv2[15]=ac1&expv2[16]=so1&expv2[17]=wc1&expv2[18]=la1&expv2[19]=sf1&expv2[20]=da1&expv2[21]=io1&expv2[22]=ae1&expv2[23]=sx1&expv2[24]=if1&expv2[25]=fd1&expv2[26]=bg1&expv2[27]=mg1&expv2[28]=kl1&expv2[29]=sg1&expv2[30]=mk1&expv2[31]=sn1&expv2[32]=ec1&expv2[33]=mp1&expv2[34]=ps1&expv2[35]=fx1&expv2[36]=vt1&expv2[37]=dp1&expv2[38]=fw1&expv2[39]=cn1&expv2[40]=tz1&expv2[41]=pe1&expv2[42]=ee1&expv2[43]=bu1&expv2[44]=ta1&expv2[45]=ot0&expv2[46]=ep1&rqm=GET",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.facebook.com",
-        "ip": "157.240.215.35",
-        "hostname": "edge-star-mini-shv-01-ssn1.facebook.com",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS32934 Facebook, Inc.",
-        "timezone": "Asia/Seoul"
-      },
-      "category": "domestic/direct"
-    },
-    {
-      "originalUrl": "https://www.google.com/measurement/conversion?random=1789865424624&cv=11&tid=G-WCXSXVHR1P&fst=1789865424624&fmt=8&en=session_start&gtm=45je69g1v890203195za200zd890203195xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118012008~118897920~118897930~120213116~120385422~120469145~120469153~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Falphasquare.co.kr%2F&gacid=249138090.1789865425&ae=a&frm=0&tiba=%EC%95%8C%ED%8C%8C%EC%8A%A4%ED%80%98%EC%96%B4%20%7C%20%EC%98%AC%EC%9D%B8%EC%9B%90%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%20%ED%94%8C%EB%9E%AB%ED%8F%BC&npa=0&pscdl=noapi&auid=404448114.1789865425&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=3",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "www.google.com",
-        "ip": "142.251.150.119",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.150.119",
-          "prefix": "142.251.150.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
-      }
-    },
-    {
-      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-WCXSXVHR1P&gtm=45je69g1v890203195za200zd890203195xf1&_p=1789865424238&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EEAAAGAC&_prs=ok&ae=a&cid=249138090.1789865425&frm=0&ir=1&pscdl=noapi&rcb=3&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938468~118012008~118897920~118897930~120213116~120385422~120469145~120469153~120847433&sid=1789865424&sct=1&seg=0&dl=https%3A%2F%2Falphasquare.co.kr%2F&dt=%EC%95%8C%ED%8C%8C%EC%8A%A4%ED%80%98%EC%96%B4%20%7C%20%EC%98%AC%EC%9D%B8%EC%9B%90%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%20%ED%94%8C%EB%9E%AB%ED%8F%BC&en=scroll&_fv=1&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=757",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "analytics.google.com",
-        "ip": "216.239.34.181",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 41.931,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "216.239.34.181",
-          "prefix": "216.239.34.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            15169
-          ],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 17,
-          "location_count": 7
-        }
-      }
-    },
-    {
-      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WCXSXVHR1P&cid=249138090.1789865425&gtm=45je69g1v890203195za200zd890203195xf1&rcb=3&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118012008~118897920~118897930~120213116~120385422~120469145~120469153~120847433&z=1949629697",
-      "type": "image",
-      "ipinfo": {
-        "domain": "www.google.co.kr",
-        "ip": "142.251.23.94",
-        "hostname": "rl-in-f94.1e100.net",
-        "city": "Tokyo",
-        "region": "Tokyo",
-        "country": "JP",
-        "loc": "35.6895,139.6917",
-        "org": "AS15169 Google LLC",
-        "timezone": "Asia/Tokyo"
-      },
-      "category": "foreign/cloud",
-      "cloud_provider": {
-        "rtt": 43.618,
-        "detection_method": "rtt",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.251.23.94",
-          "prefix": "142.251.23.0/24",
-          "anycast": false,
-          "confidence": "not_detected",
-          "asns": [],
-          "date": "2026-07-17",
-          "has_kr": false,
-          "has_seoul": false,
-          "site_count": 0,
-          "location_count": 0
-        }
-      }
-    },
-    {
-      "originalUrl": "https://firebaseinstallations.googleapis.com/v1/projects/alphasquare/installations",
-      "type": "fetch",
-      "ipinfo": {
-        "domain": "firebaseinstallations.googleapis.com",
-        "ip": "172.217.115.4",
-        "city": "Mountain View",
-        "region": "California",
-        "country": "US",
-        "loc": "38.0088,-122.1175",
-        "org": "AS15169 Google LLC",
-        "timezone": "America/Los_Angeles"
-      },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "172.217.115.4",
-          "prefix": "172.217.115.0/24",
+          "queried_ip": "172.217.117.4",
+          "prefix": "172.217.117.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -494,20 +348,156 @@
       }
     },
     {
-      "originalUrl": "https://file.alphasquare.co.kr/static/images/logo/alphasquare-full-logo-230713.svg",
+      "originalUrl": "https://firebaseinstallations.googleapis.com/v1/projects/alphasquare/installations",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "firebaseinstallations.googleapis.com",
+        "ip": "172.217.116.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.116.4",
+          "prefix": "172.217.116.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/measurement/conversion?random=1789881538242&cv=11&tid=G-WCXSXVHR1P&fst=1789881538242&fmt=8&en=session_start&gtm=45je69g1v890203195za200zd890203195xecxf1&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120474864~120847433&u_w=1280&u_h=720&url=https%3A%2F%2Falphasquare.co.kr%2F&gacid=116071812.1789881538&ae=a&frm=0&tiba=%EC%95%8C%ED%8C%8C%EC%8A%A4%ED%80%98%EC%96%B4%20%7C%20%EC%98%AC%EC%9D%B8%EC%9B%90%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%20%ED%94%8C%EB%9E%AB%ED%8F%BC&npa=0&pscdl=noapi&auid=2126915352.1789881538&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uamb=0&uam=&uap=macOS&uapv=10_15_7&uaw=0&rcb=17",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.152.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.152.119",
+          "prefix": "142.251.152.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://analytics.google.com/g/collect?v=2&tid=G-WCXSXVHR1P&gtm=45je69g1v890203195za200zd890203195xf1&_p=1789881537595&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EEAAAGAC&_prs=ok&ae=a&cid=116071812.1789881538&frm=0&ir=1&pscdl=noapi&rcb=17&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&gaf=2&_s=1&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120474864~120847433&sid=1789881538&sct=1&seg=0&dl=https%3A%2F%2Falphasquare.co.kr%2F&dt=%EC%95%8C%ED%8C%8C%EC%8A%A4%ED%80%98%EC%96%B4%20%7C%20%EC%98%AC%EC%9D%B8%EC%9B%90%20%EC%8A%A4%EB%A7%88%ED%8A%B8%20%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%20%ED%94%8C%EB%9E%AB%ED%8F%BC&en=scroll&_fv=1&_nsi=1&_ss=2&epn.percent_scrolled=90&tfd=886",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "analytics.google.com",
+        "ip": "216.239.34.181",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.209,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.34.181",
+          "prefix": "216.239.34.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 17,
+          "location_count": 7
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.co.kr/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-WCXSXVHR1P&cid=116071812.1789881538&gtm=45je69g1v890203195za200zd890203195xf1&rcb=17&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938469~118897920~118897930~120213116~120385423~120469145~120469153~120474864~120847433&z=974155897",
       "type": "image",
       "ipinfo": {
-        "domain": "file.alphasquare.co.kr",
-        "ip": "3.168.167.120",
-        "hostname": "server-3-168-167-120.icn57.r.cloudfront.net",
-        "city": "Seoul",
-        "region": "Seoul",
-        "country": "KR",
-        "loc": "37.5660,126.9784",
-        "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "Asia/Seoul"
+        "domain": "www.google.co.kr",
+        "ip": "142.250.197.67",
+        "hostname": "nchkga-ah-in-f3.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
       },
-      "category": "domestic/cloud"
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 88.228,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.67",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
     }
   ]
 }

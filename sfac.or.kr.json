@@ -1,0 +1,425 @@
+{
+  "url": "https://sfac.or.kr",
+  "canonicalURL": "https://www.sfac.or.kr/index.do",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T08:34:22.741Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 245,
+  "uniqueDomains": 16,
+  "test_results": {
+    "domestic": {
+      "cloud": 6,
+      "direct": 7
+    },
+    "foreign": {
+      "cloud": 3,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://sfac.or.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "sfac.or.kr",
+        "ip": "61.72.206.227",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.seoul.go.kr/seoulgnb/gnb.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.seoul.go.kr",
+        "ip": "115.84.166.115",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17574 Seoul Metropolitan Government Computer Center",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.googletagmanager.com/gtag/js?id=UA-134644770-1",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.googletagmanager.com",
+        "ip": "142.250.198.40",
+        "hostname": "nchkga-ap-in-f8.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 87.661,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.198.40",
+          "prefix": "142.250.198.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css",
+      "type": "stylesheet",
+      "ipinfo": {
+        "domain": "cdnjs.cloudflare.com",
+        "ip": "104.17.25.14",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3df7d5c289596b7-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://weblog.eseoul.go.kr/wlo/js/install.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "weblog.eseoul.go.kr",
+        "ip": "115.84.164.13",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17574 Seoul Metropolitan Government Computer Center",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.sfac.or.kr/index.do",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.sfac.or.kr",
+        "ip": "61.72.206.227",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.youtube.com/embed/DIoWvubyIzI?si=VIA1no3E58JeQeWK&rel=0&autoplay=1&mute=1&cc_load_policy=1",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.youtube.com",
+        "ip": "142.251.154.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.154.4",
+          "prefix": "142.251.154.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://delivery.acecounter.com/delivery/www/delivery/ajs.php?zoneid=525&cb=17856912104&charset=UTF-8&loc=https%3A//www.sfac.or.kr/index.do&referer=https%3A//sfac.or.kr/",
+      "type": "script",
+      "ipinfo": {
+        "domain": "delivery.acecounter.com",
+        "ip": "3.36.251.117",
+        "hostname": "ec2-3-36-251-117.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://i.ytimg.com/vi/5FBXA20cz2g/mqdefault.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "i.ytimg.com",
+        "ip": "142.250.199.246",
+        "hostname": "nchkgb-an-in-f22.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
+        "country": "HK",
+        "loc": "22.2878,113.9424",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 83.93,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.199.246",
+          "prefix": "142.250.199.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cm.acecounter.com/creative/dab9e27ad108d30e88f521e64977b7b3.jpg",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cm.acecounter.com",
+        "ip": "43.202.30.93",
+        "hostname": "ec2-43-202-30-93.ap-northeast-2.compute.amazonaws.com",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://www.google-analytics.com/analytics.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google-analytics.com",
+        "ip": "216.239.32.178",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 39.063,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "216.239.32.178",
+          "prefix": "216.239.32.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 9,
+          "location_count": 9
+        }
+      }
+    },
+    {
+      "originalUrl": "https://www.google.com/js/th/9kbh97dqs7QZvQm1sGSfYDRDfRSTiumhhMhu1B8Eock.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "www.google.com",
+        "ip": "142.251.156.119",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.251.156.119",
+          "prefix": "142.251.156.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 61,
+          "location_count": 61,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://weblog.sfac.or.kr/nlog/log/event?v=1188656602&s=www.sfac.or.kr&u=https%3A%2F%2Fwww.sfac.or.kr%2Findex.do%3Ftagtype%3Dpageview%26nth_pageId%3Dsfac.main%26nth_pageNm%3D%25EB%258C%2580%25ED%2591%259C%25ED%2599%2588%25ED%258E%2598%25EC%259D%25B4%25EC%25A7%2580%2520%253E%2520%25EB%25A9%2594%25EC%259D%25B8&r=https%3A%2F%2Fsfac.or.kr%2F&a=Mozilla%2F5.0%20(Macintosh%3B%20Intel%20Mac%20OS%20X%2010_15_7)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F153.0.0.0%20Safari%2F537.36&c=nth_locale_lang%3Dko%3B%20nth_locale_country%3Dkr%3B%20nth_resolution%3D1280x720%3B%20nth_referrer%3Dhttps%253A%252F%252Fsfac.or.kr%252F%3B%20nth_load_time%3D2137%3B%20nth_screen_id%3D%252Findex.do%3B%20nth_screen_title%3D%25EC%2584%259C%25EC%259A%25B8%25EB%25AC%25B8%25ED%2599%2594%25EC%259E%25AC%25EB%258B%25A8",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "weblog.sfac.or.kr",
+        "ip": "61.72.206.143",
+        "city": "Incheon",
+        "region": "Incheon",
+        "country": "KR",
+        "loc": "37.4565,126.7052",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://rr1---sn-jhctq3g-bh2e.googlevideo.com/videoplayback?expire=1789914854&ei=hpqvapPrH4XF1d8P_rCagAY&ip=116.255.90.4&id=o-ABbZMUa5zyoAY400O7yhnJqQyH21bL1kEL3FLWi4ytk-&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=273&met=1789893254%2C&mh=yj&mm=31%2C29&mn=sn-jhctq3g-bh2e%2Csn-ajoguc-5n&ms=au%2Crdu&mv=m&mvi=1&pl=22&rms=au%2Cau&initcwndbps=2615000&spc=I-rgIWz68DL5h-X3tAlinYbj4V5b6DXxcAYAsHzS1hgsTTsUvoKXWYhXcYaDsyy1WK-Q4j4Dw40&svpuc=1&ns=E7U6do7cTUC-CEsDXdCsyF4Y&sabr=1&rqh=1&mt=1789892681&fvip=5&keepalive=yes&fexp=51565116%2C52112905%2C52178456&c=WEB_EMBEDDED_PLAYER&n=oRBWY8s1FDqRbw&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AE0s2JYwRgIhAIqE2I5e_iEcASP4X3NsjodQ4OxYRGaYEx-LKjgM5opoAiEAmTLkin_12lmmOyqi747juF97xdKYb5MSm-zpfsuBprM%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgBqjQFkklT1kc6n2bHnQj5nVY8jC0A3urTraHSpgERaUCIBdo9mvNhxKQcSoUqvNK4-9tWgIwwhrnrj9ngZpHpOuL&cpn=4Y81tVDd6P5l-DW8&cver=2.20260918.01.00&rn=1&alr=yes",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "rr1---sn-jhctq3g-bh2e.googlevideo.com",
+        "ip": "124.195.255.108",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS38680 CMB",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "jnn-pa.googleapis.com",
+        "ip": "172.217.114.4",
+        "city": "Mountain View",
+        "region": "California",
+        "country": "US",
+        "loc": "38.0088,-122.1175",
+        "org": "AS15169 Google LLC",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.217.114.4",
+          "prefix": "172.217.114.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            15169
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://weblog2.eseoul.go.kr/event/?ra=F0OWQ7CB54IQ2BFFK0X5TRJSWE4QQV5K&service_id=www.sfac.or.kr&pc_id=17898932546811002226956&session_id=dU0UiQYL05Hv1GBtrNDuTCNa.newweb&screen=1280x720&language=ko-KR&mode=&referrer=https%3A%2F%2Fsfac.or.kr%2F&unique_info=%5B%7B%22code%22%3A%22PLUG%22%2C%20%22hsCode%22%3A%2299a88d21e10e959428879450d48ceeb1%22%7D%2C%20%7B%22code%22%3A%22UAGT%22%2C%20%22hsCode%22%3A%224fb86d7439a1e431cea0287361c2e66d%22%7D%2C%20%7B%22code%22%3A%22SCRE%22%2C%20%22hsCode%22%3A%22572cda553fa9ac8d225f93d1bae76ab8%22%7D%5D&e_url=https%3A%2F%2Fwww.sfac.or.kr%2Findex.do&e_title=%EC%84%9C%EC%9A%B8%EB%AC%B8%ED%99%94%EC%9E%AC%EB%8B%A8&e_type=pageview&END",
+      "type": "script",
+      "ipinfo": {
+        "domain": "weblog2.eseoul.go.kr",
+        "ip": "115.84.164.39",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS17574 Seoul Metropolitan Government Computer Center",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    }
+  ]
+}

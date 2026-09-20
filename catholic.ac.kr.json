@@ -1,0 +1,113 @@
+{
+  "url": "https://catholic.ac.kr",
+  "canonicalURL": "https://www.catholic.ac.kr/ko/index.do",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T06:50:56.530Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 174,
+  "uniqueDomains": 4,
+  "test_results": {
+    "domestic": {
+      "cloud": 2,
+      "direct": 2
+    },
+    "foreign": {
+      "cloud": 0,
+      "direct": 0
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://catholic.ac.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "catholic.ac.kr",
+        "ip": "203.229.200.56",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://www.catholic.ac.kr//",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.catholic.ac.kr",
+        "ip": "203.229.200.56",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS4766 Korea Telecom",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/direct"
+    },
+    {
+      "originalUrl": "https://player.vimeo.com/api/player.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "player.vimeo.com",
+        "ip": "162.159.138.60",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dee5d6fa28e9fb-ICN",
+        "x-served-by": "cache-iad-kiad7000082-IAD, cache-nrt-rjaa8190022-NRT",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://cdn.jsdelivr.net/npm/vue@2.7.16",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.jsdelivr.net",
+        "ip": "104.17.207.5",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3dee5d7bda8a7cf-ICN",
+        "x-served-by": "cache-fra-etou8220058-FRA, cache-nrt-rjtt7900084-NRT",
+        "detection_method": "header"
+      }
+    }
+  ]
+}

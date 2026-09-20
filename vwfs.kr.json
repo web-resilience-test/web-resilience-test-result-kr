@@ -1,0 +1,144 @@
+{
+  "url": "https://vwfs.kr",
+  "canonicalURL": "https://www.vwfs.kr/",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T06:59:53.309Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 24,
+  "uniqueDomains": 4,
+  "test_results": {
+    "domestic": {
+      "cloud": 1,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 2,
+      "direct": 1
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://vwfs.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "vwfs.kr",
+        "ip": "185.60.96.123",
+        "hostname": "chargeandfuel-checkout.vwfs.com",
+        "city": "Hannover",
+        "region": "Lower Saxony",
+        "country": "DE",
+        "loc": "52.3705,9.7332",
+        "org": "AS205505 Volkswagen Financial Services AG",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.vwfs.kr/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "www.vwfs.kr",
+        "ip": "99.84.41.91",
+        "hostname": "server-99-84-41-91.lax54.r.cloudfront.net",
+        "city": "Los Angeles",
+        "region": "California",
+        "country": "US",
+        "loc": "34.0522,-118.2437",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "x-amz-cf-pop": "LAX54-P11",
+        "x-served-by": "cache-sjc10036-SJC",
+        "rtt": 138.555,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "99.84.41.91",
+          "prefix": "99.84.41.0/24",
+          "anycast": true,
+          "confidence": "low_confidence",
+          "partial": false,
+          "asns": [
+            16509
+          ],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 2,
+          "location_count": 1
+        }
+      }
+    },
+    {
+      "originalUrl": "https://assets.adobedtm.com/launch-EN297f6069de8b4a75961ef39a0fb96373.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "assets.adobedtm.com",
+        "ip": "23.63.77.84",
+        "hostname": "a23-63-77-84.deploy.static.akamaitechnologies.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 41.042,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "23.63.77.84",
+          "prefix": "23.63.77.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cms-assets.vwfs.com/is/image/vwfs/FSAG-Karriere_2018-06-20_164414_3000x1500_sRGB?$l$&fit=vfit,1&resMode=sharp2&bfc=on&dpr=on&network=on&v=1731057222456",
+      "type": "image",
+      "ipinfo": {
+        "domain": "cms-assets.vwfs.com",
+        "ip": "23.43.165.138",
+        "hostname": "a23-43-165-138.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    }
+  ]
+}

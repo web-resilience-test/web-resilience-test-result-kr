@@ -2,9 +2,9 @@
   "url": "https://figma.com",
   "canonicalURL": "https://www.figma.com/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T00:54:30.154Z",
+  "timestamp": "2026-09-20T05:22:44.121Z",
   "testParameters": {
-    "customDNS": null,
+    "customDNS": "164.124.101.2",
     "useAdblock": true,
     "adblockUrls": [
       "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
@@ -13,22 +13,22 @@
     "hasIPinfoToken": true
   },
   "testingEnvironment": {
-    "ip": "59.15.133.156",
+    "ip": "116.255.90.4",
     "city": "Seoul",
     "region": "Seoul",
     "country": "KR",
     "loc": "37.5660,126.9784",
-    "org": "AS4766 Korea Telecom",
+    "org": "AS38680 CMB",
     "postal": "03141",
     "timezone": "Asia/Seoul",
     "source": "ipinfo json api (direct)",
-    "dnsServer": "168.126.63.1"
+    "dnsServer": "164.124.101.2"
   },
-  "requestCount": 50,
-  "uniqueDomains": 3,
+  "requestCount": 57,
+  "uniqueDomains": 4,
   "test_results": {
     "domestic": {
-      "cloud": 3,
+      "cloud": 4,
       "direct": 0
     },
     "foreign": {
@@ -42,50 +42,40 @@
       "type": "document",
       "ipinfo": {
         "domain": "figma.com",
-        "ip": "52.85.128.64",
-        "hostname": "server-52-85-128-64.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
+        "ip": "18.244.60.98",
+        "hostname": "server-18-244-60-98.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://www.figma.com/",
       "type": "document",
       "ipinfo": {
         "domain": "www.figma.com",
-        "ip": "52.85.128.115",
-        "hostname": "server-52-85-128-115.icn53.r.cloudfront.net",
-        "city": "Ashburn",
-        "region": "Virginia",
-        "country": "US",
-        "loc": "39.0437,-77.4875",
+        "ip": "18.64.8.14",
+        "hostname": "server-18-64-8-14.icn57.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
         "org": "AS16509 Amazon.com, Inc.",
-        "timezone": "America/New_York"
+        "timezone": "Asia/Seoul"
       },
-      "category": "domestic/cloud",
-      "cloud_provider": {
-        "country": "kr",
-        "x-amz-cf-pop": "ICN53-P1",
-        "detection_method": "header"
-      }
+      "category": "domestic/cloud"
     },
     {
       "originalUrl": "https://cdn.sanity.io/images/599r6htc/regionalized/4b9ade839f38291c91b76608d22e7c7a9ad525fd-542x305.png?q=75&fit=max&auto=format&dpr=2",
       "type": "image",
       "ipinfo": {
         "domain": "cdn.sanity.io",
-        "ip": "34.36.58.112",
-        "hostname": "112.58.36.34.bc.googleusercontent.com",
+        "ip": "35.190.90.94",
+        "hostname": "94.90.190.35.bc.googleusercontent.com",
         "city": "Kansas City",
         "region": "Missouri",
         "country": "US",
@@ -98,9 +88,9 @@
         "country": "kr",
         "detection_method": "laces",
         "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "34.36.58.112",
-          "prefix": "34.36.58.0/24",
+          "source": "laces api (cached)",
+          "queried_ip": "35.190.90.94",
+          "prefix": "35.190.90.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -112,6 +102,49 @@
           "has_seoul": true,
           "site_count": 64,
           "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://featureassets.org/v1/initialize?k=client-tyiP7WuqTkWejoAdJltCepWDWao5EdTxWXCgTxlCAKZ&st=javascript-client-react&sv=3.29.1&t=1789881763681&sid=d1367198-2818-44a0-931d-bca799cf36ed&se=1",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "featureassets.org",
+        "ip": "34.128.128.0",
+        "hostname": "0.128.128.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.128.128.0",
+          "prefix": "34.128.128.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
           "kr_locations": [
             {
               "city": "Seoul",
