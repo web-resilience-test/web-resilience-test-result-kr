@@ -2,7 +2,7 @@
   "url": "https://fanbinit.us",
   "canonicalURL": "https://fanbinit.us/",
   "httpStatus": 200,
-  "timestamp": "2026-09-20T05:37:11.366Z",
+  "timestamp": "2026-09-20T12:13:15.021Z",
   "testParameters": {
     "customDNS": "164.124.101.2",
     "useAdblock": true,
@@ -24,7 +24,7 @@
     "source": "ipinfo json api (direct)",
     "dnsServer": "164.124.101.2"
   },
-  "requestCount": 117,
+  "requestCount": 113,
   "uniqueDomains": 14,
   "test_results": {
     "domestic": {
@@ -57,8 +57,8 @@
       "type": "script",
       "ipinfo": {
         "domain": "www.googletagmanager.com",
-        "ip": "142.250.197.72",
-        "hostname": "nchkga-ah-in-f8.1e100.net",
+        "ip": "142.250.198.136",
+        "hostname": "nchkgb-aj-in-f8.1e100.net",
         "city": "Tung Chung",
         "region": "Islands",
         "country": "HK",
@@ -68,12 +68,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 86.992,
+        "rtt": 88.076,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.197.72",
-          "prefix": "142.250.197.0/24",
+          "queried_ip": "142.250.198.136",
+          "prefix": "142.250.198.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -90,23 +90,23 @@
       "type": "stylesheet",
       "ipinfo": {
         "domain": "fonts.googleapis.com",
-        "ip": "142.250.197.138",
-        "hostname": "nchkga-aj-in-f10.1e100.net",
-        "city": "Tung Chung",
-        "region": "Islands",
-        "country": "HK",
-        "loc": "22.2878,113.9424",
+        "ip": "108.177.125.95",
+        "hostname": "tp-in-f95.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
         "org": "AS15169 Google LLC",
-        "timezone": "Asia/Hong_Kong"
+        "timezone": "Asia/Taipei"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 85.504,
+        "rtt": 72.779,
         "detection_method": "rtt",
         "laces": {
-          "source": "laces api (cached)",
-          "queried_ip": "142.250.197.138",
-          "prefix": "142.250.197.0/24",
+          "source": "laces api (direct)",
+          "queried_ip": "108.177.125.95",
+          "prefix": "108.177.125.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -123,7 +123,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "www.abuseipdb.com",
-        "ip": "172.67.70.74",
+        "ip": "104.26.13.38",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -133,32 +133,9 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3de79d1fee79640-KIX",
         "country": "kr",
-        "detection_method": "laces",
-        "laces": {
-          "source": "laces api (direct)",
-          "queried_ip": "172.67.70.74",
-          "prefix": "172.67.70.0/24",
-          "anycast": true,
-          "confidence": "confident",
-          "partial": false,
-          "asns": [
-            13335
-          ],
-          "date": "2026-07-17",
-          "has_kr": true,
-          "has_seoul": true,
-          "site_count": 62,
-          "location_count": 62,
-          "kr_locations": [
-            {
-              "city": "Seoul",
-              "country": "KR",
-              "id": "GMP"
-            }
-          ]
-        }
+        "cf-ray": "a3e0bdf5280adfca-ICN",
+        "detection_method": "header"
       }
     },
     {
@@ -177,7 +154,7 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3de79d13b58c9fd-ICN",
+        "cf-ray": "a3e0bdee8884ea31-ICN",
         "detection_method": "header"
       }
     },
@@ -186,7 +163,7 @@
       "type": "image",
       "ipinfo": {
         "domain": "files.fanbinit.us",
-        "ip": "104.21.6.124",
+        "ip": "172.67.134.216",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -196,13 +173,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3de79d04ec209c4-HKG",
+        "cf-ray": "a3e0bded29806e4b-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "104.21.6.124",
-          "prefix": "104.21.6.0/24",
+          "queried_ip": "172.67.134.216",
+          "prefix": "172.67.134.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -239,7 +216,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 71.535,
+        "rtt": 72.994,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
@@ -257,11 +234,11 @@
       }
     },
     {
-      "originalUrl": "https://live-api.fanbinit.us/?streamerID=3c9fe16c70cf2f4a5274fa69307f0f89&callback=changeLiveBadge&filename=live.js&t=1789882619685",
+      "originalUrl": "https://live-api.fanbinit.us/?streamerID=3c9fe16c70cf2f4a5274fa69307f0f89&callback=changeLiveBadge&filename=live.js&t=1789906383215",
       "type": "script",
       "ipinfo": {
         "domain": "live-api.fanbinit.us",
-        "ip": "104.21.6.124",
+        "ip": "172.67.134.216",
         "city": "San Francisco",
         "region": "California",
         "country": "US",
@@ -271,13 +248,13 @@
       },
       "category": "domestic/cloud",
       "cloud_provider": {
-        "cf-ray": "a3de79d2cbc409c4-HKG",
+        "cf-ray": "a3e0bdef9a866e4b-HKG",
         "country": "kr",
         "detection_method": "laces",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "104.21.6.124",
-          "prefix": "104.21.6.0/24",
+          "queried_ip": "172.67.134.216",
+          "prefix": "172.67.134.0/24",
           "anycast": true,
           "confidence": "confident",
           "partial": false,
@@ -314,7 +291,7 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "x-azure-ref": "20260920T053701Z-15559d97d99jnrcjhC1SELgcs00000000m4g000000008vvc",
+        "x-azure-ref": "20260920T121303Z-1764d94df46pxdbnhC1SELp3a0000000176g000000004d6q",
         "rtt": null,
         "detection_method": "rtt",
         "rtt_error": "timeout",
@@ -337,11 +314,11 @@
       }
     },
     {
-      "originalUrl": "https://n.clarity.ms/collect",
+      "originalUrl": "https://g.clarity.ms/collect",
       "type": "xhr",
       "ipinfo": {
-        "domain": "n.clarity.ms",
-        "ip": "172.175.234.12",
+        "domain": "g.clarity.ms",
+        "ip": "20.85.17.170",
         "city": "Boydton",
         "region": "Virginia",
         "country": "US",
@@ -351,12 +328,12 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 182.98,
+        "rtt": 183.216,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "172.175.234.12",
-          "prefix": "172.175.234.0/24",
+          "queried_ip": "20.85.17.170",
+          "prefix": "20.85.17.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -369,27 +346,27 @@
       }
     },
     {
-      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-F0KR6ZVR4C&gtm=45je69g1v9187489630za200zd9187489630xf1&_p=1789882619451&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1314807124&cid=808984275.1789882620&frm=0&ngs=1&pscdl=noapi&rcb=0&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115938465~115938468~118897920~118897930~120032691~120213116~120385423~120469145~120469153&sid=1789882620&sct=1&seg=0&dl=https%3A%2F%2Ffanbinit.us%2F&dt=%ED%8C%AC%EB%B9%84%EB%8B%9B%20-%20%EC%B9%98%EC%A7%80%EC%A7%81%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1237",
+      "originalUrl": "https://www.google-analytics.com/g/collect?v=2&tid=G-F0KR6ZVR4C&gtm=45je69g1h1v9187489630za200zd9187489630xf1&_p=1789906383063&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=1707553238&cid=1758126677.1789906384&frm=0&ngs=1&pscdl=noapi&rcb=16&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B153.0.8010.12%7CNot_A%2520Brand%3B8.0.0.0&uam=&uamb=0&uap=macOS&uapv=10_15_7&uaw=0&ul=ko-kr&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120213116~120385423~120469145~120469153&sid=1789906383&sct=1&seg=0&dl=https%3A%2F%2Ffanbinit.us%2F&dt=%ED%8C%AC%EB%B9%84%EB%8B%9B%20-%20%EC%B9%98%EC%A7%80%EC%A7%81%20%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1753",
       "type": "fetch",
       "ipinfo": {
         "domain": "www.google-analytics.com",
-        "ip": "142.250.71.174",
-        "hostname": "nchkga-ab-in-f14.1e100.net",
-        "city": "Hong Kong",
-        "region": "Hong Kong",
+        "ip": "142.250.197.142",
+        "hostname": "nchkga-aj-in-f14.1e100.net",
+        "city": "Tung Chung",
+        "region": "Islands",
         "country": "HK",
-        "loc": "22.2783,114.1747",
+        "loc": "22.2878,113.9424",
         "org": "AS15169 Google LLC",
         "timezone": "Asia/Hong_Kong"
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 90.492,
+        "rtt": 96.749,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.71.174",
-          "prefix": "142.250.71.0/24",
+          "queried_ip": "142.250.197.142",
+          "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
           "asns": [],
@@ -402,7 +379,7 @@
       }
     },
     {
-      "originalUrl": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3de79d23877ea2f/YJ2uZbY3SL1J8CDjch4WZWM9O75Y0dQv3iVepuH3Wqc-1789882621-1.2.1.1-xU.uhnggvBqX4wFCE8iD7NEXyvZw1tW83ZF9AZJcrP9QTtL5XCn5QnwiaAhKlI_9",
+      "originalUrl": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3e0bdef2831490f/1DiUkB8MbsRchqOJ8evOcn8AiklSK.swK678ohP43_E-1789906383-1.2.1.1-BBqZy9fINq3TC.xxNild.F8atlL5kZlDmpU63YQTcVeZtR50QFFthELsByc7XZTE",
       "type": "fetch",
       "ipinfo": {
         "domain": "brunhild.challenges.cloudflare.com"
@@ -445,12 +422,12 @@
       }
     },
     {
-      "originalUrl": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260917&st=env&sjk=4406714706975370",
+      "originalUrl": "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260917&st=env&sjk=4510935532641670",
       "type": "xhr",
       "ipinfo": {
         "domain": "ep1.adtrafficquality.google",
-        "ip": "142.250.197.98",
-        "hostname": "nchkga-ai-in-f2.1e100.net",
+        "ip": "142.250.197.34",
+        "hostname": "nchkga-ag-in-f2.1e100.net",
         "city": "Tung Chung",
         "region": "Islands",
         "country": "HK",
@@ -460,11 +437,11 @@
       },
       "category": "foreign/cloud",
       "cloud_provider": {
-        "rtt": 89.662,
+        "rtt": 88.775,
         "detection_method": "rtt",
         "laces": {
           "source": "laces api (cached)",
-          "queried_ip": "142.250.197.98",
+          "queried_ip": "142.250.197.34",
           "prefix": "142.250.197.0/24",
           "anycast": false,
           "confidence": "not_detected",
@@ -497,12 +474,12 @@
       "category": "domestic/cloud",
       "cloud_provider": {
         "country": "kr",
-        "cf-ray": "a3de79d13b58c9fd-ICN",
+        "cf-ray": "a3e0bdee8884ea31-ICN",
         "detection_method": "header"
       }
     },
     {
-      "originalUrl": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3de79d23877ea2f/YJ2uZbY3SL1J8CDjch4WZWM9O75Y0dQv3iVepuH3Wqc-1789882621-1.2.1.1-xU.uhnggvBqX4wFCE8iD7NEXyvZw1tW83ZF9AZJcrP9QTtL5XCn5QnwiaAhKlI_9",
+      "originalUrl": "https://brunhild.challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/i/a3e0bdef2831490f/1DiUkB8MbsRchqOJ8evOcn8AiklSK.swK678ohP43_E-1789906383-1.2.1.1-BBqZy9fINq3TC.xxNild.F8atlL5kZlDmpU63YQTcVeZtR50QFFthELsByc7XZTE",
       "type": "fetch",
       "ipinfo": {
         "domain": "brunhild.challenges.cloudflare.com"

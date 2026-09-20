@@ -1,0 +1,984 @@
+{
+  "url": "https://weather.com",
+  "canonicalURL": "https://weather.com/ko-KR/kr/city/seoul/today",
+  "httpStatus": 200,
+  "timestamp": "2026-09-20T12:08:06.513Z",
+  "testParameters": {
+    "customDNS": "164.124.101.2",
+    "useAdblock": true,
+    "adblockUrls": [
+      "https://cdn.jsdelivr.net/npm/@list-kr/filterslists@latest/dist/filterslist-DNS.txt"
+    ],
+    "useCache": true,
+    "hasIPinfoToken": true
+  },
+  "testingEnvironment": {
+    "ip": "116.255.90.4",
+    "city": "Seoul",
+    "region": "Seoul",
+    "country": "KR",
+    "loc": "37.5660,126.9784",
+    "org": "AS38680 CMB",
+    "postal": "03141",
+    "timezone": "Asia/Seoul",
+    "source": "ipinfo json api (direct)",
+    "dnsServer": "164.124.101.2"
+  },
+  "requestCount": 160,
+  "uniqueDomains": 35,
+  "test_results": {
+    "domestic": {
+      "cloud": 22,
+      "direct": 0
+    },
+    "foreign": {
+      "cloud": 7,
+      "direct": 6
+    }
+  },
+  "domainDetails": [
+    {
+      "originalUrl": "https://weather.com/",
+      "type": "document",
+      "ipinfo": {
+        "domain": "weather.com",
+        "ip": "104.76.74.93",
+        "hostname": "a104-76-74-93.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://s.w-x.co/helios/twc/1.90.0/helios.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "s.w-x.co",
+        "ip": "146.75.50.133",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://hq2zc2zefnwmg3wcm.ay.delivery/client-v2.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "hq2zc2zefnwmg3wcm.ay.delivery",
+        "ip": "104.21.41.177",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3e0b66949870715-HKG",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.21.41.177",
+          "prefix": "104.21.41.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 60,
+          "location_count": 60,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://weather-channel.solutions.cdn.optable.co/public-assets/weather-channel-sdk.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "weather-channel.solutions.cdn.optable.co",
+        "ip": "34.144.204.163",
+        "hostname": "163.204.144.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.144.204.163",
+          "prefix": "34.144.204.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 62,
+          "location_count": 62,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://accounts.google.com/gsi/client",
+      "type": "script",
+      "ipinfo": {
+        "domain": "accounts.google.com",
+        "ip": "74.125.203.84",
+        "hostname": "th-in-f84.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Taipei"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 75.679,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "74.125.203.84",
+          "prefix": "74.125.203.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://cdn.tagdeliver.com/cipt/17992.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.tagdeliver.com",
+        "ip": "178.249.213.27",
+        "hostname": "170225203.tyo.cdn77.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS60068 Datacamp Limited",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://cdn.adsafeprotected.com/iasPET.1.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.adsafeprotected.com",
+        "ip": "54.230.62.66",
+        "hostname": "server-54-230-62-66.icn80.r.cloudfront.net",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://scripts.webcontentassessor.com/scripts/3ced7870c659509c6d30793f8e12fa0542aea7ffd5e8efe925991219f2c813e4",
+      "type": "script",
+      "ipinfo": {
+        "domain": "scripts.webcontentassessor.com",
+        "ip": "52.85.128.86",
+        "hostname": "server-52-85-128-86.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://pub.doubleverify.com/dvtag/29468306/DV1203452/pub.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "pub.doubleverify.com",
+        "ip": "104.18.32.146",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3e0b66b9f55ea91-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://scripts.stay22.com/letmeallez.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "scripts.stay22.com",
+        "ip": "104.18.11.219",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3e0b66b9baedf70-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://cdn.id5-sync.com/api/1.0/id5-api.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "cdn.id5-sync.com",
+        "ip": "172.66.169.55",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3e0b66b9bb1df70-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://tags.crwdcntrl.net/lt/c/16576/sync.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "tags.crwdcntrl.net",
+        "ip": "52.85.128.96",
+        "hostname": "server-52-85-128-96.icn53.r.cloudfront.net",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "x-amz-cf-pop": "ICN53-P1",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "secure.cdn.fastclick.net",
+        "ip": "23.77.217.144",
+        "hostname": "a23-77-217-144.deploy.static.akamaitechnologies.com",
+        "city": "Osaka",
+        "region": "Osaka",
+        "country": "JP",
+        "loc": "34.6938,135.5011",
+        "org": "AS20940 Akamai International B.V.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 48.988,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "23.77.217.144",
+          "prefix": "23.77.217.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://prod.us-east-1.cxm-bcn.publisher-services.amazon.dev/v1/recordVendorsLoaded",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "prod.us-east-1.cxm-bcn.publisher-services.amazon.dev",
+        "ip": "34.196.146.17",
+        "hostname": "ec2-34-196-146-17.compute-1.amazonaws.com",
+        "city": "Ashburn",
+        "region": "Virginia",
+        "country": "US",
+        "loc": "39.0437,-77.4875",
+        "org": "AS14618 Amazon.com, Inc.",
+        "timezone": "America/New_York"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.196.146.17",
+          "prefix": "34.196.146.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://event.ay.delivery/pageview",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "event.ay.delivery",
+        "ip": "88.211.219.99",
+        "city": "Amsterdam",
+        "region": "North Holland",
+        "country": "NL",
+        "loc": "52.3740,4.8897",
+        "org": "AS7979 Servers.com, Inc.",
+        "timezone": "Europe/Amsterdam"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://metrics.rapidedge.io/gamera.js?ltv=1&audience=1&tpcs=1&partner=magnite",
+      "type": "script",
+      "ipinfo": {
+        "domain": "metrics.rapidedge.io",
+        "ip": "172.66.162.254",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "cf-ray": "a3e0b66c4ea899e9-NRT",
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "172.66.162.254",
+          "prefix": "172.66.162.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://id5-sync.com/api/config/prebid",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "id5-sync.com",
+        "ip": "135.125.170.106",
+        "hostname": "ns3270107.ip-135-125-170.eu",
+        "city": "Frankfurt am Main",
+        "region": "Hesse",
+        "country": "DE",
+        "loc": "50.1155,8.6842",
+        "org": "AS16276 OVH SAS",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://dsx.weather.com/cms/v4/settings/en_US/web/quick_nav",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "dsx.weather.com",
+        "ip": "104.76.77.188",
+        "hostname": "a104-76-77-188.deploy.static.akamaitechnologies.com",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS16625 Akamai Technologies, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://mparticle.weather.com/tags/JS/v2/us2-fb061d169ced8343850163112c402d41/config?env=0&plan_id=weather_web&plan_version=3",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "mparticle.weather.com",
+        "ip": "146.75.50.133",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://bowlershut.com/static/gb4hurk6wvqx.index.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "bowlershut.com",
+        "ip": "34.36.178.22",
+        "hostname": "22.178.36.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "34.36.178.22",
+          "prefix": "34.36.178.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 64,
+          "location_count": 64,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.weather.com/v3/alerts/headlines?format=json&language=ko-KR&apiKey=71f92ea9dd2f4790b92ea9dd2f779061&geocode=37.567%2C126.978",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.weather.com",
+        "ip": "146.75.49.91",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://google.com/.well-known/web-identity",
+      "type": "other",
+      "ipinfo": {
+        "domain": "google.com",
+        "ip": "142.250.197.238",
+        "hostname": "nchkga-ao-in-f14.1e100.net",
+        "city": "Hong Kong",
+        "region": "Hong Kong",
+        "country": "HK",
+        "loc": "22.2783,114.1747",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Hong_Kong"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 93.389,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "142.250.197.238",
+          "prefix": "142.250.197.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://static.qovani.com/libtrc/tr5?type=pixel&publisher=theweatherchannelinternational-network",
+      "type": "image",
+      "ipinfo": {
+        "domain": "static.qovani.com",
+        "ip": "146.75.49.44",
+        "city": "Seoul",
+        "region": "Seoul",
+        "country": "KR",
+        "loc": "37.5660,126.9784",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "Asia/Seoul"
+      },
+      "category": "domestic/cloud"
+    },
+    {
+      "originalUrl": "https://api.lab.amplitude.com/sdk/v2/vardata?v=0",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.lab.amplitude.com",
+        "ip": "104.18.37.25",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "104.18.37.25",
+          "prefix": "104.18.37.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 73,
+          "location_count": 73,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://bcp.crwdcntrl.net/6/map?xcid=16576",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "bcp.crwdcntrl.net",
+        "ip": "18.140.185.232",
+        "hostname": "ec2-18-140-185-232.ap-southeast-1.compute.amazonaws.com",
+        "city": "Singapore",
+        "region": "Singapore",
+        "country": "SG",
+        "loc": "1.2897,103.8501",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Singapore"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "18.140.185.232",
+          "prefix": "18.140.185.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://api.id5-sync.com/analytics/1431/id5-api-js",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "api.id5-sync.com",
+        "ip": "135.125.170.28",
+        "hostname": "ns31872155.ip-135-125-170.eu",
+        "city": "Frankfurt am Main",
+        "region": "Hesse",
+        "country": "DE",
+        "loc": "50.1155,8.6842",
+        "org": "AS16276 OVH SAS",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://www.stay22.com/api/sponsors/any",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "www.stay22.com",
+        "ip": "104.18.10.219",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "104.18.10.219",
+          "prefix": "104.18.10.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            13335
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 74,
+          "location_count": 74,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://pixel.adsafeprotected.com/services/pub?anId=8584&slot=%7Bid:WX_WindowShade,ss:%5B970.250,728.50,728.90,970.90%5D,p:/7646/web_weather_intl/local_forecasts/today,t:display%7D&slot=%7Bid:WX_Top300Variable,ss:%5B300.600,300.250,320.300,160.600%5D,p:/7646/web_weather_intl/local_forecasts/today,t:display%7D&slot=%7Bid:WX_Mid300,ss:%5B300.250,320.300%5D,p:/7646/web_weather_intl/local_forecasts/today,t:display%7D&wr=1280.720&sr=1280.720&sessionId=125f2717-962f-f248-ee49-f923c95972dc&url=https%253A%252F%252Fweather.com%252Fko-KR%252Fkr%252Fcity%252Fseoul%252Ftoday%253FGoto%253DRedirected",
+      "type": "xhr",
+      "ipinfo": {
+        "domain": "pixel.adsafeprotected.com",
+        "ip": "35.76.233.105",
+        "hostname": "ec2-35-76-233-105.ap-northeast-1.compute.amazonaws.com",
+        "city": "Tokyo",
+        "region": "Tokyo",
+        "country": "JP",
+        "loc": "35.6895,139.6917",
+        "org": "AS16509 Amazon.com, Inc.",
+        "timezone": "Asia/Tokyo"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": null,
+        "detection_method": "rtt",
+        "rtt_error": "timeout",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "35.76.233.105",
+          "prefix": "35.76.233.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://invstatic101.creativecdn.com/encrypted-signals/encrypted-tag-g.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "invstatic101.creativecdn.com",
+        "ip": "34.96.70.87",
+        "hostname": "87.70.96.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.96.70.87",
+          "prefix": "34.96.70.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://oa.openxcdn.net/esp.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "oa.openxcdn.net",
+        "ip": "34.102.146.192",
+        "hostname": "192.146.102.34.bc.googleusercontent.com",
+        "city": "Kansas City",
+        "region": "Missouri",
+        "country": "US",
+        "loc": "39.0997,-94.5786",
+        "org": "AS396982 Google LLC",
+        "timezone": "America/Chicago"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "34.102.146.192",
+          "prefix": "34.102.146.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            396982
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 63,
+          "location_count": 63,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "originalUrl": "https://uc.tagdeliver.com/?uid=17992&page=https%3A%2F%2Fweather.com%2Fko-KR%2Fkr%2Fcity%2Fseoul%2Ftoday%3FGoto%3DRedirected",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "uc.tagdeliver.com",
+        "ip": "64.233.188.121",
+        "hostname": "tk-in-f121.1e100.net",
+        "city": "Taichung",
+        "region": "Taiwan",
+        "country": "TW",
+        "loc": "24.1469,120.6839",
+        "org": "AS15169 Google LLC",
+        "timezone": "Asia/Taipei"
+      },
+      "category": "foreign/cloud",
+      "cloud_provider": {
+        "rtt": 72.077,
+        "detection_method": "rtt",
+        "laces": {
+          "source": "laces api (direct)",
+          "queried_ip": "64.233.188.121",
+          "prefix": "64.233.188.0/24",
+          "anycast": false,
+          "confidence": "not_detected",
+          "asns": [],
+          "date": "2026-07-17",
+          "has_kr": false,
+          "has_seoul": false,
+          "site_count": 0,
+          "location_count": 0
+        }
+      }
+    },
+    {
+      "originalUrl": "https://vtrk.dv.tech/?ec=dvtag&ea=ad-request&ctx=29468306&cmp=DV1203452&cd111=success&cm106=0&cm107=213&cd112=modern&cd115=&cm116=0&cm108=136&cm109=24&cm110=30&cm111=57&cm112=24&cm113=34964&cd102=b30b55d&cd103=&cd107=5d9bef85-2408-4ff2-a68f-b20758e91245&cd109=modern&cd200=com&cd108=&cd105=29468306&cd106=DV1203452&cd104=weather.com&cd199=https%3A%2F%2Fweather.com%2Fko-KR%2Fkr%2Fcity%2Fseoul%2Ftoday%3FGoto%3DRedirected&cd101=ad-request&cm101=1&cid=55e9317d-9c91-4cd3-a03d-d09dd250c469&t=event&v=1&z=55e9317d-9c91-4cd3-a03d-d09dd250c469&cd160=55e9317d-9c91-4cd3-a03d-d09dd250c469",
+      "type": "ping",
+      "ipinfo": {
+        "domain": "vtrk.dv.tech",
+        "ip": "104.18.2.135",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7621,-122.3971",
+        "org": "AS13335 Cloudflare, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "cf-ray": "a3e0b66f1b38feab-ICN",
+        "detection_method": "header"
+      }
+    },
+    {
+      "originalUrl": "https://lbs.eu-1-id5-sync.com/lbs/v1",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "lbs.eu-1-id5-sync.com",
+        "ip": "135.125.170.97",
+        "hostname": "ns31890043.ip-135-125-170.eu",
+        "city": "Frankfurt am Main",
+        "region": "Hesse",
+        "country": "DE",
+        "loc": "50.1155,8.6842",
+        "org": "AS16276 OVH SAS",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://lb.eu-1-id5-sync.com/lb/v1",
+      "type": "fetch",
+      "ipinfo": {
+        "domain": "lb.eu-1-id5-sync.com",
+        "ip": "57.129.49.181",
+        "hostname": "ns3226757.ip-57-129-49.eu",
+        "city": "Frankfurt am Main",
+        "region": "Hesse",
+        "country": "DE",
+        "loc": "50.1155,8.6842",
+        "org": "AS16276 OVH SAS",
+        "timezone": "Europe/Berlin"
+      },
+      "category": "foreign/direct"
+    },
+    {
+      "originalUrl": "https://js-agent.newrelic.com/nr-spa-1.288.1.min.js",
+      "type": "script",
+      "ipinfo": {
+        "domain": "js-agent.newrelic.com",
+        "ip": "162.247.243.39",
+        "city": "San Francisco",
+        "region": "California",
+        "country": "US",
+        "loc": "37.7864,-122.3892",
+        "org": "AS54113 Fastly, Inc.",
+        "timezone": "America/Los_Angeles"
+      },
+      "category": "domestic/cloud",
+      "cloud_provider": {
+        "country": "kr",
+        "detection_method": "laces",
+        "laces": {
+          "source": "laces api (cached)",
+          "queried_ip": "162.247.243.39",
+          "prefix": "162.247.243.0/24",
+          "anycast": true,
+          "confidence": "confident",
+          "partial": false,
+          "asns": [
+            54113
+          ],
+          "date": "2026-07-17",
+          "has_kr": true,
+          "has_seoul": true,
+          "site_count": 53,
+          "location_count": 53,
+          "kr_locations": [
+            {
+              "city": "Seoul",
+              "country": "KR",
+              "id": "GMP"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
